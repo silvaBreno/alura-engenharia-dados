@@ -89,3 +89,33 @@ Isso facilita muito a depuração do seu código.
 
 Com o uso do bloco `try/except`, é possível garantir que o fluxo do programa continue, mesmo que ocorram erros.  
 Isso é útil em situações em que várias tarefas precisam ser executadas, mesmo que uma ou mais delas não possam ser concluídas.
+
+## Para saber mais: requisição POST
+
+Uma requisição POST é um tipo de requisição HTTP (Hypertext Transfer Protocol) utilizada para enviar dados a um servidor para que eles sejam processados e armazenados. Essa requisição é diferente da requisição GET, que é usada para obter dados de um servidor.
+
+A requisição POST envia os dados no corpo da mensagem da requisição, ao invés de colocá-los na URL, como é feito na requisição GET. Ela é amplamente utilizada em formulários HTML, onde os dados são coletados do usuário e enviados para o servidor para serem processados.
+
+Para fazer uma requisição POST em Python, é necessário utilizar a biblioteca Requests e enviar um dicionário com os dados que serão enviados no corpo da mensagem. É possível também enviar outros parâmetros, como headers e cookies.
+
+## Para saber mais: arquivos codificados
+
+Quando vamos transmitir um arquivo por uma API, pode ser necessário, em várias situações, converter esse arquivo em uma string codificada em base64. Por exemplo, quando temos uma API que aceita receber apenas em formato texto, e o arquivo que queremos enviar é em outro formato. Caso você tentasse enviar o arquivo diretamente, ele não seria aceito, tornando necessária a conversão - ou, no nosso exemplo, codificação - desse arquivo para enviá-lo.
+
+Nesses casos, a conversão de arquivos para base64 é uma forma de representar os dados binários em uma sequência de caracteres ASCII. Assim, o arquivo pode ser transmitido sem problemas, pois quando os dados forem convertidos, o resultado será uma string de caracteres com letras e números.
+
+Vale ressaltar que, embora seja comumente usada para representar arquivos binários, a codificação base64 pode representar qualquer tipo de dado que possa ser tratado como uma sequência de bytes.
+
+Para saber mais sobre essa codificação, acesse a documentação:
+
+- [Documentacao do base64](https://docs.python.org/3/library/base64.html)
+
+## Para saber mais: requisição PUT
+
+Assim como a requisição POST, a requisição PUT é um tipo de requisição HTTP (Hypertext Transfer Protocol) utilizada para enviar dados a um servidor. No entanto, a diferença entre elas está no tipo de operação que cada uma executa.
+
+Enquanto a requisição POST é utilizada para criar ou adicionar novos dados no servidor, a requisição PUT é utilizada para substituir completamente os dados de um recurso existente no servidor. Diferentemente do PATCH, que permite alterações parciais, o PUT realiza uma substituição completa dos dados.
+
+Assim como a requisição POST, a requisição PUT também envia os dados no corpo da mensagem da requisição. O envio desses dados segue um formato padrão, geralmente no formato JSON ou XML.
+
+Para fazer uma requisição PUT em Python, também é necessário utilizar a biblioteca Requests e enviar um dicionário com os dados que serão atualizados no corpo da mensagem. É possível também enviar outros parâmetros, como headers e cookies. É importante lembrar que nem todos os servidores aceitam a requisição PUT e, em alguns casos, é necessário ter permissão especial para fazer alterações.
