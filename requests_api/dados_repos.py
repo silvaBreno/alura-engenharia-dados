@@ -68,7 +68,10 @@ class DadosRepositorios:
         dados['repository_name'] = nomes
         dados['language'] = linguagens
 
+        # Salvando os dados
+        dados.to_csv(f'dados/linguagens_{self.owner}.csv')
         return dados
+
 
 amazon_rep = DadosRepositorios('amzn')
 ling_mais_usadas_amzn = amazon_rep.cria_df_linguagens()
@@ -79,8 +82,5 @@ ling_mais_usadas_netflix = netflix_rep.cria_df_linguagens()
 spotify_rep = DadosRepositorios('spotify')
 ling_mais_usadas_spotify = spotify_rep.cria_df_linguagens()
 
-# Salvando os dados
-
-ling_mais_usadas_amzn.to_csv('dados/linguagens_amzn.csv')
-ling_mais_usadas_netflix.to_csv('dados/linguagens_netflix.csv')
-ling_mais_usadas_spotify.to_csv('dados/linguagens_spotify.csv')
+apple_rep = DadosRepositorios('apple')
+ling_mais_usadas_apple = apple_rep.cria_df_linguagens()
