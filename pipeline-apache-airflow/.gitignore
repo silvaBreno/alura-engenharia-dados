@@ -1,0 +1,13 @@
+# Ambientes Virtuais
+venv/
+airflowalura/venv
+
+# Configurações sensíveis
+.env
+
+# Airflow metadata
+airflowalura/logs
+airflowalura/airflow.db
+airflowalura/airflow.cfg
+airflowalura/airflow-webserver.pid
+airflowalura/standalone_admin_password.txt
