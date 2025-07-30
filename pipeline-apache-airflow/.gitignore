@@ -6,6 +6,7 @@ airflowalura/venv
 .env
 
 # Airflow metadata
+**/__pycache__/
 airflowalura/logs
 airflowalura/airflow.db
 airflowalura/airflow.cfg

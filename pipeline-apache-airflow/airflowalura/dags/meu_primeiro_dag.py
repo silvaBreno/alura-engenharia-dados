@@ -5,7 +5,7 @@ from airflow.operators.bash import BashOperator
 
 with DAG(
     dag_id='meu_primeiro_dag',
-    start_date=pendulum.today('UTC').add(days=-1),
+    start_date=pendulum.today('UTC').add(days=-2),
     schedule_interval='@daily'
 ) as dag:
 
@@ -14,7 +14,7 @@ with DAG(
     tarefa_3 = EmptyOperator(task_id = 'tarefa_3')
     tarefa_4 = BashOperator(
         task_id = 'cria_pasta',
-        bash_command = 'mkdir -p "/home/wsl/AluraProjetos/alura-engenharia-dados/pipeline-apache-airflow/pasta"'
+        bash_command = 'mkdir -p "/home/wsl/AluraProjetos/alura-engenharia-dados/pipeline-apache-airflow/pasta={{data_interval_end}}"'
     )
 
     tarefa_1 >> [tarefa_2, tarefa_3]

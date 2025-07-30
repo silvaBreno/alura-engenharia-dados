@@ -88,3 +88,51 @@ Para mais informações, consulte a documentação:
 
 - [Scheduler](https://airflow.apache.org/docs/apache-airflow/2.2.3/concepts/scheduler.html);
 - [DAG Runs](https://airflow.apache.org/docs/apache-airflow/2.2.3/dag-run.html).
+
+## Para saber mais: agendamento no Airflow
+
+A modelagem no Airflow nos permite passar informações dinâmicas para as instâncias de tarefa em tempo de execução. Vamos usar, como exemplo, a tarefa que fizemos anteriormente:
+
+```python
+   tarefa_4 = BashOperator(
+        task_id = 'cria_pasta',
+        bash_command = 'mkdir -p "/home/millenagena/Documents/airflowalura/pasta={{ data_interval_end }}"'
+      )
+```
+
+Neste exemplo, o valor entre as chaves duplas `{{ }}` é nosso código modelo a ser avaliado em tempo de execução. O conteúdo retornado pela variável `data_interval_end` é a data final do intervalo de dados, ou seja, a data de acionamento do DAG.
+
+O Airflow utiliza o **Jinja**, uma estrutura de modelagem em Python, como seu mecanismo de modelagem. Vamos conhecer mais algumas variáveis que podemos utilizar em tempo de execução:
+
+- data_interval_start: data do início do intervalo de dados;
+- data_interval_end: data do fim do intervalo de dados;
+- ds: data lógica de execução do DAG;
+- ds_nodash: data lógica de execução do DAG sem nenhuma separação por traços.
+
+O Airflow inclui muitas outras variáveis ​​que podem ser usadas para modelagem. Caso queira conhecê-las, consulte a documentação:
+
+- [Templates reference](https://airflow.apache.org/docs/apache-airflow/2.3.2/templates-ref.html)
+
+## Para saber mais: CRON Expressions
+
+Quando queremos definir intervalos de tempo um pouco mais complexos para a execução do nosso DAG, o Airflow permite a utilização das chamadas Cron Expressions. A sintaxe delas consiste em 5 componentes:
+
+![ilustração-das-cron-expressions](./assets/cron-expressions.png)
+
+Sendo os valores possíveis para cada um desses componentes:
+
+- minuto: 0-59;
+- hora: 0-23;
+- dia do mês: 1-31;
+- mês: 1-12;
+- dia da semana: 0-6 representando de domingo a sábado.
+
+No caso do nosso DAG, queremos que ele seja executado toda segunda-feira do mês, às 00h00. Por isso, passamos a seguinte Cron Expression para o parâmetro schedule_interval:
+
+```python
+schedule_interval = 0 0 * * 1
+```
+
+Caso queira conhecer mais sobre essas expressões, deixo a sugestão do texto explicativo abaixo:
+
+- [CRON expression](https://en.wikipedia.org/wiki/Cron#CRON_expression);
