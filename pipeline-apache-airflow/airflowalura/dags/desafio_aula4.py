@@ -1,10 +1,11 @@
 import pendulum
 from airflow.models import DAG
 from airflow.operators.empty import EmptyOperator
-from airflow.operators.bash import BashOperator
+from airflow.operators.python import PythonOperator
+from airflow.decorators import task
 
 with DAG(
-    dag_id='meu_primeiro_dag',
+    dag_id='atividade_aula_4',
     start_date=pendulum.today('UTC').add(days=-1),
     schedule_interval='@daily'
 ) as dag:
@@ -12,10 +13,11 @@ with DAG(
     tarefa_1 = EmptyOperator(task_id = 'tarefa_1')
     tarefa_2 = EmptyOperator(task_id = 'tarefa_2')
     tarefa_3 = EmptyOperator(task_id = 'tarefa_3')
-    tarefa_4 = BashOperator(
-        task_id = 'cria_pasta',
-        bash_command = 'mkdir -p "/home/wsl/AluraProjetos/alura-engenharia-dados/pipeline-apache-airflow/pasta"'
-    )
 
-    tarefa_1 >> [tarefa_2, tarefa_3]
-    tarefa_3 >> tarefa_4
+    @task(task_id = 'cumprimentos')
+    def cumprimentos():
+            print("Boas-vindas ao Airflow!")
+
+    cumprimentos_task = cumprimentos()
+
+    tarefa_1 >> tarefa_2 >> tarefa_3 >> cumprimentos_task
