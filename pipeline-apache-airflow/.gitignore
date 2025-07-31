@@ -12,3 +12,4 @@ airflowalura/airflow.db
 airflowalura/airflow.cfg
 airflowalura/airflow-webserver.pid
 airflowalura/standalone_admin_password.txt
+airflowalura/dags/__pycache__
