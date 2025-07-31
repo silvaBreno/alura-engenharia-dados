@@ -51,4 +51,4 @@ with DAG(
         op_kwargs = {'data_interval_end': '{{data_interval_end.strftime("%Y-%m-%d")}}'} # dicionario de argumentos de palavras chaves que serao descompactador na funcao que estamos rodando
     )
     # definindo ordem de execução
-    tarefa_1 >> tarefa_24
+    tarefa_1 >> tarefa_2
