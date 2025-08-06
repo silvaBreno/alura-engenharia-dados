@@ -11,7 +11,7 @@ def connect_mysql():
         cnx = mysql.connector.connect(
             host = os.getenv("DB_HOST"), 
             user = os.getenv("DB_USERNAME"), 
-            password = os.getenv("DB_PASSWORD")                
+            password = os.getenv("DB_PASSWORD_MYSQL")
         )
         print(f'Objeto de conexao foi criado {cnx}')
         return cnx
@@ -151,5 +151,3 @@ if __name__ == "__main__":
     show_data_table(cursor, database, tb_name)
     # fechar cursor e conexao
     close_cursor_connection(cursor, conexao)
-
-
