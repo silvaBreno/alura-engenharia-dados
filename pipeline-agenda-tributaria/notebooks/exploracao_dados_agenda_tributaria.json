@@ -1,0 +1,1748 @@
+{
+    "janeiro": {
+        "dia-06-01-2025": [
+            [
+                {
+                    "Código DARF": 8053,
+                    "Descrição do tributo/contribuição": "IRRF - Títulos de Renda Fixa - Pessoa Física",
+                    "Período do Fato Gerador": "21 a 31/dezembro/2024"
+                },
+                {
+                    "Código DARF": 3426,
+                    "Descrição do tributo/contribuição": "IRRF - Títulos de Renda Fixa - Pessoa Jurídica",
+                    "Período do Fato Gerador": "21 a 31/dezembro/2024"
+                },
+                {
+                    "Código DARF": 6800,
+                    "Descrição do tributo/contribuição": "IRRF - Fundo de Investimento sujeito à tributação periódica",
+                    "Período do Fato Gerador": "21 a 31/dezembro/2024"
+                },
+                {
+                    "Código DARF": 6813,
+                    "Descrição do tributo/contribuição": "IRRF - Fundo de Investimento em Ações",
+                    "Período do Fato Gerador": "21 a 31/dezembro/2024"
+                },
+                {
+                    "Código DARF": 5273,
+                    "Descrição do tributo/contribuição": "IRRF - Operações de SWAP",
+                    "Período do Fato Gerador": "21 a 31/dezembro/2024"
+                },
+                {
+                    "Código DARF": 8468,
+                    "Descrição do tributo/contribuição": "IRRF - Day-Trade - Operações em Bolsas",
+                    "Período do Fato Gerador": "21 a 31/dezembro/2024"
+                },
+                {
+                    "Código DARF": 5557,
+                    "Descrição do tributo/contribuição": "IRRF - Ganhos líquidos em operações em bolsas e assemelhados",
+                    "Período do Fato Gerador": "21 a 31/dezembro/2024"
+                },
+                {
+                    "Código DARF": 5706,
+                    "Descrição do tributo/contribuição": "IRPF - Juros remuneratórios do capital próprio (art. 9º da Lei nº 9.249/95)",
+                    "Período do Fato Gerador": "21 a 31/dezembro/2024"
+                },
+                {
+                    "Código DARF": 5232,
+                    "Descrição do tributo/contribuição": "IRRF - Fundos de Investimento Imobiliário (FII) e Fundos de Investimento nas Cadeias Produtivas do Agronegócio (Fiagro) - Resgate ou amortização de cotas ou distribuição de rendimentos",
+                    "Período do Fato Gerador": "21 a 31/dezembro/2024"
+                },
+                {
+                    "Código DARF": 924,
+                    "Descrição do tributo/contribuição": "IRRF - Demais rendimentos de capital",
+                    "Período do Fato Gerador": "21 a 31/dezembro/2024"
+                },
+                {
+                    "Código DARF": 3699,
+                    "Descrição do tributo/contribuição": "IRRF - Aplicações financeiras em ativos de infraestrutura - Tributação Exclusiva",
+                    "Período do Fato Gerador": "21 a 31/dezembro/2024"
+                },
+                {
+                    "Código DARF": 5029,
+                    "Descrição do tributo/contribuição": "IRRF - Ganho de Capital - Integralização de Cotas com Ativos (art. 1º da Lei nº 13.043/2014)",
+                    "Período do Fato Gerador": "21 a 31/dezembro/2024"
+                },
+                {
+                    "Código DARF": 5035,
+                    "Descrição do tributo/contribuição": "IRRF - Fundos de Investimento - Lei nº 13.043/2014 (Art. 8º) e Lei nº 14.801/2024 (Art. 4º)",
+                    "Período do Fato Gerador": "21 a 31/dezembro/2024"
+                },
+                {
+                    "Código DARF": 1605,
+                    "Descrição do tributo/contribuição": "IRRF - Fundo de Investimento em Participações (FIP), Fundo de Investimento em Índice de Mercado (Exchange Traded Fund - ETF), Fundo de Investimento em Direitos Creditórios (FIDC) e Fundo Multimercado (FIM)",
+                    "Período do Fato Gerador": "21 a 31/dezembro/2024"
+                },
+                {
+                    "Código DARF": 5286,
+                    "Descrição do tributo/contribuição": "IRRF - Aplicações Financeiras",
+                    "Período do Fato Gerador": "21 a 31/dezembro/2024"
+                },
+                {
+                    "Código DARF": 9453,
+                    "Descrição do tributo/contribuição": "IRRF - Juros remuneratórios de capital próprio",
+                    "Período do Fato Gerador": "21 a 31/dezembro/2024"
+                },
+                {
+                    "Código DARF": 916,
+                    "Descrição do tributo/contribuição": "IRRF - Prêmios obtidos em concursos e sorteios",
+                    "Período do Fato Gerador": "21 a 31/dezembro/2024"
+                },
+                {
+                    "Código DARF": 8673,
+                    "Descrição do tributo/contribuição": "IRRF - Prêmios obtidos em Bingos",
+                    "Período do Fato Gerador": "21 a 31/dezembro/2024"
+                },
+                {
+                    "Código DARF": 9385,
+                    "Descrição do tributo/contribuição": "IRRF - Multas e vantagens",
+                    "Período do Fato Gerador": "21 a 31/dezembro/2024"
+                },
+                {
+                    "Código DARF": 1150,
+                    "Descrição do tributo/contribuição": "IOF - Operações Crédito - Pessoa Jurídica",
+                    "Período do Fato Gerador": "21 a 31/dezembro/2024"
+                },
+                {
+                    "Código DARF": 7893,
+                    "Descrição do tributo/contribuição": "IOF - Operações Crédito - Pessoa Física",
+                    "Período do Fato Gerador": "21 a 31/dezembro/2024"
+                },
+                {
+                    "Código DARF": 4290,
+                    "Descrição do tributo/contribuição": "IOF - Operações de Câmbio - Entrada de moeda",
+                    "Período do Fato Gerador": "21 a 31/dezembro/2024"
+                },
+                {
+                    "Código DARF": 5220,
+                    "Descrição do tributo/contribuição": "IOF - Operações de Câmbio - Saída de moeda",
+                    "Período do Fato Gerador": "21 a 31/dezembro/2024"
+                },
+                {
+                    "Código DARF": 6854,
+                    "Descrição do tributo/contribuição": "IOF - Aplicações Financeiras",
+                    "Período do Fato Gerador": "21 a 31/dezembro/2024"
+                },
+                {
+                    "Código DARF": 6895,
+                    "Descrição do tributo/contribuição": "IOF - Factoring (art. 58 da Lei nº 9.532/97)",
+                    "Período do Fato Gerador": "21 a 31/dezembro/2024"
+                },
+                {
+                    "Código DARF": 3467,
+                    "Descrição do tributo/contribuição": "IOF - Seguros",
+                    "Período do Fato Gerador": "21 a 31/dezembro/2024"
+                },
+                {
+                    "Código DARF": 4028,
+                    "Descrição do tributo/contribuição": "IOF - Ouro, Ativo Financeiro",
+                    "Período do Fato Gerador": "21 a 31/dezembro/2024"
+                },
+                {
+                    "Código DARF": 1661,
+                    "Descrição do tributo/contribuição": "CPSS - Servidor Civil Ativo",
+                    "Período do Fato Gerador": "21 a 31/dezembro/2024"
+                },
+                {
+                    "Código DARF": 1700,
+                    "Descrição do tributo/contribuição": "CPSS - Servidor Civil Inativo",
+                    "Período do Fato Gerador": "21 a 31/dezembro/2024"
+                },
+                {
+                    "Código DARF": 1717,
+                    "Descrição do tributo/contribuição": "CPSS - Pensionista Civil",
+                    "Período do Fato Gerador": "21 a 31/dezembro/2024"
+                },
+                {
+                    "Código DARF": 1769,
+                    "Descrição do tributo/contribuição": "CPSS - Patronal - Servidor Civil Ativo - Operação Intra-Orçamentária",
+                    "Período do Fato Gerador": "21 a 31/dezembro/2024"
+                },
+                {
+                    "Código DARF": 1814,
+                    "Descrição do tributo/contribuição": "CPSS - Patronal - Servidor no Exterior - Operação Intra-Orçamentária",
+                    "Período do Fato Gerador": "21 a 31/dezembro/2024"
+                },
+                {
+                    "Código DARF": 1723,
+                    "Descrição do tributo/contribuição": "CPSS - Servidor Civil Ativo - Precatório Judicial e Requisição de Pequeno Valor",
+                    "Período do Fato Gerador": "21 a 31/dezembro/2024"
+                },
+                {
+                    "Código DARF": 1730,
+                    "Descrição do tributo/contribuição": "CPSS - Servidor Civil Inativo - Precatório Judicial e Requisição de Pequeno Valor",
+                    "Período do Fato Gerador": "21 a 31/dezembro/2024"
+                },
+                {
+                    "Código DARF": 1752,
+                    "Descrição do tributo/contribuição": "CPSS - Pensionista - Precatório Judicial e Requisição de Pequeno Valor",
+                    "Período do Fato Gerador": "21 a 31/dezembro/2024"
+                }
+            ]
+        ],
+        "dia-08-01-2025": [
+            [
+                {
+                    "Código GPS": 7307,
+                    "Descrição do tributo/contribuição": "Comprev - recolhimento efetuado por RPPS - órgão do poder público - CNPJ",
+                    "Período do Fato Gerador": "1º a 30/novembro/2024"
+                },
+                {
+                    "Código GPS": 7315,
+                    "Descrição do tributo/contribuição": "Comprev - recolhimento efetuado por RPPS - órgão do poder público - CNPJ - estoque",
+                    "Período do Fato Gerador": "1º a 30/novembro/2024"
+                }
+            ]
+        ],
+        "dia-10-01-2025": [
+            [
+                {
+                    "Código Darf": 1020,
+                    "Descrição do tributo/contribuição": "IPI - Cigarros contendo Tabaco (Cigarros dos cód. 2402.20.00 da Tipi)",
+                    "Período do Fato Gerador": "Dezembro/2024"
+                },
+                {
+                    "Código Darf": 5299,
+                    "Descrição do tributo/contribuição": "IRRF - Outros Rendimentos - Juros de empréstimos externos",
+                    "Período do Fato Gerador": "Dezembro/2024"
+                }
+            ],
+            [
+                {
+                    "Declarações, Demonstrativos e Documentos de Interesse Principal das Pessoas Jurídicas": "Envio, pelo Município, da relação de todos os alvarás para construção civil e documentos de habite-se concedidos.",
+                    "Período de Apuração": "1º a 31/dezembro/2024"
+                }
+            ]
+        ],
+        "dia-15-01-2025": [
+            [
+                {
+                    "Código Darf": 8053,
+                    "Descrição do tributo/contribuição": "IRRF - Títulos de Renda Fixa - Pessoa Física",
+                    "Período do Fato Gerador": "1º a 10/janeiro/2025"
+                },
+                {
+                    "Código Darf": 3426,
+                    "Descrição do tributo/contribuição": "IRRF - Títulos de Renda Fixa - Pessoa Jurídica",
+                    "Período do Fato Gerador": "1º a 10/janeiro/2025"
+                },
+                {
+                    "Código Darf": 6800,
+                    "Descrição do tributo/contribuição": "IRRF - Fundo de Investimento sujeito à tributação periódica",
+                    "Período do Fato Gerador": "1º a 10/janeiro/2025"
+                },
+                {
+                    "Código Darf": 6813,
+                    "Descrição do tributo/contribuição": "IRRF - Fundo de Investimento em Ações",
+                    "Período do Fato Gerador": "1º a 10/janeiro/2025"
+                },
+                {
+                    "Código Darf": 5273,
+                    "Descrição do tributo/contribuição": "IRRF - Operações de SWAP",
+                    "Período do Fato Gerador": "1º a 10/janeiro/2025"
+                },
+                {
+                    "Código Darf": 8468,
+                    "Descrição do tributo/contribuição": "IRRF - Day-Trade - Operações em Bolsas",
+                    "Período do Fato Gerador": "1º a 10/janeiro/2025"
+                },
+                {
+                    "Código Darf": 5557,
+                    "Descrição do tributo/contribuição": "IRRF - Ganhos líquidos em operações em bolsas e assemelhados",
+                    "Período do Fato Gerador": "1º a 10/janeiro/2025"
+                },
+                {
+                    "Código Darf": 5706,
+                    "Descrição do tributo/contribuição": "IRRF - Juros remuneratórios do capital próprio (art 9º da Lei nº 9.249/95)",
+                    "Período do Fato Gerador": "1º a 10/janeiro/2025"
+                },
+                {
+                    "Código Darf": 5232,
+                    "Descrição do tributo/contribuição": "IRRF - Fundos de Investimento Imobiliário (FII) e Fundos de Investimento nas Cadeias Produtivas do Agronegócio (Fiagro) - Resgate ou amortização de cotas ou distribuição de rendimentos",
+                    "Período do Fato Gerador": "1º a 10/janeiro/2025"
+                },
+                {
+                    "Código Darf": 924,
+                    "Descrição do tributo/contribuição": "IRRF - Demais rendimentos de capital",
+                    "Período do Fato Gerador": "1º a 10/janeiro/2025"
+                },
+                {
+                    "Código Darf": 3699,
+                    "Descrição do tributo/contribuição": "IRRF - Aplicações financeiras em ativos de infraestrutura - Tributação Exclusiva",
+                    "Período do Fato Gerador": "1º a 10/janeiro/2025"
+                },
+                {
+                    "Código Darf": 5029,
+                    "Descrição do tributo/contribuição": "IRRF - Ganho de Capital - Integralização de Cotas com Ativos (art. 1º da Lei nº 13.043/2014)",
+                    "Período do Fato Gerador": "1º a 10/janeiro/2025"
+                },
+                {
+                    "Código Darf": 5035,
+                    "Descrição do tributo/contribuição": "IRRF - Fundos de Investimento - Lei nº 13.043/2014 (Art. 8º) e Lei nº 14.801/2024 (Art. 4º)",
+                    "Período do Fato Gerador": "1º a 10/janeiro/2025"
+                },
+                {
+                    "Código Darf": 1605,
+                    "Descrição do tributo/contribuição": "IRRF - Fundo de Investimento em Participações (FIP), Fundo de Investimento em Índice de Mercado (Exchange Traded Fund - ETF), Fundo de Investimento em Direitos Creditórios (FIDC) e Fundo Multimercado (FIM)",
+                    "Período do Fato Gerador": "1º a 10/janeiro/2025"
+                },
+                {
+                    "Código Darf": 5286,
+                    "Descrição do tributo/contribuição": "IRRF - Aplicações Financeiras",
+                    "Período do Fato Gerador": "1º a 10/janeiro/2025"
+                },
+                {
+                    "Código Darf": 9453,
+                    "Descrição do tributo/contribuição": "IRRF - Juros remuneratórios de capital próprio",
+                    "Período do Fato Gerador": "1º a 10/janeiro/2025"
+                },
+                {
+                    "Código Darf": 916,
+                    "Descrição do tributo/contribuição": "IRRF - Prêmios obtidos em concursos e sorteios",
+                    "Período do Fato Gerador": "1º a 10/janeiro/2025"
+                },
+                {
+                    "Código Darf": 8673,
+                    "Descrição do tributo/contribuição": "IRRF - Prêmios obtidos em Bingos",
+                    "Período do Fato Gerador": "1º a 10/janeiro/2025"
+                },
+                {
+                    "Código Darf": 9385,
+                    "Descrição do tributo/contribuição": "IRRF - Multas e vantagens",
+                    "Período do Fato Gerador": "1º a 10/janeiro/2025"
+                },
+                {
+                    "Código Darf": 1150,
+                    "Descrição do tributo/contribuição": "IOF - Operações Crédito - Pessoa Jurídica",
+                    "Período do Fato Gerador": "1º a 10/janeiro/2025"
+                },
+                {
+                    "Código Darf": 7893,
+                    "Descrição do tributo/contribuição": "IOF - Operações Crédito - Pessoa Física",
+                    "Período do Fato Gerador": "1º a 10/janeiro/2025"
+                },
+                {
+                    "Código Darf": 4290,
+                    "Descrição do tributo/contribuição": "IOF - Operações de Câmbio - Entrada de moeda",
+                    "Período do Fato Gerador": "1º a 10/janeiro/2025"
+                },
+                {
+                    "Código Darf": 5220,
+                    "Descrição do tributo/contribuição": "IOF - Operações de Câmbio - Saída de moeda",
+                    "Período do Fato Gerador": "1º a 10/janeiro/2025"
+                },
+                {
+                    "Código Darf": 6854,
+                    "Descrição do tributo/contribuição": "IOF - Aplicações Financeiras",
+                    "Período do Fato Gerador": "1º a 10/janeiro/2025"
+                },
+                {
+                    "Código Darf": 6895,
+                    "Descrição do tributo/contribuição": "IOF - Factoring (art. 58 da Lei nº 9.532/97)",
+                    "Período do Fato Gerador": "1º a 10/janeiro/2025"
+                },
+                {
+                    "Código Darf": 3467,
+                    "Descrição do tributo/contribuição": "IOF - Seguros",
+                    "Período do Fato Gerador": "1º a 10/janeiro/2025"
+                },
+                {
+                    "Código Darf": 4028,
+                    "Descrição do tributo/contribuição": "IOF - Ouro, Ativo Financeiro",
+                    "Período do Fato Gerador": "1º a 10/janeiro/2025"
+                },
+                {
+                    "Código Darf": 1150,
+                    "Descrição do tributo/contribuição": "IOF - Operações de Crédito/Mútuo - Pessoa Jurídica",
+                    "Período do Fato Gerador": "Dezembro/2024"
+                },
+                {
+                    "Código Darf": 7893,
+                    "Descrição do tributo/contribuição": "IOF - Operações de Crédito/Mútuo - Pessoa Física",
+                    "Período do Fato Gerador": "Dezembro/2024"
+                },
+                {
+                    "Código Darf": 3770,
+                    "Descrição do tributo/contribuição": "PIS/PASEP - Retenção - Aquisição de autopeças",
+                    "Período do Fato Gerador": "16 a 31/dezembro/2024"
+                },
+                {
+                    "Código Darf": 3746,
+                    "Descrição do tributo/contribuição": "COFINS - Retenção - Aquisição de autopeças",
+                    "Período do Fato Gerador": "16 a 31/dezembro/2024"
+                },
+                {
+                    "Código Darf": 9331,
+                    "Descrição do tributo/contribuição": "CIDE - Combustíveis - Contribuição de Intervenção no Domínio Econômico incidente sobre a comercialização de petróleo e seus derivados, gás natural, exceto sob a forma liquefeita, e seus derivados, e álcool etílico combustível",
+                    "Período do Fato Gerador": "Dezembro/2024"
+                },
+                {
+                    "Código Darf": 8741,
+                    "Descrição do tributo/contribuição": "CIDE - Remessas ao Exterior - Contribuição de Intervenção no Domínio Econômico incidente sobre remessa de importâncias ao exterior nas hipóteses tratadas no art. 2º da Lei nº 10.168/2000,com a alteração introduzida pelo art. 6º da Lei nº 10.332/2001",
+                    "Período do Fato Gerador": "Dezembro/2024"
+                },
+                {
+                    "Código Darf": 1661,
+                    "Descrição do tributo/contribuição": "CPSS - Servidor Civil Ativo",
+                    "Período do Fato Gerador": "1º a 10/janeiro/2025"
+                },
+                {
+                    "Código Darf": 1700,
+                    "Descrição do tributo/contribuição": "CPSS - Servidor Civil Inativo",
+                    "Período do Fato Gerador": "1º a 10/janeiro/2025"
+                },
+                {
+                    "Código Darf": 1717,
+                    "Descrição do tributo/contribuição": "CPSS - Pensionista Civil",
+                    "Período do Fato Gerador": "1º a 10/janeiro/2025"
+                },
+                {
+                    "Código Darf": 1769,
+                    "Descrição do tributo/contribuição": "CPSS - Patronal - Servidor Civil Ativo - Operação Intra-Orçamentária",
+                    "Período do Fato Gerador": "1º a 10/janeiro/2025"
+                },
+                {
+                    "Código Darf": 1814,
+                    "Descrição do tributo/contribuição": "CPSS - Patronal - Servidor no Exterior - Operação Intra-Orçamentária",
+                    "Período do Fato Gerador": "1º a 10/janeiro/2025"
+                },
+                {
+                    "Código Darf": 1723,
+                    "Descrição do tributo/contribuição": "CPSS - Servidor Civil Ativo - Precatório Judicial e Requisição de Pequeno Valor",
+                    "Período do Fato Gerador": "1º a 10/janeiro/2025"
+                },
+                {
+                    "Código Darf": 1730,
+                    "Descrição do tributo/contribuição": "CPSS - Servidor Civil Inativo - Precatório Judicial e Requisição de Pequeno Valor",
+                    "Período do Fato Gerador": "1º a 10/janeiro/2025"
+                },
+                {
+                    "Código Darf": 1752,
+                    "Descrição do tributo/contribuição": "CPSS - Pensionista - Precatório Judicial e Requisição de Pequeno Valor",
+                    "Período do Fato Gerador": "1º a 10/janeiro/2025"
+                }
+            ],
+            [
+                {
+                    "Código GPS": 1007,
+                    "Descrição do tributo/contribuição": "Contribuinte individual - recolhimento mensal NIT/PIS/Pasep",
+                    "Período do Fato Gerador": "1º a 31/dezembro/2024"
+                },
+                {
+                    "Código GPS": 1120,
+                    "Descrição do tributo/contribuição": "Contribuinte individual - recolhimento mensal - com dedução de 45% (Lei nº 9.876/99) - NIT/PIS/Pasep",
+                    "Período do Fato Gerador": "1º a 31/dezembro/2024"
+                },
+                {
+                    "Código GPS": 1163,
+                    "Descrição do tributo/contribuição": "Contribuinte Individual - Opção: aposentadoria apenas por idade- Recolhimento Mensal - NIT/PIS/PASEP",
+                    "Período do Fato Gerador": "1º a 31/dezembro/2024"
+                },
+                {
+                    "Código GPS": 1406,
+                    "Descrição do tributo/contribuição": "Segurado Facultativo – recolhimento mensal – NIT /PIS /Pasep",
+                    "Período do Fato Gerador": "1º a 31/dezembro/2024"
+                },
+                {
+                    "Código GPS": 1473,
+                    "Descrição do tributo/contribuição": "Facultativo - Opção: aposentadoria apenas por idade - Recolhimento Mensal - NIT/PIS/PASEP",
+                    "Período do Fato Gerador": "1º a 31/dezembro/2024"
+                },
+                {
+                    "Código GPS": 1503,
+                    "Descrição do tributo/contribuição": "Segurado Especial – recolhimento mensal – NIT /PIS /Pasep",
+                    "Período do Fato Gerador": "1º a 31/dezembro/2024"
+                },
+                {
+                    "Código GPS": 1830,
+                    "Descrição do tributo/contribuição": "Facultativo Baixa Renda - recolhimento mensal - Complemento para Plano Simplificado da Previdência Social - PSPS - Lei nº 12.470/2011",
+                    "Período do Fato Gerador": "1º a 31/dezembro/2024"
+                },
+                {
+                    "Código GPS": 1910,
+                    "Descrição do tributo/contribuição": "MEI - Complentação Mensal",
+                    "Período do Fato Gerador": "1º a 31/dezembro/2024"
+                },
+                {
+                    "Código GPS": 1929,
+                    "Descrição do tributo/contribuição": "Facultativo Baixa Renda - recolhimento mensal - NIT/PIS/Pasep",
+                    "Período do Fato Gerador": "1º a 31/dezembro/2024"
+                },
+                {
+                    "Código GPS": 1945,
+                    "Descrição do tributo/contribuição": "Facultativo Baixa Renda - recolhimento mensal - Complemento",
+                    "Período do Fato Gerador": "1º a 31/dezembro/2024"
+                },
+                {
+                    "Código GPS": 1104,
+                    "Descrição do tributo/contribuição": "Contribuinte Individual - Recolhimento Trimestral NIT/PIS/Pasep",
+                    "Período do Fato Gerador": "1º outubro a 31 dezembro/2024"
+                },
+                {
+                    "Código GPS": 1147,
+                    "Descrição do tributo/contribuição": "Contribuinte Individual - Recolhimento Trimestral - Com dedução de 45% (Lei nº 9.876/99) - NIT/PIS/Pasep",
+                    "Período do Fato Gerador": "1º outubro a 31 dezembro/2024"
+                },
+                {
+                    "Código GPS": 1180,
+                    "Descrição do tributo/contribuição": "Contribuinte Individual - Opção: aposentadoria apenas por idade Recolhimento Trimestral - NIT/PIS/Pasep",
+                    "Período do Fato Gerador": "1º outubro a 31 dezembro/2024"
+                },
+                {
+                    "Código GPS": 1457,
+                    "Descrição do tributo/contribuição": "Segurado Facultativo - recolhimento trimestral - NIT/PIS/Pasep",
+                    "Período do Fato Gerador": "1º outubro a 31 dezembro/2024"
+                },
+                {
+                    "Código GPS": 1490,
+                    "Descrição do tributo/contribuição": "Facultativo - Opção: aposentadoria apenas por idade - Recolhimento Trimestral - NIT/PIS/Pasep",
+                    "Período do Fato Gerador": "1º outubro a 31 dezembro/2024"
+                },
+                {
+                    "Código GPS": 1554,
+                    "Descrição do tributo/contribuição": "Segurado Especial - recolhimento trimestral - NIT /PIS/Pasep",
+                    "Período do Fato Gerador": "1º outubro a 31 dezembro/2024"
+                },
+                {
+                    "Código GPS": 1848,
+                    "Descrição do tributo/contribuição": "Facultativo Baixa Renda - recolhimento trimestral - Complemento para Plano Simplificado da Previdência Social - PSPS - Lei nº 12.470/2011",
+                    "Período do Fato Gerador": "1º outubro a 31 dezembro/2024"
+                },
+                {
+                    "Código GPS": 1937,
+                    "Descrição do tributo/contribuição": "Facultativo Baixa Renda - recolhimento trimestral - NIT/PIS/Pasep",
+                    "Período do Fato Gerador": "1º outubro a 31 dezembro/2024"
+                },
+                {
+                    "Código GPS": 1953,
+                    "Descrição do tributo/contribuição": "Facultativo Baixa Renda - recolhimento trimestral - Complemento",
+                    "Período do Fato Gerador": "1º outubro a 31 dezembro/2024"
+                }
+            ],
+            [
+                {
+                    "Declarações, Demonstrativos e Documentos de Interesse Principal das Pessoas Jurídicas": "EFD-Contribuições - Escrituração Fiscal Digital das Contribuições incidentes sobre a Receita",
+                    "Período de Apuração": "Novembro/2024"
+                },
+                {
+                    "Declarações, Demonstrativos e Documentos de Interesse Principal das Pessoas Jurídicas": "DCTFWeb - Declaração de Débitos e Créditos Tributários Federais Previdenciários e de Outras Entidades e Fundos",
+                    "Período de Apuração": "Dezembro/2024"
+                },
+                {
+                    "Declarações, Demonstrativos e Documentos de Interesse Principal das Pessoas Jurídicas": "EFD-Reinf - Escrituração Fiscal Digital de Retenções e Outras Informações Fiscais",
+                    "Período de Apuração": "Dezembro/2024"
+                }
+            ]
+        ],
+        "dia-20-01-2025": [
+            [
+                {
+                    "Código Darf": 5952,
+                    "Descrição do tributo/contribuição": "PIS/PASEP - Retenção de contribuições – pagamentos de PJ a PJ de direito privado (Cofins, PIS/Pasep, CSLL)",
+                    "Período do Fato Gerador": "Dezembro/2024"
+                },
+                {
+                    "Código Darf": 5979,
+                    "Descrição do tributo/contribuição": "PIS/PASEP - Retenção – pagamentos de PJ a PJ de direito privado",
+                    "Período do Fato Gerador": "Dezembro/2024"
+                },
+                {
+                    "Código Darf": 5952,
+                    "Descrição do tributo/contribuição": "COFINS - Retenção de contribuições – pagamentos de PJ a PJ de direito privado (Cofins, PIS/Pasep, CSLL)",
+                    "Período do Fato Gerador": "Dezembro/2024"
+                },
+                {
+                    "Código Darf": 5960,
+                    "Descrição do tributo/contribuição": "COFINS - Retenção – pagamentos de PJ a PJ de direito privado",
+                    "Período do Fato Gerador": "Dezembro/2024"
+                },
+                {
+                    "Código Darf": 5952,
+                    "Descrição do tributo/contribuição": "CSLL - Retenção de contribuições - pagamentos de PJ a PJ de direito privado (Cofins, Pis/Pasep, CSLL)",
+                    "Período do Fato Gerador": "Dezembro/2024"
+                },
+                {
+                    "Código Darf": 5987,
+                    "Descrição do tributo/contribuição": "CSLL - Retenção - pagamentos de PJ a PJ de direito privado",
+                    "Período do Fato Gerador": "Dezembro/2024"
+                },
+                {
+                    "Código Darf": 2985,
+                    "Descrição do tributo/contribuição": "Contribuição Previdenciária sobre a Receita Bruta - Art. 7º da Lei nº 12.546/2011",
+                    "Período do Fato Gerador": "Dezembro/2024"
+                },
+                {
+                    "Código Darf": 2991,
+                    "Descrição do tributo/contribuição": "Contribuição Previdenciária sobre a Receita Bruta - Art. 8º da Lei nº 12.546/2011",
+                    "Período do Fato Gerador": "Dezembro/2024"
+                },
+                {
+                    "Código Darf": 4574,
+                    "Descrição do tributo/contribuição": "PIS/PASEP - Entidades financeiras equiparadas",
+                    "Período do Fato Gerador": "Dezembro/2024"
+                },
+                {
+                    "Código Darf": 7987,
+                    "Descrição do tributo/contribuição": "COFINS - Entidades financeiras equiparadas",
+                    "Período do Fato Gerador": "Dezembro/2024"
+                },
+                {
+                    "Código Darf": 3208,
+                    "Descrição do tributo/contribuição": "IRRF - Aluguéis e Royalties pagos a pessoa física",
+                    "Período do Fato Gerador": "Dezembro/2024"
+                },
+                {
+                    "Código Darf": 3277,
+                    "Descrição do tributo/contribuição": "IRRF - Rend. partes beneficiárias ou de fundador",
+                    "Período do Fato Gerador": "Dezembro/2024"
+                },
+                {
+                    "Código Darf": 3223,
+                    "Descrição do tributo/contribuição": "IRRF - Resgate Previdência Complementar/Modalidade Contribuição Definida/Variável - Não Optante Tributação Exclusiva",
+                    "Período do Fato Gerador": "Dezembro/2024"
+                },
+                {
+                    "Código Darf": 3556,
+                    "Descrição do tributo/contribuição": "IRRF - Resgate Previdência Complementar/Modalidade Benefício Definido - Não Optante Tributação Exclusiva",
+                    "Período do Fato Gerador": "Dezembro/2024"
+                },
+                {
+                    "Código Darf": 3579,
+                    "Descrição do tributo/contribuição": "IRRF - Resgate Previdência Complementar - Optante Tributação Exclusiva",
+                    "Período do Fato Gerador": "Dezembro/2024"
+                },
+                {
+                    "Código Darf": 3540,
+                    "Descrição do tributo/contribuição": "IRRF - Benefício Previdência Complementar - Não Optante Tributação Exclusiva",
+                    "Período do Fato Gerador": "Dezembro/2024"
+                },
+                {
+                    "Código Darf": 5565,
+                    "Descrição do tributo/contribuição": "IRRF - Benefício Previdência Complementar - Optante Tributação Exclusiva",
+                    "Período do Fato Gerador": "Dezembro/2024"
+                },
+                {
+                    "Código Darf": 561,
+                    "Descrição do tributo/contribuição": "IRRF - Trabalho Assalariado (Exceto Trabalhador Doméstico)",
+                    "Período do Fato Gerador": "Dezembro/2024"
+                },
+                {
+                    "Código Darf": 588,
+                    "Descrição do tributo/contribuição": "IRRF - Trabalho sem vínculo empregatício",
+                    "Período do Fato Gerador": "Dezembro/2024"
+                },
+                {
+                    "Código Darf": 3533,
+                    "Descrição do tributo/contribuição": "IRRF - Aposentadoria Regime Geral ou do Servidor Público",
+                    "Período do Fato Gerador": "Dezembro/2024"
+                },
+                {
+                    "Código Darf": 3562,
+                    "Descrição do tributo/contribuição": "IRRF - Participação nos Lucros ou Resultados - PLR",
+                    "Período do Fato Gerador": "Dezembro/2024"
+                },
+                {
+                    "Código Darf": 5936,
+                    "Descrição do tributo/contribuição": "IRRF - Rendimentos decorrentes de decisão da Justiça do Trabalho, exceto o disposto no art. 12-A da Lei nº 7.713, de 1988",
+                    "Período do Fato Gerador": "Dezembro/2024"
+                },
+                {
+                    "Código Darf": 1889,
+                    "Descrição do tributo/contribuição": "IRRF - Rendimentos Acumulados - art. 12-A da Lei nº 7.713, de 1988",
+                    "Período do Fato Gerador": "Dezembro/2024"
+                },
+                {
+                    "Código Darf": 1708,
+                    "Descrição do tributo/contribuição": "IRRF - Remuneração de serviços prestados por pessoa jurídica",
+                    "Período do Fato Gerador": "Dezembro/2024"
+                },
+                {
+                    "Código Darf": 5944,
+                    "Descrição do tributo/contribuição": "IRRF - Pagamentos de PJ a PJ por serviços de factoring",
+                    "Período do Fato Gerador": "Dezembro/2024"
+                },
+                {
+                    "Código Darf": 3280,
+                    "Descrição do tributo/contribuição": "IRRF - Pagamento PJ a cooperativa de trabalho",
+                    "Período do Fato Gerador": "Dezembro/2024"
+                },
+                {
+                    "Código Darf": 5204,
+                    "Descrição do tributo/contribuição": "IRRF - Juros e indenizações de lucros cessantes",
+                    "Período do Fato Gerador": "Dezembro/2024"
+                },
+                {
+                    "Código Darf": 6891,
+                    "Descrição do tributo/contribuição": "IRRF - Vida Gerador de Benefício Livre - VGBL",
+                    "Período do Fato Gerador": "Dezembro/2024"
+                },
+                {
+                    "Código Darf": 6904,
+                    "Descrição do tributo/contribuição": "IRRF - Indenização por danos morais",
+                    "Período do Fato Gerador": "Dezembro/2024"
+                },
+                {
+                    "Código Darf": 5928,
+                    "Descrição do tributo/contribuição": "IRRF - Rendimentos decorrentes de decisão da Justiça Federal, exceto o disposto no art. 12-A da Lei nº 7.713, de 1988",
+                    "Período do Fato Gerador": "Dezembro/2024"
+                },
+                {
+                    "Código Darf": 1895,
+                    "Descrição do tributo/contribuição": "IRRF - Rendimentos decorrentes de decisão da Justiça dos Estados/Distrito Federal, exceto o disposto no art. 12-A da Lei nº 7.713, de 1988",
+                    "Período do Fato Gerador": "Dezembro/2024"
+                },
+                {
+                    "Código Darf": 8045,
+                    "Descrição do tributo/contribuição": "IRRF - Demais Rendimentos",
+                    "Período do Fato Gerador": "Dezembro/2024"
+                },
+                {
+                    "Código Darf": 4095,
+                    "Descrição do tributo/contribuição": "IRPJ - Pagamento Unificado - Ret. Aplicável às Incorporações Imobiliárias (IRPJ, CSLL, PIS/Pasep, Cofins)",
+                    "Período do Fato Gerador": "Dezembro/2024"
+                },
+                {
+                    "Código Darf": 1068,
+                    "Descrição do tributo/contribuição": "IRPJ - Pagamento Unificado - Reg. Esp. Aplic. às Incorporações Imobiliárias e às Construções no âmbito do PMCMV e à Const. ou Reforma de Creches e Pré-Escolas (IRPJ, CSLL, PIS/Pasep, Cofins)",
+                    "Período do Fato Gerador": "Dezembro/2024"
+                },
+                {
+                    "Código Darf": 4112,
+                    "Descrição do tributo/contribuição": "IRPJ - Regime Especial de Tributação Aplicável às Incorporações Imobiliárias e às Construções",
+                    "Período do Fato Gerador": "Dezembro/2024"
+                },
+                {
+                    "Código Darf": 4095,
+                    "Descrição do tributo/contribuição": "CSLL - Pagamento Unificado - Ret. Aplicável às Incorporações Imobiliárias (IRPJ, CSLL, PIS/Pasep, Cofins)",
+                    "Período do Fato Gerador": "Dezembro/2024"
+                },
+                {
+                    "Código Darf": 1068,
+                    "Descrição do tributo/contribuição": "CSLL - Pagamento Unificado - Reg. Esp. Aplicável às Incorporações Imobiliárias e às Construções no âmbito do PMCMV e à Const. ou Reforma de Creches e Pré-Escolas (IRPJ, CSLL, PIS/Pasep, Cofins)",
+                    "Período do Fato Gerador": "Dezembro/2024"
+                },
+                {
+                    "Código Darf": 4153,
+                    "Descrição do tributo/contribuição": "CSLL - Regime Especial de Tributação Aplicável às Incorporações Imobiliárias e às Construções",
+                    "Período do Fato Gerador": "Dezembro/2024"
+                },
+                {
+                    "Código Darf": 4095,
+                    "Descrição do tributo/contribuição": "PIS/PASEP - Pagamento Unificado - Ret. Aplicável às Incorporações Imobiliárias (IRPJ, CSLL, PIS/Pasep, Cofins)",
+                    "Período do Fato Gerador": "Dezembro/2024"
+                },
+                {
+                    "Código Darf": 1068,
+                    "Descrição do tributo/contribuição": "PIS/PASEP - Pagamento Unificado - Reg. Esp. Aplicável às Incorporações Imobiliárias e às Construções no âmbito do PMCMV e à Const. ou Reforma de Creches e Pré-Escolas (IRPJ, CSLL, PIS/Pasep, Cofins)",
+                    "Período do Fato Gerador": "Dezembro/2024"
+                },
+                {
+                    "Código Darf": 4138,
+                    "Descrição do tributo/contribuição": "PIS/PASEP - Regime Especial de Tributação Aplicável às Incorporações Imobiliárias e às Construções",
+                    "Período do Fato Gerador": "Dezembro/2024"
+                },
+                {
+                    "Código Darf": 4095,
+                    "Descrição do tributo/contribuição": "COFINS - Pagamento Unificado - Ret. Aplicável às Incorporações Imobiliárias (IRPJ, CSLL, PIS/Pasep, Cofins)",
+                    "Período do Fato Gerador": "Dezembro/2024"
+                },
+                {
+                    "Código Darf": 1068,
+                    "Descrição do tributo/contribuição": "COFINS - Pagamento Unificado - Reg. Esp. Aplicável às Incorporações Imobiliárias e às Construções no âmbito do PMCMV e à Const. ou Reforma de Creches e Pré-Escolas (IRPJ, CSLL, PIS/Pasep, Cofins)",
+                    "Período do Fato Gerador": "Dezembro/2024"
+                },
+                {
+                    "Código Darf": 4166,
+                    "Descrição do tributo/contribuição": "COFINS - Regime Especial de Tributação Aplicável às Incorporações Imobiliárias e às Construções",
+                    "Período do Fato Gerador": "Dezembro/2024"
+                },
+                {
+                    "Código Darf": 6177,
+                    "Descrição do tributo/contribuição": "Pagamento Unificado - Regime de Tributação Específica do Futebol (TEF)",
+                    "Período do Fato Gerador": "Dezembro/2024"
+                }
+            ],
+            [
+                {
+                    "Código GPS": 2852,
+                    "Descrição do tributo/contribuição": "Acordo Perante Comissão de Conciliação Prévia - Dissídio ou Acordo Coletivo e Convenção Coletiva - CEI",
+                    "Período do Fato Gerador": "Diversos"
+                },
+                {
+                    "Código GPS": 2879,
+                    "Descrição do tributo/contribuição": "Acordo Perante Comissão de Conciliação Prévia - Dissídio ou Acordo Coletivo e Convenção Coletiva - CEI - pagamento exclusivo para outras entidades (SESC, SESI, SENAI, etc)",
+                    "Período do Fato Gerador": "Diversos"
+                },
+                {
+                    "Código GPS": 2950,
+                    "Descrição do tributo/contribuição": "Acordo Perante Comissão de Conciliação Prévia - Dissídio ou Acordo Coletivo e Convenção Coletiva - CNPJ",
+                    "Período do Fato Gerador": "Diversos"
+                },
+                {
+                    "Código GPS": 2976,
+                    "Descrição do tributo/contribuição": "Acordo Perante Comissão de Conciliação Prévia - Dissídio ou Acordo Coletivo e Convenção Coletiva - CNPJ - pagamento exclusivo para outras entidades (SESC, SESI, SENAI, etc)",
+                    "Período do Fato Gerador": "Diversos"
+                },
+                {
+                    "Código GPS": 6106,
+                    "Descrição do tributo/contribuição": "Pagamento de dívida ativa parcelamento - referência (preenchimento exclusivo pelo órgão emissor)",
+                    "Período do Fato Gerador": "Diversos"
+                },
+                {
+                    "Código GPS": 6505,
+                    "Descrição do tributo/contribuição": "Comprev - pagamento de dívida ativa - parcelamento de regime próprio de previdência social RPPS - órgão do poder público - referência",
+                    "Período do Fato Gerador": "Diversos"
+                }
+            ],
+            [
+                {
+                    "Documento": "Documento Único de Arrecadação do Simples Doméstico",
+                    "Descrição do tributo/contribuição": "Simples Doméstico - Regime unificado de pagamento de tributos, de contribuições e dos demais encargos do empregador doméstico",
+                    "Período do Fato Gerador": "Dezembro/2024"
+                }
+            ],
+            [
+                {
+                    "Documento": "DAS (Documento de Arrecadação do Simples Nacional)",
+                    "Descrição do tributo/contribuição": "Simples Nacional - Regime Especial Unificado de Arrecadação de Tributos e Contribuições devidos pelas Microempresas e Empresas de Pequeno Porte.",
+                    "Período do Fato Gerador": "Dezembro/2024"
+                }
+            ],
+            [
+                {
+                    "Declarações, Demonstrativos e Documentos de Interesse Principal das Pessoas Jurídicas": "Dirbi - Declaração de Incentivos, Renúncias, Benefícios e Imunidades de Natureza Tributária",
+                    "Período de Apuração": "Novembro/2024"
+                },
+                {
+                    "Declarações, Demonstrativos e Documentos de Interesse Principal das Pessoas Jurídicas": "PGDAS-D - Programa Gerador do Documento de Arrecadação do Simples Nacional",
+                    "Período de Apuração": "Dezembro/2024"
+                }
+            ]
+        ],
+        "dia-22-01-2025": [
+            [
+                {
+                    "Declarações, Demonstrativos e Documentos de Interesse Principal das Pessoas Jurídicas": "DCTF Mensal - Declaração de Débitos e Créditos Tributários Federais – Mensal",
+                    "Período de Apuração": "Novembro/2024"
+                }
+            ]
+        ],
+        "dia-23-01-2025": [
+            [
+                {
+                    "Código Darf": 8053,
+                    "Descrição do tributo/contribuição": "IRRF - Títulos de Renda Fixa - Pessoa Física",
+                    "Período do Fato Gerador": "11 a 20/janeiro/2025"
+                },
+                {
+                    "Código Darf": 3426,
+                    "Descrição do tributo/contribuição": "IRRF - Títulos de Renda Fixa - Pessoa Jurídica",
+                    "Período do Fato Gerador": "11 a 20/janeiro/2025"
+                },
+                {
+                    "Código Darf": 6800,
+                    "Descrição do tributo/contribuição": "IRRF - Fundo de Investimento sujeito à tributação periódica",
+                    "Período do Fato Gerador": "11 a 20/janeiro/2025"
+                },
+                {
+                    "Código Darf": 6813,
+                    "Descrição do tributo/contribuição": "IRRF - Fundo de Investimento em Ações",
+                    "Período do Fato Gerador": "11 a 20/janeiro/2025"
+                },
+                {
+                    "Código Darf": 5273,
+                    "Descrição do tributo/contribuição": "IRRF - Operações de SWAP",
+                    "Período do Fato Gerador": "11 a 20/janeiro/2025"
+                },
+                {
+                    "Código Darf": 8468,
+                    "Descrição do tributo/contribuição": "IRRF - Day-Trade - Operações em Bolsas",
+                    "Período do Fato Gerador": "11 a 20/janeiro/2025"
+                },
+                {
+                    "Código Darf": 5557,
+                    "Descrição do tributo/contribuição": "IRRF - Ganhos líquidos em operações em bolsas e assemelhados",
+                    "Período do Fato Gerador": "11 a 20/janeiro/2025"
+                },
+                {
+                    "Código Darf": 5706,
+                    "Descrição do tributo/contribuição": "IRPF - Juros remuneratórios do capital próprio (art. 9º da Lei nº 9.249/95)",
+                    "Período do Fato Gerador": "11 a 20/janeiro/2025"
+                },
+                {
+                    "Código Darf": 5232,
+                    "Descrição do tributo/contribuição": "IRRF - Fundos de Investimento Imobiliário (FII) e Fundos de Investimento nas Cadeias Produtivas do Agronegócio (Fiagro) - Resgate ou amortização de cotas ou distribuição de rendimentos",
+                    "Período do Fato Gerador": "11 a 20/janeiro/2025"
+                },
+                {
+                    "Código Darf": 924,
+                    "Descrição do tributo/contribuição": "IRRF - Demais rendimentos de capital",
+                    "Período do Fato Gerador": "11 a 20/janeiro/2025"
+                },
+                {
+                    "Código Darf": 3699,
+                    "Descrição do tributo/contribuição": "IRRF - Aplicações financeiras em ativos de infraestrutura - Tributação Exclusiva",
+                    "Período do Fato Gerador": "11 a 20/janeiro/2025"
+                },
+                {
+                    "Código Darf": 5029,
+                    "Descrição do tributo/contribuição": "IRRF - Ganho de Capital - Integralização de Cotas com Ativos (art. 1º da Lei nº 13.043/2014)",
+                    "Período do Fato Gerador": "11 a 20/janeiro/2025"
+                },
+                {
+                    "Código Darf": 5035,
+                    "Descrição do tributo/contribuição": "IRRF - Fundos de Investimento - Lei nº 13.043/2014 (Art. 8º) e Lei nº 14.801/2024 (Art. 4º)",
+                    "Período do Fato Gerador": "11 a 20/janeiro/2025"
+                },
+                {
+                    "Código Darf": 1605,
+                    "Descrição do tributo/contribuição": "IRRF - Fundo de Investimento em Participações (FIP), Fundo de Investimento em Índice de Mercado (Exchange Traded Fund - ETF), Fundo de Investimento em Direitos Creditórios (FIDC) e Fundo Multimercado (FIM)",
+                    "Período do Fato Gerador": "11 a 20/janeiro/2025"
+                },
+                {
+                    "Código Darf": 5286,
+                    "Descrição do tributo/contribuição": "IRRF - Aplicações Financeiras",
+                    "Período do Fato Gerador": "11 a 20/janeiro/2025"
+                },
+                {
+                    "Código Darf": 9453,
+                    "Descrição do tributo/contribuição": "IRRF - Juros remuneratórios de capital próprio",
+                    "Período do Fato Gerador": "11 a 20/janeiro/2025"
+                },
+                {
+                    "Código Darf": 916,
+                    "Descrição do tributo/contribuição": "IRRF - Prêmios obtidos em concursos e sorteios",
+                    "Período do Fato Gerador": "11 a 20/janeiro/2025"
+                },
+                {
+                    "Código Darf": 8673,
+                    "Descrição do tributo/contribuição": "IRRF - Prêmios obtidos em Bingos",
+                    "Período do Fato Gerador": "11 a 20/janeiro/2025"
+                },
+                {
+                    "Código Darf": 9385,
+                    "Descrição do tributo/contribuição": "IRRF - Multas e vantagens",
+                    "Período do Fato Gerador": "11 a 20/janeiro/2025"
+                },
+                {
+                    "Código Darf": 1150,
+                    "Descrição do tributo/contribuição": "IOF - Operações Crédito - Pessoa Jurídica",
+                    "Período do Fato Gerador": "11 a 20/janeiro/2025"
+                },
+                {
+                    "Código Darf": 7893,
+                    "Descrição do tributo/contribuição": "IOF - Operações Crédito - Pessoa Física",
+                    "Período do Fato Gerador": "11 a 20/janeiro/2025"
+                },
+                {
+                    "Código Darf": 4290,
+                    "Descrição do tributo/contribuição": "IOF - Operações de Câmbio - Entrada de moeda",
+                    "Período do Fato Gerador": "11 a 20/janeiro/2025"
+                },
+                {
+                    "Código Darf": 5220,
+                    "Descrição do tributo/contribuição": "IOF - Operações de Câmbio - Saída de moeda",
+                    "Período do Fato Gerador": "11 a 20/janeiro/2025"
+                },
+                {
+                    "Código Darf": 6854,
+                    "Descrição do tributo/contribuição": "IOF - Aplicações Financeiras",
+                    "Período do Fato Gerador": "11 a 20/janeiro/2025"
+                },
+                {
+                    "Código Darf": 6895,
+                    "Descrição do tributo/contribuição": "IOF - Factoring (art. 58 da Lei nº 9.532/97)",
+                    "Período do Fato Gerador": "11 a 20/janeiro/2025"
+                },
+                {
+                    "Código Darf": 3467,
+                    "Descrição do tributo/contribuição": "IOF - Seguros",
+                    "Período do Fato Gerador": "11 a 20/janeiro/2025"
+                },
+                {
+                    "Código Darf": 4028,
+                    "Descrição do tributo/contribuição": "IOF - Ouro, Ativo Financeiro",
+                    "Período do Fato Gerador": "11 a 20/janeiro/2025"
+                }
+            ]
+        ],
+        "dia-24-01-2025": [
+            [
+                {
+                    "Código Darf": 676,
+                    "Descrição do tributo/contribuição": "IPI - Pos.Tipi: 87.03 - Automóveis de passageiros e outros veículos automóveis principalmente concebidos para transporte de pessoas (exceto os da posição 87.02), incluídos os veículos de uso misto (\"station wagons\") e os automóveis de corrida",
+                    "Período do Fato Gerador": "Dezembro/2024"
+                },
+                {
+                    "Código Darf": 676,
+                    "Descrição do tributo/contribuição": "IPI - Pos. Tipi: 87.06 Chassis com motor para veículos automóveis das posições 87.01 a 87.05",
+                    "Período do Fato Gerador": "Dezembro/2024"
+                },
+                {
+                    "Código Darf": 1097,
+                    "Descrição do tributo/contribuição": "IPI - Pos.Tipi: 84.29 - \"Bulldozers\", \"angledozers\", niveladores, raspotransportadores (\"scrapers\"), pás mecânicas, escavadores, carregadoras e pás carregadoras, compactadores e rolos ou cilindros compressores, autopropulsados",
+                    "Período do Fato Gerador": "Dezembro/2024"
+                },
+                {
+                    "Código Darf": 1097,
+                    "Descrição do tributo/contribuição": "IPI - Pos.Tipi: 84.32 - Máquinas e aparelhos de uso agrícola, hortícola ou florestal, para preparação ou trabalho do solo ou para cultura; rolos para gramados (relvados), ou para campos de esporte",
+                    "Período do Fato Gerador": "Dezembro/2024"
+                },
+                {
+                    "Código Darf": 1097,
+                    "Descrição do tributo/contribuição": "IPI - Pos.Tipi: 84.33 - Máquinas e aparelhos para colheita ou debulha de produtos agrícolas, incluídas as enfardadeiras de palha ou forragem; cortadores de grama (relva) e ceifeiras; máquinas para limpar ou selecionar ovos, frutas ou outros produtos agrícolas, exceto as da posição 84.37",
+                    "Período do Fato Gerador": "Dezembro/2024"
+                },
+                {
+                    "Código Darf": 1097,
+                    "Descrição do tributo/contribuição": "IPI - Pos.Tipi: 87.01 - Tratores (exceto os carros-tratores da posição 87.09)",
+                    "Período do Fato Gerador": "Dezembro/2024"
+                },
+                {
+                    "Código Darf": 1097,
+                    "Descrição do tributo/contribuição": "IPI - Pos.Tipi: 87.02 - Veículos automóveis para transporte de 10 pessoas ou mais, incluindo o motorista",
+                    "Período do Fato Gerador": "Dezembro/2024"
+                },
+                {
+                    "Código Darf": 1097,
+                    "Descrição do tributo/contribuição": "IPI - Pos.Tipi: 87.04 - Veículos automóveis para transporte de mercadorias",
+                    "Período do Fato Gerador": "Dezembro/2024"
+                },
+                {
+                    "Código Darf": 1097,
+                    "Descrição do tributo/contribuição": "IPI - Pos.Tipi: 87.05 - Veículos automóveis para usos especiais (por exemplo: auto-socorros, caminhões-guindastes, veículos de combate a incêndios, caminhões-betoneiras, veículos para varrer, veículos para espalhar, veículos-oficinas, veículos radiológicos), exceto os concebidos principalmente para transporte de pessoas ou de mercadorias",
+                    "Período do Fato Gerador": "Dezembro/2024"
+                },
+                {
+                    "Código Darf": 1097,
+                    "Descrição do tributo/contribuição": "IPI - Pos.Tipi:87.11 - Motocicletas (incluídos os ciclomotores) e outros ciclos equipados com motor auxiliar, mesmo com carro lateral; carros laterais",
+                    "Período do Fato Gerador": "Dezembro/2024"
+                },
+                {
+                    "Código Darf": 5110,
+                    "Descrição do tributo/contribuição": "IPI - Tabaco e seus Sucedâneos Manufaturados, Exceto Cigarros Contendo Tabaco (Cigarros dos cód. 2402.90.00 da Tipi)",
+                    "Período do Fato Gerador": "Dezembro/2024"
+                },
+                {
+                    "Código Darf": 5123,
+                    "Descrição do tributo/contribuição": "IPI - Todos os produtos, com exceção de: bebidas (Capítulo 22), Tabaco e seus Sucedâneos Manufaturados (Capítulo 24) e os das posições 84.29, 84.32, 84.33, 87.01 a 87.06 e 87.11 da Tipi",
+                    "Período do Fato Gerador": "Dezembro/2024"
+                },
+                {
+                    "Código Darf": 668,
+                    "Descrição do tributo/contribuição": "IPI - Bebidas do capítulo 22 da Tipi",
+                    "Período do Fato Gerador": "Dezembro/2024"
+                },
+                {
+                    "Código Darf": 821,
+                    "Descrição do tributo/contribuição": "IPI - Cervejas - Tributação de Bebidas Frias - previsto nos arts. 14 a 36 da Lei nº 13.097, de 19 de janeiro de 2015",
+                    "Período do Fato Gerador": "Dezembro/2024"
+                },
+                {
+                    "Código Darf": 838,
+                    "Descrição do tributo/contribuição": "IPI - Demais bebidas - Tributação de Bebidas Frias - previsto nos arts. 14 a 36 da Lei nº 13.097, de 19 de janeiro de 2015",
+                    "Período do Fato Gerador": "Dezembro/2024"
+                },
+                {
+                    "Código Darf": 8109,
+                    "Descrição do tributo/contribuição": "PIS/PASEP - Faturamento",
+                    "Período do Fato Gerador": "Dezembro/2024"
+                },
+                {
+                    "Código Darf": 8301,
+                    "Descrição do tributo/contribuição": "PIS/PASEP - Folha de Salários",
+                    "Período do Fato Gerador": "Dezembro/2024"
+                },
+                {
+                    "Código Darf": 3703,
+                    "Descrição do tributo/contribuição": "PIS/PASEP - Pessoa jurídica de direito público",
+                    "Período do Fato Gerador": "Dezembro/2024"
+                },
+                {
+                    "Código Darf": 8496,
+                    "Descrição do tributo/contribuição": "PIS/PASEP - Fabricantes/Importadores de Veículos em substituição tributária",
+                    "Período do Fato Gerador": "Dezembro/2024"
+                },
+                {
+                    "Código Darf": 6824,
+                    "Descrição do tributo/contribuição": "PIS/PASEP - Combustíveis",
+                    "Período do Fato Gerador": "Dezembro/2024"
+                },
+                {
+                    "Código Darf": 6912,
+                    "Descrição do tributo/contribuição": "PIS/PASEP - Não-cumulativa",
+                    "Período do Fato Gerador": "Dezembro/2024"
+                },
+                {
+                    "Código Darf": 1921,
+                    "Descrição do tributo/contribuição": "PIS/PASEP - Vendas à Zona Franca de Manaus (ZFM) - Substituição Tributária",
+                    "Período do Fato Gerador": "Dezembro/2024"
+                },
+                {
+                    "Código Darf": 679,
+                    "Descrição do tributo/contribuição": "PIS/PASEP - Cervejas - Tributação de Bebidas Frias - previsto nos arts. 14 a 36 da Lei nº 13.097, de 19 de janeiro de 2015",
+                    "Período do Fato Gerador": "Dezembro/2024"
+                },
+                {
+                    "Código Darf": 691,
+                    "Descrição do tributo/contribuição": "PIS/PASEP - Demais bebidas - Tributação de Bebidas Frias - previsto nos arts. 14 a 36 da Lei nº 13.097, de 19 de janeiro de 2015",
+                    "Período do Fato Gerador": "Dezembro/2024"
+                },
+                {
+                    "Código Darf": 906,
+                    "Descrição do tributo/contribuição": "PIS/PASEP - Álcool - Regime Especial de Apuração e Pagamento previsto no § 4º do art. 5º da Lei nº 9.718, de 27 de novembro de 1998",
+                    "Período do Fato Gerador": "Dezembro/2024"
+                },
+                {
+                    "Código Darf": 2172,
+                    "Descrição do tributo/contribuição": "COFINS - Demais Entidades",
+                    "Período do Fato Gerador": "Dezembro/2024"
+                },
+                {
+                    "Código Darf": 8645,
+                    "Descrição do tributo/contribuição": "COFINS - Fabricantes/Importadores de Veículos em substituição tributária",
+                    "Período do Fato Gerador": "Dezembro/2024"
+                },
+                {
+                    "Código Darf": 6840,
+                    "Descrição do tributo/contribuição": "COFINS - Combustíveis",
+                    "Período do Fato Gerador": "Dezembro/2024"
+                },
+                {
+                    "Código Darf": 5856,
+                    "Descrição do tributo/contribuição": "COFINS - Não-cumulativa",
+                    "Período do Fato Gerador": "Dezembro/2024"
+                },
+                {
+                    "Código Darf": 1840,
+                    "Descrição do tributo/contribuição": "COFINS - Vendas à Zona Franca de Manaus (ZFM) - Substituição Tributária",
+                    "Período do Fato Gerador": "Dezembro/2024"
+                },
+                {
+                    "Código Darf": 760,
+                    "Descrição do tributo/contribuição": "COFINS - Cervejas - Tributação de Bebidas Frias - previsto nos arts. 14 a 36 da Lei nº 13.097, de 19 de janeiro de 2015",
+                    "Período do Fato Gerador": "Dezembro/2024"
+                },
+                {
+                    "Código Darf": 776,
+                    "Descrição do tributo/contribuição": "COFINS - Demais bebidas - Tributação de Bebidas Frias - previsto nos arts. 14 a 36 da Lei nº 13.097, de 19 de janeiro de 2015",
+                    "Período do Fato Gerador": "Dezembro/2024"
+                },
+                {
+                    "Código Darf": 929,
+                    "Descrição do tributo/contribuição": "COFINS - Álcool - Regime Especial de Apuração e Pagamento previsto no § 4º do art. 5º da Lei nº 9.718, de 27 de novembro de 1998",
+                    "Período do Fato Gerador": "Dezembro/2024"
+                }
+            ]
+        ],
+        "dia-27-01-2025": [
+            [
+                {
+                    "Código Darf": 1661,
+                    "Descrição do tributo/contribuição": "CPSS - Servidor Civil Ativo",
+                    "Período do Fato Gerador": "11 a 20/janeiro/2025"
+                },
+                {
+                    "Código Darf": 1700,
+                    "Descrição do tributo/contribuição": "CPSS - Servidor Civil Inativo",
+                    "Período do Fato Gerador": "11 a 20/janeiro/2025"
+                },
+                {
+                    "Código Darf": 1717,
+                    "Descrição do tributo/contribuição": "CPSS - Pensionista Civil",
+                    "Período do Fato Gerador": "11 a 20/janeiro/2025"
+                },
+                {
+                    "Código Darf": 1769,
+                    "Descrição do tributo/contribuição": "CPSS - Patronal - Servidor Civil Ativo - Operação Intra-Orçamentária",
+                    "Período do Fato Gerador": "11 a 20/janeiro/2025"
+                },
+                {
+                    "Código Darf": 1814,
+                    "Descrição do tributo/contribuição": "CPSS - Patronal - Servidor no Exterior - Operação Intra-Orçamentária",
+                    "Período do Fato Gerador": "11 a 20/janeiro/2025"
+                },
+                {
+                    "Código Darf": 1723,
+                    "Descrição do tributo/contribuição": "CPSS - Servidor Civil Ativo - Precatório Judicial e Requisição de Pequeno Valor",
+                    "Período do Fato Gerador": "11 a 20/janeiro/2025"
+                },
+                {
+                    "Código Darf": 1730,
+                    "Descrição do tributo/contribuição": "CPSS - Servidor Civil Inativo - Precatório Judicial e Requisição de Pequeno Valor",
+                    "Período do Fato Gerador": "11 a 20/janeiro/2025"
+                },
+                {
+                    "Código Darf": 1752,
+                    "Descrição do tributo/contribuição": "CPSS - Pensionista - Precatório Judicial e Requisição de Pequeno Valor",
+                    "Período do Fato Gerador": "11 a 20/janeiro/2025"
+                }
+            ]
+        ],
+        "dia-31-01-2025": [
+            [
+                {
+                    "Código Darf": 5232,
+                    "Descrição do tributo/contribuição": "IRRF - Fundos de Investimento Imobiliário - Rendimentos e Ganhos de Capital Distribuídos",
+                    "Período do Fato Gerador": "Dezembro/2024"
+                },
+                {
+                    "Código Darf": 473,
+                    "Descrição do tributo/contribuição": "IRRF - Rendimentos de Residentes ou Domiciliados no Exterior - Pessoa Jurídica - Ganhos de capital de alienação de bens e direitos do ativo circulante localizados no Brasil",
+                    "Período do Fato Gerador": "Dezembro/2024"
+                },
+                {
+                    "Código Darf": 190,
+                    "Descrição do tributo/contribuição": "IRPF - Recolhimento mensal (Carnê-Leão)",
+                    "Período do Fato Gerador": "Dezembro/2024"
+                },
+                {
+                    "Código Darf": 4600,
+                    "Descrição do tributo/contribuição": "IRPF - Ganhos de capital na alienação de bens e direitos",
+                    "Período do Fato Gerador": "Dezembro/2024"
+                },
+                {
+                    "Código Darf": 8523,
+                    "Descrição do tributo/contribuição": "IRPF - Ganhos de Capital na Alienação de Bens e Direitos Localizados no Exterior",
+                    "Período do Fato Gerador": "Dezembro/2024"
+                },
+                {
+                    "Código Darf": 6015,
+                    "Descrição do tributo/contribuição": "IRPF - Ganhos líquidos em operações em bolsa",
+                    "Período do Fato Gerador": "Dezembro/2024"
+                },
+                {
+                    "Código Darf": 6371,
+                    "Descrição do tributo/contribuição": "IRPF - Ganhos de Capital de Depósito em Conta Corrente, Cartão de Crédito ou Débito no Exterior",
+                    "Período do Fato Gerador": "Dezembro/2024"
+                },
+                {
+                    "Código Darf": 2927,
+                    "Descrição do tributo/contribuição": "IOF - Imposto sobre Operações de Crédito, Câmbio e Seguro, ou Relativas a Títulos ou Valores Mobiliários - Contrato de Derivativos",
+                    "Período do Fato Gerador": "Dezembro/2024"
+                },
+                {
+                    "Código Darf": 1599,
+                    "Descrição do tributo/contribuição": "IRPJ - PJ obrigadas à apuração com base no lucro real - Entidades Financeiras - Balanço Trimestral (1ª quota)",
+                    "Período do Fato Gerador": "Outubro a Dezembro/2024"
+                },
+                {
+                    "Código Darf": 2319,
+                    "Descrição do tributo/contribuição": "IRPJ - PJ obrigadas à apuração com base no lucro real - Entidades Financeiras - Estimativa Mensal",
+                    "Período do Fato Gerador": "Dezembro/2024"
+                },
+                {
+                    "Código Darf": 220,
+                    "Descrição do tributo/contribuição": "IRPJ - PJ obrigadas à apuração com base no lucro real - Demais Entidades - Balanço Trimestral (1ª quota)",
+                    "Período do Fato Gerador": "Outubro a Dezembro/2024"
+                },
+                {
+                    "Código Darf": 2362,
+                    "Descrição do tributo/contribuição": "IRPJ - PJ obrigadas à apuração com base no lucro real - Demais Entidades - Estimativa Mensal",
+                    "Período do Fato Gerador": "Dezembro/2024"
+                },
+                {
+                    "Código Darf": 3373,
+                    "Descrição do tributo/contribuição": "IRPJ - Optantes pela apuração com base no lucro real - Balanço Trimestral (1ª quota)",
+                    "Período do Fato Gerador": "Outubro a Dezembro/2024"
+                },
+                {
+                    "Código Darf": 5993,
+                    "Descrição do tributo/contribuição": "IRPJ - Optantes pela apuração com base no lucro real - Estimativa Mensal",
+                    "Período do Fato Gerador": "Dezembro/2024"
+                },
+                {
+                    "Código Darf": 2089,
+                    "Descrição do tributo/contribuição": "IRPJ - Lucro Presumido (1ª quota)",
+                    "Período do Fato Gerador": "Outubro a Dezembro/2024"
+                },
+                {
+                    "Código Darf": 5625,
+                    "Descrição do tributo/contribuição": "IRPJ - Lucro Arbitrado (1ª quota)",
+                    "Período do Fato Gerador": "Outubro a Dezembro/2024"
+                },
+                {
+                    "Código Darf": 3317,
+                    "Descrição do tributo/contribuição": "IRPJ - Ganhos Líquidos em Operações na Bolsa – Lucro Real",
+                    "Período do Fato Gerador": "Dezembro/2024"
+                },
+                {
+                    "Código Darf": 231,
+                    "Descrição do tributo/contribuição": "IRPJ - Ganhos Líquidos em Operações na Bolsa – Lucro Presumido ou Arbitrado",
+                    "Período do Fato Gerador": "Dezembro/2024"
+                },
+                {
+                    "Código Darf": 507,
+                    "Descrição do tributo/contribuição": "IRPJ - Ganho de Capital - Alienação de Ativos de ME/EPP optantes pelo Simples Nacional",
+                    "Período do Fato Gerador": "Dezembro/2024"
+                },
+                {
+                    "Código Darf": 3770,
+                    "Descrição do tributo/contribuição": "PIS/PASEP - Retenção - Aquisição de autopeças",
+                    "Período do Fato Gerador": "1º a 15/janeiro/2025"
+                },
+                {
+                    "Código Darf": 3746,
+                    "Descrição do tributo/contribuição": "COFINS - Retenção - Aquisição de autopeças",
+                    "Período do Fato Gerador": "1º a 15/janeiro/2025"
+                },
+                {
+                    "Código Darf": 2030,
+                    "Descrição do tributo/contribuição": "CSLL - PJ que apuram o IRPJ com base no lucro real - Entidades Financeiras - Balanço Trimestral (1ª quota)",
+                    "Período do Fato Gerador": "Outubro a Dezembro/2024"
+                },
+                {
+                    "Código Darf": 2469,
+                    "Descrição do tributo/contribuição": "CSLL - PJ que apuram o IRPJ com base no lucro real - Entidades Financeiras - Estimativa Mensal",
+                    "Período do Fato Gerador": "Dezembro/2024"
+                },
+                {
+                    "Código Darf": 6012,
+                    "Descrição do tributo/contribuição": "CSLL - PJ que apuram o IRPJ com base no lucro real - Demais Entidades - Balanço Trimestral (1ª quota)",
+                    "Período do Fato Gerador": "Outubro a Dezembro/2024"
+                },
+                {
+                    "Código Darf": 2484,
+                    "Descrição do tributo/contribuição": "CSLL - PJ que apuram o IRPJ com base no lucro real - Demais Entidades - Estimativa mensal",
+                    "Período do Fato Gerador": "Dezembro/2024"
+                },
+                {
+                    "Código Darf": 2372,
+                    "Descrição do tributo/contribuição": "CSLL - PJ que apuram o IRPJ com base no lucro presumido ou arbitrado (1ª quota)",
+                    "Período do Fato Gerador": "Outubro a Dezembro/2024"
+                },
+                {
+                    "Código Darf": 9100,
+                    "Descrição do tributo/contribuição": "REFIS - Parcelamento vinculado à receita bruta",
+                    "Período do Fato Gerador": "Diversos"
+                },
+                {
+                    "Código Darf": 9222,
+                    "Descrição do tributo/contribuição": "REFIS - Parcelamento alternativo",
+                    "Período do Fato Gerador": "Diversos"
+                },
+                {
+                    "Código Darf": 9113,
+                    "Descrição do tributo/contribuição": "REFIS - ITR/Exercícios até 1996",
+                    "Período do Fato Gerador": "Diversos"
+                },
+                {
+                    "Código Darf": 9126,
+                    "Descrição do tributo/contribuição": "REFIS - ITR/Exercícios a partir de 1997",
+                    "Período do Fato Gerador": "Diversos"
+                },
+                {
+                    "Código Darf": 7042,
+                    "Descrição do tributo/contribuição": "PAES - Pessoa Física",
+                    "Período do Fato Gerador": "Diversos"
+                },
+                {
+                    "Código Darf": 7093,
+                    "Descrição do tributo/contribuição": "PAES - Microempresa",
+                    "Período do Fato Gerador": "Diversos"
+                },
+                {
+                    "Código Darf": 7114,
+                    "Descrição do tributo/contribuição": "PAES - Empresa de Pequeno Porte",
+                    "Período do Fato Gerador": "Diversos"
+                },
+                {
+                    "Código Darf": 7122,
+                    "Descrição do tributo/contribuição": "PAES - Demais pessoas jurídicas",
+                    "Período do Fato Gerador": "Diversos"
+                },
+                {
+                    "Código Darf": 7288,
+                    "Descrição do tributo/contribuição": "PAES - Paes ITR",
+                    "Período do Fato Gerador": "Diversos"
+                },
+                {
+                    "Código Darf": 830,
+                    "Descrição do tributo/contribuição": "PAEX - Art. 1º MP nº 303/2006 - Pessoa jurídica optante pelo Simples",
+                    "Período do Fato Gerador": "Diversos"
+                },
+                {
+                    "Código Darf": 842,
+                    "Descrição do tributo/contribuição": "PAEX - Art. 1º MP nº 303/2006 - Demais pessoas jurídicas",
+                    "Período do Fato Gerador": "Diversos"
+                },
+                {
+                    "Código Darf": 1927,
+                    "Descrição do tributo/contribuição": "PAEX - Art. 8º MP nº 303/2006 - Pessoa jurídica optante pelo Simples",
+                    "Período do Fato Gerador": "Diversos"
+                },
+                {
+                    "Código Darf": 1919,
+                    "Descrição do tributo/contribuição": "PAEX - Art. 9º MP nº 303/2006 - Pessoa jurídica optante pelo Simples",
+                    "Período do Fato Gerador": "Diversos"
+                },
+                {
+                    "Código Darf": 285,
+                    "Descrição do tributo/contribuição": "Parcelamento Especial - Simples Nacional Art. 7º § 3º IN/RFB nº 767/2007 - Pessoa jurídica optante pelo Simples Nacional",
+                    "Período do Fato Gerador": "Diversos"
+                },
+                {
+                    "Código Darf": 873,
+                    "Descrição do tributo/contribuição": "Parcelamento para Ingresso no Simples Nacional - 2009 Art. 7º § 3º IN/RFB nº 902/2008 - Pessoa jurídica optante pelo Simples Nacional",
+                    "Período do Fato Gerador": "Diversos"
+                },
+                {
+                    "Código Darf": 1136,
+                    "Descrição do tributo/contribuição": "Parcelamento Lei nº 11.941, de 2009 - PGFN - Débitos Previdenciários - Parcelamento de Dívidas Não Parceladas Anteriormente - Art. 1º",
+                    "Período do Fato Gerador": "Diversos"
+                },
+                {
+                    "Código Darf": 1165,
+                    "Descrição do tributo/contribuição": "Parcelamento Lei nº 11.941, de 2009 - PGFN - Débitos Previdenciários - Parcelamento de Saldo Remanescente dos Programas Refis, Paes, Paex e Parcelamentos Ordinários - Art. 3º",
+                    "Período do Fato Gerador": "Diversos"
+                },
+                {
+                    "Código Darf": 1194,
+                    "Descrição do tributo/contribuição": "Parcelamento Lei nº 11.941, de 2009 - PGFN - Demais Débitos - Parcelamento de Dívidas Não Parceladas Anteriormente - Art. 1º",
+                    "Período do Fato Gerador": "Diversos"
+                },
+                {
+                    "Código Darf": 1204,
+                    "Descrição do tributo/contribuição": "Parcelamento Lei nº 11.941, de 2009 - PGFN - Demais Débitos - Parcelamento de Saldo Remanescente dos Programas Refis, Paes, Paex e Parcelamentos Ordinários - Art. 3º",
+                    "Período do Fato Gerador": "Diversos"
+                },
+                {
+                    "Código Darf": 1210,
+                    "Descrição do tributo/contribuição": "Parcelamento Lei nº 11.941, de 2009 - PGFN - Parcelamento Dívida Decorrente de Aproveitamento Indevido de Créditos de IPI - Art. 2º",
+                    "Período do Fato Gerador": "Diversos"
+                },
+                {
+                    "Código Darf": 1233,
+                    "Descrição do tributo/contribuição": "Parcelamento Lei nº 11.941, de 2009 - RFB - Débitos Previdenciários - Parcelamento de Dívidas Não Parceladas Anteriormente - Art. 1º",
+                    "Período do Fato Gerador": "Diversos"
+                },
+                {
+                    "Código Darf": 1240,
+                    "Descrição do tributo/contribuição": "Parcelamento Lei nº 11.941, de 2009 - RFB - Débitos Previdenciários - Parcelamento de Saldo Remanescente dos Programas Refis, Paes, Paex e Parcelamentos Ordinários - Art. 3º",
+                    "Período do Fato Gerador": "Diversos"
+                },
+                {
+                    "Código Darf": 1279,
+                    "Descrição do tributo/contribuição": "Parcelamento Lei nº 11.941, de 2009 - RFB - Demais Débitos - Parcelamento de Dívidas Não Parceladas Anteriormente - Art. 1º",
+                    "Período do Fato Gerador": "Diversos"
+                },
+                {
+                    "Código Darf": 1285,
+                    "Descrição do tributo/contribuição": "Parcelamento Lei nº 11.941, de 2009 - RFB - Demais Débitos - Parcelamento de Saldo Remanescente dos Programas Refis, Paes, Paex e Parcelamentos Ordinários - Art. 3º",
+                    "Período do Fato Gerador": "Diversos"
+                },
+                {
+                    "Código Darf": 1291,
+                    "Descrição do tributo/contribuição": "Parcelamento Lei nº 11.941, de 2009 - RFB - Parcelamento Dívida Decorrente de Aproveitamento Indevido de Créditos de IPI - Art. 2º",
+                    "Período do Fato Gerador": "Diversos"
+                },
+                {
+                    "Código Darf": 3780,
+                    "Descrição do tributo/contribuição": "Reabertura Lei nº 11.941, de 2009 - PGFN - Débitos Previdenciários - Parcelamento de Dívidas Não Parceladas Anteriormente - Art. 1º",
+                    "Período do Fato Gerador": "Diversos"
+                },
+                {
+                    "Código Darf": 3796,
+                    "Descrição do tributo/contribuição": "Reabertura Lei nº 11.941, de 2009 - PGFN - Débitos Previdenciários - Parcelamento de Saldo Remanescente dos Programas Refis, Paes, Paex e Parcelamentos Ordinários - Art. 3º",
+                    "Período do Fato Gerador": "Diversos"
+                },
+                {
+                    "Código Darf": 3835,
+                    "Descrição do tributo/contribuição": "Reabertura Lei nº 11.941, de 2009 - PGFN - Demais Débitos - Parcelamento de Dívidas Não Parceladas Anteriormente - Art. 1º",
+                    "Período do Fato Gerador": "Diversos"
+                },
+                {
+                    "Código Darf": 3841,
+                    "Descrição do tributo/contribuição": "Reabertura Lei nº 11.941, de 2009 - PGFN - Demais Débitos - Parcelamento de Saldo Remanescente dos Programas Refis, Paes, Paex e Parcelamentos Ordinários - Art. 3º",
+                    "Período do Fato Gerador": "Diversos"
+                },
+                {
+                    "Código Darf": 3858,
+                    "Descrição do tributo/contribuição": "Reabertura Lei nº 11.941, de 2009 - PGFN - Parcelamento Dívida Decorrente de Aproveitamento Indevido de Créditos de IPI - Art. 2º",
+                    "Período do Fato Gerador": "Diversos"
+                },
+                {
+                    "Código Darf": 3870,
+                    "Descrição do tributo/contribuição": "Reabertura Lei nº 11.941, de 2009 - RFB - Débitos Previdenciários - Parcelamento de Dívidas Não Parceladas Anteriormente - Art. 1º",
+                    "Período do Fato Gerador": "Diversos"
+                },
+                {
+                    "Código Darf": 3887,
+                    "Descrição do tributo/contribuição": "Reabertura Lei nº 11.941, de 2009 - RFB - Débitos Previdenciários - Parcelamento de Saldo Remanescente dos Programas Refis, Paes, Paex e Parcelamentos Ordinários - Art. 3º",
+                    "Período do Fato Gerador": "Diversos"
+                },
+                {
+                    "Código Darf": 3926,
+                    "Descrição do tributo/contribuição": "Reabertura Lei nº 11.941, de 2009 - RFB - Demais Débitos - Parcelamento de Dívidas Não Parceladas Anteriormente - Art. 1º",
+                    "Período do Fato Gerador": "Diversos"
+                },
+                {
+                    "Código Darf": 3932,
+                    "Descrição do tributo/contribuição": "Reabertura Lei nº 11.941, de 2009 - RFB - Demais Débitos - Parcelamento de Saldo Remanescente dos Programas Refis, Paes, Paex e Parcelamentos Ordinários - Art. 3º",
+                    "Período do Fato Gerador": "Diversos"
+                },
+                {
+                    "Código Darf": 3955,
+                    "Descrição do tributo/contribuição": "Reabertura Lei nº 11.941, de 2009 - RFB - Parcelamento Dívida Decorrente de Aproveitamento Indevido de Créditos de IPI - Art. 2º",
+                    "Período do Fato Gerador": "Diversos"
+                },
+                {
+                    "Código Darf": 4059,
+                    "Descrição do tributo/contribuição": "Parcelamento Lei nº 12.865, de 2013 - RFB - Parcelamento IRPJ/CSLL - Art. 40",
+                    "Período do Fato Gerador": "Diversos"
+                },
+                {
+                    "Código Darf": 4065,
+                    "Descrição do tributo/contribuição": "Parcelamento Lei nº 12.865, de 2013 - PGFN - Parcelamento IRPJ/CSLL - Art. 40",
+                    "Período do Fato Gerador": "Diversos"
+                },
+                {
+                    "Código Darf": 4007,
+                    "Descrição do tributo/contribuição": "Parcelamento Lei nº 12.865, de 2013 - PIS/Cofins - RFB - Instituições Financeiras e Cia Seguradoras - Art. 39, Caput",
+                    "Período do Fato Gerador": "Diversos"
+                },
+                {
+                    "Código Darf": 4013,
+                    "Descrição do tributo/contribuição": "Parcelamento Lei nº 12.865, de 2013 - PIS/Cofins - PGFN - Instituições Financeiras e Cia Seguradoras - Art. 39, Caput",
+                    "Período do Fato Gerador": "Diversos"
+                },
+                {
+                    "Código Darf": 4020,
+                    "Descrição do tributo/contribuição": "Parcelamento Lei nº 12.865, de 2013 - PIS/Cofins - RFB - Art. 39, § 1º",
+                    "Período do Fato Gerador": "Diversos"
+                },
+                {
+                    "Código Darf": 4042,
+                    "Descrição do tributo/contribuição": "Parcelamento Lei nº 12.865, de 2013 - PIS/Cofins - PGFN Art. 39, § 1º",
+                    "Período do Fato Gerador": "Diversos"
+                },
+                {
+                    "Código Darf": 4720,
+                    "Descrição do tributo/contribuição": "Parcelamento Lei nº 12.966, de 2014 - PGFN - Débitos Previdenciários - Parcelamento",
+                    "Período do Fato Gerador": "Diversos"
+                },
+                {
+                    "Código Darf": 4737,
+                    "Descrição do tributo/contribuição": "Parcelamento Lei nº 12.966, de 2014 - PGFN - Demais Débitos - Parcelamento",
+                    "Período do Fato Gerador": "Diversos"
+                },
+                {
+                    "Código Darf": 4743,
+                    "Descrição do tributo/contribuição": "Parcelamento Lei nº 12.966, de 2014 - RFB - Débitos Previdenciários - Parcelamento",
+                    "Período do Fato Gerador": "Diversos"
+                },
+                {
+                    "Código Darf": 4750,
+                    "Descrição do tributo/contribuição": "Parcelamento Lei nº 12.966, de 2014 - RFB - Demais Débitos - Parcelamento",
+                    "Período do Fato Gerador": "Diversos"
+                },
+                {
+                    "Código Darf": 4983,
+                    "Descrição do tributo/contribuição": "Parcelamento - IRPJ/CSLL - Ganho de Capital - RFB",
+                    "Período do Fato Gerador": "Diversos"
+                },
+                {
+                    "Código Darf": 4990,
+                    "Descrição do tributo/contribuição": "Parcelamento - IRPJ/CSLL - Ganho de Capital - PGFN",
+                    "Período do Fato Gerador": "Diversos"
+                },
+                {
+                    "Código Darf": 5184,
+                    "Descrição do tributo/contribuição": "Programa de Regularização Tributária - PRT - Demais Débitos",
+                    "Período do Fato Gerador": "Diversos"
+                },
+                {
+                    "Código Darf": 5190,
+                    "Descrição do tributo/contribuição": "Programa Especial de Regularização Tributária - Pert - Demais Débitos",
+                    "Período do Fato Gerador": "Diversos"
+                },
+                {
+                    "Código Darf": 5525,
+                    "Descrição do tributo/contribuição": "Programa de Regularização de Débitos dos Estados e Municípios - Prem -",
+                    "Período do Fato Gerador": "Diversos"
+                },
+                {
+                    "Código Darf": 5161,
+                    "Descrição do tributo/contribuição": "Programa de Regularização Tributária Rural - PRR",
+                    "Período do Fato Gerador": "Diversos"
+                },
+                {
+                    "Código Darf": 6063,
+                    "Descrição do tributo/contribuição": "Parcelamento Constitucional Excepcional dos Débitos Decorrentes de Contribuições Previdenciárias dos Municípios",
+                    "Período do Fato Gerador": "Diversos"
+                }
+            ],
+            [
+                {
+                    "Código GPS": 4324,
+                    "Descrição do tributo/contribuição": "Parcelamento Especial - Simples Nacional Art. 7º § 4º IN/ RFB nº 767/2007 - Pessoa jurídica optante pelo Simples Nacional",
+                    "Período do Fato Gerador": "Diversos"
+                },
+                {
+                    "Código GPS": 4359,
+                    "Descrição do tributo/contribuição": "Parcelamento para Ingresso no Simples Nacional - 2009 Art. 7º § 4º IN/RFB nº 902/2008 - Pessoa jurídica optante pelo Simples Nacional",
+                    "Período do Fato Gerador": "Diversos"
+                },
+                {
+                    "Código GPS": 4105,
+                    "Descrição do tributo/contribuição": "Parcelamento – CEI",
+                    "Período do Fato Gerador": "Diversos"
+                },
+                {
+                    "Código GPS": 4135,
+                    "Descrição do tributo/contribuição": "Programa de Regularização Tributária - PRT - Débitos Previdenciários - Pessoa Jurídica",
+                    "Período do Fato Gerador": "Diversos"
+                },
+                {
+                    "Código GPS": 4136,
+                    "Descrição do tributo/contribuição": "Programa de Regularização Tributária - PRT - Débitos Previdenciários - Pessoa Física",
+                    "Período do Fato Gerador": "Diversos"
+                },
+                {
+                    "Código GPS": 4141,
+                    "Descrição do tributo/contribuição": "Programa Especial de Regularização Tributária - Pert - Débitos Previdenciários - Pessoa Jurídica",
+                    "Período do Fato Gerador": "Diversos"
+                },
+                {
+                    "Código GPS": 4142,
+                    "Descrição do tributo/contribuição": "Programa Especial de Regularização Tributária - Pert - Débitos Previdenciários - Pessoa Física",
+                    "Período do Fato Gerador": "Diversos"
+                },
+                {
+                    "Código GPS": 1759,
+                    "Descrição do tributo/contribuição": "Acréscimos Legais de Contribuinte Individual, Doméstico, Facultativo e Segurado Especial - Lei nº 8.212/91 - NIT/PIS/PASEP",
+                    "Período do Fato Gerador": "Diversos"
+                },
+                {
+                    "Código GPS": 1201,
+                    "Descrição do tributo/contribuição": "GRC Trabalhador Pessoa Física (Contribuinte Individual, Facultativo, Empregado Doméstico, Segurado Especial) - DEBCAD (Preenchimento exclusivo pelo órgão emissor)",
+                    "Período do Fato Gerador": "Diversos"
+                },
+                {
+                    "Código GPS": 3000,
+                    "Descrição do tributo/contribuição": "ACAL - CNPJ",
+                    "Período do Fato Gerador": "Diversos"
+                },
+                {
+                    "Código GPS": 3107,
+                    "Descrição do tributo/contribuição": "ACAL - CEI",
+                    "Período do Fato Gerador": "Diversos"
+                },
+                {
+                    "Código GPS": 3204,
+                    "Descrição do tributo/contribuição": "GRC Contribuição de empresa normal - DEBCAD (preenchimento exclusivo pelo órgão emissor)",
+                    "Período do Fato Gerador": "Diversos"
+                },
+                {
+                    "Código GPS": 4006,
+                    "Descrição do tributo/contribuição": "Pagamento de débito - DEBCAD (preenchimento exclusivo pelo órgão emissor)",
+                    "Período do Fato Gerador": "Diversos"
+                },
+                {
+                    "Código GPS": 4103,
+                    "Descrição do tributo/contribuição": "Pagamento/Parcelamento de débito - CNPJ",
+                    "Período do Fato Gerador": "Diversos"
+                },
+                {
+                    "Código GPS": 4200,
+                    "Descrição do tributo/contribuição": "Pagamento de débito administrativo - Número do título de cobrança (preenchimento exclusivo pelo órgão emissor)",
+                    "Período do Fato Gerador": "Diversos"
+                },
+                {
+                    "Código GPS": 4308,
+                    "Descrição do tributo/contribuição": "Pagamento de parcelamento administrativo - número do título de cobrança (preenchimento exclusivo pelo órgão emissor)",
+                    "Período do Fato Gerador": "Diversos"
+                },
+                {
+                    "Código GPS": 4995,
+                    "Descrição do tributo/contribuição": "Depósito Recursal Extrajudicial - Número do Título de Cobrança - Pagamento exclusivo na Caixa Econômica Federal (CDC=104)",
+                    "Período do Fato Gerador": "Diversos"
+                },
+                {
+                    "Código GPS": 6009,
+                    "Descrição do tributo/contribuição": "Pagamento de Dívida Ativa Débito - Referência (Preenchimento exclusivo pelo órgão emissor)",
+                    "Período do Fato Gerador": "Diversos"
+                },
+                {
+                    "Código GPS": 6203,
+                    "Descrição do tributo/contribuição": "Pagamento de Dívida Ativa Ação Judicial - Referência (Preenchimento exclusivo pelo órgão emissor)",
+                    "Período do Fato Gerador": "Diversos"
+                },
+                {
+                    "Código GPS": 6300,
+                    "Descrição do tributo/contribuição": "Pagamento de Dívida Ativa Cobrança Amigável - Referência (Preenchimento exclusivo pelo órgão emissor)",
+                    "Período do Fato Gerador": "Diversos"
+                },
+                {
+                    "Código GPS": 6408,
+                    "Descrição do tributo/contribuição": "Pagamento de Dívida Ativa Parcelamento - Referência (Preenchimento exclusivo pelo órgão emissor)",
+                    "Período do Fato Gerador": "Diversos"
+                },
+                {
+                    "Código GPS": 6513,
+                    "Descrição do tributo/contribuição": "Comprev - pagamento de dívida ativa - não parcelada de regime próprio de previdência social RPPS - órgão do poder público - referência",
+                    "Período do Fato Gerador": "Diversos"
+                }
+            ],
+            [
+                {
+                    "Documento": "DAS (Documento de Arrecadação do Simples Nacional)",
+                    "Descrição do tributo/contribuição": "Parcelamento - Simples Nacional Art. 7º § 3º IN/RFB nº 1.508/2014 - Microempresa e Empresa de Pequeno Porte optante pelo Simples Nacional",
+                    "Período do Fato Gerador": "Diversos"
+                },
+                {
+                    "Documento": "DAS-MEI (Documento de Arrecadação Simplificada do Microempreendedor Individual)",
+                    "Descrição do tributo/contribuição": "Parcelamento - Simples Nacional Art. 7º § 3º IN/RFB nº 1.508/2014 - Microempreendedor Individual optante pelo Simples Nacional",
+                    "Período do Fato Gerador": "Diversos"
+                },
+                {
+                    "Documento": "DAS (Documento de Arrecadação do Simples Nacional)",
+                    "Descrição do tributo/contribuição": "Parcelamento Especial - Simples Nacional Art. 5º § 3º IN/RFB nº 1.677/2016 - Pessoa jurídica optante pelo Simples Nacional",
+                    "Período do Fato Gerador": "Diversos"
+                },
+                {
+                    "Documento": "DAS-MEI (Documento de Arrecadação Simplificada do Microempreendedor Individual)",
+                    "Descrição do tributo/contribuição": "Parcelamento - Simples Nacional Art. 4º § 3º IN/RFB nº 1.713/2017 - Microempreendedor Individual optante pelo Simples Nacional",
+                    "Período do Fato Gerador": "Diversos"
+                },
+                {
+                    "Documento": "DAS (Documento de Arrecadação do Simples Nacional)",
+                    "Descrição do tributo/contribuição": "Programa Especial de Regularização Tributária das Microempresas e Empresas de Pequeno Porte optantes pelo Simples Nacional (Pert-SN)",
+                    "Período do Fato Gerador": "Diversos"
+                },
+                {
+                    "Documento": "DAS-MEI (Documento de Arrecadação Simplificada do Microempreendedor Individual)",
+                    "Descrição do tributo/contribuição": "Programa Especial de Regularização Tributária das Microempresas e Empresas de Pequeno Porte optantes pelo Simples Nacional (Pert-SN) Microempreendedor Individual",
+                    "Período do Fato Gerador": "Diversos"
+                }
+            ],
+            [
+                {
+                    "Declarações, Demonstrativos e Documentos de Interesse Principal das Pessoas Jurídicas": "DME - Declaração de Operações Liquidadas com Moeda em Espécie",
+                    "Período de Apuração": "Dezembro/2024"
+                },
+                {
+                    "Declarações, Demonstrativos e Documentos de Interesse Principal das Pessoas Jurídicas": "DOI - Declaração sobre Operações Imobiliárias",
+                    "Período de Apuração": "Dezembro/2024"
+                },
+                {
+                    "Declarações, Demonstrativos e Documentos de Interesse Principal das Pessoas Jurídicas": "Opção pelo Regime Especial Unificado de Arrecadação de Tributos e Contribuições devidos pelas Microempresas e Empresas de Pequeno Porte - Simples Nacional",
+                    "Período de Apuração": "---------------"
+                },
+                {
+                    "Declarações, Demonstrativos e Documentos de Interesse Principal das Pessoas Jurídicas": "Opção pelo Sistema de Recolhimento em Valores Fixos Mensais dos Tributos abrangidos pelo Simples Nacional (SIMEI) pelo Microempreendedor Individual - MEI",
+                    "Período de Apuração": "---------------"
+                }
+            ],
+            [
+                {
+                    "Declarações, Demonstrativos e Documentos de Interesse Principal das Pessoas Físicas": "DME - Declaração de Operações Liquidadas com Moeda em Espécie",
+                    "Período de Apuração": "Dezembro/2024"
+                },
+                {
+                    "Declarações, Demonstrativos e Documentos de Interesse Principal das Pessoas Físicas": "DOI - Declaração sobre Operações Imobiliárias",
+                    "Período de Apuração": "Dezembro/2024"
+                }
+            ]
+        ]
+    }
+}
