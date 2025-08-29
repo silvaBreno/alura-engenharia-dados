@@ -10,6 +10,7 @@ from logger_config import LoggerConfig
 from jsonschema import validate, ValidationError
 
 logger = LoggerConfig.configurar_logger()
+logger.info("Verificando rotação de log...")
 
 class AgendaTributariaScraper:
 
