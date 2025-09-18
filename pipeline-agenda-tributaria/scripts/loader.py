@@ -2,7 +2,7 @@ import json
 from datetime import datetime
 from pathlib import Path
 from jsonschema import validate, ValidationError
-from scripts.logger_config import LoggerConfig
+from .logger_config import LoggerConfig
 
 logger = LoggerConfig.configurar_logger()
 
@@ -15,8 +15,11 @@ class AgendaLoader:
     def salvar_json(self, caminho_arquivo=None, caminho_schema=None):
         logger.info(f"💾 Salvando JSON da Agenda Tributária para o ano {self.ano}")
         try:
-            if not caminho_arquivo:
-                caminho_arquivo = f"../data/transformed/teste17_agenda_tributaria_{self.ano}.json"
+            if caminho_arquivo is None:
+                # Constrói o caminho para a pasta data/transformed a partir da raiz do projeto
+                output_dir = Path(__file__).parent.parent / "data" / "transformed"
+                output_dir.mkdir(parents=True, exist_ok=True)  # Garante que o diretório exista
+                caminho_arquivo = output_dir / f"agenda_tributaria_{self.ano}.json"
 
             estrutura_final = {
                 "fonte": self.base_url,
@@ -24,7 +27,7 @@ class AgendaLoader:
                 "ano": self.ano,
                 "meses": self.dados_agenda
             }
-            if not caminho_schema:
+            if caminho_schema is None:
                 # Caminho absoluto baseado na raiz do projeto
                 caminho_schema = Path(__file__).parent.parent / "schemas" / "agenda_schema.json"
 

@@ -1,7 +1,7 @@
-from scripts.extractor import AgendaExtractor
-from scripts.transformer import AgendaTransformer
-from scripts.loader import AgendaLoader
-from scripts.logger_config import LoggerConfig
+from .extractor import AgendaExtractor
+from .transformer import AgendaTransformer
+from .loader import AgendaLoader
+from .logger_config import LoggerConfig
 
 logger = LoggerConfig.configurar_logger()
 logger.info("🚀 Logger inicializado no main.py")
@@ -26,4 +26,6 @@ def run_pipeline(ano):
     logger.info("-" * 80)
 
 if __name__ == "__main__":
-    run_pipeline(2025)
+    # Defina aqui o ano para o qual você deseja executar o pipeline
+    ano_execucao = 2025
+    run_pipeline(ano_execucao)

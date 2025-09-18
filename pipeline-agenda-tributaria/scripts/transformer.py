@@ -1,6 +1,6 @@
 import unicodedata
 from bs4 import BeautifulSoup
-from scripts.logger_config import LoggerConfig
+from .logger_config import LoggerConfig
 
 logger = LoggerConfig.configurar_logger()
 

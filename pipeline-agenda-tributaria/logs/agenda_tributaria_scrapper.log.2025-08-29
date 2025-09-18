@@ -1,0 +1,727 @@
+2025-08-29 10:47:38,160 - INFO -   - Dia: dia-03-09-2025
+2025-08-29 10:47:40,924 - INFO -   - Dia: dia-05-09-2025
+2025-08-29 10:47:44,290 - INFO -   - Dia: dia-10-09-2025
+2025-08-29 10:47:46,320 - INFO -   - Dia: dia-12-09-2025
+2025-08-29 10:47:47,506 - INFO -   - Dia: dia-15-09-2025
+2025-08-29 10:47:49,668 - INFO -   - Dia: dia-19-09-2025
+2025-08-29 10:47:51,790 - INFO -   - Dia: dia-20-09-2025
+2025-08-29 10:47:53,828 - INFO -   - Dia: dia-22-09-2025
+2025-08-29 10:47:55,817 - INFO -   - Dia: dia-24-09-2025
+2025-08-29 10:47:57,833 - INFO -   - Dia: dia-25-09-2025
+2025-08-29 10:47:59,028 - INFO -   - Dia: dia-30-09-2025
+2025-08-29 10:48:00,247 - INFO - --------------------------------------------------------------------------------
+2025-08-29 10:48:00,248 - INFO - Finalizado o processamento da Agenda Tributária do ano de 2025
+2025-08-29 10:48:00,248 - INFO - --------------------------------------------------------------------------------
+2025-08-29 10:48:00,381 - INFO - ✅ JSON validado e salvo com sucesso em '../data/transformed/teste16_agenda_tributaria_2025.json'.
+2025-08-29 13:16:04,359 - INFO - ✅ Logger configurado com rotação diária e saída para arquivo e terminal.
+2025-08-29 13:16:04,360 - INFO - 🧪 Teste de log no terminal e no arquivo.
+2025-08-29 13:19:36,511 - INFO - 🚀 Logger inicializado no main.py
+2025-08-29 13:19:36,512 - INFO - ================================================================================
+2025-08-29 13:19:36,512 - INFO - 🚀 Iniciando pipeline de processamento para o ano 2025
+2025-08-29 13:19:36,512 - INFO - ================================================================================
+2025-08-29 13:19:36,512 - INFO - ================================================================================
+2025-08-29 13:19:36,512 - INFO - 🚀 Iniciando extração da Agenda Tributária para o ano 2025
+2025-08-29 13:19:36,512 - INFO - ================================================================================
+2025-08-29 13:19:36,512 - INFO - 🔍 Buscando links dos meses na URL base: https://www.gov.br/receitafederal/pt-br/assuntos/agenda-tributaria/2025
+2025-08-29 13:19:36,646 - INFO - ✅ 9 meses encontrados.
+2025-08-29 13:19:36,647 - INFO - 📅 Processando mês: janeiro
+2025-08-29 13:19:36,648 - INFO - 🔍 Buscando links de dias no mês: https://www.gov.br/receitafederal/pt-br/assuntos/agenda-tributaria/2025/janeiro
+2025-08-29 13:19:36,779 - INFO - ✅ 10 dias encontrados em https://www.gov.br/receitafederal/pt-br/assuntos/agenda-tributaria/2025/janeiro
+2025-08-29 13:19:37,781 - INFO -   📆 Dia: dia-06-01-2025
+2025-08-29 13:19:37,782 - INFO - 📄 Extraindo tabelas da data: https://www.gov.br/receitafederal/pt-br/assuntos/agenda-tributaria/2025/janeiro/dia-06-01-2025
+2025-08-29 13:19:37,955 - INFO - ✅ 35 registros extraídos de https://www.gov.br/receitafederal/pt-br/assuntos/agenda-tributaria/2025/janeiro/dia-06-01-2025
+2025-08-29 13:19:38,956 - INFO -   📆 Dia: dia-08-01-2025
+2025-08-29 13:19:38,956 - INFO - 📄 Extraindo tabelas da data: https://www.gov.br/receitafederal/pt-br/assuntos/agenda-tributaria/2025/janeiro/dia-08-01-2025
+2025-08-29 13:19:40,015 - INFO - ✅ 2 registros extraídos de https://www.gov.br/receitafederal/pt-br/assuntos/agenda-tributaria/2025/janeiro/dia-08-01-2025
+2025-08-29 13:19:41,016 - INFO -   📆 Dia: dia-10-01-2025
+2025-08-29 13:19:41,017 - INFO - 📄 Extraindo tabelas da data: https://www.gov.br/receitafederal/pt-br/assuntos/agenda-tributaria/2025/janeiro/dia-10-01-2025
+2025-08-29 13:19:41,667 - INFO - ✅ 3 registros extraídos de https://www.gov.br/receitafederal/pt-br/assuntos/agenda-tributaria/2025/janeiro/dia-10-01-2025
+2025-08-29 13:19:42,669 - INFO -   📆 Dia: dia-15-01-2025
+2025-08-29 13:19:42,669 - INFO - 📄 Extraindo tabelas da data: https://www.gov.br/receitafederal/pt-br/assuntos/agenda-tributaria/2025/janeiro/dia-15-01-2025
+2025-08-29 13:19:42,831 - INFO - ✅ 63 registros extraídos de https://www.gov.br/receitafederal/pt-br/assuntos/agenda-tributaria/2025/janeiro/dia-15-01-2025
+2025-08-29 13:19:43,832 - INFO -   📆 Dia: dia-20-01-2025
+2025-08-29 13:19:43,833 - INFO - 📄 Extraindo tabelas da data: https://www.gov.br/receitafederal/pt-br/assuntos/agenda-tributaria/2025/janeiro/dia-20-01-2025
+2025-08-29 13:19:44,060 - INFO - ✅ 55 registros extraídos de https://www.gov.br/receitafederal/pt-br/assuntos/agenda-tributaria/2025/janeiro/dia-20-01-2025
+2025-08-29 13:19:45,062 - INFO -   📆 Dia: dia-22-01-2025
+2025-08-29 13:19:45,062 - INFO - 📄 Extraindo tabelas da data: https://www.gov.br/receitafederal/pt-br/assuntos/agenda-tributaria/2025/janeiro/dia-22-01-2025
+2025-08-29 13:19:45,236 - INFO - ✅ 1 registros extraídos de https://www.gov.br/receitafederal/pt-br/assuntos/agenda-tributaria/2025/janeiro/dia-22-01-2025
+2025-08-29 13:19:46,237 - INFO -   📆 Dia: dia-23-01-2025
+2025-08-29 13:19:46,237 - INFO - 📄 Extraindo tabelas da data: https://www.gov.br/receitafederal/pt-br/assuntos/agenda-tributaria/2025/janeiro/dia-23-01-2025
+2025-08-29 13:19:47,356 - INFO - ✅ 27 registros extraídos de https://www.gov.br/receitafederal/pt-br/assuntos/agenda-tributaria/2025/janeiro/dia-23-01-2025
+2025-08-29 13:19:48,357 - INFO -   📆 Dia: dia-24-01-2025
+2025-08-29 13:19:48,358 - INFO - 📄 Extraindo tabelas da data: https://www.gov.br/receitafederal/pt-br/assuntos/agenda-tributaria/2025/janeiro/dia-24-01-2025
+2025-08-29 13:19:48,518 - INFO - ✅ 33 registros extraídos de https://www.gov.br/receitafederal/pt-br/assuntos/agenda-tributaria/2025/janeiro/dia-24-01-2025
+2025-08-29 13:19:49,519 - INFO -   📆 Dia: dia-27-01-2025
+2025-08-29 13:19:49,520 - INFO - 📄 Extraindo tabelas da data: https://www.gov.br/receitafederal/pt-br/assuntos/agenda-tributaria/2025/janeiro/dia-27-01-2025
+2025-08-29 13:19:49,641 - INFO - ✅ 8 registros extraídos de https://www.gov.br/receitafederal/pt-br/assuntos/agenda-tributaria/2025/janeiro/dia-27-01-2025
+2025-08-29 13:19:50,642 - INFO -   📆 Dia: dia-31-01-2025
+2025-08-29 13:19:50,643 - INFO - 📄 Extraindo tabelas da data: https://www.gov.br/receitafederal/pt-br/assuntos/agenda-tributaria/2025/janeiro/dia-31-01-2025
+2025-08-29 13:19:50,790 - INFO - ✅ 112 registros extraídos de https://www.gov.br/receitafederal/pt-br/assuntos/agenda-tributaria/2025/janeiro/dia-31-01-2025
+2025-08-29 13:19:51,791 - INFO - 📅 Processando mês: fevereiro
+2025-08-29 13:19:51,792 - INFO - 🔍 Buscando links de dias no mês: https://www.gov.br/receitafederal/pt-br/assuntos/agenda-tributaria/2025/fevereiro
+2025-08-29 13:19:53,108 - INFO - ✅ 10 dias encontrados em https://www.gov.br/receitafederal/pt-br/assuntos/agenda-tributaria/2025/fevereiro
+2025-08-29 13:19:54,109 - INFO -   📆 Dia: dia-05-02-2025
+2025-08-29 13:19:54,109 - INFO - 📄 Extraindo tabelas da data: https://www.gov.br/receitafederal/pt-br/assuntos/agenda-tributaria/2025/fevereiro/dia-05-02-2025
+2025-08-29 13:19:55,188 - INFO - ✅ 35 registros extraídos de https://www.gov.br/receitafederal/pt-br/assuntos/agenda-tributaria/2025/fevereiro/dia-05-02-2025
+2025-08-29 13:19:56,722 - INFO -   📆 Dia: dia-07-02-2025
+2025-08-29 13:19:56,723 - INFO - 📄 Extraindo tabelas da data: https://www.gov.br/receitafederal/pt-br/assuntos/agenda-tributaria/2025/fevereiro/dia-07-02-2025
+2025-08-29 13:19:56,853 - INFO - ✅ 2 registros extraídos de https://www.gov.br/receitafederal/pt-br/assuntos/agenda-tributaria/2025/fevereiro/dia-07-02-2025
+2025-08-29 13:19:57,854 - INFO -   📆 Dia: dia-10-02-2025
+2025-08-29 13:19:57,855 - INFO - 📄 Extraindo tabelas da data: https://www.gov.br/receitafederal/pt-br/assuntos/agenda-tributaria/2025/fevereiro/dia-10-02-2025
+2025-08-29 13:19:58,087 - INFO - ✅ 3 registros extraídos de https://www.gov.br/receitafederal/pt-br/assuntos/agenda-tributaria/2025/fevereiro/dia-10-02-2025
+2025-08-29 13:19:59,088 - INFO -   📆 Dia: dia-13-02-2025
+2025-08-29 13:19:59,089 - INFO - 📄 Extraindo tabelas da data: https://www.gov.br/receitafederal/pt-br/assuntos/agenda-tributaria/2025/fevereiro/dia-13-02-2025
+2025-08-29 13:19:59,231 - INFO - ✅ 29 registros extraídos de https://www.gov.br/receitafederal/pt-br/assuntos/agenda-tributaria/2025/fevereiro/dia-13-02-2025
+2025-08-29 13:20:00,233 - INFO -   📆 Dia: dia-14-02-2025
+2025-08-29 13:20:00,233 - INFO - 📄 Extraindo tabelas da data: https://www.gov.br/receitafederal/pt-br/assuntos/agenda-tributaria/2025/fevereiro/dia-14-02-2025
+2025-08-29 13:20:01,335 - INFO - ✅ 16 registros extraídos de https://www.gov.br/receitafederal/pt-br/assuntos/agenda-tributaria/2025/fevereiro/dia-14-02-2025
+2025-08-29 13:20:02,336 - INFO -   📆 Dia: dia-17-02-2025
+2025-08-29 13:20:02,337 - INFO - 📄 Extraindo tabelas da data: https://www.gov.br/receitafederal/pt-br/assuntos/agenda-tributaria/2025/fevereiro/dia-17-02-2025
+2025-08-29 13:20:02,472 - INFO - ✅ 19 registros extraídos de https://www.gov.br/receitafederal/pt-br/assuntos/agenda-tributaria/2025/fevereiro/dia-17-02-2025
+2025-08-29 13:20:03,473 - INFO -   📆 Dia: dia-20-02-2025
+2025-08-29 13:20:03,473 - INFO - 📄 Extraindo tabelas da data: https://www.gov.br/receitafederal/pt-br/assuntos/agenda-tributaria/2025/fevereiro/dia-20-02-2025
+2025-08-29 13:20:05,015 - INFO - ✅ 55 registros extraídos de https://www.gov.br/receitafederal/pt-br/assuntos/agenda-tributaria/2025/fevereiro/dia-20-02-2025
+2025-08-29 13:20:06,016 - INFO -   📆 Dia: dia-21-02-2025
+2025-08-29 13:20:06,017 - INFO - 📄 Extraindo tabelas da data: https://www.gov.br/receitafederal/pt-br/assuntos/agenda-tributaria/2025/fevereiro/dia-21-02-2025
+2025-08-29 13:20:07,154 - INFO - ✅ 1 registros extraídos de https://www.gov.br/receitafederal/pt-br/assuntos/agenda-tributaria/2025/fevereiro/dia-21-02-2025
+2025-08-29 13:20:08,155 - INFO -   📆 Dia: dia-25-02-2025
+2025-08-29 13:20:08,156 - INFO - 📄 Extraindo tabelas da data: https://www.gov.br/receitafederal/pt-br/assuntos/agenda-tributaria/2025/fevereiro/dia-25-02-2025
+2025-08-29 13:20:09,261 - INFO - ✅ 68 registros extraídos de https://www.gov.br/receitafederal/pt-br/assuntos/agenda-tributaria/2025/fevereiro/dia-25-02-2025
+2025-08-29 13:20:10,263 - INFO -   📆 Dia: dia-28-02-2025
+2025-08-29 13:20:10,264 - INFO - 📄 Extraindo tabelas da data: https://www.gov.br/receitafederal/pt-br/assuntos/agenda-tributaria/2025/fevereiro/dia-28-02-2025
+2025-08-29 13:20:10,474 - INFO - ✅ 116 registros extraídos de https://www.gov.br/receitafederal/pt-br/assuntos/agenda-tributaria/2025/fevereiro/dia-28-02-2025
+2025-08-29 13:20:11,475 - INFO - 📅 Processando mês: marco
+2025-08-29 13:20:11,475 - INFO - 🔍 Buscando links de dias no mês: https://www.gov.br/receitafederal/pt-br/assuntos/agenda-tributaria/2025/marco
+2025-08-29 13:20:11,597 - INFO - ✅ 11 dias encontrados em https://www.gov.br/receitafederal/pt-br/assuntos/agenda-tributaria/2025/marco
+2025-08-29 13:20:12,598 - INFO -   📆 Dia: dia-05-03-2025
+2025-08-29 13:20:12,599 - INFO - 📄 Extraindo tabelas da data: https://www.gov.br/receitafederal/pt-br/assuntos/agenda-tributaria/2025/marco/dia-05-03-2025
+2025-08-29 13:20:12,741 - INFO - ✅ 8 registros extraídos de https://www.gov.br/receitafederal/pt-br/assuntos/agenda-tributaria/2025/marco/dia-05-03-2025
+2025-08-29 13:20:13,742 - INFO -   📆 Dia: dia-07-03-2025
+2025-08-29 13:20:13,743 - INFO - 📄 Extraindo tabelas da data: https://www.gov.br/receitafederal/pt-br/assuntos/agenda-tributaria/2025/marco/dia-07-03-2025
+2025-08-29 13:20:13,883 - INFO - ✅ 27 registros extraídos de https://www.gov.br/receitafederal/pt-br/assuntos/agenda-tributaria/2025/marco/dia-07-03-2025
+2025-08-29 13:20:14,884 - INFO -   📆 Dia: dia-10-03-2025
+2025-08-29 13:20:14,885 - INFO - 📄 Extraindo tabelas da data: https://www.gov.br/receitafederal/pt-br/assuntos/agenda-tributaria/2025/marco/dia-10-03-2025
+2025-08-29 13:20:15,024 - INFO - ✅ 3 registros extraídos de https://www.gov.br/receitafederal/pt-br/assuntos/agenda-tributaria/2025/marco/dia-10-03-2025
+2025-08-29 13:20:16,025 - INFO -   📆 Dia: dia-11-03-2025
+2025-08-29 13:20:16,026 - INFO - 📄 Extraindo tabelas da data: https://www.gov.br/receitafederal/pt-br/assuntos/agenda-tributaria/2025/marco/dia-11-03-2025
+2025-08-29 13:20:16,193 - INFO - ✅ 2 registros extraídos de https://www.gov.br/receitafederal/pt-br/assuntos/agenda-tributaria/2025/marco/dia-11-03-2025
+2025-08-29 13:20:17,194 - INFO -   📆 Dia: dia-13-03-2025
+2025-08-29 13:20:17,195 - INFO - 📄 Extraindo tabelas da data: https://www.gov.br/receitafederal/pt-br/assuntos/agenda-tributaria/2025/marco/dia-13-03-2025
+2025-08-29 13:20:18,291 - INFO - ✅ 29 registros extraídos de https://www.gov.br/receitafederal/pt-br/assuntos/agenda-tributaria/2025/marco/dia-13-03-2025
+2025-08-29 13:20:19,294 - INFO -   📆 Dia: dia-14-03-2025
+2025-08-29 13:20:19,294 - INFO - 📄 Extraindo tabelas da data: https://www.gov.br/receitafederal/pt-br/assuntos/agenda-tributaria/2025/marco/dia-14-03-2025
+2025-08-29 13:20:19,426 - INFO - ✅ 4 registros extraídos de https://www.gov.br/receitafederal/pt-br/assuntos/agenda-tributaria/2025/marco/dia-14-03-2025
+2025-08-29 13:20:20,427 - INFO -   📆 Dia: dia-17-03-2025
+2025-08-29 13:20:20,428 - INFO - 📄 Extraindo tabelas da data: https://www.gov.br/receitafederal/pt-br/assuntos/agenda-tributaria/2025/marco/dia-17-03-2025
+2025-08-29 13:20:20,561 - INFO - ✅ 19 registros extraídos de https://www.gov.br/receitafederal/pt-br/assuntos/agenda-tributaria/2025/marco/dia-17-03-2025
+2025-08-29 13:20:21,561 - INFO -   📆 Dia: dia-18-03-2025
+2025-08-29 13:20:21,562 - INFO - 📄 Extraindo tabelas da data: https://www.gov.br/receitafederal/pt-br/assuntos/agenda-tributaria/2025/marco/dia-18-03-2025
+2025-08-29 13:20:21,742 - INFO - ✅ 1 registros extraídos de https://www.gov.br/receitafederal/pt-br/assuntos/agenda-tributaria/2025/marco/dia-18-03-2025
+2025-08-29 13:20:22,744 - INFO -   📆 Dia: dia-20-03-2025
+2025-08-29 13:20:22,745 - INFO - 📄 Extraindo tabelas da data: https://www.gov.br/receitafederal/pt-br/assuntos/agenda-tributaria/2025/marco/dia-20-03-2025
+2025-08-29 13:20:22,891 - INFO - ✅ 55 registros extraídos de https://www.gov.br/receitafederal/pt-br/assuntos/agenda-tributaria/2025/marco/dia-20-03-2025
+2025-08-29 13:20:23,893 - INFO -   📆 Dia: dia-25-03-2025
+2025-08-29 13:20:23,894 - INFO - 📄 Extraindo tabelas da data: https://www.gov.br/receitafederal/pt-br/assuntos/agenda-tributaria/2025/marco/dia-25-03-2025
+2025-08-29 13:20:24,046 - INFO - ✅ 68 registros extraídos de https://www.gov.br/receitafederal/pt-br/assuntos/agenda-tributaria/2025/marco/dia-25-03-2025
+2025-08-29 13:20:25,048 - INFO -   📆 Dia: dia-31-03-2025
+2025-08-29 13:20:25,049 - INFO - 📄 Extraindo tabelas da data: https://www.gov.br/receitafederal/pt-br/assuntos/agenda-tributaria/2025/marco/dia-31-03-2025
+2025-08-29 13:20:26,710 - INFO - ✅ 119 registros extraídos de https://www.gov.br/receitafederal/pt-br/assuntos/agenda-tributaria/2025/marco/dia-31-03-2025
+2025-08-29 13:20:27,712 - INFO - 📅 Processando mês: abril
+2025-08-29 13:20:27,713 - INFO - 🔍 Buscando links de dias no mês: https://www.gov.br/receitafederal/pt-br/assuntos/agenda-tributaria/2025/abril
+2025-08-29 13:20:28,766 - INFO - ✅ 11 dias encontrados em https://www.gov.br/receitafederal/pt-br/assuntos/agenda-tributaria/2025/abril
+2025-08-29 13:20:29,767 - INFO -   📆 Dia: dia-03-04-2025
+2025-08-29 13:20:29,768 - INFO - 📄 Extraindo tabelas da data: https://www.gov.br/receitafederal/pt-br/assuntos/agenda-tributaria/2025/abril/dia-03-04-2025
+2025-08-29 13:20:29,919 - INFO - ✅ 27 registros extraídos de https://www.gov.br/receitafederal/pt-br/assuntos/agenda-tributaria/2025/abril/dia-03-04-2025
+2025-08-29 13:20:30,921 - INFO -   📆 Dia: dia-07-04-2025
+2025-08-29 13:20:30,921 - INFO - 📄 Extraindo tabelas da data: https://www.gov.br/receitafederal/pt-br/assuntos/agenda-tributaria/2025/abril/dia-07-04-2025
+2025-08-29 13:20:31,066 - INFO - ✅ 10 registros extraídos de https://www.gov.br/receitafederal/pt-br/assuntos/agenda-tributaria/2025/abril/dia-07-04-2025
+2025-08-29 13:20:32,068 - INFO -   📆 Dia: dia-10-04-2025
+2025-08-29 13:20:32,069 - INFO - 📄 Extraindo tabelas da data: https://www.gov.br/receitafederal/pt-br/assuntos/agenda-tributaria/2025/abril/dia-10-04-2025
+2025-08-29 13:20:32,194 - INFO - ✅ 3 registros extraídos de https://www.gov.br/receitafederal/pt-br/assuntos/agenda-tributaria/2025/abril/dia-10-04-2025
+2025-08-29 13:20:33,196 - INFO -   📆 Dia: dia-14-04-2025
+2025-08-29 13:20:33,196 - INFO - 📄 Extraindo tabelas da data: https://www.gov.br/receitafederal/pt-br/assuntos/agenda-tributaria/2025/abril/dia-14-04-2025
+2025-08-29 13:20:34,192 - INFO - ✅ 1 registros extraídos de https://www.gov.br/receitafederal/pt-br/assuntos/agenda-tributaria/2025/abril/dia-14-04-2025
+2025-08-29 13:20:35,194 - INFO -   📆 Dia: dia-15-04-2025
+2025-08-29 13:20:35,195 - INFO - 📄 Extraindo tabelas da data: https://www.gov.br/receitafederal/pt-br/assuntos/agenda-tributaria/2025/abril/dia-15-04-2025
+2025-08-29 13:20:35,445 - INFO - ✅ 61 registros extraídos de https://www.gov.br/receitafederal/pt-br/assuntos/agenda-tributaria/2025/abril/dia-15-04-2025
+2025-08-29 13:20:36,446 - INFO -   📆 Dia: dia-17-04-2025
+2025-08-29 13:20:36,446 - INFO - 📄 Extraindo tabelas da data: https://www.gov.br/receitafederal/pt-br/assuntos/agenda-tributaria/2025/abril/dia-17-04-2025
+2025-08-29 13:20:36,583 - INFO - ✅ 37 registros extraídos de https://www.gov.br/receitafederal/pt-br/assuntos/agenda-tributaria/2025/abril/dia-17-04-2025
+2025-08-29 13:20:37,585 - INFO -   📆 Dia: dia-20-04-2025
+2025-08-29 13:20:37,586 - INFO - 📄 Extraindo tabelas da data: https://www.gov.br/receitafederal/pt-br/assuntos/agenda-tributaria/2025/abril/dia-20-04-2025
+2025-08-29 13:20:37,715 - INFO - ✅ 1 registros extraídos de https://www.gov.br/receitafederal/pt-br/assuntos/agenda-tributaria/2025/abril/dia-20-04-2025
+2025-08-29 13:20:38,716 - INFO -   📆 Dia: dia-22-04-2025
+2025-08-29 13:20:38,717 - INFO - 📄 Extraindo tabelas da data: https://www.gov.br/receitafederal/pt-br/assuntos/agenda-tributaria/2025/abril/dia-22-04-2025
+2025-08-29 13:20:38,846 - INFO - ✅ 17 registros extraídos de https://www.gov.br/receitafederal/pt-br/assuntos/agenda-tributaria/2025/abril/dia-22-04-2025
+2025-08-29 13:20:39,847 - INFO -   📆 Dia: dia-24-04-2025
+2025-08-29 13:20:39,848 - INFO - 📄 Extraindo tabelas da data: https://www.gov.br/receitafederal/pt-br/assuntos/agenda-tributaria/2025/abril/dia-24-04-2025
+2025-08-29 13:20:39,990 - INFO - ✅ 27 registros extraídos de https://www.gov.br/receitafederal/pt-br/assuntos/agenda-tributaria/2025/abril/dia-24-04-2025
+2025-08-29 13:20:40,991 - INFO -   📆 Dia: dia-25-04-2025
+2025-08-29 13:20:40,992 - INFO - 📄 Extraindo tabelas da data: https://www.gov.br/receitafederal/pt-br/assuntos/agenda-tributaria/2025/abril/dia-25-04-2025
+2025-08-29 13:20:41,188 - INFO - ✅ 41 registros extraídos de https://www.gov.br/receitafederal/pt-br/assuntos/agenda-tributaria/2025/abril/dia-25-04-2025
+2025-08-29 13:20:42,190 - INFO -   📆 Dia: dia-30-04-2025
+2025-08-29 13:20:42,190 - INFO - 📄 Extraindo tabelas da data: https://www.gov.br/receitafederal/pt-br/assuntos/agenda-tributaria/2025/abril/dia-30-04-2025
+2025-08-29 13:20:42,454 - INFO - ✅ 111 registros extraídos de https://www.gov.br/receitafederal/pt-br/assuntos/agenda-tributaria/2025/abril/dia-30-04-2025
+2025-08-29 13:20:43,455 - INFO - 📅 Processando mês: maio
+2025-08-29 13:20:43,456 - INFO - 🔍 Buscando links de dias no mês: https://www.gov.br/receitafederal/pt-br/assuntos/agenda-tributaria/2025/maio
+2025-08-29 13:20:43,710 - INFO - ✅ 11 dias encontrados em https://www.gov.br/receitafederal/pt-br/assuntos/agenda-tributaria/2025/maio
+2025-08-29 13:20:44,712 - INFO -   📆 Dia: dia-05-05-2025
+2025-08-29 13:20:44,712 - INFO - 📄 Extraindo tabelas da data: https://www.gov.br/receitafederal/pt-br/assuntos/agenda-tributaria/2025/maio/dia-05-05-2025
+2025-08-29 13:20:44,875 - INFO - ✅ 8 registros extraídos de https://www.gov.br/receitafederal/pt-br/assuntos/agenda-tributaria/2025/maio/dia-05-05-2025
+2025-08-29 13:20:45,877 - INFO -   📆 Dia: dia-06-05-2025
+2025-08-29 13:20:45,877 - INFO - 📄 Extraindo tabelas da data: https://www.gov.br/receitafederal/pt-br/assuntos/agenda-tributaria/2025/maio/dia-06-05-2025
+2025-08-29 13:20:46,066 - INFO - ✅ 27 registros extraídos de https://www.gov.br/receitafederal/pt-br/assuntos/agenda-tributaria/2025/maio/dia-06-05-2025
+2025-08-29 13:20:47,069 - INFO -   📆 Dia: dia-08-05-2025
+2025-08-29 13:20:47,069 - INFO - 📄 Extraindo tabelas da data: https://www.gov.br/receitafederal/pt-br/assuntos/agenda-tributaria/2025/maio/dia-08-05-2025
+2025-08-29 13:20:48,047 - INFO - ✅ 2 registros extraídos de https://www.gov.br/receitafederal/pt-br/assuntos/agenda-tributaria/2025/maio/dia-08-05-2025
+2025-08-29 13:20:49,049 - INFO -   📆 Dia: dia-09-05-2025
+2025-08-29 13:20:49,050 - INFO - 📄 Extraindo tabelas da data: https://www.gov.br/receitafederal/pt-br/assuntos/agenda-tributaria/2025/maio/dia-09-05-2025
+2025-08-29 13:20:49,218 - INFO - ✅ 3 registros extraídos de https://www.gov.br/receitafederal/pt-br/assuntos/agenda-tributaria/2025/maio/dia-09-05-2025
+2025-08-29 13:20:50,219 - INFO -   📆 Dia: dia-14-05-2025
+2025-08-29 13:20:50,220 - INFO - 📄 Extraindo tabelas da data: https://www.gov.br/receitafederal/pt-br/assuntos/agenda-tributaria/2025/maio/dia-14-05-2025
+2025-08-29 13:20:51,879 - INFO - ✅ 29 registros extraídos de https://www.gov.br/receitafederal/pt-br/assuntos/agenda-tributaria/2025/maio/dia-14-05-2025
+2025-08-29 13:20:52,880 - INFO -   📆 Dia: dia-15-05-2025
+2025-08-29 13:20:52,881 - INFO - 📄 Extraindo tabelas da data: https://www.gov.br/receitafederal/pt-br/assuntos/agenda-tributaria/2025/maio/dia-15-05-2025
+2025-08-29 13:20:53,166 - INFO - ✅ 25 registros extraídos de https://www.gov.br/receitafederal/pt-br/assuntos/agenda-tributaria/2025/maio/dia-15-05-2025
+2025-08-29 13:20:54,169 - INFO -   📆 Dia: dia-20-05-2025
+2025-08-29 13:20:54,169 - INFO - 📄 Extraindo tabelas da data: https://www.gov.br/receitafederal/pt-br/assuntos/agenda-tributaria/2025/maio/dia-20-05-2025
+2025-08-29 13:20:54,379 - INFO - ✅ 55 registros extraídos de https://www.gov.br/receitafederal/pt-br/assuntos/agenda-tributaria/2025/maio/dia-20-05-2025
+2025-08-29 13:20:55,381 - INFO -   📆 Dia: dia-23-05-2025
+2025-08-29 13:20:55,382 - INFO - 📄 Extraindo tabelas da data: https://www.gov.br/receitafederal/pt-br/assuntos/agenda-tributaria/2025/maio/dia-23-05-2025
+2025-08-29 13:20:56,376 - INFO - ✅ 60 registros extraídos de https://www.gov.br/receitafederal/pt-br/assuntos/agenda-tributaria/2025/maio/dia-23-05-2025
+2025-08-29 13:20:57,378 - INFO -   📆 Dia: dia-26-05-2025
+2025-08-29 13:20:57,378 - INFO - 📄 Extraindo tabelas da data: https://www.gov.br/receitafederal/pt-br/assuntos/agenda-tributaria/2025/maio/dia-26-05-2025
+2025-08-29 13:20:58,347 - INFO - ✅ 8 registros extraídos de https://www.gov.br/receitafederal/pt-br/assuntos/agenda-tributaria/2025/maio/dia-26-05-2025
+2025-08-29 13:20:59,348 - INFO -   📆 Dia: dia-30-05-2025
+2025-08-29 13:20:59,349 - INFO - 📄 Extraindo tabelas da data: https://www.gov.br/receitafederal/pt-br/assuntos/agenda-tributaria/2025/maio/dia-30-05-2025
+2025-08-29 13:21:00,545 - INFO - ✅ 115 registros extraídos de https://www.gov.br/receitafederal/pt-br/assuntos/agenda-tributaria/2025/maio/dia-30-05-2025
+2025-08-29 13:21:02,077 - INFO -   📆 Dia: dia-31-05-2025
+2025-08-29 13:21:02,078 - INFO - 📄 Extraindo tabelas da data: https://www.gov.br/receitafederal/pt-br/assuntos/agenda-tributaria/2025/maio/dia-31-05-2025
+2025-08-29 13:21:02,220 - INFO - ✅ 1 registros extraídos de https://www.gov.br/receitafederal/pt-br/assuntos/agenda-tributaria/2025/maio/dia-31-05-2025
+2025-08-29 13:21:03,221 - INFO - 📅 Processando mês: junho
+2025-08-29 13:21:03,221 - INFO - 🔍 Buscando links de dias no mês: https://www.gov.br/receitafederal/pt-br/assuntos/agenda-tributaria/2025/junho
+2025-08-29 13:21:03,404 - INFO - ✅ 9 dias encontrados em https://www.gov.br/receitafederal/pt-br/assuntos/agenda-tributaria/2025/junho
+2025-08-29 13:21:04,405 - INFO -   📆 Dia: dia-04-06-2025
+2025-08-29 13:21:04,405 - INFO - 📄 Extraindo tabelas da data: https://www.gov.br/receitafederal/pt-br/assuntos/agenda-tributaria/2025/junho/dia-04-06-2025
+2025-08-29 13:21:04,545 - INFO - ✅ 27 registros extraídos de https://www.gov.br/receitafederal/pt-br/assuntos/agenda-tributaria/2025/junho/dia-04-06-2025
+2025-08-29 13:21:05,547 - INFO -   📆 Dia: dia-05-06-2025
+2025-08-29 13:21:05,547 - INFO - 📄 Extraindo tabelas da data: https://www.gov.br/receitafederal/pt-br/assuntos/agenda-tributaria/2025/junho/dia-05-06-2025
+2025-08-29 13:21:05,771 - INFO - ✅ 8 registros extraídos de https://www.gov.br/receitafederal/pt-br/assuntos/agenda-tributaria/2025/junho/dia-05-06-2025
+2025-08-29 13:21:06,773 - INFO -   📆 Dia: dia-06-06-2025
+2025-08-29 13:21:06,773 - INFO - 📄 Extraindo tabelas da data: https://www.gov.br/receitafederal/pt-br/assuntos/agenda-tributaria/2025/junho/dia-06-06-2025
+2025-08-29 13:21:06,898 - INFO - ✅ 2 registros extraídos de https://www.gov.br/receitafederal/pt-br/assuntos/agenda-tributaria/2025/junho/dia-06-06-2025
+2025-08-29 13:23:07,608 - INFO - 🚀 Logger inicializado no main.py
+2025-08-29 13:23:07,608 - INFO - ================================================================================
+2025-08-29 13:23:07,608 - INFO - 🚀 Iniciando pipeline de processamento para o ano 2025
+2025-08-29 13:23:07,608 - INFO - ================================================================================
+2025-08-29 13:23:07,608 - INFO - ================================================================================
+2025-08-29 13:23:07,608 - INFO - 🚀 Iniciando extração da Agenda Tributária para o ano 2025
+2025-08-29 13:23:07,608 - INFO - ================================================================================
+2025-08-29 13:23:07,608 - INFO - 🔍 Buscando links dos meses na URL base: https://www.gov.br/receitafederal/pt-br/assuntos/agenda-tributaria/2025
+2025-08-29 13:23:07,790 - INFO - ✅ 9 meses encontrados.
+2025-08-29 13:23:07,791 - INFO - 📅 Processando mês: janeiro
+2025-08-29 13:23:07,791 - INFO - 🔍 Buscando links de dias no mês: https://www.gov.br/receitafederal/pt-br/assuntos/agenda-tributaria/2025/janeiro
+2025-08-29 13:23:07,918 - INFO - ✅ 10 dias encontrados em https://www.gov.br/receitafederal/pt-br/assuntos/agenda-tributaria/2025/janeiro
+2025-08-29 13:23:08,919 - INFO -   📆 Dia: dia-06-01-2025
+2025-08-29 13:23:08,920 - INFO - 📄 Extraindo tabelas da data: https://www.gov.br/receitafederal/pt-br/assuntos/agenda-tributaria/2025/janeiro/dia-06-01-2025
+2025-08-29 13:23:10,008 - INFO - ✅ 35 registros extraídos de https://www.gov.br/receitafederal/pt-br/assuntos/agenda-tributaria/2025/janeiro/dia-06-01-2025
+2025-08-29 13:23:11,010 - INFO -   📆 Dia: dia-08-01-2025
+2025-08-29 13:23:11,011 - INFO - 📄 Extraindo tabelas da data: https://www.gov.br/receitafederal/pt-br/assuntos/agenda-tributaria/2025/janeiro/dia-08-01-2025
+2025-08-29 13:23:11,323 - INFO - ✅ 2 registros extraídos de https://www.gov.br/receitafederal/pt-br/assuntos/agenda-tributaria/2025/janeiro/dia-08-01-2025
+2025-08-29 13:23:12,859 - INFO -   📆 Dia: dia-10-01-2025
+2025-08-29 13:23:12,861 - INFO - 📄 Extraindo tabelas da data: https://www.gov.br/receitafederal/pt-br/assuntos/agenda-tributaria/2025/janeiro/dia-10-01-2025
+2025-08-29 13:23:14,324 - INFO - ✅ 3 registros extraídos de https://www.gov.br/receitafederal/pt-br/assuntos/agenda-tributaria/2025/janeiro/dia-10-01-2025
+2025-08-29 13:23:15,326 - INFO -   📆 Dia: dia-15-01-2025
+2025-08-29 13:23:15,326 - INFO - 📄 Extraindo tabelas da data: https://www.gov.br/receitafederal/pt-br/assuntos/agenda-tributaria/2025/janeiro/dia-15-01-2025
+2025-08-29 13:23:15,533 - INFO - ✅ 63 registros extraídos de https://www.gov.br/receitafederal/pt-br/assuntos/agenda-tributaria/2025/janeiro/dia-15-01-2025
+2025-08-29 13:23:16,535 - INFO -   📆 Dia: dia-20-01-2025
+2025-08-29 13:23:16,535 - INFO - 📄 Extraindo tabelas da data: https://www.gov.br/receitafederal/pt-br/assuntos/agenda-tributaria/2025/janeiro/dia-20-01-2025
+2025-08-29 13:23:16,680 - INFO - ✅ 55 registros extraídos de https://www.gov.br/receitafederal/pt-br/assuntos/agenda-tributaria/2025/janeiro/dia-20-01-2025
+2025-08-29 13:23:17,682 - INFO -   📆 Dia: dia-22-01-2025
+2025-08-29 13:23:17,682 - INFO - 📄 Extraindo tabelas da data: https://www.gov.br/receitafederal/pt-br/assuntos/agenda-tributaria/2025/janeiro/dia-22-01-2025
+2025-08-29 13:23:17,808 - INFO - ✅ 1 registros extraídos de https://www.gov.br/receitafederal/pt-br/assuntos/agenda-tributaria/2025/janeiro/dia-22-01-2025
+2025-08-29 13:23:18,810 - INFO -   📆 Dia: dia-23-01-2025
+2025-08-29 13:23:18,810 - INFO - 📄 Extraindo tabelas da data: https://www.gov.br/receitafederal/pt-br/assuntos/agenda-tributaria/2025/janeiro/dia-23-01-2025
+2025-08-29 13:23:19,015 - INFO - ✅ 27 registros extraídos de https://www.gov.br/receitafederal/pt-br/assuntos/agenda-tributaria/2025/janeiro/dia-23-01-2025
+2025-08-29 13:23:20,017 - INFO -   📆 Dia: dia-24-01-2025
+2025-08-29 13:23:20,018 - INFO - 📄 Extraindo tabelas da data: https://www.gov.br/receitafederal/pt-br/assuntos/agenda-tributaria/2025/janeiro/dia-24-01-2025
+2025-08-29 13:23:20,148 - INFO - ✅ 33 registros extraídos de https://www.gov.br/receitafederal/pt-br/assuntos/agenda-tributaria/2025/janeiro/dia-24-01-2025
+2025-08-29 13:23:21,150 - INFO -   📆 Dia: dia-27-01-2025
+2025-08-29 13:23:21,151 - INFO - 📄 Extraindo tabelas da data: https://www.gov.br/receitafederal/pt-br/assuntos/agenda-tributaria/2025/janeiro/dia-27-01-2025
+2025-08-29 13:23:21,324 - INFO - ✅ 8 registros extraídos de https://www.gov.br/receitafederal/pt-br/assuntos/agenda-tributaria/2025/janeiro/dia-27-01-2025
+2025-08-29 13:23:22,326 - INFO -   📆 Dia: dia-31-01-2025
+2025-08-29 13:23:22,326 - INFO - 📄 Extraindo tabelas da data: https://www.gov.br/receitafederal/pt-br/assuntos/agenda-tributaria/2025/janeiro/dia-31-01-2025
+2025-08-29 13:23:22,479 - INFO - ✅ 112 registros extraídos de https://www.gov.br/receitafederal/pt-br/assuntos/agenda-tributaria/2025/janeiro/dia-31-01-2025
+2025-08-29 13:23:23,480 - INFO - 📅 Processando mês: fevereiro
+2025-08-29 13:23:23,480 - INFO - 🔍 Buscando links de dias no mês: https://www.gov.br/receitafederal/pt-br/assuntos/agenda-tributaria/2025/fevereiro
+2025-08-29 13:23:23,608 - INFO - ✅ 10 dias encontrados em https://www.gov.br/receitafederal/pt-br/assuntos/agenda-tributaria/2025/fevereiro
+2025-08-29 13:23:24,609 - INFO -   📆 Dia: dia-05-02-2025
+2025-08-29 13:23:24,609 - INFO - 📄 Extraindo tabelas da data: https://www.gov.br/receitafederal/pt-br/assuntos/agenda-tributaria/2025/fevereiro/dia-05-02-2025
+2025-08-29 13:23:24,744 - INFO - ✅ 35 registros extraídos de https://www.gov.br/receitafederal/pt-br/assuntos/agenda-tributaria/2025/fevereiro/dia-05-02-2025
+2025-08-29 13:23:25,745 - INFO -   📆 Dia: dia-07-02-2025
+2025-08-29 13:23:25,746 - INFO - 📄 Extraindo tabelas da data: https://www.gov.br/receitafederal/pt-br/assuntos/agenda-tributaria/2025/fevereiro/dia-07-02-2025
+2025-08-29 13:23:25,896 - INFO - ✅ 2 registros extraídos de https://www.gov.br/receitafederal/pt-br/assuntos/agenda-tributaria/2025/fevereiro/dia-07-02-2025
+2025-08-29 13:23:26,898 - INFO -   📆 Dia: dia-10-02-2025
+2025-08-29 13:23:26,898 - INFO - 📄 Extraindo tabelas da data: https://www.gov.br/receitafederal/pt-br/assuntos/agenda-tributaria/2025/fevereiro/dia-10-02-2025
+2025-08-29 13:23:28,013 - INFO - ✅ 3 registros extraídos de https://www.gov.br/receitafederal/pt-br/assuntos/agenda-tributaria/2025/fevereiro/dia-10-02-2025
+2025-08-29 13:23:29,015 - INFO -   📆 Dia: dia-13-02-2025
+2025-08-29 13:23:29,016 - INFO - 📄 Extraindo tabelas da data: https://www.gov.br/receitafederal/pt-br/assuntos/agenda-tributaria/2025/fevereiro/dia-13-02-2025
+2025-08-29 13:23:29,149 - INFO - ✅ 29 registros extraídos de https://www.gov.br/receitafederal/pt-br/assuntos/agenda-tributaria/2025/fevereiro/dia-13-02-2025
+2025-08-29 13:23:30,150 - INFO -   📆 Dia: dia-14-02-2025
+2025-08-29 13:23:30,151 - INFO - 📄 Extraindo tabelas da data: https://www.gov.br/receitafederal/pt-br/assuntos/agenda-tributaria/2025/fevereiro/dia-14-02-2025
+2025-08-29 13:23:30,291 - INFO - ✅ 16 registros extraídos de https://www.gov.br/receitafederal/pt-br/assuntos/agenda-tributaria/2025/fevereiro/dia-14-02-2025
+2025-08-29 13:23:31,293 - INFO -   📆 Dia: dia-17-02-2025
+2025-08-29 13:23:31,293 - INFO - 📄 Extraindo tabelas da data: https://www.gov.br/receitafederal/pt-br/assuntos/agenda-tributaria/2025/fevereiro/dia-17-02-2025
+2025-08-29 13:23:31,428 - INFO - ✅ 19 registros extraídos de https://www.gov.br/receitafederal/pt-br/assuntos/agenda-tributaria/2025/fevereiro/dia-17-02-2025
+2025-08-29 13:23:32,429 - INFO -   📆 Dia: dia-20-02-2025
+2025-08-29 13:23:32,429 - INFO - 📄 Extraindo tabelas da data: https://www.gov.br/receitafederal/pt-br/assuntos/agenda-tributaria/2025/fevereiro/dia-20-02-2025
+2025-08-29 13:23:33,564 - INFO - ✅ 55 registros extraídos de https://www.gov.br/receitafederal/pt-br/assuntos/agenda-tributaria/2025/fevereiro/dia-20-02-2025
+2025-08-29 13:23:34,566 - INFO -   📆 Dia: dia-21-02-2025
+2025-08-29 13:23:34,566 - INFO - 📄 Extraindo tabelas da data: https://www.gov.br/receitafederal/pt-br/assuntos/agenda-tributaria/2025/fevereiro/dia-21-02-2025
+2025-08-29 13:23:34,703 - INFO - ✅ 1 registros extraídos de https://www.gov.br/receitafederal/pt-br/assuntos/agenda-tributaria/2025/fevereiro/dia-21-02-2025
+2025-08-29 13:23:35,704 - INFO -   📆 Dia: dia-25-02-2025
+2025-08-29 13:23:35,705 - INFO - 📄 Extraindo tabelas da data: https://www.gov.br/receitafederal/pt-br/assuntos/agenda-tributaria/2025/fevereiro/dia-25-02-2025
+2025-08-29 13:23:38,522 - INFO - ✅ 68 registros extraídos de https://www.gov.br/receitafederal/pt-br/assuntos/agenda-tributaria/2025/fevereiro/dia-25-02-2025
+2025-08-29 13:23:39,523 - INFO -   📆 Dia: dia-28-02-2025
+2025-08-29 13:23:39,524 - INFO - 📄 Extraindo tabelas da data: https://www.gov.br/receitafederal/pt-br/assuntos/agenda-tributaria/2025/fevereiro/dia-28-02-2025
+2025-08-29 13:23:39,732 - INFO - ✅ 116 registros extraídos de https://www.gov.br/receitafederal/pt-br/assuntos/agenda-tributaria/2025/fevereiro/dia-28-02-2025
+2025-08-29 13:23:40,733 - INFO - 📅 Processando mês: marco
+2025-08-29 13:23:40,733 - INFO - 🔍 Buscando links de dias no mês: https://www.gov.br/receitafederal/pt-br/assuntos/agenda-tributaria/2025/marco
+2025-08-29 13:23:40,917 - INFO - ✅ 11 dias encontrados em https://www.gov.br/receitafederal/pt-br/assuntos/agenda-tributaria/2025/marco
+2025-08-29 13:23:41,918 - INFO -   📆 Dia: dia-05-03-2025
+2025-08-29 13:23:41,918 - INFO - 📄 Extraindo tabelas da data: https://www.gov.br/receitafederal/pt-br/assuntos/agenda-tributaria/2025/marco/dia-05-03-2025
+2025-08-29 13:23:42,063 - INFO - ✅ 8 registros extraídos de https://www.gov.br/receitafederal/pt-br/assuntos/agenda-tributaria/2025/marco/dia-05-03-2025
+2025-08-29 13:23:43,064 - INFO -   📆 Dia: dia-07-03-2025
+2025-08-29 13:23:43,065 - INFO - 📄 Extraindo tabelas da data: https://www.gov.br/receitafederal/pt-br/assuntos/agenda-tributaria/2025/marco/dia-07-03-2025
+2025-08-29 13:23:43,225 - INFO - ✅ 27 registros extraídos de https://www.gov.br/receitafederal/pt-br/assuntos/agenda-tributaria/2025/marco/dia-07-03-2025
+2025-08-29 13:23:44,227 - INFO -   📆 Dia: dia-10-03-2025
+2025-08-29 13:23:44,228 - INFO - 📄 Extraindo tabelas da data: https://www.gov.br/receitafederal/pt-br/assuntos/agenda-tributaria/2025/marco/dia-10-03-2025
+2025-08-29 13:23:44,397 - INFO - ✅ 3 registros extraídos de https://www.gov.br/receitafederal/pt-br/assuntos/agenda-tributaria/2025/marco/dia-10-03-2025
+2025-08-29 13:23:45,937 - INFO -   📆 Dia: dia-11-03-2025
+2025-08-29 13:23:45,938 - INFO - 📄 Extraindo tabelas da data: https://www.gov.br/receitafederal/pt-br/assuntos/agenda-tributaria/2025/marco/dia-11-03-2025
+2025-08-29 13:23:46,206 - INFO - ✅ 2 registros extraídos de https://www.gov.br/receitafederal/pt-br/assuntos/agenda-tributaria/2025/marco/dia-11-03-2025
+2025-08-29 13:23:47,207 - INFO -   📆 Dia: dia-13-03-2025
+2025-08-29 13:23:47,208 - INFO - 📄 Extraindo tabelas da data: https://www.gov.br/receitafederal/pt-br/assuntos/agenda-tributaria/2025/marco/dia-13-03-2025
+2025-08-29 13:23:47,473 - INFO - ✅ 29 registros extraídos de https://www.gov.br/receitafederal/pt-br/assuntos/agenda-tributaria/2025/marco/dia-13-03-2025
+2025-08-29 13:23:48,474 - INFO -   📆 Dia: dia-14-03-2025
+2025-08-29 13:23:48,475 - INFO - 📄 Extraindo tabelas da data: https://www.gov.br/receitafederal/pt-br/assuntos/agenda-tributaria/2025/marco/dia-14-03-2025
+2025-08-29 13:23:48,617 - INFO - ✅ 4 registros extraídos de https://www.gov.br/receitafederal/pt-br/assuntos/agenda-tributaria/2025/marco/dia-14-03-2025
+2025-08-29 13:23:49,618 - INFO -   📆 Dia: dia-17-03-2025
+2025-08-29 13:23:49,618 - INFO - 📄 Extraindo tabelas da data: https://www.gov.br/receitafederal/pt-br/assuntos/agenda-tributaria/2025/marco/dia-17-03-2025
+2025-08-29 13:23:49,760 - INFO - ✅ 19 registros extraídos de https://www.gov.br/receitafederal/pt-br/assuntos/agenda-tributaria/2025/marco/dia-17-03-2025
+2025-08-29 13:23:50,761 - INFO -   📆 Dia: dia-18-03-2025
+2025-08-29 13:23:50,762 - INFO - 📄 Extraindo tabelas da data: https://www.gov.br/receitafederal/pt-br/assuntos/agenda-tributaria/2025/marco/dia-18-03-2025
+2025-08-29 13:23:51,246 - INFO - ✅ 1 registros extraídos de https://www.gov.br/receitafederal/pt-br/assuntos/agenda-tributaria/2025/marco/dia-18-03-2025
+2025-08-29 13:23:52,248 - INFO -   📆 Dia: dia-20-03-2025
+2025-08-29 13:23:52,250 - INFO - 📄 Extraindo tabelas da data: https://www.gov.br/receitafederal/pt-br/assuntos/agenda-tributaria/2025/marco/dia-20-03-2025
+2025-08-29 13:23:53,473 - INFO - ✅ 55 registros extraídos de https://www.gov.br/receitafederal/pt-br/assuntos/agenda-tributaria/2025/marco/dia-20-03-2025
+2025-08-29 13:23:54,474 - INFO -   📆 Dia: dia-25-03-2025
+2025-08-29 13:23:54,475 - INFO - 📄 Extraindo tabelas da data: https://www.gov.br/receitafederal/pt-br/assuntos/agenda-tributaria/2025/marco/dia-25-03-2025
+2025-08-29 13:23:54,676 - INFO - ✅ 68 registros extraídos de https://www.gov.br/receitafederal/pt-br/assuntos/agenda-tributaria/2025/marco/dia-25-03-2025
+2025-08-29 13:23:55,677 - INFO -   📆 Dia: dia-31-03-2025
+2025-08-29 13:23:55,678 - INFO - 📄 Extraindo tabelas da data: https://www.gov.br/receitafederal/pt-br/assuntos/agenda-tributaria/2025/marco/dia-31-03-2025
+2025-08-29 13:23:55,929 - INFO - ✅ 119 registros extraídos de https://www.gov.br/receitafederal/pt-br/assuntos/agenda-tributaria/2025/marco/dia-31-03-2025
+2025-08-29 13:23:56,931 - INFO - 📅 Processando mês: abril
+2025-08-29 13:23:56,931 - INFO - 🔍 Buscando links de dias no mês: https://www.gov.br/receitafederal/pt-br/assuntos/agenda-tributaria/2025/abril
+2025-08-29 13:23:57,058 - INFO - ✅ 11 dias encontrados em https://www.gov.br/receitafederal/pt-br/assuntos/agenda-tributaria/2025/abril
+2025-08-29 13:23:58,060 - INFO -   📆 Dia: dia-03-04-2025
+2025-08-29 13:23:58,061 - INFO - 📄 Extraindo tabelas da data: https://www.gov.br/receitafederal/pt-br/assuntos/agenda-tributaria/2025/abril/dia-03-04-2025
+2025-08-29 13:23:58,226 - INFO - ✅ 27 registros extraídos de https://www.gov.br/receitafederal/pt-br/assuntos/agenda-tributaria/2025/abril/dia-03-04-2025
+2025-08-29 13:23:59,228 - INFO -   📆 Dia: dia-07-04-2025
+2025-08-29 13:23:59,228 - INFO - 📄 Extraindo tabelas da data: https://www.gov.br/receitafederal/pt-br/assuntos/agenda-tributaria/2025/abril/dia-07-04-2025
+2025-08-29 13:24:01,340 - INFO - ✅ 10 registros extraídos de https://www.gov.br/receitafederal/pt-br/assuntos/agenda-tributaria/2025/abril/dia-07-04-2025
+2025-08-29 13:24:02,342 - INFO -   📆 Dia: dia-10-04-2025
+2025-08-29 13:24:02,342 - INFO - 📄 Extraindo tabelas da data: https://www.gov.br/receitafederal/pt-br/assuntos/agenda-tributaria/2025/abril/dia-10-04-2025
+2025-08-29 13:24:02,477 - INFO - ✅ 3 registros extraídos de https://www.gov.br/receitafederal/pt-br/assuntos/agenda-tributaria/2025/abril/dia-10-04-2025
+2025-08-29 13:24:03,479 - INFO -   📆 Dia: dia-14-04-2025
+2025-08-29 13:24:03,480 - INFO - 📄 Extraindo tabelas da data: https://www.gov.br/receitafederal/pt-br/assuntos/agenda-tributaria/2025/abril/dia-14-04-2025
+2025-08-29 13:24:03,650 - INFO - ✅ 1 registros extraídos de https://www.gov.br/receitafederal/pt-br/assuntos/agenda-tributaria/2025/abril/dia-14-04-2025
+2025-08-29 13:24:04,651 - INFO -   📆 Dia: dia-15-04-2025
+2025-08-29 13:24:04,652 - INFO - 📄 Extraindo tabelas da data: https://www.gov.br/receitafederal/pt-br/assuntos/agenda-tributaria/2025/abril/dia-15-04-2025
+2025-08-29 13:24:04,915 - INFO - ✅ 61 registros extraídos de https://www.gov.br/receitafederal/pt-br/assuntos/agenda-tributaria/2025/abril/dia-15-04-2025
+2025-08-29 13:24:05,916 - INFO -   📆 Dia: dia-17-04-2025
+2025-08-29 13:24:05,917 - INFO - 📄 Extraindo tabelas da data: https://www.gov.br/receitafederal/pt-br/assuntos/agenda-tributaria/2025/abril/dia-17-04-2025
+2025-08-29 13:24:07,012 - INFO - ✅ 37 registros extraídos de https://www.gov.br/receitafederal/pt-br/assuntos/agenda-tributaria/2025/abril/dia-17-04-2025
+2025-08-29 13:24:08,014 - INFO -   📆 Dia: dia-20-04-2025
+2025-08-29 13:24:08,015 - INFO - 📄 Extraindo tabelas da data: https://www.gov.br/receitafederal/pt-br/assuntos/agenda-tributaria/2025/abril/dia-20-04-2025
+2025-08-29 13:24:09,034 - INFO - ✅ 1 registros extraídos de https://www.gov.br/receitafederal/pt-br/assuntos/agenda-tributaria/2025/abril/dia-20-04-2025
+2025-08-29 13:24:10,036 - INFO -   📆 Dia: dia-22-04-2025
+2025-08-29 13:24:10,037 - INFO - 📄 Extraindo tabelas da data: https://www.gov.br/receitafederal/pt-br/assuntos/agenda-tributaria/2025/abril/dia-22-04-2025
+2025-08-29 13:24:10,231 - INFO - ✅ 17 registros extraídos de https://www.gov.br/receitafederal/pt-br/assuntos/agenda-tributaria/2025/abril/dia-22-04-2025
+2025-08-29 13:24:11,233 - INFO -   📆 Dia: dia-24-04-2025
+2025-08-29 13:24:11,234 - INFO - 📄 Extraindo tabelas da data: https://www.gov.br/receitafederal/pt-br/assuntos/agenda-tributaria/2025/abril/dia-24-04-2025
+2025-08-29 13:24:11,404 - INFO - ✅ 27 registros extraídos de https://www.gov.br/receitafederal/pt-br/assuntos/agenda-tributaria/2025/abril/dia-24-04-2025
+2025-08-29 13:24:12,405 - INFO -   📆 Dia: dia-25-04-2025
+2025-08-29 13:24:12,406 - INFO - 📄 Extraindo tabelas da data: https://www.gov.br/receitafederal/pt-br/assuntos/agenda-tributaria/2025/abril/dia-25-04-2025
+2025-08-29 13:24:12,689 - INFO - ✅ 41 registros extraídos de https://www.gov.br/receitafederal/pt-br/assuntos/agenda-tributaria/2025/abril/dia-25-04-2025
+2025-08-29 13:24:13,690 - INFO -   📆 Dia: dia-30-04-2025
+2025-08-29 13:24:13,691 - INFO - 📄 Extraindo tabelas da data: https://www.gov.br/receitafederal/pt-br/assuntos/agenda-tributaria/2025/abril/dia-30-04-2025
+2025-08-29 13:24:14,920 - INFO - ✅ 111 registros extraídos de https://www.gov.br/receitafederal/pt-br/assuntos/agenda-tributaria/2025/abril/dia-30-04-2025
+2025-08-29 13:24:15,921 - INFO - 📅 Processando mês: maio
+2025-08-29 13:24:15,923 - INFO - 🔍 Buscando links de dias no mês: https://www.gov.br/receitafederal/pt-br/assuntos/agenda-tributaria/2025/maio
+2025-08-29 13:24:16,113 - INFO - ✅ 11 dias encontrados em https://www.gov.br/receitafederal/pt-br/assuntos/agenda-tributaria/2025/maio
+2025-08-29 13:24:17,115 - INFO -   📆 Dia: dia-05-05-2025
+2025-08-29 13:24:17,116 - INFO - 📄 Extraindo tabelas da data: https://www.gov.br/receitafederal/pt-br/assuntos/agenda-tributaria/2025/maio/dia-05-05-2025
+2025-08-29 13:24:17,395 - INFO - ✅ 8 registros extraídos de https://www.gov.br/receitafederal/pt-br/assuntos/agenda-tributaria/2025/maio/dia-05-05-2025
+2025-08-29 13:24:18,932 - INFO -   📆 Dia: dia-06-05-2025
+2025-08-29 13:24:18,933 - INFO - 📄 Extraindo tabelas da data: https://www.gov.br/receitafederal/pt-br/assuntos/agenda-tributaria/2025/maio/dia-06-05-2025
+2025-08-29 13:24:20,005 - INFO - ✅ 27 registros extraídos de https://www.gov.br/receitafederal/pt-br/assuntos/agenda-tributaria/2025/maio/dia-06-05-2025
+2025-08-29 13:24:21,006 - INFO -   📆 Dia: dia-08-05-2025
+2025-08-29 13:24:21,007 - INFO - 📄 Extraindo tabelas da data: https://www.gov.br/receitafederal/pt-br/assuntos/agenda-tributaria/2025/maio/dia-08-05-2025
+2025-08-29 13:24:21,151 - INFO - ✅ 2 registros extraídos de https://www.gov.br/receitafederal/pt-br/assuntos/agenda-tributaria/2025/maio/dia-08-05-2025
+2025-08-29 13:24:22,152 - INFO -   📆 Dia: dia-09-05-2025
+2025-08-29 13:24:22,153 - INFO - 📄 Extraindo tabelas da data: https://www.gov.br/receitafederal/pt-br/assuntos/agenda-tributaria/2025/maio/dia-09-05-2025
+2025-08-29 13:24:22,391 - INFO - ✅ 3 registros extraídos de https://www.gov.br/receitafederal/pt-br/assuntos/agenda-tributaria/2025/maio/dia-09-05-2025
+2025-08-29 13:24:23,395 - INFO -   📆 Dia: dia-14-05-2025
+2025-08-29 13:24:23,395 - INFO - 📄 Extraindo tabelas da data: https://www.gov.br/receitafederal/pt-br/assuntos/agenda-tributaria/2025/maio/dia-14-05-2025
+2025-08-29 13:24:23,987 - INFO - ✅ 29 registros extraídos de https://www.gov.br/receitafederal/pt-br/assuntos/agenda-tributaria/2025/maio/dia-14-05-2025
+2025-08-29 13:24:24,989 - INFO -   📆 Dia: dia-15-05-2025
+2025-08-29 13:24:24,990 - INFO - 📄 Extraindo tabelas da data: https://www.gov.br/receitafederal/pt-br/assuntos/agenda-tributaria/2025/maio/dia-15-05-2025
+2025-08-29 13:24:26,138 - INFO - ✅ 25 registros extraídos de https://www.gov.br/receitafederal/pt-br/assuntos/agenda-tributaria/2025/maio/dia-15-05-2025
+2025-08-29 13:24:27,139 - INFO -   📆 Dia: dia-20-05-2025
+2025-08-29 13:24:27,140 - INFO - 📄 Extraindo tabelas da data: https://www.gov.br/receitafederal/pt-br/assuntos/agenda-tributaria/2025/maio/dia-20-05-2025
+2025-08-29 13:24:28,839 - INFO - ✅ 55 registros extraídos de https://www.gov.br/receitafederal/pt-br/assuntos/agenda-tributaria/2025/maio/dia-20-05-2025
+2025-08-29 13:24:29,841 - INFO -   📆 Dia: dia-23-05-2025
+2025-08-29 13:24:29,842 - INFO - 📄 Extraindo tabelas da data: https://www.gov.br/receitafederal/pt-br/assuntos/agenda-tributaria/2025/maio/dia-23-05-2025
+2025-08-29 13:24:30,120 - INFO - ✅ 60 registros extraídos de https://www.gov.br/receitafederal/pt-br/assuntos/agenda-tributaria/2025/maio/dia-23-05-2025
+2025-08-29 13:24:31,123 - INFO -   📆 Dia: dia-26-05-2025
+2025-08-29 13:24:31,124 - INFO - 📄 Extraindo tabelas da data: https://www.gov.br/receitafederal/pt-br/assuntos/agenda-tributaria/2025/maio/dia-26-05-2025
+2025-08-29 13:24:31,301 - INFO - ✅ 8 registros extraídos de https://www.gov.br/receitafederal/pt-br/assuntos/agenda-tributaria/2025/maio/dia-26-05-2025
+2025-08-29 13:24:32,302 - INFO -   📆 Dia: dia-30-05-2025
+2025-08-29 13:24:32,303 - INFO - 📄 Extraindo tabelas da data: https://www.gov.br/receitafederal/pt-br/assuntos/agenda-tributaria/2025/maio/dia-30-05-2025
+2025-08-29 13:24:32,543 - INFO - ✅ 115 registros extraídos de https://www.gov.br/receitafederal/pt-br/assuntos/agenda-tributaria/2025/maio/dia-30-05-2025
+2025-08-29 13:24:33,544 - INFO -   📆 Dia: dia-31-05-2025
+2025-08-29 13:24:33,545 - INFO - 📄 Extraindo tabelas da data: https://www.gov.br/receitafederal/pt-br/assuntos/agenda-tributaria/2025/maio/dia-31-05-2025
+2025-08-29 13:24:33,690 - INFO - ✅ 1 registros extraídos de https://www.gov.br/receitafederal/pt-br/assuntos/agenda-tributaria/2025/maio/dia-31-05-2025
+2025-08-29 13:24:34,691 - INFO - 📅 Processando mês: junho
+2025-08-29 13:24:34,692 - INFO - 🔍 Buscando links de dias no mês: https://www.gov.br/receitafederal/pt-br/assuntos/agenda-tributaria/2025/junho
+2025-08-29 13:24:35,894 - INFO - ✅ 9 dias encontrados em https://www.gov.br/receitafederal/pt-br/assuntos/agenda-tributaria/2025/junho
+2025-08-29 13:24:36,895 - INFO -   📆 Dia: dia-04-06-2025
+2025-08-29 13:24:36,896 - INFO - 📄 Extraindo tabelas da data: https://www.gov.br/receitafederal/pt-br/assuntos/agenda-tributaria/2025/junho/dia-04-06-2025
+2025-08-29 13:24:37,057 - INFO - ✅ 27 registros extraídos de https://www.gov.br/receitafederal/pt-br/assuntos/agenda-tributaria/2025/junho/dia-04-06-2025
+2025-08-29 13:24:38,059 - INFO -   📆 Dia: dia-05-06-2025
+2025-08-29 13:24:38,059 - INFO - 📄 Extraindo tabelas da data: https://www.gov.br/receitafederal/pt-br/assuntos/agenda-tributaria/2025/junho/dia-05-06-2025
+2025-08-29 13:24:39,025 - INFO - ✅ 8 registros extraídos de https://www.gov.br/receitafederal/pt-br/assuntos/agenda-tributaria/2025/junho/dia-05-06-2025
+2025-08-29 13:24:40,027 - INFO -   📆 Dia: dia-06-06-2025
+2025-08-29 13:24:40,027 - INFO - 📄 Extraindo tabelas da data: https://www.gov.br/receitafederal/pt-br/assuntos/agenda-tributaria/2025/junho/dia-06-06-2025
+2025-08-29 13:24:40,168 - INFO - ✅ 2 registros extraídos de https://www.gov.br/receitafederal/pt-br/assuntos/agenda-tributaria/2025/junho/dia-06-06-2025
+2025-08-29 13:24:41,169 - INFO -   📆 Dia: dia-10-06-2025
+2025-08-29 13:24:41,170 - INFO - 📄 Extraindo tabelas da data: https://www.gov.br/receitafederal/pt-br/assuntos/agenda-tributaria/2025/junho/dia-10-06-2025
+2025-08-29 13:24:41,337 - INFO - ✅ 3 registros extraídos de https://www.gov.br/receitafederal/pt-br/assuntos/agenda-tributaria/2025/junho/dia-10-06-2025
+2025-08-29 13:24:42,338 - INFO -   📆 Dia: dia-13-06-2025
+2025-08-29 13:24:42,339 - INFO - 📄 Extraindo tabelas da data: https://www.gov.br/receitafederal/pt-br/assuntos/agenda-tributaria/2025/junho/dia-13-06-2025
+2025-08-29 13:24:42,522 - INFO - ✅ 34 registros extraídos de https://www.gov.br/receitafederal/pt-br/assuntos/agenda-tributaria/2025/junho/dia-13-06-2025
+2025-08-29 13:24:43,523 - INFO -   📆 Dia: dia-16-06-2025
+2025-08-29 13:24:43,524 - INFO - 📄 Extraindo tabelas da data: https://www.gov.br/receitafederal/pt-br/assuntos/agenda-tributaria/2025/junho/dia-16-06-2025
+2025-08-29 13:24:43,764 - INFO - ✅ 19 registros extraídos de https://www.gov.br/receitafederal/pt-br/assuntos/agenda-tributaria/2025/junho/dia-16-06-2025
+2025-08-29 13:24:44,766 - INFO -   📆 Dia: dia-20-06-2025
+2025-08-29 13:24:44,766 - INFO - 📄 Extraindo tabelas da data: https://www.gov.br/receitafederal/pt-br/assuntos/agenda-tributaria/2025/junho/dia-20-06-2025
+2025-08-29 13:24:45,007 - INFO - ✅ 51 registros extraídos de https://www.gov.br/receitafederal/pt-br/assuntos/agenda-tributaria/2025/junho/dia-20-06-2025
+2025-08-29 13:24:46,010 - INFO -   📆 Dia: dia-25-06-2025
+2025-08-29 13:24:46,011 - INFO - 📄 Extraindo tabelas da data: https://www.gov.br/receitafederal/pt-br/assuntos/agenda-tributaria/2025/junho/dia-25-06-2025
+2025-08-29 13:24:46,970 - INFO - ✅ 68 registros extraídos de https://www.gov.br/receitafederal/pt-br/assuntos/agenda-tributaria/2025/junho/dia-25-06-2025
+2025-08-29 13:24:47,972 - INFO -   📆 Dia: dia-30-06-2025
+2025-08-29 13:24:47,973 - INFO - 📄 Extraindo tabelas da data: https://www.gov.br/receitafederal/pt-br/assuntos/agenda-tributaria/2025/junho/dia-30-06-2025
+2025-08-29 13:24:48,316 - INFO - ✅ 113 registros extraídos de https://www.gov.br/receitafederal/pt-br/assuntos/agenda-tributaria/2025/junho/dia-30-06-2025
+2025-08-29 13:24:49,318 - INFO - 📅 Processando mês: julho
+2025-08-29 13:24:49,318 - INFO - 🔍 Buscando links de dias no mês: https://www.gov.br/receitafederal/pt-br/assuntos/agenda-tributaria/2025/julho
+2025-08-29 13:24:49,511 - INFO - ✅ 11 dias encontrados em https://www.gov.br/receitafederal/pt-br/assuntos/agenda-tributaria/2025/julho
+2025-08-29 13:24:51,048 - INFO -   📆 Dia: dia-03-07-2025
+2025-08-29 13:24:51,048 - INFO - 📄 Extraindo tabelas da data: https://www.gov.br/receitafederal/pt-br/assuntos/agenda-tributaria/2025/julho/dia-03-07-2025
+2025-08-29 13:24:51,200 - INFO - ✅ 27 registros extraídos de https://www.gov.br/receitafederal/pt-br/assuntos/agenda-tributaria/2025/julho/dia-03-07-2025
+2025-08-29 13:24:52,201 - INFO -   📆 Dia: dia-07-07-2025
+2025-08-29 13:24:52,202 - INFO - 📄 Extraindo tabelas da data: https://www.gov.br/receitafederal/pt-br/assuntos/agenda-tributaria/2025/julho/dia-07-07-2025
+2025-08-29 13:24:52,341 - INFO - ✅ 8 registros extraídos de https://www.gov.br/receitafederal/pt-br/assuntos/agenda-tributaria/2025/julho/dia-07-07-2025
+2025-08-29 13:24:53,342 - INFO -   📆 Dia: dia-10-07-2025
+2025-08-29 13:24:53,342 - INFO - 📄 Extraindo tabelas da data: https://www.gov.br/receitafederal/pt-br/assuntos/agenda-tributaria/2025/julho/dia-10-07-2025
+2025-08-29 13:24:54,469 - INFO - ✅ 3 registros extraídos de https://www.gov.br/receitafederal/pt-br/assuntos/agenda-tributaria/2025/julho/dia-10-07-2025
+2025-08-29 13:24:55,471 - INFO -   📆 Dia: dia-14-07-2025
+2025-08-29 13:24:55,472 - INFO - 📄 Extraindo tabelas da data: https://www.gov.br/receitafederal/pt-br/assuntos/agenda-tributaria/2025/julho/dia-14-07-2025
+2025-08-29 13:24:56,537 - INFO - ✅ 1 registros extraídos de https://www.gov.br/receitafederal/pt-br/assuntos/agenda-tributaria/2025/julho/dia-14-07-2025
+2025-08-29 13:24:57,539 - INFO -   📆 Dia: dia-15-07-2025
+2025-08-29 13:24:57,539 - INFO - 📄 Extraindo tabelas da data: https://www.gov.br/receitafederal/pt-br/assuntos/agenda-tributaria/2025/julho/dia-15-07-2025
+2025-08-29 13:24:57,694 - INFO - ✅ 61 registros extraídos de https://www.gov.br/receitafederal/pt-br/assuntos/agenda-tributaria/2025/julho/dia-15-07-2025
+2025-08-29 13:24:58,695 - INFO -   📆 Dia: dia-18-07-2025
+2025-08-29 13:24:58,696 - INFO - 📄 Extraindo tabelas da data: https://www.gov.br/receitafederal/pt-br/assuntos/agenda-tributaria/2025/julho/dia-18-07-2025
+2025-08-29 13:24:58,845 - INFO - ✅ 33 registros extraídos de https://www.gov.br/receitafederal/pt-br/assuntos/agenda-tributaria/2025/julho/dia-18-07-2025
+2025-08-29 13:24:59,846 - INFO -   📆 Dia: dia-20-07-2025
+2025-08-29 13:24:59,847 - INFO - 📄 Extraindo tabelas da data: https://www.gov.br/receitafederal/pt-br/assuntos/agenda-tributaria/2025/julho/dia-20-07-2025
+2025-08-29 13:25:00,818 - INFO - ✅ 1 registros extraídos de https://www.gov.br/receitafederal/pt-br/assuntos/agenda-tributaria/2025/julho/dia-20-07-2025
+2025-08-29 13:25:01,819 - INFO -   📆 Dia: dia-21-07-2025
+2025-08-29 13:25:01,820 - INFO - 📄 Extraindo tabelas da data: https://www.gov.br/receitafederal/pt-br/assuntos/agenda-tributaria/2025/julho/dia-21-07-2025
+2025-08-29 13:25:02,021 - INFO - ✅ 16 registros extraídos de https://www.gov.br/receitafederal/pt-br/assuntos/agenda-tributaria/2025/julho/dia-21-07-2025
+2025-08-29 13:25:03,022 - INFO -   📆 Dia: dia-23-07-2025
+2025-08-29 13:25:03,022 - INFO - 📄 Extraindo tabelas da data: https://www.gov.br/receitafederal/pt-br/assuntos/agenda-tributaria/2025/julho/dia-23-07-2025
+2025-08-29 13:25:03,200 - INFO - ✅ 27 registros extraídos de https://www.gov.br/receitafederal/pt-br/assuntos/agenda-tributaria/2025/julho/dia-23-07-2025
+2025-08-29 13:25:04,201 - INFO -   📆 Dia: dia-25-07-2025
+2025-08-29 13:25:04,202 - INFO - 📄 Extraindo tabelas da data: https://www.gov.br/receitafederal/pt-br/assuntos/agenda-tributaria/2025/julho/dia-25-07-2025
+2025-08-29 13:25:04,429 - INFO - ✅ 41 registros extraídos de https://www.gov.br/receitafederal/pt-br/assuntos/agenda-tributaria/2025/julho/dia-25-07-2025
+2025-08-29 13:25:05,431 - INFO -   📆 Dia: dia-31-07-2025
+2025-08-29 13:25:05,431 - INFO - 📄 Extraindo tabelas da data: https://www.gov.br/receitafederal/pt-br/assuntos/agenda-tributaria/2025/julho/dia-31-07-2025
+2025-08-29 13:25:06,556 - INFO - ✅ 112 registros extraídos de https://www.gov.br/receitafederal/pt-br/assuntos/agenda-tributaria/2025/julho/dia-31-07-2025
+2025-08-29 13:25:07,558 - INFO - 📅 Processando mês: agosto
+2025-08-29 13:25:07,558 - INFO - 🔍 Buscando links de dias no mês: https://www.gov.br/receitafederal/pt-br/assuntos/agenda-tributaria/2025/agosto
+2025-08-29 13:25:07,749 - INFO - ✅ 8 dias encontrados em https://www.gov.br/receitafederal/pt-br/assuntos/agenda-tributaria/2025/agosto
+2025-08-29 13:25:08,750 - INFO -   📆 Dia: dia-05-08-2025
+2025-08-29 13:25:08,750 - INFO - 📄 Extraindo tabelas da data: https://www.gov.br/receitafederal/pt-br/assuntos/agenda-tributaria/2025/agosto/dia-05-08-2025
+2025-08-29 13:25:08,916 - INFO - ✅ 35 registros extraídos de https://www.gov.br/receitafederal/pt-br/assuntos/agenda-tributaria/2025/agosto/dia-05-08-2025
+2025-08-29 13:25:09,918 - INFO -   📆 Dia: dia-08-08-2025
+2025-08-29 13:25:09,919 - INFO - 📄 Extraindo tabelas da data: https://www.gov.br/receitafederal/pt-br/assuntos/agenda-tributaria/2025/agosto/dia-08-08-2025
+2025-08-29 13:25:10,990 - INFO - ✅ 3 registros extraídos de https://www.gov.br/receitafederal/pt-br/assuntos/agenda-tributaria/2025/agosto/dia-08-08-2025
+2025-08-29 13:25:11,992 - INFO -   📆 Dia: dia-13-08-2025
+2025-08-29 13:25:11,993 - INFO - 📄 Extraindo tabelas da data: https://www.gov.br/receitafederal/pt-br/assuntos/agenda-tributaria/2025/agosto/dia-13-08-2025
+2025-08-29 13:25:12,325 - INFO - ✅ 29 registros extraídos de https://www.gov.br/receitafederal/pt-br/assuntos/agenda-tributaria/2025/agosto/dia-13-08-2025
+2025-08-29 13:25:13,326 - INFO -   📆 Dia: dia-14-08-2025
+2025-08-29 13:25:13,327 - INFO - 📄 Extraindo tabelas da data: https://www.gov.br/receitafederal/pt-br/assuntos/agenda-tributaria/2025/agosto/dia-14-08-2025
+2025-08-29 13:25:14,566 - INFO - ✅ 1 registros extraídos de https://www.gov.br/receitafederal/pt-br/assuntos/agenda-tributaria/2025/agosto/dia-14-08-2025
+2025-08-29 13:25:15,578 - INFO -   📆 Dia: dia-15-08-2025
+2025-08-29 13:25:15,580 - INFO - 📄 Extraindo tabelas da data: https://www.gov.br/receitafederal/pt-br/assuntos/agenda-tributaria/2025/agosto/dia-15-08-2025
+2025-08-29 13:25:16,307 - INFO - ✅ 24 registros extraídos de https://www.gov.br/receitafederal/pt-br/assuntos/agenda-tributaria/2025/agosto/dia-15-08-2025
+2025-08-29 13:25:17,311 - INFO -   📆 Dia: dia-20-08-2025
+2025-08-29 13:25:17,312 - INFO - 📄 Extraindo tabelas da data: https://www.gov.br/receitafederal/pt-br/assuntos/agenda-tributaria/2025/agosto/dia-20-08-2025
+2025-08-29 13:25:17,698 - INFO - ✅ 50 registros extraídos de https://www.gov.br/receitafederal/pt-br/assuntos/agenda-tributaria/2025/agosto/dia-20-08-2025
+2025-08-29 13:25:18,702 - INFO -   📆 Dia: dia-25-08-2025
+2025-08-29 13:25:18,704 - INFO - 📄 Extraindo tabelas da data: https://www.gov.br/receitafederal/pt-br/assuntos/agenda-tributaria/2025/agosto/dia-25-08-2025
+2025-08-29 13:25:19,011 - INFO - ✅ 68 registros extraídos de https://www.gov.br/receitafederal/pt-br/assuntos/agenda-tributaria/2025/agosto/dia-25-08-2025
+2025-08-29 13:25:20,013 - INFO -   📆 Dia: dia-29-08-2025
+2025-08-29 13:25:20,014 - INFO - 📄 Extraindo tabelas da data: https://www.gov.br/receitafederal/pt-br/assuntos/agenda-tributaria/2025/agosto/dia-29-08-2025
+2025-08-29 13:25:20,320 - INFO - ✅ 114 registros extraídos de https://www.gov.br/receitafederal/pt-br/assuntos/agenda-tributaria/2025/agosto/dia-29-08-2025
+2025-08-29 13:25:21,322 - INFO - 📅 Processando mês: setembro
+2025-08-29 13:25:21,323 - INFO - 🔍 Buscando links de dias no mês: https://www.gov.br/receitafederal/pt-br/assuntos/agenda-tributaria/2025/setembro
+2025-08-29 13:25:21,519 - INFO - ✅ 11 dias encontrados em https://www.gov.br/receitafederal/pt-br/assuntos/agenda-tributaria/2025/setembro
+2025-08-29 13:25:22,520 - INFO -   📆 Dia: dia-03-09-2025
+2025-08-29 13:25:22,520 - INFO - 📄 Extraindo tabelas da data: https://www.gov.br/receitafederal/pt-br/assuntos/agenda-tributaria/2025/setembro/dia-03-09-2025
+2025-08-29 13:25:24,200 - INFO - ✅ 27 registros extraídos de https://www.gov.br/receitafederal/pt-br/assuntos/agenda-tributaria/2025/setembro/dia-03-09-2025
+2025-08-29 13:25:25,201 - INFO -   📆 Dia: dia-05-09-2025
+2025-08-29 13:25:25,201 - INFO - 📄 Extraindo tabelas da data: https://www.gov.br/receitafederal/pt-br/assuntos/agenda-tributaria/2025/setembro/dia-05-09-2025
+2025-08-29 13:25:26,246 - INFO - ✅ 8 registros extraídos de https://www.gov.br/receitafederal/pt-br/assuntos/agenda-tributaria/2025/setembro/dia-05-09-2025
+2025-08-29 13:25:27,247 - INFO -   📆 Dia: dia-10-09-2025
+2025-08-29 13:25:27,248 - INFO - 📄 Extraindo tabelas da data: https://www.gov.br/receitafederal/pt-br/assuntos/agenda-tributaria/2025/setembro/dia-10-09-2025
+2025-08-29 13:25:27,563 - INFO - ✅ 3 registros extraídos de https://www.gov.br/receitafederal/pt-br/assuntos/agenda-tributaria/2025/setembro/dia-10-09-2025
+2025-08-29 13:25:28,565 - INFO -   📆 Dia: dia-12-09-2025
+2025-08-29 13:25:28,566 - INFO - 📄 Extraindo tabelas da data: https://www.gov.br/receitafederal/pt-br/assuntos/agenda-tributaria/2025/setembro/dia-12-09-2025
+2025-08-29 13:25:28,772 - INFO - ✅ 1 registros extraídos de https://www.gov.br/receitafederal/pt-br/assuntos/agenda-tributaria/2025/setembro/dia-12-09-2025
+2025-08-29 13:25:29,774 - INFO -   📆 Dia: dia-15-09-2025
+2025-08-29 13:25:29,775 - INFO - 📄 Extraindo tabelas da data: https://www.gov.br/receitafederal/pt-br/assuntos/agenda-tributaria/2025/setembro/dia-15-09-2025
+2025-08-29 13:25:30,993 - INFO - ✅ 52 registros extraídos de https://www.gov.br/receitafederal/pt-br/assuntos/agenda-tributaria/2025/setembro/dia-15-09-2025
+2025-08-29 13:25:31,997 - INFO -   📆 Dia: dia-19-09-2025
+2025-08-29 13:25:31,997 - INFO - 📄 Extraindo tabelas da data: https://www.gov.br/receitafederal/pt-br/assuntos/agenda-tributaria/2025/setembro/dia-19-09-2025
+2025-08-29 13:25:32,234 - INFO - ✅ 33 registros extraídos de https://www.gov.br/receitafederal/pt-br/assuntos/agenda-tributaria/2025/setembro/dia-19-09-2025
+2025-08-29 13:25:33,235 - INFO -   📆 Dia: dia-20-09-2025
+2025-08-29 13:25:33,236 - INFO - 📄 Extraindo tabelas da data: https://www.gov.br/receitafederal/pt-br/assuntos/agenda-tributaria/2025/setembro/dia-20-09-2025
+2025-08-29 13:25:33,505 - INFO - ✅ 1 registros extraídos de https://www.gov.br/receitafederal/pt-br/assuntos/agenda-tributaria/2025/setembro/dia-20-09-2025
+2025-08-29 13:25:34,508 - INFO -   📆 Dia: dia-22-09-2025
+2025-08-29 13:25:34,508 - INFO - 📄 Extraindo tabelas da data: https://www.gov.br/receitafederal/pt-br/assuntos/agenda-tributaria/2025/setembro/dia-22-09-2025
+2025-08-29 13:25:34,960 - INFO - ✅ 16 registros extraídos de https://www.gov.br/receitafederal/pt-br/assuntos/agenda-tributaria/2025/setembro/dia-22-09-2025
+2025-08-29 13:25:35,962 - INFO -   📆 Dia: dia-24-09-2025
+2025-08-29 13:25:35,964 - INFO - 📄 Extraindo tabelas da data: https://www.gov.br/receitafederal/pt-br/assuntos/agenda-tributaria/2025/setembro/dia-24-09-2025
+2025-08-29 13:25:37,076 - INFO - ✅ 27 registros extraídos de https://www.gov.br/receitafederal/pt-br/assuntos/agenda-tributaria/2025/setembro/dia-24-09-2025
+2025-08-29 13:25:38,079 - INFO -   📆 Dia: dia-25-09-2025
+2025-08-29 13:25:38,081 - INFO - 📄 Extraindo tabelas da data: https://www.gov.br/receitafederal/pt-br/assuntos/agenda-tributaria/2025/setembro/dia-25-09-2025
+2025-08-29 13:25:38,317 - INFO - ✅ 41 registros extraídos de https://www.gov.br/receitafederal/pt-br/assuntos/agenda-tributaria/2025/setembro/dia-25-09-2025
+2025-08-29 13:25:39,319 - INFO -   📆 Dia: dia-30-09-2025
+2025-08-29 13:25:39,320 - INFO - 📄 Extraindo tabelas da data: https://www.gov.br/receitafederal/pt-br/assuntos/agenda-tributaria/2025/setembro/dia-30-09-2025
+2025-08-29 13:25:39,604 - INFO - ✅ 115 registros extraídos de https://www.gov.br/receitafederal/pt-br/assuntos/agenda-tributaria/2025/setembro/dia-30-09-2025
+2025-08-29 13:25:40,607 - INFO - ✅ Extração concluída para o ano 2025
+2025-08-29 13:25:40,608 - INFO - ================================================================================
+2025-08-29 13:25:40,608 - INFO - 🔄 Iniciando transformação dos dados da Agenda Tributária para o ano 2025
+2025-08-29 13:25:40,608 - INFO - ================================================================================
+2025-08-29 13:25:40,608 - INFO - 📅 Transformando dados do mês: janeiro
+2025-08-29 13:25:40,608 - INFO -   📆 Dia: dia-06-01-2025 - 35 eventos encontrados
+2025-08-29 13:25:40,615 - INFO -   ✅ 35 eventos limpos para o dia dia-06-01-2025
+2025-08-29 13:25:40,615 - INFO -   📆 Dia: dia-08-01-2025 - 2 eventos encontrados
+2025-08-29 13:25:40,615 - INFO -   ✅ 2 eventos limpos para o dia dia-08-01-2025
+2025-08-29 13:25:40,615 - INFO -   📆 Dia: dia-10-01-2025 - 3 eventos encontrados
+2025-08-29 13:25:40,615 - INFO -   ✅ 3 eventos limpos para o dia dia-10-01-2025
+2025-08-29 13:25:40,615 - INFO -   📆 Dia: dia-15-01-2025 - 63 eventos encontrados
+2025-08-29 13:25:40,617 - INFO -   ✅ 63 eventos limpos para o dia dia-15-01-2025
+2025-08-29 13:25:40,617 - INFO -   📆 Dia: dia-20-01-2025 - 55 eventos encontrados
+2025-08-29 13:25:40,619 - INFO -   ✅ 55 eventos limpos para o dia dia-20-01-2025
+2025-08-29 13:25:40,619 - INFO -   📆 Dia: dia-22-01-2025 - 1 eventos encontrados
+2025-08-29 13:25:40,619 - INFO -   ✅ 1 eventos limpos para o dia dia-22-01-2025
+2025-08-29 13:25:40,619 - INFO -   📆 Dia: dia-23-01-2025 - 27 eventos encontrados
+2025-08-29 13:25:40,620 - INFO -   ✅ 27 eventos limpos para o dia dia-23-01-2025
+2025-08-29 13:25:40,620 - INFO -   📆 Dia: dia-24-01-2025 - 33 eventos encontrados
+2025-08-29 13:25:40,621 - INFO -   ✅ 33 eventos limpos para o dia dia-24-01-2025
+2025-08-29 13:25:40,621 - INFO -   📆 Dia: dia-27-01-2025 - 8 eventos encontrados
+2025-08-29 13:25:40,621 - INFO -   ✅ 8 eventos limpos para o dia dia-27-01-2025
+2025-08-29 13:25:40,621 - INFO -   📆 Dia: dia-31-01-2025 - 112 eventos encontrados
+2025-08-29 13:25:40,625 - INFO -   ✅ 112 eventos limpos para o dia dia-31-01-2025
+2025-08-29 13:25:40,625 - INFO - 📅 Transformando dados do mês: fevereiro
+2025-08-29 13:25:40,625 - INFO -   📆 Dia: dia-05-02-2025 - 35 eventos encontrados
+2025-08-29 13:25:40,626 - INFO -   ✅ 35 eventos limpos para o dia dia-05-02-2025
+2025-08-29 13:25:40,626 - INFO -   📆 Dia: dia-07-02-2025 - 2 eventos encontrados
+2025-08-29 13:25:40,626 - INFO -   ✅ 2 eventos limpos para o dia dia-07-02-2025
+2025-08-29 13:25:40,626 - INFO -   📆 Dia: dia-10-02-2025 - 3 eventos encontrados
+2025-08-29 13:25:40,626 - INFO -   ✅ 3 eventos limpos para o dia dia-10-02-2025
+2025-08-29 13:25:40,626 - INFO -   📆 Dia: dia-13-02-2025 - 29 eventos encontrados
+2025-08-29 13:25:40,628 - INFO -   ✅ 29 eventos limpos para o dia dia-13-02-2025
+2025-08-29 13:25:40,628 - INFO -   📆 Dia: dia-14-02-2025 - 16 eventos encontrados
+2025-08-29 13:25:40,628 - INFO -   ✅ 16 eventos limpos para o dia dia-14-02-2025
+2025-08-29 13:25:40,628 - INFO -   📆 Dia: dia-17-02-2025 - 19 eventos encontrados
+2025-08-29 13:25:40,629 - INFO -   ✅ 19 eventos limpos para o dia dia-17-02-2025
+2025-08-29 13:25:40,629 - INFO -   📆 Dia: dia-20-02-2025 - 55 eventos encontrados
+2025-08-29 13:25:40,632 - INFO -   ✅ 55 eventos limpos para o dia dia-20-02-2025
+2025-08-29 13:25:40,632 - INFO -   📆 Dia: dia-21-02-2025 - 1 eventos encontrados
+2025-08-29 13:25:40,632 - INFO -   ✅ 1 eventos limpos para o dia dia-21-02-2025
+2025-08-29 13:25:40,632 - INFO -   📆 Dia: dia-25-02-2025 - 68 eventos encontrados
+2025-08-29 13:25:40,634 - INFO -   ✅ 68 eventos limpos para o dia dia-25-02-2025
+2025-08-29 13:25:40,634 - INFO -   📆 Dia: dia-28-02-2025 - 116 eventos encontrados
+2025-08-29 13:25:40,638 - INFO -   ✅ 116 eventos limpos para o dia dia-28-02-2025
+2025-08-29 13:25:40,639 - INFO - 📅 Transformando dados do mês: marco
+2025-08-29 13:25:40,639 - INFO -   📆 Dia: dia-05-03-2025 - 8 eventos encontrados
+2025-08-29 13:25:40,639 - INFO -   ✅ 8 eventos limpos para o dia dia-05-03-2025
+2025-08-29 13:25:40,639 - INFO -   📆 Dia: dia-07-03-2025 - 27 eventos encontrados
+2025-08-29 13:25:40,640 - INFO -   ✅ 27 eventos limpos para o dia dia-07-03-2025
+2025-08-29 13:25:40,640 - INFO -   📆 Dia: dia-10-03-2025 - 3 eventos encontrados
+2025-08-29 13:25:40,640 - INFO -   ✅ 3 eventos limpos para o dia dia-10-03-2025
+2025-08-29 13:25:40,640 - INFO -   📆 Dia: dia-11-03-2025 - 2 eventos encontrados
+2025-08-29 13:25:40,640 - INFO -   ✅ 2 eventos limpos para o dia dia-11-03-2025
+2025-08-29 13:25:40,640 - INFO -   📆 Dia: dia-13-03-2025 - 29 eventos encontrados
+2025-08-29 13:25:40,641 - INFO -   ✅ 29 eventos limpos para o dia dia-13-03-2025
+2025-08-29 13:25:40,641 - INFO -   📆 Dia: dia-14-03-2025 - 4 eventos encontrados
+2025-08-29 13:25:40,641 - INFO -   ✅ 4 eventos limpos para o dia dia-14-03-2025
+2025-08-29 13:25:40,641 - INFO -   📆 Dia: dia-17-03-2025 - 19 eventos encontrados
+2025-08-29 13:25:40,642 - INFO -   ✅ 19 eventos limpos para o dia dia-17-03-2025
+2025-08-29 13:25:40,642 - INFO -   📆 Dia: dia-18-03-2025 - 1 eventos encontrados
+2025-08-29 13:25:40,642 - INFO -   ✅ 1 eventos limpos para o dia dia-18-03-2025
+2025-08-29 13:25:40,642 - INFO -   📆 Dia: dia-20-03-2025 - 55 eventos encontrados
+2025-08-29 13:25:40,644 - INFO -   ✅ 55 eventos limpos para o dia dia-20-03-2025
+2025-08-29 13:25:40,644 - INFO -   📆 Dia: dia-25-03-2025 - 68 eventos encontrados
+2025-08-29 13:25:40,647 - INFO -   ✅ 68 eventos limpos para o dia dia-25-03-2025
+2025-08-29 13:25:40,647 - INFO -   📆 Dia: dia-31-03-2025 - 119 eventos encontrados
+2025-08-29 13:25:40,651 - INFO -   ✅ 119 eventos limpos para o dia dia-31-03-2025
+2025-08-29 13:25:40,651 - INFO - 📅 Transformando dados do mês: abril
+2025-08-29 13:25:40,651 - INFO -   📆 Dia: dia-03-04-2025 - 27 eventos encontrados
+2025-08-29 13:25:40,652 - INFO -   ✅ 27 eventos limpos para o dia dia-03-04-2025
+2025-08-29 13:25:40,652 - INFO -   📆 Dia: dia-07-04-2025 - 10 eventos encontrados
+2025-08-29 13:25:40,653 - INFO -   ✅ 10 eventos limpos para o dia dia-07-04-2025
+2025-08-29 13:25:40,653 - INFO -   📆 Dia: dia-10-04-2025 - 3 eventos encontrados
+2025-08-29 13:25:40,653 - INFO -   ✅ 3 eventos limpos para o dia dia-10-04-2025
+2025-08-29 13:25:40,653 - INFO -   📆 Dia: dia-14-04-2025 - 1 eventos encontrados
+2025-08-29 13:25:40,653 - INFO -   ✅ 1 eventos limpos para o dia dia-14-04-2025
+2025-08-29 13:25:40,653 - INFO -   📆 Dia: dia-15-04-2025 - 61 eventos encontrados
+2025-08-29 13:25:40,655 - INFO -   ✅ 61 eventos limpos para o dia dia-15-04-2025
+2025-08-29 13:25:40,655 - INFO -   📆 Dia: dia-17-04-2025 - 37 eventos encontrados
+2025-08-29 13:25:40,656 - INFO -   ✅ 37 eventos limpos para o dia dia-17-04-2025
+2025-08-29 13:25:40,656 - INFO -   📆 Dia: dia-20-04-2025 - 1 eventos encontrados
+2025-08-29 13:25:40,656 - INFO -   ✅ 1 eventos limpos para o dia dia-20-04-2025
+2025-08-29 13:25:40,656 - INFO -   📆 Dia: dia-22-04-2025 - 17 eventos encontrados
+2025-08-29 13:25:40,657 - INFO -   ✅ 17 eventos limpos para o dia dia-22-04-2025
+2025-08-29 13:25:40,657 - INFO -   📆 Dia: dia-24-04-2025 - 27 eventos encontrados
+2025-08-29 13:25:40,658 - INFO -   ✅ 27 eventos limpos para o dia dia-24-04-2025
+2025-08-29 13:25:40,658 - INFO -   📆 Dia: dia-25-04-2025 - 41 eventos encontrados
+2025-08-29 13:25:40,659 - INFO -   ✅ 41 eventos limpos para o dia dia-25-04-2025
+2025-08-29 13:25:40,659 - INFO -   📆 Dia: dia-30-04-2025 - 111 eventos encontrados
+2025-08-29 13:25:40,664 - INFO -   ✅ 111 eventos limpos para o dia dia-30-04-2025
+2025-08-29 13:25:40,665 - INFO - 📅 Transformando dados do mês: maio
+2025-08-29 13:25:40,665 - INFO -   📆 Dia: dia-05-05-2025 - 8 eventos encontrados
+2025-08-29 13:25:40,665 - INFO -   ✅ 8 eventos limpos para o dia dia-05-05-2025
+2025-08-29 13:25:40,665 - INFO -   📆 Dia: dia-06-05-2025 - 27 eventos encontrados
+2025-08-29 13:25:40,668 - INFO -   ✅ 27 eventos limpos para o dia dia-06-05-2025
+2025-08-29 13:25:40,669 - INFO -   📆 Dia: dia-08-05-2025 - 2 eventos encontrados
+2025-08-29 13:25:40,669 - INFO -   ✅ 2 eventos limpos para o dia dia-08-05-2025
+2025-08-29 13:25:40,669 - INFO -   📆 Dia: dia-09-05-2025 - 3 eventos encontrados
+2025-08-29 13:25:40,670 - INFO -   ✅ 3 eventos limpos para o dia dia-09-05-2025
+2025-08-29 13:25:40,670 - INFO -   📆 Dia: dia-14-05-2025 - 29 eventos encontrados
+2025-08-29 13:25:40,671 - INFO -   ✅ 29 eventos limpos para o dia dia-14-05-2025
+2025-08-29 13:25:40,671 - INFO -   📆 Dia: dia-15-05-2025 - 25 eventos encontrados
+2025-08-29 13:25:40,672 - INFO -   ✅ 25 eventos limpos para o dia dia-15-05-2025
+2025-08-29 13:25:40,672 - INFO -   📆 Dia: dia-20-05-2025 - 55 eventos encontrados
+2025-08-29 13:25:40,674 - INFO -   ✅ 55 eventos limpos para o dia dia-20-05-2025
+2025-08-29 13:25:40,674 - INFO -   📆 Dia: dia-23-05-2025 - 60 eventos encontrados
+2025-08-29 13:25:40,676 - INFO -   ✅ 60 eventos limpos para o dia dia-23-05-2025
+2025-08-29 13:25:40,676 - INFO -   📆 Dia: dia-26-05-2025 - 8 eventos encontrados
+2025-08-29 13:25:40,676 - INFO -   ✅ 8 eventos limpos para o dia dia-26-05-2025
+2025-08-29 13:25:40,677 - INFO -   📆 Dia: dia-30-05-2025 - 115 eventos encontrados
+2025-08-29 13:25:40,680 - INFO -   ✅ 115 eventos limpos para o dia dia-30-05-2025
+2025-08-29 13:25:40,680 - INFO -   📆 Dia: dia-31-05-2025 - 1 eventos encontrados
+2025-08-29 13:25:40,680 - INFO -   ✅ 1 eventos limpos para o dia dia-31-05-2025
+2025-08-29 13:25:40,680 - INFO - 📅 Transformando dados do mês: junho
+2025-08-29 13:25:40,680 - INFO -   📆 Dia: dia-04-06-2025 - 27 eventos encontrados
+2025-08-29 13:25:40,681 - INFO -   ✅ 27 eventos limpos para o dia dia-04-06-2025
+2025-08-29 13:25:40,681 - INFO -   📆 Dia: dia-05-06-2025 - 8 eventos encontrados
+2025-08-29 13:25:40,682 - INFO -   ✅ 8 eventos limpos para o dia dia-05-06-2025
+2025-08-29 13:25:40,682 - INFO -   📆 Dia: dia-06-06-2025 - 2 eventos encontrados
+2025-08-29 13:25:40,682 - INFO -   ✅ 2 eventos limpos para o dia dia-06-06-2025
+2025-08-29 13:25:40,682 - INFO -   📆 Dia: dia-10-06-2025 - 3 eventos encontrados
+2025-08-29 13:25:40,682 - INFO -   ✅ 3 eventos limpos para o dia dia-10-06-2025
+2025-08-29 13:25:40,682 - INFO -   📆 Dia: dia-13-06-2025 - 34 eventos encontrados
+2025-08-29 13:25:40,684 - INFO -   ✅ 34 eventos limpos para o dia dia-13-06-2025
+2025-08-29 13:25:40,685 - INFO -   📆 Dia: dia-16-06-2025 - 19 eventos encontrados
+2025-08-29 13:25:40,686 - INFO -   ✅ 19 eventos limpos para o dia dia-16-06-2025
+2025-08-29 13:25:40,687 - INFO -   📆 Dia: dia-20-06-2025 - 51 eventos encontrados
+2025-08-29 13:25:40,690 - INFO -   ✅ 51 eventos limpos para o dia dia-20-06-2025
+2025-08-29 13:25:40,690 - INFO -   📆 Dia: dia-25-06-2025 - 68 eventos encontrados
+2025-08-29 13:25:40,694 - INFO -   ✅ 68 eventos limpos para o dia dia-25-06-2025
+2025-08-29 13:25:40,694 - INFO -   📆 Dia: dia-30-06-2025 - 113 eventos encontrados
+2025-08-29 13:25:40,701 - INFO -   ✅ 113 eventos limpos para o dia dia-30-06-2025
+2025-08-29 13:25:40,701 - INFO - 📅 Transformando dados do mês: julho
+2025-08-29 13:25:40,702 - INFO -   📆 Dia: dia-03-07-2025 - 27 eventos encontrados
+2025-08-29 13:25:40,705 - INFO -   ✅ 27 eventos limpos para o dia dia-03-07-2025
+2025-08-29 13:25:40,705 - INFO -   📆 Dia: dia-07-07-2025 - 8 eventos encontrados
+2025-08-29 13:25:40,706 - INFO -   ✅ 8 eventos limpos para o dia dia-07-07-2025
+2025-08-29 13:25:40,706 - INFO -   📆 Dia: dia-10-07-2025 - 3 eventos encontrados
+2025-08-29 13:25:40,706 - INFO -   ✅ 3 eventos limpos para o dia dia-10-07-2025
+2025-08-29 13:25:40,706 - INFO -   📆 Dia: dia-14-07-2025 - 1 eventos encontrados
+2025-08-29 13:25:40,706 - INFO -   ✅ 1 eventos limpos para o dia dia-14-07-2025
+2025-08-29 13:25:40,706 - INFO -   📆 Dia: dia-15-07-2025 - 61 eventos encontrados
+2025-08-29 13:25:40,709 - INFO -   ✅ 61 eventos limpos para o dia dia-15-07-2025
+2025-08-29 13:25:40,709 - INFO -   📆 Dia: dia-18-07-2025 - 33 eventos encontrados
+2025-08-29 13:25:40,710 - INFO -   ✅ 33 eventos limpos para o dia dia-18-07-2025
+2025-08-29 13:25:40,710 - INFO -   📆 Dia: dia-20-07-2025 - 1 eventos encontrados
+2025-08-29 13:25:40,711 - INFO -   ✅ 1 eventos limpos para o dia dia-20-07-2025
+2025-08-29 13:25:40,711 - INFO -   📆 Dia: dia-21-07-2025 - 16 eventos encontrados
+2025-08-29 13:25:40,711 - INFO -   ✅ 16 eventos limpos para o dia dia-21-07-2025
+2025-08-29 13:25:40,711 - INFO -   📆 Dia: dia-23-07-2025 - 27 eventos encontrados
+2025-08-29 13:25:40,712 - INFO -   ✅ 27 eventos limpos para o dia dia-23-07-2025
+2025-08-29 13:25:40,712 - INFO -   📆 Dia: dia-25-07-2025 - 41 eventos encontrados
+2025-08-29 13:25:40,714 - INFO -   ✅ 41 eventos limpos para o dia dia-25-07-2025
+2025-08-29 13:25:40,714 - INFO -   📆 Dia: dia-31-07-2025 - 112 eventos encontrados
+2025-08-29 13:25:40,780 - INFO -   ✅ 112 eventos limpos para o dia dia-31-07-2025
+2025-08-29 13:25:40,780 - INFO - 📅 Transformando dados do mês: agosto
+2025-08-29 13:25:40,780 - INFO -   📆 Dia: dia-05-08-2025 - 35 eventos encontrados
+2025-08-29 13:25:40,781 - INFO -   ✅ 35 eventos limpos para o dia dia-05-08-2025
+2025-08-29 13:25:40,781 - INFO -   📆 Dia: dia-08-08-2025 - 3 eventos encontrados
+2025-08-29 13:25:40,782 - INFO -   ✅ 3 eventos limpos para o dia dia-08-08-2025
+2025-08-29 13:25:40,782 - INFO -   📆 Dia: dia-13-08-2025 - 29 eventos encontrados
+2025-08-29 13:25:40,784 - INFO -   ✅ 29 eventos limpos para o dia dia-13-08-2025
+2025-08-29 13:25:40,784 - INFO -   📆 Dia: dia-14-08-2025 - 1 eventos encontrados
+2025-08-29 13:25:40,785 - INFO -   ✅ 1 eventos limpos para o dia dia-14-08-2025
+2025-08-29 13:25:40,785 - INFO -   📆 Dia: dia-15-08-2025 - 24 eventos encontrados
+2025-08-29 13:25:40,785 - INFO -   ✅ 24 eventos limpos para o dia dia-15-08-2025
+2025-08-29 13:25:40,785 - INFO -   📆 Dia: dia-20-08-2025 - 50 eventos encontrados
+2025-08-29 13:25:40,787 - INFO -   ✅ 50 eventos limpos para o dia dia-20-08-2025
+2025-08-29 13:25:40,788 - INFO -   📆 Dia: dia-25-08-2025 - 68 eventos encontrados
+2025-08-29 13:25:40,790 - INFO -   ✅ 68 eventos limpos para o dia dia-25-08-2025
+2025-08-29 13:25:40,790 - INFO -   📆 Dia: dia-29-08-2025 - 114 eventos encontrados
+2025-08-29 13:25:40,795 - INFO -   ✅ 114 eventos limpos para o dia dia-29-08-2025
+2025-08-29 13:25:40,795 - INFO - 📅 Transformando dados do mês: setembro
+2025-08-29 13:25:40,795 - INFO -   📆 Dia: dia-03-09-2025 - 27 eventos encontrados
+2025-08-29 13:25:40,796 - INFO -   ✅ 27 eventos limpos para o dia dia-03-09-2025
+2025-08-29 13:25:40,796 - INFO -   📆 Dia: dia-05-09-2025 - 8 eventos encontrados
+2025-08-29 13:25:40,796 - INFO -   ✅ 8 eventos limpos para o dia dia-05-09-2025
+2025-08-29 13:25:40,796 - INFO -   📆 Dia: dia-10-09-2025 - 3 eventos encontrados
+2025-08-29 13:25:40,796 - INFO -   ✅ 3 eventos limpos para o dia dia-10-09-2025
+2025-08-29 13:25:40,796 - INFO -   📆 Dia: dia-12-09-2025 - 1 eventos encontrados
+2025-08-29 13:25:40,797 - INFO -   ✅ 1 eventos limpos para o dia dia-12-09-2025
+2025-08-29 13:25:40,797 - INFO -   📆 Dia: dia-15-09-2025 - 52 eventos encontrados
+2025-08-29 13:25:40,800 - INFO -   ✅ 52 eventos limpos para o dia dia-15-09-2025
+2025-08-29 13:25:40,801 - INFO -   📆 Dia: dia-19-09-2025 - 33 eventos encontrados
+2025-08-29 13:25:40,803 - INFO -   ✅ 33 eventos limpos para o dia dia-19-09-2025
+2025-08-29 13:25:40,803 - INFO -   📆 Dia: dia-20-09-2025 - 1 eventos encontrados
+2025-08-29 13:25:40,803 - INFO -   ✅ 1 eventos limpos para o dia dia-20-09-2025
+2025-08-29 13:25:40,803 - INFO -   📆 Dia: dia-22-09-2025 - 16 eventos encontrados
+2025-08-29 13:25:40,804 - INFO -   ✅ 16 eventos limpos para o dia dia-22-09-2025
+2025-08-29 13:25:40,804 - INFO -   📆 Dia: dia-24-09-2025 - 27 eventos encontrados
+2025-08-29 13:25:40,805 - INFO -   ✅ 27 eventos limpos para o dia dia-24-09-2025
+2025-08-29 13:25:40,805 - INFO -   📆 Dia: dia-25-09-2025 - 41 eventos encontrados
+2025-08-29 13:25:40,807 - INFO -   ✅ 41 eventos limpos para o dia dia-25-09-2025
+2025-08-29 13:25:40,807 - INFO -   📆 Dia: dia-30-09-2025 - 115 eventos encontrados
+2025-08-29 13:25:40,811 - INFO -   ✅ 115 eventos limpos para o dia dia-30-09-2025
+2025-08-29 13:25:40,811 - INFO - ✅ Transformação concluída para o ano 2025
+2025-08-29 13:25:40,811 - INFO - 💾 Salvando JSON da Agenda Tributária para o ano 2025
+2025-08-29 13:25:40,981 - INFO - ✅ JSON validado e salvo com sucesso em '../data/transformed/teste17_agenda_tributaria_2025.json'.
+2025-08-29 13:25:40,981 - INFO - --------------------------------------------------------------------------------
+2025-08-29 13:25:40,981 - INFO - ✅ Pipeline finalizado com sucesso para o ano 2025
+2025-08-29 13:25:40,981 - INFO - --------------------------------------------------------------------------------

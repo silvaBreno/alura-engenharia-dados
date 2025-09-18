@@ -3,7 +3,7 @@ import time
 import pandas as pd
 from bs4 import BeautifulSoup
 from io import StringIO
-from scripts.logger_config import LoggerConfig
+from .logger_config import LoggerConfig
 
 logger = LoggerConfig.configurar_logger()
 
