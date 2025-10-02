@@ -1,5 +1,6 @@
 .venv
 venv
+scripts/__pycache__
 teste_agenda_tributaria_2025.json
 teste2_agenda_tributaria_2025.json
 teste3_agenda_tributaria_2025.json
