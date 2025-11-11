@@ -29,12 +29,7 @@
                       "codigo_gps": { "type": ["string", "null"] },
                       "documento": { "type": ["string", "null"] },
                       "descricao": { "type": "string" },
-                      "periodo_fato_gerador": { "type": ["string", "null"] },
-                      "codigo_receita": { "type": ["string", "null"] },
-                      "grupo_tributo": { "type": ["string", "null"] },
-                      "documento_arrecadacao": { "type": ["string", "null"] },
-                      "categoria_declaracao": { "type": ["string", "null"] },
-                      "fundamentacao_legal": { "type": ["string", "null"] }
+                      "periodo_fato_gerador": { "type": ["string", "null"] }
                     },
                     "required": ["tipo", "descricao"]
                   }

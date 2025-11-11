@@ -4,6 +4,7 @@ import pandas as pd
 from bs4 import BeautifulSoup
 from io import StringIO
 from .logger_config import LoggerConfig
+import re
 
 logger = LoggerConfig.configurar_logger()
 
@@ -39,16 +40,23 @@ class AgendaExtractor:
             response = requests.get(url_mes)
             response.raise_for_status()
             soup = BeautifulSoup(response.content, 'html.parser')
+
+            # Regex para capturar datas no formato dd-mm-aaaa
+            pattern = re.compile(r'\d{2}-\d{2}-\d{4}')
+
             links_datas = [
                 a['href'] for a in soup.select('a')
-                if a.get('href') and a['href'].startswith(response.url) and '/dia-' in a['href']
+                if a.get('href') and pattern.search(a['href'])
             ]
+
             logger.info(f"✅ {len(links_datas)} dias encontrados em {url_mes}")
             return links_datas
+
         except Exception:
             logger.exception(f"❌ Erro ao acessar ou processar {url_mes}")
             return []
 
+    
     def extrair_tabelas(self, url_data):
         logger.info(f"📄 Extraindo tabelas da data: {url_data}")
         try:
@@ -56,19 +64,48 @@ class AgendaExtractor:
             response.raise_for_status()
             soup = BeautifulSoup(response.content, 'html.parser')
             tabelas_html = soup.find_all('table')
-            tabelas = []
+            registros = []
+
             for tabela in tabelas_html:
-                try:
-                    df = pd.read_html(StringIO(str(tabela)))[0]
-                    registros = df.to_dict(orient='records')
-                    tabelas.extend(registros)
-                except Exception:
-                    logger.exception(f"❌ Erro ao ler tabela em {url_data}")
-            logger.info(f"✅ {len(tabelas)} registros extraídos de {url_data}")
-            return tabelas
+                # Detecta layout pelo cabeçalho
+                cabecalho = [th.get_text(strip=True).lower() for th in tabela.find_all('strong')]
+                if "código de receita" in " ".join(cabecalho).lower():
+                    logger.info("📐 Layout detectado: NOVO")
+                    registros.extend(self._extrair_novo_layout(tabela))
+                else:
+                    logger.info("📐 Layout detectado: ANTIGO")
+                    try:
+                        df = pd.read_html(StringIO(str(tabela)))[0]
+                        registros.extend(df.to_dict(orient='records'))
+                    except Exception:
+                        logger.exception(f"❌ Erro ao ler tabela antiga em {url_data}")
+
+            logger.info(f"✅ {len(registros)} registros extraídos de {url_data}")
+            return registros
         except Exception:
             logger.exception(f"❌ Erro ao acessar ou processar {url_data}")
             return []
+
+    def _extrair_novo_layout(self, tabela):
+        eventos = []
+        rows = tabela.select("tbody tr")
+        data_rows = rows[2:]  # Ignora cabeçalho
+        for i in range(0, len(data_rows), 2):
+            linha1 = data_rows[i].find_all("td")
+            linha2 = data_rows[i+1].find_all("td")
+
+            evento = {
+                "codigo de receita": linha1[0].get_text(strip=True),
+                "grupo de tributo": linha1[1].get_text(strip=True),
+                "descricao": linha1[2].get_text(strip=True),
+                "periodo de apuracao": linha1[3].get_text(" ", strip=True),
+                "documento arrecadacao": linha2[0].get_text(strip=True),
+                "categoria da declaracao / origem escrituracao": linha2[1].get_text(strip=True),
+                "fundamentacao legal": linha2[2].get_text(" ", strip=True)
+            }
+            eventos.append(evento)
+        return eventos
+
 
     def executar(self):
         logger.info("=" * 80)
@@ -97,3 +134,21 @@ class AgendaExtractor:
                 time.sleep(self.delay)
         logger.info(f"✅ Extração concluída para o ano {self.ano}")
         return dados_agenda
+
+    # def obter_links_datas(self, url_mes):
+    #     logger.info(f"🔍 Buscando links de dias no mês: {url_mes}")
+    #     try:
+    #         response = requests.get(url_mes)
+    #         response.raise_for_status()
+    #         soup = BeautifulSoup(response.content, 'html.parser')
+    #         links_datas = [
+    #             a['href'] for a in soup.select('a')
+    #             if a.get('href') and a['href'].startswith(response.url) and '/dia-' in a['href']
+    #         ]
+    #         logger.info(f"✅ {len(links_datas)} dias encontrados em {url_mes}")
+    #         return links_datas
+    #     except Exception:
+    #         logger.exception(f"❌ Erro ao acessar ou processar {url_mes}")
+    #         return []
+
+    
