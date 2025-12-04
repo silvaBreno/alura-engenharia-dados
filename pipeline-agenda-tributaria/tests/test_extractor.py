@@ -12,4 +12,7 @@ def test_extrair_tabelas_com_url_valida():
     # URL de teste real pode ser substituída por uma mockada
     url = "https://www.gov.br/receitafederal/pt-br/assuntos/agenda-tributaria/2025/janeiro/dia-10-01-2025"
     tabelas = extractor.extrair_tabelas(url)
-    assert isinstance(tabelas, list)
+    assert isinstance(tabelas, dict)
+    assert "eventos" in tabelas
+    assert "publicado_em" in tabelas
+    assert "atualizado_em" in tabelas

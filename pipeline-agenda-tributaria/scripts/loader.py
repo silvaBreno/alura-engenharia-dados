@@ -19,7 +19,7 @@ class AgendaLoader:
                 # Constrói o caminho para a pasta data/transformed a partir da raiz do projeto
                 output_dir = Path(__file__).parent.parent / "data" / "transformed"
                 output_dir.mkdir(parents=True, exist_ok=True)  # Garante que o diretório exista
-                caminho_arquivo = output_dir / f"agenda_tributaria_{self.ano}_teste_novembro_dois_layouts_3.json"
+                caminho_arquivo = output_dir / f"agenda_tributaria_{self.ano}_teste_novembro_dois_layouts_4.json"
 
             estrutura_final = {
                 "fonte": self.base_url,

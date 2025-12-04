@@ -41,13 +41,22 @@ class AgendaExtractor:
             response.raise_for_status()
             soup = BeautifulSoup(response.content, 'html.parser')
 
-            # Regex para capturar datas no formato dd-mm-aaaa
-            pattern = re.compile(r'\d{2}-\d{2}-\d{4}')
+            # Regex para capturar datas no formato dia-dd-mm-aaaa OU dd-mm-aaaa e garantir o ano correto
+            pattern = re.compile(r'(?:dia-)?(\d{1,2})-(\d{1,2})-(\d{4})')
 
-            links_datas = [
-                a['href'] for a in soup.select('a')
-                if a.get('href') and pattern.search(a['href'])
-            ]
+            links_datas = []
+            for a in soup.select('a'):
+                href = a.get('href')
+                if not href:
+                    continue
+                match = pattern.search(href)
+                if not match:
+                    continue
+                _, _, year = match.groups()
+                if year != str(self.ano):
+                    logger.info(f"⚠️ Ignorando link de outro ano: {href}")
+                    continue
+                links_datas.append(href)
 
             logger.info(f"✅ {len(links_datas)} dias encontrados em {url_mes}")
             return links_datas
@@ -63,11 +72,12 @@ class AgendaExtractor:
             response = requests.get(url_data)
             response.raise_for_status()
             soup = BeautifulSoup(response.content, 'html.parser')
+            publicado_em, atualizado_em = self._extrair_meta_datas(soup)
+
             tabelas_html = soup.find_all('table')
             registros = []
 
             for tabela in tabelas_html:
-                # Detecta layout pelo cabeçalho
                 cabecalho = [th.get_text(strip=True).lower() for th in tabela.find_all('strong')]
                 if "código de receita" in " ".join(cabecalho).lower():
                     logger.info("📐 Layout detectado: NOVO")
@@ -81,10 +91,18 @@ class AgendaExtractor:
                         logger.exception(f"❌ Erro ao ler tabela antiga em {url_data}")
 
             logger.info(f"✅ {len(registros)} registros extraídos de {url_data}")
-            return registros
+            return {
+                "eventos": registros,
+                "publicado_em": publicado_em,
+                "atualizado_em": atualizado_em
+            }
         except Exception:
             logger.exception(f"❌ Erro ao acessar ou processar {url_data}")
-            return []
+            return {
+                "eventos": [],
+                "publicado_em": "",
+                "atualizado_em": ""
+            }
 
     def _extrair_novo_layout(self, tabela):
         eventos = []
@@ -129,11 +147,29 @@ class AgendaExtractor:
                 eventos = self.extrair_tabelas(link_data)
                 dados_agenda[nome_mes]["dias"][nome_data] = {
                     "url": link_data,
-                    "eventos": eventos
+                    "publicado_em": eventos.get("publicado_em", ""),
+                    "atualizado_em": eventos.get("atualizado_em", ""),
+                    "eventos": eventos.get("eventos", [])
                 }
                 time.sleep(self.delay)
         logger.info(f"✅ Extração concluída para o ano {self.ano}")
         return dados_agenda
+
+    def _extrair_meta_datas(self, soup):
+        publicado = ""
+        atualizado = ""
+
+        def _coletar(rotulo):
+            span_label = soup.find('span', string=lambda s: s and rotulo.lower() in s.lower())
+            if span_label:
+                valor = span_label.find_next_sibling('span', class_='value')
+                if valor:
+                    return valor.get_text(strip=True)
+            return ""
+
+        publicado = _coletar("Publicado em")
+        atualizado = _coletar("Atualizado em")
+        return publicado, atualizado
 
     # def obter_links_datas(self, url_mes):
     #     logger.info(f"🔍 Buscando links de dias no mês: {url_mes}")

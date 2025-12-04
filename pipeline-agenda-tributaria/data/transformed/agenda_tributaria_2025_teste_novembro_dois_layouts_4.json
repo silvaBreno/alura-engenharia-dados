@@ -2,12 +2,17 @@
   "fonte": "https://www.gov.br/receitafederal/pt-br/assuntos/agenda-tributaria/2025",
   "extraido_em": "2025-12-03",
   "ano": 2025,
-  "meses": {
-    "janeiro": {
+  "meses": [
+    {
+      "mes": 1,
+      "nome": "janeiro",
       "url": "https://www.gov.br/receitafederal/pt-br/assuntos/agenda-tributaria/2025/janeiro",
-      "dias": {
-        "dia-06-01-2025": {
+      "dias": [
+        {
+          "data": "2025-01-06",
           "url": "https://www.gov.br/receitafederal/pt-br/assuntos/agenda-tributaria/2025/janeiro/dia-06-01-2025",
+          "publicado_em": "23/12/2024 16h34",
+          "atualizado_em": "",
           "eventos": [
             {
               "tipo": "darf",
@@ -361,8 +366,11 @@
             }
           ]
         },
-        "dia-08-01-2025": {
+        {
+          "data": "2025-01-08",
           "url": "https://www.gov.br/receitafederal/pt-br/assuntos/agenda-tributaria/2025/janeiro/dia-08-01-2025",
+          "publicado_em": "23/12/2024 16h34",
+          "atualizado_em": "",
           "eventos": [
             {
               "tipo": "gps",
@@ -386,8 +394,11 @@
             }
           ]
         },
-        "dia-10-01-2025": {
+        {
+          "data": "2025-01-10",
           "url": "https://www.gov.br/receitafederal/pt-br/assuntos/agenda-tributaria/2025/janeiro/dia-10-01-2025",
+          "publicado_em": "23/12/2024 16h34",
+          "atualizado_em": "",
           "eventos": [
             {
               "tipo": "darf",
@@ -421,8 +432,11 @@
             }
           ]
         },
-        "dia-15-01-2025": {
+        {
+          "data": "2025-01-15",
           "url": "https://www.gov.br/receitafederal/pt-br/assuntos/agenda-tributaria/2025/janeiro/dia-15-01-2025",
+          "publicado_em": "23/12/2024 16h34",
+          "atualizado_em": "26/01/2025 20h19",
           "eventos": [
             {
               "tipo": "darf",
@@ -1056,8 +1070,11 @@
             }
           ]
         },
-        "dia-20-01-2025": {
+        {
+          "data": "2025-01-20",
           "url": "https://www.gov.br/receitafederal/pt-br/assuntos/agenda-tributaria/2025/janeiro/dia-20-01-2025",
+          "publicado_em": "23/12/2024 16h34",
+          "atualizado_em": "",
           "eventos": [
             {
               "tipo": "darf",
@@ -1611,8 +1628,11 @@
             }
           ]
         },
-        "dia-22-01-2025": {
+        {
+          "data": "2025-01-22",
           "url": "https://www.gov.br/receitafederal/pt-br/assuntos/agenda-tributaria/2025/janeiro/dia-22-01-2025",
+          "publicado_em": "23/12/2024 16h34",
+          "atualizado_em": "",
           "eventos": [
             {
               "tipo": "declaracao_pj",
@@ -1626,8 +1646,11 @@
             }
           ]
         },
-        "dia-23-01-2025": {
+        {
+          "data": "2025-01-23",
           "url": "https://www.gov.br/receitafederal/pt-br/assuntos/agenda-tributaria/2025/janeiro/dia-23-01-2025",
+          "publicado_em": "23/12/2024 16h34",
+          "atualizado_em": "",
           "eventos": [
             {
               "tipo": "darf",
@@ -1901,8 +1924,11 @@
             }
           ]
         },
-        "dia-24-01-2025": {
+        {
+          "data": "2025-01-24",
           "url": "https://www.gov.br/receitafederal/pt-br/assuntos/agenda-tributaria/2025/janeiro/dia-24-01-2025",
+          "publicado_em": "23/12/2024 16h34",
+          "atualizado_em": "",
           "eventos": [
             {
               "tipo": "darf",
@@ -2236,8 +2262,11 @@
             }
           ]
         },
-        "dia-27-01-2025": {
+        {
+          "data": "2025-01-27",
           "url": "https://www.gov.br/receitafederal/pt-br/assuntos/agenda-tributaria/2025/janeiro/dia-27-01-2025",
+          "publicado_em": "23/12/2024 16h34",
+          "atualizado_em": "",
           "eventos": [
             {
               "tipo": "darf",
@@ -2321,8 +2350,11 @@
             }
           ]
         },
-        "dia-31-01-2025": {
+        {
+          "data": "2025-01-31",
           "url": "https://www.gov.br/receitafederal/pt-br/assuntos/agenda-tributaria/2025/janeiro/dia-31-01-2025",
+          "publicado_em": "23/12/2024 16h34",
+          "atualizado_em": "",
           "eventos": [
             {
               "tipo": "darf",
@@ -3445,199 +3477,19 @@
               "fundamentacao_legal": null
             }
           ]
-        },
-        "dia-19-01-2023-1": {
-          "url": "https://www.gov.br/receitafederal/pt-br/assuntos/agenda-tributaria/2024/01/dia-19-01-2023-1",
-          "eventos": [
-            {
-              "tipo": "darf",
-              "codigo_receita": "4095",
-              "descricao": "IRPJ - Pagamento Unificado - Ret. Aplicável às Incorporações Imobiliárias (IRPJ, CSLL, PIS/Pasep, Cofins)",
-              "periodo_fato_gerador": "Dezembro/2023",
-              "grupo_tributo": null,
-              "documento_arrecadacao": null,
-              "categoria_declaracao": null,
-              "fundamentacao_legal": null
-            },
-            {
-              "tipo": "darf",
-              "codigo_receita": "1068",
-              "descricao": "IRPJ - Pagamento Unificado - Reg. Esp. Aplic. às Incorporações Imobiliárias e às Construções no âmbito do PMCMV e à Const. ou Reforma de Creches e Pré-Escolas (IRPJ, CSLL, PIS/Pasep, Cofins)",
-              "periodo_fato_gerador": "Dezembro/2023",
-              "grupo_tributo": null,
-              "documento_arrecadacao": null,
-              "categoria_declaracao": null,
-              "fundamentacao_legal": null
-            },
-            {
-              "tipo": "darf",
-              "codigo_receita": "4112",
-              "descricao": "IRPJ - Regime Especial de Tributação Aplicável às Incorporações Imobiliárias e às Construções",
-              "periodo_fato_gerador": "Dezembro/2023",
-              "grupo_tributo": null,
-              "documento_arrecadacao": null,
-              "categoria_declaracao": null,
-              "fundamentacao_legal": null
-            },
-            {
-              "tipo": "darf",
-              "codigo_receita": "4095",
-              "descricao": "CSLL - Pagamento Unificado - Ret. Aplicável às Incorporações Imobiliárias (IRPJ, CSLL, PIS/Pasep, Cofins)",
-              "periodo_fato_gerador": "Dezembro/2023",
-              "grupo_tributo": null,
-              "documento_arrecadacao": null,
-              "categoria_declaracao": null,
-              "fundamentacao_legal": null
-            },
-            {
-              "tipo": "darf",
-              "codigo_receita": "1068",
-              "descricao": "CSLL - Pagamento Unificado - Reg. Esp. Aplicável às Incorporações Imobiliárias e às Construções no âmbito do PMCMV e à Const. ou Reforma de Creches e Pré-Escolas (IRPJ, CSLL, PIS/Pasep, Cofins)",
-              "periodo_fato_gerador": "Dezembro/2023",
-              "grupo_tributo": null,
-              "documento_arrecadacao": null,
-              "categoria_declaracao": null,
-              "fundamentacao_legal": null
-            },
-            {
-              "tipo": "darf",
-              "codigo_receita": "4153",
-              "descricao": "CSLL - Regime Especial de Tributação Aplicável às Incorporações Imobiliárias e às Construções",
-              "periodo_fato_gerador": "Dezembro/2023",
-              "grupo_tributo": null,
-              "documento_arrecadacao": null,
-              "categoria_declaracao": null,
-              "fundamentacao_legal": null
-            },
-            {
-              "tipo": "darf",
-              "codigo_receita": "4095",
-              "descricao": "PIS/PASEP - Pagamento Unificado - Ret. Aplicável às Incorporações Imobiliárias (IRPJ, CSLL, PIS/Pasep, Cofins)",
-              "periodo_fato_gerador": "Dezembro/2023",
-              "grupo_tributo": null,
-              "documento_arrecadacao": null,
-              "categoria_declaracao": null,
-              "fundamentacao_legal": null
-            },
-            {
-              "tipo": "darf",
-              "codigo_receita": "1068",
-              "descricao": "PIS/PASEP - Pagamento Unificado - Reg. Esp. Aplicável às Incorporações Imobiliárias e às Construções no âmbito do PMCMV e à Const. ou Reforma de Creches e Pré-Escolas (IRPJ, CSLL, PIS/Pasep, Cofins)",
-              "periodo_fato_gerador": "Dezembro/2023",
-              "grupo_tributo": null,
-              "documento_arrecadacao": null,
-              "categoria_declaracao": null,
-              "fundamentacao_legal": null
-            },
-            {
-              "tipo": "darf",
-              "codigo_receita": "4138",
-              "descricao": "PIS/PASEP - Regime Especial de Tributação Aplicável às Incorporações Imobiliárias e às Construções",
-              "periodo_fato_gerador": "Dezembro/2023",
-              "grupo_tributo": null,
-              "documento_arrecadacao": null,
-              "categoria_declaracao": null,
-              "fundamentacao_legal": null
-            },
-            {
-              "tipo": "darf",
-              "codigo_receita": "4095",
-              "descricao": "COFINS - Pagamento Unificado - Ret. Aplicável às Incorporações Imobiliárias (IRPJ, CSLL, PIS/Pasep, Cofins)",
-              "periodo_fato_gerador": "Dezembro/2023",
-              "grupo_tributo": null,
-              "documento_arrecadacao": null,
-              "categoria_declaracao": null,
-              "fundamentacao_legal": null
-            },
-            {
-              "tipo": "darf",
-              "codigo_receita": "1068",
-              "descricao": "COFINS - Pagamento Unificado - Reg. Esp. Aplicável às Incorporações Imobiliárias e às Construções no âmbito do PMCMV e à Const. ou Reforma de Creches e Pré-Escolas (IRPJ, CSLL, PIS/Pasep, Cofins)",
-              "periodo_fato_gerador": "Dezembro/2023",
-              "grupo_tributo": null,
-              "documento_arrecadacao": null,
-              "categoria_declaracao": null,
-              "fundamentacao_legal": null
-            },
-            {
-              "tipo": "darf",
-              "codigo_receita": "4166",
-              "descricao": "COFINS - Regime Especial de Tributação Aplicável às Incorporações Imobiliárias e às Construções",
-              "periodo_fato_gerador": "Dezembro/2023",
-              "grupo_tributo": null,
-              "documento_arrecadacao": null,
-              "categoria_declaracao": null,
-              "fundamentacao_legal": null
-            },
-            {
-              "tipo": "darf",
-              "codigo_receita": "6177",
-              "descricao": "Pagamento Unificado - Regime de Tributação Específica do Futebol (TEF)",
-              "periodo_fato_gerador": "Dezembro/2023",
-              "grupo_tributo": null,
-              "documento_arrecadacao": null,
-              "categoria_declaracao": null,
-              "fundamentacao_legal": null
-            },
-            {
-              "tipo": "gps",
-              "codigo_receita": "6106",
-              "descricao": "Pagamento de dívida ativa parcelamento - referência (preenchimento exclusivo pelo órgão emissor)",
-              "periodo_fato_gerador": "Diversos",
-              "grupo_tributo": null,
-              "documento_arrecadacao": null,
-              "categoria_declaracao": null,
-              "fundamentacao_legal": null
-            },
-            {
-              "tipo": "gps",
-              "codigo_receita": "6505",
-              "descricao": "Comprev - pagamento de dívida ativa - parcelamento de regime próprio de previdência social RPPS - órgão do poder público - referência",
-              "periodo_fato_gerador": "Diversos",
-              "grupo_tributo": null,
-              "documento_arrecadacao": null,
-              "categoria_declaracao": null,
-              "fundamentacao_legal": null
-            },
-            {
-              "tipo": "documento",
-              "codigo_receita": null,
-              "descricao": "Simples Nacional - Regime Especial Unificado de Arrecadação de Tributos e Contribuições devidos pelas Microempresas e Empresas de Pequeno Porte.",
-              "periodo_fato_gerador": "Dezembro/2023",
-              "grupo_tributo": null,
-              "documento_arrecadacao": "DAS (Documento de Arrecadação do Simples Nacional)",
-              "categoria_declaracao": null,
-              "fundamentacao_legal": null
-            },
-            {
-              "tipo": "declaracao_pj",
-              "codigo_receita": null,
-              "descricao": "DCTF Mensal - Declaração de Débitos e Créditos Tributários Federais - Mensal",
-              "periodo_fato_gerador": "Novembro/2023",
-              "grupo_tributo": null,
-              "documento_arrecadacao": null,
-              "categoria_declaracao": null,
-              "fundamentacao_legal": null
-            },
-            {
-              "tipo": "declaracao_pj",
-              "codigo_receita": null,
-              "descricao": "PGDAS-D - Programa Gerador do Documento de Arrecadação do Simples Nacional",
-              "periodo_fato_gerador": "Dezembro/2023",
-              "grupo_tributo": null,
-              "documento_arrecadacao": null,
-              "categoria_declaracao": null,
-              "fundamentacao_legal": null
-            }
-          ]
         }
-      }
+      ]
     },
-    "fevereiro": {
+    {
+      "mes": 2,
+      "nome": "fevereiro",
       "url": "https://www.gov.br/receitafederal/pt-br/assuntos/agenda-tributaria/2025/fevereiro",
-      "dias": {
-        "dia-05-02-2025": {
+      "dias": [
+        {
+          "data": "2025-02-05",
           "url": "https://www.gov.br/receitafederal/pt-br/assuntos/agenda-tributaria/2025/fevereiro/dia-05-02-2025",
+          "publicado_em": "26/01/2025 21h45",
+          "atualizado_em": "",
           "eventos": [
             {
               "tipo": "darf",
@@ -3991,8 +3843,11 @@
             }
           ]
         },
-        "dia-07-02-2025": {
+        {
+          "data": "2025-02-07",
           "url": "https://www.gov.br/receitafederal/pt-br/assuntos/agenda-tributaria/2025/fevereiro/dia-07-02-2025",
+          "publicado_em": "26/01/2025 21h45",
+          "atualizado_em": "",
           "eventos": [
             {
               "tipo": "gps",
@@ -4016,8 +3871,11 @@
             }
           ]
         },
-        "dia-10-02-2025": {
+        {
+          "data": "2025-02-10",
           "url": "https://www.gov.br/receitafederal/pt-br/assuntos/agenda-tributaria/2025/fevereiro/dia-10-02-2025",
+          "publicado_em": "26/01/2025 21h45",
+          "atualizado_em": "",
           "eventos": [
             {
               "tipo": "darf",
@@ -4051,8 +3909,11 @@
             }
           ]
         },
-        "dia-13-02-2025": {
+        {
+          "data": "2025-02-13",
           "url": "https://www.gov.br/receitafederal/pt-br/assuntos/agenda-tributaria/2025/fevereiro/dia-13-02-2025",
+          "publicado_em": "26/01/2025 21h45",
+          "atualizado_em": "25/02/2025 12h28",
           "eventos": [
             {
               "tipo": "darf",
@@ -4346,8 +4207,11 @@
             }
           ]
         },
-        "dia-14-02-2025": {
+        {
+          "data": "2025-02-14",
           "url": "https://www.gov.br/receitafederal/pt-br/assuntos/agenda-tributaria/2025/fevereiro/dia-14-02-2025",
+          "publicado_em": "26/01/2025 21h45",
+          "atualizado_em": "18/02/2025 17h09",
           "eventos": [
             {
               "tipo": "darf",
@@ -4511,8 +4375,11 @@
             }
           ]
         },
-        "dia-17-02-2025": {
+        {
+          "data": "2025-02-17",
           "url": "https://www.gov.br/receitafederal/pt-br/assuntos/agenda-tributaria/2025/fevereiro/dia-17-02-2025",
+          "publicado_em": "26/01/2025 21h45",
+          "atualizado_em": "",
           "eventos": [
             {
               "tipo": "darf",
@@ -4706,8 +4573,11 @@
             }
           ]
         },
-        "dia-20-02-2025": {
+        {
+          "data": "2025-02-20",
           "url": "https://www.gov.br/receitafederal/pt-br/assuntos/agenda-tributaria/2025/fevereiro/dia-20-02-2025",
+          "publicado_em": "26/01/2025 21h45",
+          "atualizado_em": "",
           "eventos": [
             {
               "tipo": "darf",
@@ -5261,8 +5131,11 @@
             }
           ]
         },
-        "dia-21-02-2025": {
+        {
+          "data": "2025-02-21",
           "url": "https://www.gov.br/receitafederal/pt-br/assuntos/agenda-tributaria/2025/fevereiro/dia-21-02-2025",
+          "publicado_em": "26/01/2025 21h45",
+          "atualizado_em": "",
           "eventos": [
             {
               "tipo": "declaracao_pj",
@@ -5276,8 +5149,11 @@
             }
           ]
         },
-        "dia-25-02-2025": {
+        {
+          "data": "2025-02-25",
           "url": "https://www.gov.br/receitafederal/pt-br/assuntos/agenda-tributaria/2025/fevereiro/dia-25-02-2025",
+          "publicado_em": "26/01/2025 21h45",
+          "atualizado_em": "25/02/2025 13h30",
           "eventos": [
             {
               "tipo": "darf",
@@ -5961,8 +5837,11 @@
             }
           ]
         },
-        "dia-28-02-2025": {
+        {
+          "data": "2025-02-28",
           "url": "https://www.gov.br/receitafederal/pt-br/assuntos/agenda-tributaria/2025/fevereiro/dia-28-02-2025",
+          "publicado_em": "26/01/2025 21h45",
+          "atualizado_em": "25/02/2025 13h53",
           "eventos": [
             {
               "tipo": "darf",
@@ -7125,199 +7004,19 @@
               "fundamentacao_legal": null
             }
           ]
-        },
-        "dia-19-01-2023-1": {
-          "url": "https://www.gov.br/receitafederal/pt-br/assuntos/agenda-tributaria/2024/01/dia-19-01-2023-1",
-          "eventos": [
-            {
-              "tipo": "darf",
-              "codigo_receita": "4095",
-              "descricao": "IRPJ - Pagamento Unificado - Ret. Aplicável às Incorporações Imobiliárias (IRPJ, CSLL, PIS/Pasep, Cofins)",
-              "periodo_fato_gerador": "Dezembro/2023",
-              "grupo_tributo": null,
-              "documento_arrecadacao": null,
-              "categoria_declaracao": null,
-              "fundamentacao_legal": null
-            },
-            {
-              "tipo": "darf",
-              "codigo_receita": "1068",
-              "descricao": "IRPJ - Pagamento Unificado - Reg. Esp. Aplic. às Incorporações Imobiliárias e às Construções no âmbito do PMCMV e à Const. ou Reforma de Creches e Pré-Escolas (IRPJ, CSLL, PIS/Pasep, Cofins)",
-              "periodo_fato_gerador": "Dezembro/2023",
-              "grupo_tributo": null,
-              "documento_arrecadacao": null,
-              "categoria_declaracao": null,
-              "fundamentacao_legal": null
-            },
-            {
-              "tipo": "darf",
-              "codigo_receita": "4112",
-              "descricao": "IRPJ - Regime Especial de Tributação Aplicável às Incorporações Imobiliárias e às Construções",
-              "periodo_fato_gerador": "Dezembro/2023",
-              "grupo_tributo": null,
-              "documento_arrecadacao": null,
-              "categoria_declaracao": null,
-              "fundamentacao_legal": null
-            },
-            {
-              "tipo": "darf",
-              "codigo_receita": "4095",
-              "descricao": "CSLL - Pagamento Unificado - Ret. Aplicável às Incorporações Imobiliárias (IRPJ, CSLL, PIS/Pasep, Cofins)",
-              "periodo_fato_gerador": "Dezembro/2023",
-              "grupo_tributo": null,
-              "documento_arrecadacao": null,
-              "categoria_declaracao": null,
-              "fundamentacao_legal": null
-            },
-            {
-              "tipo": "darf",
-              "codigo_receita": "1068",
-              "descricao": "CSLL - Pagamento Unificado - Reg. Esp. Aplicável às Incorporações Imobiliárias e às Construções no âmbito do PMCMV e à Const. ou Reforma de Creches e Pré-Escolas (IRPJ, CSLL, PIS/Pasep, Cofins)",
-              "periodo_fato_gerador": "Dezembro/2023",
-              "grupo_tributo": null,
-              "documento_arrecadacao": null,
-              "categoria_declaracao": null,
-              "fundamentacao_legal": null
-            },
-            {
-              "tipo": "darf",
-              "codigo_receita": "4153",
-              "descricao": "CSLL - Regime Especial de Tributação Aplicável às Incorporações Imobiliárias e às Construções",
-              "periodo_fato_gerador": "Dezembro/2023",
-              "grupo_tributo": null,
-              "documento_arrecadacao": null,
-              "categoria_declaracao": null,
-              "fundamentacao_legal": null
-            },
-            {
-              "tipo": "darf",
-              "codigo_receita": "4095",
-              "descricao": "PIS/PASEP - Pagamento Unificado - Ret. Aplicável às Incorporações Imobiliárias (IRPJ, CSLL, PIS/Pasep, Cofins)",
-              "periodo_fato_gerador": "Dezembro/2023",
-              "grupo_tributo": null,
-              "documento_arrecadacao": null,
-              "categoria_declaracao": null,
-              "fundamentacao_legal": null
-            },
-            {
-              "tipo": "darf",
-              "codigo_receita": "1068",
-              "descricao": "PIS/PASEP - Pagamento Unificado - Reg. Esp. Aplicável às Incorporações Imobiliárias e às Construções no âmbito do PMCMV e à Const. ou Reforma de Creches e Pré-Escolas (IRPJ, CSLL, PIS/Pasep, Cofins)",
-              "periodo_fato_gerador": "Dezembro/2023",
-              "grupo_tributo": null,
-              "documento_arrecadacao": null,
-              "categoria_declaracao": null,
-              "fundamentacao_legal": null
-            },
-            {
-              "tipo": "darf",
-              "codigo_receita": "4138",
-              "descricao": "PIS/PASEP - Regime Especial de Tributação Aplicável às Incorporações Imobiliárias e às Construções",
-              "periodo_fato_gerador": "Dezembro/2023",
-              "grupo_tributo": null,
-              "documento_arrecadacao": null,
-              "categoria_declaracao": null,
-              "fundamentacao_legal": null
-            },
-            {
-              "tipo": "darf",
-              "codigo_receita": "4095",
-              "descricao": "COFINS - Pagamento Unificado - Ret. Aplicável às Incorporações Imobiliárias (IRPJ, CSLL, PIS/Pasep, Cofins)",
-              "periodo_fato_gerador": "Dezembro/2023",
-              "grupo_tributo": null,
-              "documento_arrecadacao": null,
-              "categoria_declaracao": null,
-              "fundamentacao_legal": null
-            },
-            {
-              "tipo": "darf",
-              "codigo_receita": "1068",
-              "descricao": "COFINS - Pagamento Unificado - Reg. Esp. Aplicável às Incorporações Imobiliárias e às Construções no âmbito do PMCMV e à Const. ou Reforma de Creches e Pré-Escolas (IRPJ, CSLL, PIS/Pasep, Cofins)",
-              "periodo_fato_gerador": "Dezembro/2023",
-              "grupo_tributo": null,
-              "documento_arrecadacao": null,
-              "categoria_declaracao": null,
-              "fundamentacao_legal": null
-            },
-            {
-              "tipo": "darf",
-              "codigo_receita": "4166",
-              "descricao": "COFINS - Regime Especial de Tributação Aplicável às Incorporações Imobiliárias e às Construções",
-              "periodo_fato_gerador": "Dezembro/2023",
-              "grupo_tributo": null,
-              "documento_arrecadacao": null,
-              "categoria_declaracao": null,
-              "fundamentacao_legal": null
-            },
-            {
-              "tipo": "darf",
-              "codigo_receita": "6177",
-              "descricao": "Pagamento Unificado - Regime de Tributação Específica do Futebol (TEF)",
-              "periodo_fato_gerador": "Dezembro/2023",
-              "grupo_tributo": null,
-              "documento_arrecadacao": null,
-              "categoria_declaracao": null,
-              "fundamentacao_legal": null
-            },
-            {
-              "tipo": "gps",
-              "codigo_receita": "6106",
-              "descricao": "Pagamento de dívida ativa parcelamento - referência (preenchimento exclusivo pelo órgão emissor)",
-              "periodo_fato_gerador": "Diversos",
-              "grupo_tributo": null,
-              "documento_arrecadacao": null,
-              "categoria_declaracao": null,
-              "fundamentacao_legal": null
-            },
-            {
-              "tipo": "gps",
-              "codigo_receita": "6505",
-              "descricao": "Comprev - pagamento de dívida ativa - parcelamento de regime próprio de previdência social RPPS - órgão do poder público - referência",
-              "periodo_fato_gerador": "Diversos",
-              "grupo_tributo": null,
-              "documento_arrecadacao": null,
-              "categoria_declaracao": null,
-              "fundamentacao_legal": null
-            },
-            {
-              "tipo": "documento",
-              "codigo_receita": null,
-              "descricao": "Simples Nacional - Regime Especial Unificado de Arrecadação de Tributos e Contribuições devidos pelas Microempresas e Empresas de Pequeno Porte.",
-              "periodo_fato_gerador": "Dezembro/2023",
-              "grupo_tributo": null,
-              "documento_arrecadacao": "DAS (Documento de Arrecadação do Simples Nacional)",
-              "categoria_declaracao": null,
-              "fundamentacao_legal": null
-            },
-            {
-              "tipo": "declaracao_pj",
-              "codigo_receita": null,
-              "descricao": "DCTF Mensal - Declaração de Débitos e Créditos Tributários Federais - Mensal",
-              "periodo_fato_gerador": "Novembro/2023",
-              "grupo_tributo": null,
-              "documento_arrecadacao": null,
-              "categoria_declaracao": null,
-              "fundamentacao_legal": null
-            },
-            {
-              "tipo": "declaracao_pj",
-              "codigo_receita": null,
-              "descricao": "PGDAS-D - Programa Gerador do Documento de Arrecadação do Simples Nacional",
-              "periodo_fato_gerador": "Dezembro/2023",
-              "grupo_tributo": null,
-              "documento_arrecadacao": null,
-              "categoria_declaracao": null,
-              "fundamentacao_legal": null
-            }
-          ]
         }
-      }
+      ]
     },
-    "marco": {
+    {
+      "mes": 3,
+      "nome": "marco",
       "url": "https://www.gov.br/receitafederal/pt-br/assuntos/agenda-tributaria/2025/marco",
-      "dias": {
-        "dia-05-03-2025": {
+      "dias": [
+        {
+          "data": "2025-03-05",
           "url": "https://www.gov.br/receitafederal/pt-br/assuntos/agenda-tributaria/2025/marco/dia-05-03-2025",
+          "publicado_em": "25/02/2025 14h24",
+          "atualizado_em": "",
           "eventos": [
             {
               "tipo": "darf",
@@ -7401,8 +7100,11 @@
             }
           ]
         },
-        "dia-07-03-2025": {
+        {
+          "data": "2025-03-07",
           "url": "https://www.gov.br/receitafederal/pt-br/assuntos/agenda-tributaria/2025/marco/dia-07-03-2025",
+          "publicado_em": "25/02/2025 14h24",
+          "atualizado_em": "",
           "eventos": [
             {
               "tipo": "darf",
@@ -7676,8 +7378,11 @@
             }
           ]
         },
-        "dia-10-03-2025": {
+        {
+          "data": "2025-03-10",
           "url": "https://www.gov.br/receitafederal/pt-br/assuntos/agenda-tributaria/2025/marco/dia-10-03-2025",
+          "publicado_em": "25/02/2025 14h24",
+          "atualizado_em": "",
           "eventos": [
             {
               "tipo": "darf",
@@ -7711,8 +7416,11 @@
             }
           ]
         },
-        "dia-11-03-2025": {
+        {
+          "data": "2025-03-11",
           "url": "https://www.gov.br/receitafederal/pt-br/assuntos/agenda-tributaria/2025/marco/dia-11-03-2025",
+          "publicado_em": "25/02/2025 14h24",
+          "atualizado_em": "",
           "eventos": [
             {
               "tipo": "gps",
@@ -7736,8 +7444,11 @@
             }
           ]
         },
-        "dia-13-03-2025": {
+        {
+          "data": "2025-03-13",
           "url": "https://www.gov.br/receitafederal/pt-br/assuntos/agenda-tributaria/2025/marco/dia-13-03-2025",
+          "publicado_em": "25/02/2025 14h24",
+          "atualizado_em": "",
           "eventos": [
             {
               "tipo": "darf",
@@ -8031,8 +7742,11 @@
             }
           ]
         },
-        "dia-14-03-2025": {
+        {
+          "data": "2025-03-14",
           "url": "https://www.gov.br/receitafederal/pt-br/assuntos/agenda-tributaria/2025/marco/dia-14-03-2025",
+          "publicado_em": "25/02/2025 14h24",
+          "atualizado_em": "",
           "eventos": [
             {
               "tipo": "darf",
@@ -8076,8 +7790,11 @@
             }
           ]
         },
-        "dia-17-03-2025": {
+        {
+          "data": "2025-03-17",
           "url": "https://www.gov.br/receitafederal/pt-br/assuntos/agenda-tributaria/2025/marco/dia-17-03-2025",
+          "publicado_em": "25/02/2025 14h24",
+          "atualizado_em": "",
           "eventos": [
             {
               "tipo": "gps",
@@ -8271,8 +7988,11 @@
             }
           ]
         },
-        "dia-18-03-2025": {
+        {
+          "data": "2025-03-18",
           "url": "https://www.gov.br/receitafederal/pt-br/assuntos/agenda-tributaria/2025/marco/dia-18-03-2025",
+          "publicado_em": "25/02/2025 14h24",
+          "atualizado_em": "",
           "eventos": [
             {
               "tipo": "declaracao_pj",
@@ -8286,8 +8006,11 @@
             }
           ]
         },
-        "dia-20-03-2025": {
+        {
+          "data": "2025-03-20",
           "url": "https://www.gov.br/receitafederal/pt-br/assuntos/agenda-tributaria/2025/marco/dia-20-03-2025",
+          "publicado_em": "25/02/2025 14h24",
+          "atualizado_em": "",
           "eventos": [
             {
               "tipo": "darf",
@@ -8841,8 +8564,11 @@
             }
           ]
         },
-        "dia-25-03-2025": {
+        {
+          "data": "2025-03-25",
           "url": "https://www.gov.br/receitafederal/pt-br/assuntos/agenda-tributaria/2025/marco/dia-25-03-2025",
+          "publicado_em": "25/02/2025 14h24",
+          "atualizado_em": "",
           "eventos": [
             {
               "tipo": "darf",
@@ -9526,8 +9252,11 @@
             }
           ]
         },
-        "dia-31-03-2025": {
+        {
+          "data": "2025-03-31",
           "url": "https://www.gov.br/receitafederal/pt-br/assuntos/agenda-tributaria/2025/marco/dia-31-03-2025",
+          "publicado_em": "25/02/2025 14h24",
+          "atualizado_em": "",
           "eventos": [
             {
               "tipo": "darf",
@@ -10720,199 +10449,19 @@
               "fundamentacao_legal": null
             }
           ]
-        },
-        "dia-19-01-2023-1": {
-          "url": "https://www.gov.br/receitafederal/pt-br/assuntos/agenda-tributaria/2024/01/dia-19-01-2023-1",
-          "eventos": [
-            {
-              "tipo": "darf",
-              "codigo_receita": "4095",
-              "descricao": "IRPJ - Pagamento Unificado - Ret. Aplicável às Incorporações Imobiliárias (IRPJ, CSLL, PIS/Pasep, Cofins)",
-              "periodo_fato_gerador": "Dezembro/2023",
-              "grupo_tributo": null,
-              "documento_arrecadacao": null,
-              "categoria_declaracao": null,
-              "fundamentacao_legal": null
-            },
-            {
-              "tipo": "darf",
-              "codigo_receita": "1068",
-              "descricao": "IRPJ - Pagamento Unificado - Reg. Esp. Aplic. às Incorporações Imobiliárias e às Construções no âmbito do PMCMV e à Const. ou Reforma de Creches e Pré-Escolas (IRPJ, CSLL, PIS/Pasep, Cofins)",
-              "periodo_fato_gerador": "Dezembro/2023",
-              "grupo_tributo": null,
-              "documento_arrecadacao": null,
-              "categoria_declaracao": null,
-              "fundamentacao_legal": null
-            },
-            {
-              "tipo": "darf",
-              "codigo_receita": "4112",
-              "descricao": "IRPJ - Regime Especial de Tributação Aplicável às Incorporações Imobiliárias e às Construções",
-              "periodo_fato_gerador": "Dezembro/2023",
-              "grupo_tributo": null,
-              "documento_arrecadacao": null,
-              "categoria_declaracao": null,
-              "fundamentacao_legal": null
-            },
-            {
-              "tipo": "darf",
-              "codigo_receita": "4095",
-              "descricao": "CSLL - Pagamento Unificado - Ret. Aplicável às Incorporações Imobiliárias (IRPJ, CSLL, PIS/Pasep, Cofins)",
-              "periodo_fato_gerador": "Dezembro/2023",
-              "grupo_tributo": null,
-              "documento_arrecadacao": null,
-              "categoria_declaracao": null,
-              "fundamentacao_legal": null
-            },
-            {
-              "tipo": "darf",
-              "codigo_receita": "1068",
-              "descricao": "CSLL - Pagamento Unificado - Reg. Esp. Aplicável às Incorporações Imobiliárias e às Construções no âmbito do PMCMV e à Const. ou Reforma de Creches e Pré-Escolas (IRPJ, CSLL, PIS/Pasep, Cofins)",
-              "periodo_fato_gerador": "Dezembro/2023",
-              "grupo_tributo": null,
-              "documento_arrecadacao": null,
-              "categoria_declaracao": null,
-              "fundamentacao_legal": null
-            },
-            {
-              "tipo": "darf",
-              "codigo_receita": "4153",
-              "descricao": "CSLL - Regime Especial de Tributação Aplicável às Incorporações Imobiliárias e às Construções",
-              "periodo_fato_gerador": "Dezembro/2023",
-              "grupo_tributo": null,
-              "documento_arrecadacao": null,
-              "categoria_declaracao": null,
-              "fundamentacao_legal": null
-            },
-            {
-              "tipo": "darf",
-              "codigo_receita": "4095",
-              "descricao": "PIS/PASEP - Pagamento Unificado - Ret. Aplicável às Incorporações Imobiliárias (IRPJ, CSLL, PIS/Pasep, Cofins)",
-              "periodo_fato_gerador": "Dezembro/2023",
-              "grupo_tributo": null,
-              "documento_arrecadacao": null,
-              "categoria_declaracao": null,
-              "fundamentacao_legal": null
-            },
-            {
-              "tipo": "darf",
-              "codigo_receita": "1068",
-              "descricao": "PIS/PASEP - Pagamento Unificado - Reg. Esp. Aplicável às Incorporações Imobiliárias e às Construções no âmbito do PMCMV e à Const. ou Reforma de Creches e Pré-Escolas (IRPJ, CSLL, PIS/Pasep, Cofins)",
-              "periodo_fato_gerador": "Dezembro/2023",
-              "grupo_tributo": null,
-              "documento_arrecadacao": null,
-              "categoria_declaracao": null,
-              "fundamentacao_legal": null
-            },
-            {
-              "tipo": "darf",
-              "codigo_receita": "4138",
-              "descricao": "PIS/PASEP - Regime Especial de Tributação Aplicável às Incorporações Imobiliárias e às Construções",
-              "periodo_fato_gerador": "Dezembro/2023",
-              "grupo_tributo": null,
-              "documento_arrecadacao": null,
-              "categoria_declaracao": null,
-              "fundamentacao_legal": null
-            },
-            {
-              "tipo": "darf",
-              "codigo_receita": "4095",
-              "descricao": "COFINS - Pagamento Unificado - Ret. Aplicável às Incorporações Imobiliárias (IRPJ, CSLL, PIS/Pasep, Cofins)",
-              "periodo_fato_gerador": "Dezembro/2023",
-              "grupo_tributo": null,
-              "documento_arrecadacao": null,
-              "categoria_declaracao": null,
-              "fundamentacao_legal": null
-            },
-            {
-              "tipo": "darf",
-              "codigo_receita": "1068",
-              "descricao": "COFINS - Pagamento Unificado - Reg. Esp. Aplicável às Incorporações Imobiliárias e às Construções no âmbito do PMCMV e à Const. ou Reforma de Creches e Pré-Escolas (IRPJ, CSLL, PIS/Pasep, Cofins)",
-              "periodo_fato_gerador": "Dezembro/2023",
-              "grupo_tributo": null,
-              "documento_arrecadacao": null,
-              "categoria_declaracao": null,
-              "fundamentacao_legal": null
-            },
-            {
-              "tipo": "darf",
-              "codigo_receita": "4166",
-              "descricao": "COFINS - Regime Especial de Tributação Aplicável às Incorporações Imobiliárias e às Construções",
-              "periodo_fato_gerador": "Dezembro/2023",
-              "grupo_tributo": null,
-              "documento_arrecadacao": null,
-              "categoria_declaracao": null,
-              "fundamentacao_legal": null
-            },
-            {
-              "tipo": "darf",
-              "codigo_receita": "6177",
-              "descricao": "Pagamento Unificado - Regime de Tributação Específica do Futebol (TEF)",
-              "periodo_fato_gerador": "Dezembro/2023",
-              "grupo_tributo": null,
-              "documento_arrecadacao": null,
-              "categoria_declaracao": null,
-              "fundamentacao_legal": null
-            },
-            {
-              "tipo": "gps",
-              "codigo_receita": "6106",
-              "descricao": "Pagamento de dívida ativa parcelamento - referência (preenchimento exclusivo pelo órgão emissor)",
-              "periodo_fato_gerador": "Diversos",
-              "grupo_tributo": null,
-              "documento_arrecadacao": null,
-              "categoria_declaracao": null,
-              "fundamentacao_legal": null
-            },
-            {
-              "tipo": "gps",
-              "codigo_receita": "6505",
-              "descricao": "Comprev - pagamento de dívida ativa - parcelamento de regime próprio de previdência social RPPS - órgão do poder público - referência",
-              "periodo_fato_gerador": "Diversos",
-              "grupo_tributo": null,
-              "documento_arrecadacao": null,
-              "categoria_declaracao": null,
-              "fundamentacao_legal": null
-            },
-            {
-              "tipo": "documento",
-              "codigo_receita": null,
-              "descricao": "Simples Nacional - Regime Especial Unificado de Arrecadação de Tributos e Contribuições devidos pelas Microempresas e Empresas de Pequeno Porte.",
-              "periodo_fato_gerador": "Dezembro/2023",
-              "grupo_tributo": null,
-              "documento_arrecadacao": "DAS (Documento de Arrecadação do Simples Nacional)",
-              "categoria_declaracao": null,
-              "fundamentacao_legal": null
-            },
-            {
-              "tipo": "declaracao_pj",
-              "codigo_receita": null,
-              "descricao": "DCTF Mensal - Declaração de Débitos e Créditos Tributários Federais - Mensal",
-              "periodo_fato_gerador": "Novembro/2023",
-              "grupo_tributo": null,
-              "documento_arrecadacao": null,
-              "categoria_declaracao": null,
-              "fundamentacao_legal": null
-            },
-            {
-              "tipo": "declaracao_pj",
-              "codigo_receita": null,
-              "descricao": "PGDAS-D - Programa Gerador do Documento de Arrecadação do Simples Nacional",
-              "periodo_fato_gerador": "Dezembro/2023",
-              "grupo_tributo": null,
-              "documento_arrecadacao": null,
-              "categoria_declaracao": null,
-              "fundamentacao_legal": null
-            }
-          ]
         }
-      }
+      ]
     },
-    "abril": {
+    {
+      "mes": 4,
+      "nome": "abril",
       "url": "https://www.gov.br/receitafederal/pt-br/assuntos/agenda-tributaria/2025/abril",
-      "dias": {
-        "dia-03-04-2025": {
+      "dias": [
+        {
+          "data": "2025-04-03",
           "url": "https://www.gov.br/receitafederal/pt-br/assuntos/agenda-tributaria/2025/abril/dia-03-04-2025",
+          "publicado_em": "28/03/2025 11h55",
+          "atualizado_em": "",
           "eventos": [
             {
               "tipo": "darf",
@@ -11186,8 +10735,11 @@
             }
           ]
         },
-        "dia-07-04-2025": {
+        {
+          "data": "2025-04-07",
           "url": "https://www.gov.br/receitafederal/pt-br/assuntos/agenda-tributaria/2025/abril/dia-07-04-2025",
+          "publicado_em": "28/03/2025 11h55",
+          "atualizado_em": "",
           "eventos": [
             {
               "tipo": "darf",
@@ -11291,8 +10843,11 @@
             }
           ]
         },
-        "dia-10-04-2025": {
+        {
+          "data": "2025-04-10",
           "url": "https://www.gov.br/receitafederal/pt-br/assuntos/agenda-tributaria/2025/abril/dia-10-04-2025",
+          "publicado_em": "28/03/2025 11h55",
+          "atualizado_em": "",
           "eventos": [
             {
               "tipo": "darf",
@@ -11326,8 +10881,11 @@
             }
           ]
         },
-        "dia-14-04-2025": {
+        {
+          "data": "2025-04-14",
           "url": "https://www.gov.br/receitafederal/pt-br/assuntos/agenda-tributaria/2025/abril/dia-14-04-2025",
+          "publicado_em": "28/03/2025 11h55",
+          "atualizado_em": "",
           "eventos": [
             {
               "tipo": "declaracao_pj",
@@ -11341,8 +10899,11 @@
             }
           ]
         },
-        "dia-15-04-2025": {
+        {
+          "data": "2025-04-15",
           "url": "https://www.gov.br/receitafederal/pt-br/assuntos/agenda-tributaria/2025/abril/dia-15-04-2025",
+          "publicado_em": "28/03/2025 11h55",
+          "atualizado_em": "",
           "eventos": [
             {
               "tipo": "darf",
@@ -11956,8 +11517,11 @@
             }
           ]
         },
-        "dia-17-04-2025": {
+        {
+          "data": "2025-04-17",
           "url": "https://www.gov.br/receitafederal/pt-br/assuntos/agenda-tributaria/2025/abril/dia-17-04-2025",
+          "publicado_em": "28/03/2025 11h55",
+          "atualizado_em": "",
           "eventos": [
             {
               "tipo": "darf",
@@ -12331,8 +11895,11 @@
             }
           ]
         },
-        "dia-20-04-2025": {
+        {
+          "data": "2025-04-20",
           "url": "https://www.gov.br/receitafederal/pt-br/assuntos/agenda-tributaria/2025/abril/dia-20-04-2025",
+          "publicado_em": "28/03/2025 11h55",
+          "atualizado_em": "",
           "eventos": [
             {
               "tipo": "declaracao_pj",
@@ -12346,8 +11913,11 @@
             }
           ]
         },
-        "dia-22-04-2025": {
+        {
+          "data": "2025-04-22",
           "url": "https://www.gov.br/receitafederal/pt-br/assuntos/agenda-tributaria/2025/abril/dia-22-04-2025",
+          "publicado_em": "28/03/2025 11h55",
+          "atualizado_em": "",
           "eventos": [
             {
               "tipo": "darf",
@@ -12521,8 +12091,11 @@
             }
           ]
         },
-        "dia-24-04-2025": {
+        {
+          "data": "2025-04-24",
           "url": "https://www.gov.br/receitafederal/pt-br/assuntos/agenda-tributaria/2025/abril/dia-24-04-2025",
+          "publicado_em": "28/03/2025 11h55",
+          "atualizado_em": "",
           "eventos": [
             {
               "tipo": "darf",
@@ -12796,8 +12369,11 @@
             }
           ]
         },
-        "dia-25-04-2025": {
+        {
+          "data": "2025-04-25",
           "url": "https://www.gov.br/receitafederal/pt-br/assuntos/agenda-tributaria/2025/abril/dia-25-04-2025",
+          "publicado_em": "28/03/2025 11h55",
+          "atualizado_em": "",
           "eventos": [
             {
               "tipo": "darf",
@@ -13211,8 +12787,11 @@
             }
           ]
         },
-        "dia-30-04-2025": {
+        {
+          "data": "2025-04-30",
           "url": "https://www.gov.br/receitafederal/pt-br/assuntos/agenda-tributaria/2025/abril/dia-30-04-2025",
+          "publicado_em": "28/03/2025 11h55",
+          "atualizado_em": "",
           "eventos": [
             {
               "tipo": "darf",
@@ -14325,199 +13904,19 @@
               "fundamentacao_legal": null
             }
           ]
-        },
-        "dia-19-01-2023-1": {
-          "url": "https://www.gov.br/receitafederal/pt-br/assuntos/agenda-tributaria/2024/01/dia-19-01-2023-1",
-          "eventos": [
-            {
-              "tipo": "darf",
-              "codigo_receita": "4095",
-              "descricao": "IRPJ - Pagamento Unificado - Ret. Aplicável às Incorporações Imobiliárias (IRPJ, CSLL, PIS/Pasep, Cofins)",
-              "periodo_fato_gerador": "Dezembro/2023",
-              "grupo_tributo": null,
-              "documento_arrecadacao": null,
-              "categoria_declaracao": null,
-              "fundamentacao_legal": null
-            },
-            {
-              "tipo": "darf",
-              "codigo_receita": "1068",
-              "descricao": "IRPJ - Pagamento Unificado - Reg. Esp. Aplic. às Incorporações Imobiliárias e às Construções no âmbito do PMCMV e à Const. ou Reforma de Creches e Pré-Escolas (IRPJ, CSLL, PIS/Pasep, Cofins)",
-              "periodo_fato_gerador": "Dezembro/2023",
-              "grupo_tributo": null,
-              "documento_arrecadacao": null,
-              "categoria_declaracao": null,
-              "fundamentacao_legal": null
-            },
-            {
-              "tipo": "darf",
-              "codigo_receita": "4112",
-              "descricao": "IRPJ - Regime Especial de Tributação Aplicável às Incorporações Imobiliárias e às Construções",
-              "periodo_fato_gerador": "Dezembro/2023",
-              "grupo_tributo": null,
-              "documento_arrecadacao": null,
-              "categoria_declaracao": null,
-              "fundamentacao_legal": null
-            },
-            {
-              "tipo": "darf",
-              "codigo_receita": "4095",
-              "descricao": "CSLL - Pagamento Unificado - Ret. Aplicável às Incorporações Imobiliárias (IRPJ, CSLL, PIS/Pasep, Cofins)",
-              "periodo_fato_gerador": "Dezembro/2023",
-              "grupo_tributo": null,
-              "documento_arrecadacao": null,
-              "categoria_declaracao": null,
-              "fundamentacao_legal": null
-            },
-            {
-              "tipo": "darf",
-              "codigo_receita": "1068",
-              "descricao": "CSLL - Pagamento Unificado - Reg. Esp. Aplicável às Incorporações Imobiliárias e às Construções no âmbito do PMCMV e à Const. ou Reforma de Creches e Pré-Escolas (IRPJ, CSLL, PIS/Pasep, Cofins)",
-              "periodo_fato_gerador": "Dezembro/2023",
-              "grupo_tributo": null,
-              "documento_arrecadacao": null,
-              "categoria_declaracao": null,
-              "fundamentacao_legal": null
-            },
-            {
-              "tipo": "darf",
-              "codigo_receita": "4153",
-              "descricao": "CSLL - Regime Especial de Tributação Aplicável às Incorporações Imobiliárias e às Construções",
-              "periodo_fato_gerador": "Dezembro/2023",
-              "grupo_tributo": null,
-              "documento_arrecadacao": null,
-              "categoria_declaracao": null,
-              "fundamentacao_legal": null
-            },
-            {
-              "tipo": "darf",
-              "codigo_receita": "4095",
-              "descricao": "PIS/PASEP - Pagamento Unificado - Ret. Aplicável às Incorporações Imobiliárias (IRPJ, CSLL, PIS/Pasep, Cofins)",
-              "periodo_fato_gerador": "Dezembro/2023",
-              "grupo_tributo": null,
-              "documento_arrecadacao": null,
-              "categoria_declaracao": null,
-              "fundamentacao_legal": null
-            },
-            {
-              "tipo": "darf",
-              "codigo_receita": "1068",
-              "descricao": "PIS/PASEP - Pagamento Unificado - Reg. Esp. Aplicável às Incorporações Imobiliárias e às Construções no âmbito do PMCMV e à Const. ou Reforma de Creches e Pré-Escolas (IRPJ, CSLL, PIS/Pasep, Cofins)",
-              "periodo_fato_gerador": "Dezembro/2023",
-              "grupo_tributo": null,
-              "documento_arrecadacao": null,
-              "categoria_declaracao": null,
-              "fundamentacao_legal": null
-            },
-            {
-              "tipo": "darf",
-              "codigo_receita": "4138",
-              "descricao": "PIS/PASEP - Regime Especial de Tributação Aplicável às Incorporações Imobiliárias e às Construções",
-              "periodo_fato_gerador": "Dezembro/2023",
-              "grupo_tributo": null,
-              "documento_arrecadacao": null,
-              "categoria_declaracao": null,
-              "fundamentacao_legal": null
-            },
-            {
-              "tipo": "darf",
-              "codigo_receita": "4095",
-              "descricao": "COFINS - Pagamento Unificado - Ret. Aplicável às Incorporações Imobiliárias (IRPJ, CSLL, PIS/Pasep, Cofins)",
-              "periodo_fato_gerador": "Dezembro/2023",
-              "grupo_tributo": null,
-              "documento_arrecadacao": null,
-              "categoria_declaracao": null,
-              "fundamentacao_legal": null
-            },
-            {
-              "tipo": "darf",
-              "codigo_receita": "1068",
-              "descricao": "COFINS - Pagamento Unificado - Reg. Esp. Aplicável às Incorporações Imobiliárias e às Construções no âmbito do PMCMV e à Const. ou Reforma de Creches e Pré-Escolas (IRPJ, CSLL, PIS/Pasep, Cofins)",
-              "periodo_fato_gerador": "Dezembro/2023",
-              "grupo_tributo": null,
-              "documento_arrecadacao": null,
-              "categoria_declaracao": null,
-              "fundamentacao_legal": null
-            },
-            {
-              "tipo": "darf",
-              "codigo_receita": "4166",
-              "descricao": "COFINS - Regime Especial de Tributação Aplicável às Incorporações Imobiliárias e às Construções",
-              "periodo_fato_gerador": "Dezembro/2023",
-              "grupo_tributo": null,
-              "documento_arrecadacao": null,
-              "categoria_declaracao": null,
-              "fundamentacao_legal": null
-            },
-            {
-              "tipo": "darf",
-              "codigo_receita": "6177",
-              "descricao": "Pagamento Unificado - Regime de Tributação Específica do Futebol (TEF)",
-              "periodo_fato_gerador": "Dezembro/2023",
-              "grupo_tributo": null,
-              "documento_arrecadacao": null,
-              "categoria_declaracao": null,
-              "fundamentacao_legal": null
-            },
-            {
-              "tipo": "gps",
-              "codigo_receita": "6106",
-              "descricao": "Pagamento de dívida ativa parcelamento - referência (preenchimento exclusivo pelo órgão emissor)",
-              "periodo_fato_gerador": "Diversos",
-              "grupo_tributo": null,
-              "documento_arrecadacao": null,
-              "categoria_declaracao": null,
-              "fundamentacao_legal": null
-            },
-            {
-              "tipo": "gps",
-              "codigo_receita": "6505",
-              "descricao": "Comprev - pagamento de dívida ativa - parcelamento de regime próprio de previdência social RPPS - órgão do poder público - referência",
-              "periodo_fato_gerador": "Diversos",
-              "grupo_tributo": null,
-              "documento_arrecadacao": null,
-              "categoria_declaracao": null,
-              "fundamentacao_legal": null
-            },
-            {
-              "tipo": "documento",
-              "codigo_receita": null,
-              "descricao": "Simples Nacional - Regime Especial Unificado de Arrecadação de Tributos e Contribuições devidos pelas Microempresas e Empresas de Pequeno Porte.",
-              "periodo_fato_gerador": "Dezembro/2023",
-              "grupo_tributo": null,
-              "documento_arrecadacao": "DAS (Documento de Arrecadação do Simples Nacional)",
-              "categoria_declaracao": null,
-              "fundamentacao_legal": null
-            },
-            {
-              "tipo": "declaracao_pj",
-              "codigo_receita": null,
-              "descricao": "DCTF Mensal - Declaração de Débitos e Créditos Tributários Federais - Mensal",
-              "periodo_fato_gerador": "Novembro/2023",
-              "grupo_tributo": null,
-              "documento_arrecadacao": null,
-              "categoria_declaracao": null,
-              "fundamentacao_legal": null
-            },
-            {
-              "tipo": "declaracao_pj",
-              "codigo_receita": null,
-              "descricao": "PGDAS-D - Programa Gerador do Documento de Arrecadação do Simples Nacional",
-              "periodo_fato_gerador": "Dezembro/2023",
-              "grupo_tributo": null,
-              "documento_arrecadacao": null,
-              "categoria_declaracao": null,
-              "fundamentacao_legal": null
-            }
-          ]
         }
-      }
+      ]
     },
-    "maio": {
+    {
+      "mes": 5,
+      "nome": "maio",
       "url": "https://www.gov.br/receitafederal/pt-br/assuntos/agenda-tributaria/2025/maio",
-      "dias": {
-        "dia-05-05-2025": {
+      "dias": [
+        {
+          "data": "2025-05-05",
           "url": "https://www.gov.br/receitafederal/pt-br/assuntos/agenda-tributaria/2025/maio/dia-05-05-2025",
+          "publicado_em": "27/04/2025 19h33",
+          "atualizado_em": "",
           "eventos": [
             {
               "tipo": "darf",
@@ -14601,8 +14000,11 @@
             }
           ]
         },
-        "dia-06-05-2025": {
+        {
+          "data": "2025-05-06",
           "url": "https://www.gov.br/receitafederal/pt-br/assuntos/agenda-tributaria/2025/maio/dia-06-05-2025",
+          "publicado_em": "27/04/2025 19h33",
+          "atualizado_em": "",
           "eventos": [
             {
               "tipo": "darf",
@@ -14876,8 +14278,11 @@
             }
           ]
         },
-        "dia-08-05-2025": {
+        {
+          "data": "2025-05-08",
           "url": "https://www.gov.br/receitafederal/pt-br/assuntos/agenda-tributaria/2025/maio/dia-08-05-2025",
+          "publicado_em": "27/04/2025 19h33",
+          "atualizado_em": "",
           "eventos": [
             {
               "tipo": "gps",
@@ -14901,8 +14306,11 @@
             }
           ]
         },
-        "dia-09-05-2025": {
+        {
+          "data": "2025-05-09",
           "url": "https://www.gov.br/receitafederal/pt-br/assuntos/agenda-tributaria/2025/maio/dia-09-05-2025",
+          "publicado_em": "27/04/2025 19h33",
+          "atualizado_em": "",
           "eventos": [
             {
               "tipo": "darf",
@@ -14936,8 +14344,11 @@
             }
           ]
         },
-        "dia-14-05-2025": {
+        {
+          "data": "2025-05-14",
           "url": "https://www.gov.br/receitafederal/pt-br/assuntos/agenda-tributaria/2025/maio/dia-14-05-2025",
+          "publicado_em": "27/04/2025 19h33",
+          "atualizado_em": "",
           "eventos": [
             {
               "tipo": "darf",
@@ -15231,8 +14642,11 @@
             }
           ]
         },
-        "dia-15-05-2025": {
+        {
+          "data": "2025-05-15",
           "url": "https://www.gov.br/receitafederal/pt-br/assuntos/agenda-tributaria/2025/maio/dia-15-05-2025",
+          "publicado_em": "27/04/2025 19h33",
+          "atualizado_em": "",
           "eventos": [
             {
               "tipo": "darf",
@@ -15486,8 +14900,11 @@
             }
           ]
         },
-        "dia-20-05-2025": {
+        {
+          "data": "2025-05-20",
           "url": "https://www.gov.br/receitafederal/pt-br/assuntos/agenda-tributaria/2025/maio/dia-20-05-2025",
+          "publicado_em": "27/04/2025 19h33",
+          "atualizado_em": "",
           "eventos": [
             {
               "tipo": "darf",
@@ -16041,8 +15458,11 @@
             }
           ]
         },
-        "dia-23-05-2025": {
+        {
+          "data": "2025-05-23",
           "url": "https://www.gov.br/receitafederal/pt-br/assuntos/agenda-tributaria/2025/maio/dia-23-05-2025",
+          "publicado_em": "27/04/2025 19h33",
+          "atualizado_em": "",
           "eventos": [
             {
               "tipo": "darf",
@@ -16646,8 +16066,11 @@
             }
           ]
         },
-        "dia-26-05-2025": {
+        {
+          "data": "2025-05-26",
           "url": "https://www.gov.br/receitafederal/pt-br/assuntos/agenda-tributaria/2025/maio/dia-26-05-2025",
+          "publicado_em": "27/04/2025 19h33",
+          "atualizado_em": "",
           "eventos": [
             {
               "tipo": "darf",
@@ -16731,8 +16154,11 @@
             }
           ]
         },
-        "dia-30-05-2025": {
+        {
+          "data": "2025-05-30",
           "url": "https://www.gov.br/receitafederal/pt-br/assuntos/agenda-tributaria/2025/maio/dia-30-05-2025",
+          "publicado_em": "27/04/2025 19h33",
+          "atualizado_em": "23/05/2025 09h04",
           "eventos": [
             {
               "tipo": "darf",
@@ -17886,8 +17312,11 @@
             }
           ]
         },
-        "dia-31-05-2025": {
+        {
+          "data": "2025-05-31",
           "url": "https://www.gov.br/receitafederal/pt-br/assuntos/agenda-tributaria/2025/maio/dia-31-05-2025",
+          "publicado_em": "23/05/2025 09h05",
+          "atualizado_em": "",
           "eventos": [
             {
               "tipo": "declaracao_pj",
@@ -17900,199 +17329,19 @@
               "fundamentacao_legal": null
             }
           ]
-        },
-        "dia-19-01-2023-1": {
-          "url": "https://www.gov.br/receitafederal/pt-br/assuntos/agenda-tributaria/2024/01/dia-19-01-2023-1",
-          "eventos": [
-            {
-              "tipo": "darf",
-              "codigo_receita": "4095",
-              "descricao": "IRPJ - Pagamento Unificado - Ret. Aplicável às Incorporações Imobiliárias (IRPJ, CSLL, PIS/Pasep, Cofins)",
-              "periodo_fato_gerador": "Dezembro/2023",
-              "grupo_tributo": null,
-              "documento_arrecadacao": null,
-              "categoria_declaracao": null,
-              "fundamentacao_legal": null
-            },
-            {
-              "tipo": "darf",
-              "codigo_receita": "1068",
-              "descricao": "IRPJ - Pagamento Unificado - Reg. Esp. Aplic. às Incorporações Imobiliárias e às Construções no âmbito do PMCMV e à Const. ou Reforma de Creches e Pré-Escolas (IRPJ, CSLL, PIS/Pasep, Cofins)",
-              "periodo_fato_gerador": "Dezembro/2023",
-              "grupo_tributo": null,
-              "documento_arrecadacao": null,
-              "categoria_declaracao": null,
-              "fundamentacao_legal": null
-            },
-            {
-              "tipo": "darf",
-              "codigo_receita": "4112",
-              "descricao": "IRPJ - Regime Especial de Tributação Aplicável às Incorporações Imobiliárias e às Construções",
-              "periodo_fato_gerador": "Dezembro/2023",
-              "grupo_tributo": null,
-              "documento_arrecadacao": null,
-              "categoria_declaracao": null,
-              "fundamentacao_legal": null
-            },
-            {
-              "tipo": "darf",
-              "codigo_receita": "4095",
-              "descricao": "CSLL - Pagamento Unificado - Ret. Aplicável às Incorporações Imobiliárias (IRPJ, CSLL, PIS/Pasep, Cofins)",
-              "periodo_fato_gerador": "Dezembro/2023",
-              "grupo_tributo": null,
-              "documento_arrecadacao": null,
-              "categoria_declaracao": null,
-              "fundamentacao_legal": null
-            },
-            {
-              "tipo": "darf",
-              "codigo_receita": "1068",
-              "descricao": "CSLL - Pagamento Unificado - Reg. Esp. Aplicável às Incorporações Imobiliárias e às Construções no âmbito do PMCMV e à Const. ou Reforma de Creches e Pré-Escolas (IRPJ, CSLL, PIS/Pasep, Cofins)",
-              "periodo_fato_gerador": "Dezembro/2023",
-              "grupo_tributo": null,
-              "documento_arrecadacao": null,
-              "categoria_declaracao": null,
-              "fundamentacao_legal": null
-            },
-            {
-              "tipo": "darf",
-              "codigo_receita": "4153",
-              "descricao": "CSLL - Regime Especial de Tributação Aplicável às Incorporações Imobiliárias e às Construções",
-              "periodo_fato_gerador": "Dezembro/2023",
-              "grupo_tributo": null,
-              "documento_arrecadacao": null,
-              "categoria_declaracao": null,
-              "fundamentacao_legal": null
-            },
-            {
-              "tipo": "darf",
-              "codigo_receita": "4095",
-              "descricao": "PIS/PASEP - Pagamento Unificado - Ret. Aplicável às Incorporações Imobiliárias (IRPJ, CSLL, PIS/Pasep, Cofins)",
-              "periodo_fato_gerador": "Dezembro/2023",
-              "grupo_tributo": null,
-              "documento_arrecadacao": null,
-              "categoria_declaracao": null,
-              "fundamentacao_legal": null
-            },
-            {
-              "tipo": "darf",
-              "codigo_receita": "1068",
-              "descricao": "PIS/PASEP - Pagamento Unificado - Reg. Esp. Aplicável às Incorporações Imobiliárias e às Construções no âmbito do PMCMV e à Const. ou Reforma de Creches e Pré-Escolas (IRPJ, CSLL, PIS/Pasep, Cofins)",
-              "periodo_fato_gerador": "Dezembro/2023",
-              "grupo_tributo": null,
-              "documento_arrecadacao": null,
-              "categoria_declaracao": null,
-              "fundamentacao_legal": null
-            },
-            {
-              "tipo": "darf",
-              "codigo_receita": "4138",
-              "descricao": "PIS/PASEP - Regime Especial de Tributação Aplicável às Incorporações Imobiliárias e às Construções",
-              "periodo_fato_gerador": "Dezembro/2023",
-              "grupo_tributo": null,
-              "documento_arrecadacao": null,
-              "categoria_declaracao": null,
-              "fundamentacao_legal": null
-            },
-            {
-              "tipo": "darf",
-              "codigo_receita": "4095",
-              "descricao": "COFINS - Pagamento Unificado - Ret. Aplicável às Incorporações Imobiliárias (IRPJ, CSLL, PIS/Pasep, Cofins)",
-              "periodo_fato_gerador": "Dezembro/2023",
-              "grupo_tributo": null,
-              "documento_arrecadacao": null,
-              "categoria_declaracao": null,
-              "fundamentacao_legal": null
-            },
-            {
-              "tipo": "darf",
-              "codigo_receita": "1068",
-              "descricao": "COFINS - Pagamento Unificado - Reg. Esp. Aplicável às Incorporações Imobiliárias e às Construções no âmbito do PMCMV e à Const. ou Reforma de Creches e Pré-Escolas (IRPJ, CSLL, PIS/Pasep, Cofins)",
-              "periodo_fato_gerador": "Dezembro/2023",
-              "grupo_tributo": null,
-              "documento_arrecadacao": null,
-              "categoria_declaracao": null,
-              "fundamentacao_legal": null
-            },
-            {
-              "tipo": "darf",
-              "codigo_receita": "4166",
-              "descricao": "COFINS - Regime Especial de Tributação Aplicável às Incorporações Imobiliárias e às Construções",
-              "periodo_fato_gerador": "Dezembro/2023",
-              "grupo_tributo": null,
-              "documento_arrecadacao": null,
-              "categoria_declaracao": null,
-              "fundamentacao_legal": null
-            },
-            {
-              "tipo": "darf",
-              "codigo_receita": "6177",
-              "descricao": "Pagamento Unificado - Regime de Tributação Específica do Futebol (TEF)",
-              "periodo_fato_gerador": "Dezembro/2023",
-              "grupo_tributo": null,
-              "documento_arrecadacao": null,
-              "categoria_declaracao": null,
-              "fundamentacao_legal": null
-            },
-            {
-              "tipo": "gps",
-              "codigo_receita": "6106",
-              "descricao": "Pagamento de dívida ativa parcelamento - referência (preenchimento exclusivo pelo órgão emissor)",
-              "periodo_fato_gerador": "Diversos",
-              "grupo_tributo": null,
-              "documento_arrecadacao": null,
-              "categoria_declaracao": null,
-              "fundamentacao_legal": null
-            },
-            {
-              "tipo": "gps",
-              "codigo_receita": "6505",
-              "descricao": "Comprev - pagamento de dívida ativa - parcelamento de regime próprio de previdência social RPPS - órgão do poder público - referência",
-              "periodo_fato_gerador": "Diversos",
-              "grupo_tributo": null,
-              "documento_arrecadacao": null,
-              "categoria_declaracao": null,
-              "fundamentacao_legal": null
-            },
-            {
-              "tipo": "documento",
-              "codigo_receita": null,
-              "descricao": "Simples Nacional - Regime Especial Unificado de Arrecadação de Tributos e Contribuições devidos pelas Microempresas e Empresas de Pequeno Porte.",
-              "periodo_fato_gerador": "Dezembro/2023",
-              "grupo_tributo": null,
-              "documento_arrecadacao": "DAS (Documento de Arrecadação do Simples Nacional)",
-              "categoria_declaracao": null,
-              "fundamentacao_legal": null
-            },
-            {
-              "tipo": "declaracao_pj",
-              "codigo_receita": null,
-              "descricao": "DCTF Mensal - Declaração de Débitos e Créditos Tributários Federais - Mensal",
-              "periodo_fato_gerador": "Novembro/2023",
-              "grupo_tributo": null,
-              "documento_arrecadacao": null,
-              "categoria_declaracao": null,
-              "fundamentacao_legal": null
-            },
-            {
-              "tipo": "declaracao_pj",
-              "codigo_receita": null,
-              "descricao": "PGDAS-D - Programa Gerador do Documento de Arrecadação do Simples Nacional",
-              "periodo_fato_gerador": "Dezembro/2023",
-              "grupo_tributo": null,
-              "documento_arrecadacao": null,
-              "categoria_declaracao": null,
-              "fundamentacao_legal": null
-            }
-          ]
         }
-      }
+      ]
     },
-    "junho": {
+    {
+      "mes": 6,
+      "nome": "junho",
       "url": "https://www.gov.br/receitafederal/pt-br/assuntos/agenda-tributaria/2025/junho",
-      "dias": {
-        "dia-04-06-2025": {
+      "dias": [
+        {
+          "data": "2025-06-04",
           "url": "https://www.gov.br/receitafederal/pt-br/assuntos/agenda-tributaria/2025/junho/dia-04-06-2025",
+          "publicado_em": "28/05/2025 07h56",
+          "atualizado_em": "",
           "eventos": [
             {
               "tipo": "darf",
@@ -18366,8 +17615,11 @@
             }
           ]
         },
-        "dia-05-06-2025": {
+        {
+          "data": "2025-06-05",
           "url": "https://www.gov.br/receitafederal/pt-br/assuntos/agenda-tributaria/2025/junho/dia-05-06-2025",
+          "publicado_em": "28/05/2025 07h56",
+          "atualizado_em": "",
           "eventos": [
             {
               "tipo": "darf",
@@ -18451,8 +17703,11 @@
             }
           ]
         },
-        "dia-06-06-2025": {
+        {
+          "data": "2025-06-06",
           "url": "https://www.gov.br/receitafederal/pt-br/assuntos/agenda-tributaria/2025/junho/dia-06-06-2025",
+          "publicado_em": "28/05/2025 07h56",
+          "atualizado_em": "",
           "eventos": [
             {
               "tipo": "gps",
@@ -18476,8 +17731,11 @@
             }
           ]
         },
-        "dia-10-06-2025": {
+        {
+          "data": "2025-06-10",
           "url": "https://www.gov.br/receitafederal/pt-br/assuntos/agenda-tributaria/2025/junho/dia-10-06-2025",
+          "publicado_em": "28/05/2025 07h56",
+          "atualizado_em": "",
           "eventos": [
             {
               "tipo": "darf",
@@ -18511,8 +17769,11 @@
             }
           ]
         },
-        "dia-13-06-2025": {
+        {
+          "data": "2025-06-13",
           "url": "https://www.gov.br/receitafederal/pt-br/assuntos/agenda-tributaria/2025/junho/dia-13-06-2025",
+          "publicado_em": "28/05/2025 07h56",
+          "atualizado_em": "",
           "eventos": [
             {
               "tipo": "darf",
@@ -18856,8 +18117,11 @@
             }
           ]
         },
-        "dia-16-06-2025": {
+        {
+          "data": "2025-06-16",
           "url": "https://www.gov.br/receitafederal/pt-br/assuntos/agenda-tributaria/2025/junho/dia-16-06-2025",
+          "publicado_em": "28/05/2025 07h56",
+          "atualizado_em": "",
           "eventos": [
             {
               "tipo": "darf",
@@ -19051,8 +18315,11 @@
             }
           ]
         },
-        "dia-20-06-2025": {
+        {
+          "data": "2025-06-20",
           "url": "https://www.gov.br/receitafederal/pt-br/assuntos/agenda-tributaria/2025/junho/dia-20-06-2025",
+          "publicado_em": "28/05/2025 07h56",
+          "atualizado_em": "29/05/2025 12h57",
           "eventos": [
             {
               "tipo": "darf",
@@ -19566,8 +18833,11 @@
             }
           ]
         },
-        "dia-25-06-2025": {
+        {
+          "data": "2025-06-25",
           "url": "https://www.gov.br/receitafederal/pt-br/assuntos/agenda-tributaria/2025/junho/dia-25-06-2025",
+          "publicado_em": "28/05/2025 07h56",
+          "atualizado_em": "",
           "eventos": [
             {
               "tipo": "darf",
@@ -20251,8 +19521,11 @@
             }
           ]
         },
-        "dia-30-06-2025": {
+        {
+          "data": "2025-06-30",
           "url": "https://www.gov.br/receitafederal/pt-br/assuntos/agenda-tributaria/2025/junho/dia-30-06-2025",
+          "publicado_em": "28/05/2025 07h56",
+          "atualizado_em": "25/06/2025 17h05",
           "eventos": [
             {
               "tipo": "darf",
@@ -21386,13 +20659,18 @@
             }
           ]
         }
-      }
+      ]
     },
-    "julho": {
+    {
+      "mes": 7,
+      "nome": "julho",
       "url": "https://www.gov.br/receitafederal/pt-br/assuntos/agenda-tributaria/2025/julho",
-      "dias": {
-        "dia-03-07-2025": {
+      "dias": [
+        {
+          "data": "2025-07-03",
           "url": "https://www.gov.br/receitafederal/pt-br/assuntos/agenda-tributaria/2025/julho/dia-03-07-2025",
+          "publicado_em": "26/06/2025 10h10",
+          "atualizado_em": "",
           "eventos": [
             {
               "tipo": "darf",
@@ -21666,8 +20944,11 @@
             }
           ]
         },
-        "dia-07-07-2025": {
+        {
+          "data": "2025-07-07",
           "url": "https://www.gov.br/receitafederal/pt-br/assuntos/agenda-tributaria/2025/julho/dia-07-07-2025",
+          "publicado_em": "26/06/2025 10h10",
+          "atualizado_em": "",
           "eventos": [
             {
               "tipo": "darf",
@@ -21751,8 +21032,11 @@
             }
           ]
         },
-        "dia-10-07-2025": {
+        {
+          "data": "2025-07-10",
           "url": "https://www.gov.br/receitafederal/pt-br/assuntos/agenda-tributaria/2025/julho/dia-10-07-2025",
+          "publicado_em": "26/06/2025 10h10",
+          "atualizado_em": "",
           "eventos": [
             {
               "tipo": "darf",
@@ -21786,8 +21070,11 @@
             }
           ]
         },
-        "dia-14-07-2025": {
+        {
+          "data": "2025-07-14",
           "url": "https://www.gov.br/receitafederal/pt-br/assuntos/agenda-tributaria/2025/julho/dia-14-07-2025",
+          "publicado_em": "26/06/2025 10h10",
+          "atualizado_em": "",
           "eventos": [
             {
               "tipo": "declaracao_pj",
@@ -21801,8 +21088,11 @@
             }
           ]
         },
-        "dia-15-07-2025": {
+        {
+          "data": "2025-07-15",
           "url": "https://www.gov.br/receitafederal/pt-br/assuntos/agenda-tributaria/2025/julho/dia-15-07-2025",
+          "publicado_em": "26/06/2025 10h10",
+          "atualizado_em": "27/07/2025 22h49",
           "eventos": [
             {
               "tipo": "darf",
@@ -22416,8 +21706,11 @@
             }
           ]
         },
-        "dia-18-07-2025": {
+        {
+          "data": "2025-07-18",
           "url": "https://www.gov.br/receitafederal/pt-br/assuntos/agenda-tributaria/2025/julho/dia-18-07-2025",
+          "publicado_em": "26/06/2025 10h10",
+          "atualizado_em": "",
           "eventos": [
             {
               "tipo": "darf",
@@ -22751,8 +22044,11 @@
             }
           ]
         },
-        "dia-20-07-2025": {
+        {
+          "data": "2025-07-20",
           "url": "https://www.gov.br/receitafederal/pt-br/assuntos/agenda-tributaria/2025/julho/dia-20-07-2025",
+          "publicado_em": "26/06/2025 10h10",
+          "atualizado_em": "",
           "eventos": [
             {
               "tipo": "declaracao_pj",
@@ -22766,8 +22062,11 @@
             }
           ]
         },
-        "dia-21-07-2025": {
+        {
+          "data": "2025-07-21",
           "url": "https://www.gov.br/receitafederal/pt-br/assuntos/agenda-tributaria/2025/julho/dia-21-07-2025",
+          "publicado_em": "26/06/2025 10h10",
+          "atualizado_em": "",
           "eventos": [
             {
               "tipo": "darf",
@@ -22931,8 +22230,11 @@
             }
           ]
         },
-        "dia-23-07-2025": {
+        {
+          "data": "2025-07-23",
           "url": "https://www.gov.br/receitafederal/pt-br/assuntos/agenda-tributaria/2025/julho/dia-23-07-2025",
+          "publicado_em": "26/06/2025 10h10",
+          "atualizado_em": "",
           "eventos": [
             {
               "tipo": "darf",
@@ -23206,8 +22508,11 @@
             }
           ]
         },
-        "dia-25-07-2025": {
+        {
+          "data": "2025-07-25",
           "url": "https://www.gov.br/receitafederal/pt-br/assuntos/agenda-tributaria/2025/julho/dia-25-07-2025",
+          "publicado_em": "26/06/2025 10h10",
+          "atualizado_em": "",
           "eventos": [
             {
               "tipo": "darf",
@@ -23621,8 +22926,11 @@
             }
           ]
         },
-        "dia-31-07-2025": {
+        {
+          "data": "2025-07-31",
           "url": "https://www.gov.br/receitafederal/pt-br/assuntos/agenda-tributaria/2025/julho/dia-31-07-2025",
+          "publicado_em": "26/06/2025 10h10",
+          "atualizado_em": "",
           "eventos": [
             {
               "tipo": "darf",
@@ -24746,13 +24054,18 @@
             }
           ]
         }
-      }
+      ]
     },
-    "agosto": {
+    {
+      "mes": 8,
+      "nome": "agosto",
       "url": "https://www.gov.br/receitafederal/pt-br/assuntos/agenda-tributaria/2025/agosto",
-      "dias": {
-        "dia-05-08-2025": {
+      "dias": [
+        {
+          "data": "2025-08-05",
           "url": "https://www.gov.br/receitafederal/pt-br/assuntos/agenda-tributaria/2025/agosto/dia-05-08-2025",
+          "publicado_em": "28/07/2025 12h09",
+          "atualizado_em": "",
           "eventos": [
             {
               "tipo": "darf",
@@ -25106,8 +24419,11 @@
             }
           ]
         },
-        "dia-08-08-2025": {
+        {
+          "data": "2025-08-08",
           "url": "https://www.gov.br/receitafederal/pt-br/assuntos/agenda-tributaria/2025/agosto/dia-08-08-2025",
+          "publicado_em": "28/07/2025 12h09",
+          "atualizado_em": "",
           "eventos": [
             {
               "tipo": "darf",
@@ -25141,8 +24457,11 @@
             }
           ]
         },
-        "dia-13-08-2025": {
+        {
+          "data": "2025-08-13",
           "url": "https://www.gov.br/receitafederal/pt-br/assuntos/agenda-tributaria/2025/agosto/dia-13-08-2025",
+          "publicado_em": "28/07/2025 12h09",
+          "atualizado_em": "",
           "eventos": [
             {
               "tipo": "darf",
@@ -25436,8 +24755,11 @@
             }
           ]
         },
-        "dia-14-08-2025": {
+        {
+          "data": "2025-08-14",
           "url": "https://www.gov.br/receitafederal/pt-br/assuntos/agenda-tributaria/2025/agosto/dia-14-08-2025",
+          "publicado_em": "28/07/2025 12h09",
+          "atualizado_em": "",
           "eventos": [
             {
               "tipo": "declaracao_pj",
@@ -25451,8 +24773,11 @@
             }
           ]
         },
-        "dia-15-08-2025": {
+        {
+          "data": "2025-08-15",
           "url": "https://www.gov.br/receitafederal/pt-br/assuntos/agenda-tributaria/2025/agosto/dia-15-08-2025",
+          "publicado_em": "28/07/2025 12h09",
+          "atualizado_em": "",
           "eventos": [
             {
               "tipo": "darf",
@@ -25696,8 +25021,11 @@
             }
           ]
         },
-        "dia-20-08-2025": {
+        {
+          "data": "2025-08-20",
           "url": "https://www.gov.br/receitafederal/pt-br/assuntos/agenda-tributaria/2025/agosto/dia-20-08-2025",
+          "publicado_em": "28/07/2025 12h09",
+          "atualizado_em": "",
           "eventos": [
             {
               "tipo": "darf",
@@ -26201,8 +25529,11 @@
             }
           ]
         },
-        "dia-25-08-2025": {
+        {
+          "data": "2025-08-25",
           "url": "https://www.gov.br/receitafederal/pt-br/assuntos/agenda-tributaria/2025/agosto/dia-25-08-2025",
+          "publicado_em": "28/07/2025 12h09",
+          "atualizado_em": "",
           "eventos": [
             {
               "tipo": "darf",
@@ -26886,8 +26217,11 @@
             }
           ]
         },
-        "dia-29-08-2025": {
+        {
+          "data": "2025-08-29",
           "url": "https://www.gov.br/receitafederal/pt-br/assuntos/agenda-tributaria/2025/agosto/dia-29-08-2025",
+          "publicado_em": "28/07/2025 12h09",
+          "atualizado_em": "",
           "eventos": [
             {
               "tipo": "darf",
@@ -28031,13 +27365,18 @@
             }
           ]
         }
-      }
+      ]
     },
-    "setembro": {
+    {
+      "mes": 9,
+      "nome": "setembro",
       "url": "https://www.gov.br/receitafederal/pt-br/assuntos/agenda-tributaria/2025/setembro",
-      "dias": {
-        "dia-03-09-2025": {
+      "dias": [
+        {
+          "data": "2025-09-03",
           "url": "https://www.gov.br/receitafederal/pt-br/assuntos/agenda-tributaria/2025/setembro/dia-03-09-2025",
+          "publicado_em": "27/08/2025 11h48",
+          "atualizado_em": "",
           "eventos": [
             {
               "tipo": "darf",
@@ -28311,8 +27650,11 @@
             }
           ]
         },
-        "dia-05-09-2025": {
+        {
+          "data": "2025-09-05",
           "url": "https://www.gov.br/receitafederal/pt-br/assuntos/agenda-tributaria/2025/setembro/dia-05-09-2025",
+          "publicado_em": "27/08/2025 11h48",
+          "atualizado_em": "",
           "eventos": [
             {
               "tipo": "darf",
@@ -28396,8 +27738,11 @@
             }
           ]
         },
-        "dia-10-09-2025": {
+        {
+          "data": "2025-09-10",
           "url": "https://www.gov.br/receitafederal/pt-br/assuntos/agenda-tributaria/2025/setembro/dia-10-09-2025",
+          "publicado_em": "27/08/2025 11h48",
+          "atualizado_em": "",
           "eventos": [
             {
               "tipo": "darf",
@@ -28431,8 +27776,11 @@
             }
           ]
         },
-        "dia-12-09-2025": {
+        {
+          "data": "2025-09-12",
           "url": "https://www.gov.br/receitafederal/pt-br/assuntos/agenda-tributaria/2025/setembro/dia-12-09-2025",
+          "publicado_em": "27/08/2025 11h48",
+          "atualizado_em": "",
           "eventos": [
             {
               "tipo": "declaracao_pj",
@@ -28446,8 +27794,11 @@
             }
           ]
         },
-        "dia-15-09-2025": {
+        {
+          "data": "2025-09-15",
           "url": "https://www.gov.br/receitafederal/pt-br/assuntos/agenda-tributaria/2025/setembro/dia-15-09-2025",
+          "publicado_em": "27/08/2025 11h48",
+          "atualizado_em": "",
           "eventos": [
             {
               "tipo": "darf",
@@ -28971,8 +28322,11 @@
             }
           ]
         },
-        "dia-19-09-2025": {
+        {
+          "data": "2025-09-19",
           "url": "https://www.gov.br/receitafederal/pt-br/assuntos/agenda-tributaria/2025/setembro/dia-19-09-2025",
+          "publicado_em": "27/08/2025 11h48",
+          "atualizado_em": "",
           "eventos": [
             {
               "tipo": "darf",
@@ -29306,8 +28660,11 @@
             }
           ]
         },
-        "dia-20-09-2025": {
+        {
+          "data": "2025-09-20",
           "url": "https://www.gov.br/receitafederal/pt-br/assuntos/agenda-tributaria/2025/setembro/dia-20-09-2025",
+          "publicado_em": "27/08/2025 11h48",
+          "atualizado_em": "",
           "eventos": [
             {
               "tipo": "declaracao_pj",
@@ -29321,8 +28678,11 @@
             }
           ]
         },
-        "dia-22-09-2025": {
+        {
+          "data": "2025-09-22",
           "url": "https://www.gov.br/receitafederal/pt-br/assuntos/agenda-tributaria/2025/setembro/dia-22-09-2025",
+          "publicado_em": "27/08/2025 11h48",
+          "atualizado_em": "",
           "eventos": [
             {
               "tipo": "darf",
@@ -29486,8 +28846,11 @@
             }
           ]
         },
-        "dia-24-09-2025": {
+        {
+          "data": "2025-09-24",
           "url": "https://www.gov.br/receitafederal/pt-br/assuntos/agenda-tributaria/2025/setembro/dia-24-09-2025",
+          "publicado_em": "27/08/2025 11h48",
+          "atualizado_em": "",
           "eventos": [
             {
               "tipo": "darf",
@@ -29761,8 +29124,11 @@
             }
           ]
         },
-        "dia-25-09-2025": {
+        {
+          "data": "2025-09-25",
           "url": "https://www.gov.br/receitafederal/pt-br/assuntos/agenda-tributaria/2025/setembro/dia-25-09-2025",
+          "publicado_em": "27/08/2025 11h48",
+          "atualizado_em": "",
           "eventos": [
             {
               "tipo": "darf",
@@ -30176,8 +29542,11 @@
             }
           ]
         },
-        "dia-30-09-2025": {
+        {
+          "data": "2025-09-30",
           "url": "https://www.gov.br/receitafederal/pt-br/assuntos/agenda-tributaria/2025/setembro/dia-30-09-2025",
+          "publicado_em": "27/08/2025 11h48",
+          "atualizado_em": "",
           "eventos": [
             {
               "tipo": "darf",
@@ -31331,13 +30700,18 @@
             }
           ]
         }
-      }
+      ]
     },
-    "outubro": {
+    {
+      "mes": 10,
+      "nome": "outubro",
       "url": "https://www.gov.br/receitafederal/pt-br/assuntos/agenda-tributaria/2025/outubro",
-      "dias": {
-        "dia-03-10-2025": {
+      "dias": [
+        {
+          "data": "2025-10-03",
           "url": "https://www.gov.br/receitafederal/pt-br/assuntos/agenda-tributaria/2025/outubro/dia-03-10-2025",
+          "publicado_em": "29/09/2025 08h42",
+          "atualizado_em": "",
           "eventos": [
             {
               "tipo": "darf",
@@ -31611,8 +30985,11 @@
             }
           ]
         },
-        "dia-06-10-2025": {
+        {
+          "data": "2025-10-06",
           "url": "https://www.gov.br/receitafederal/pt-br/assuntos/agenda-tributaria/2025/outubro/dia-06-10-2025",
+          "publicado_em": "29/09/2025 08h42",
+          "atualizado_em": "",
           "eventos": [
             {
               "tipo": "darf",
@@ -31696,8 +31073,11 @@
             }
           ]
         },
-        "dia-10-10-2025": {
+        {
+          "data": "2025-10-10",
           "url": "https://www.gov.br/receitafederal/pt-br/assuntos/agenda-tributaria/2025/outubro/dia-10-10-2025",
+          "publicado_em": "29/09/2025 08h42",
+          "atualizado_em": "",
           "eventos": [
             {
               "tipo": "darf",
@@ -31731,8 +31111,11 @@
             }
           ]
         },
-        "dia-14-10-2025": {
+        {
+          "data": "2025-10-14",
           "url": "https://www.gov.br/receitafederal/pt-br/assuntos/agenda-tributaria/2025/outubro/dia-14-10-2025",
+          "publicado_em": "29/09/2025 08h42",
+          "atualizado_em": "",
           "eventos": [
             {
               "tipo": "declaracao_pj",
@@ -31746,8 +31129,11 @@
             }
           ]
         },
-        "dia-15-10-2025": {
+        {
+          "data": "2025-10-15",
           "url": "https://www.gov.br/receitafederal/pt-br/assuntos/agenda-tributaria/2025/outubro/dia-15-10-2025",
+          "publicado_em": "29/09/2025 08h42",
+          "atualizado_em": "",
           "eventos": [
             {
               "tipo": "darf",
@@ -32361,8 +31747,11 @@
             }
           ]
         },
-        "dia-20-10-2025": {
+        {
+          "data": "2025-10-20",
           "url": "https://www.gov.br/receitafederal/pt-br/assuntos/agenda-tributaria/2025/outubro/dia-20-10-2025",
+          "publicado_em": "29/09/2025 08h42",
+          "atualizado_em": "",
           "eventos": [
             {
               "tipo": "darf",
@@ -32866,8 +32255,11 @@
             }
           ]
         },
-        "dia-23-10-2025": {
+        {
+          "data": "2025-10-23",
           "url": "https://www.gov.br/receitafederal/pt-br/assuntos/agenda-tributaria/2025/outubro/dia-23-10-2025",
+          "publicado_em": "29/09/2025 08h42",
+          "atualizado_em": "",
           "eventos": [
             {
               "tipo": "darf",
@@ -33141,8 +32533,11 @@
             }
           ]
         },
-        "dia-24-10-2025": {
+        {
+          "data": "2025-10-24",
           "url": "https://www.gov.br/receitafederal/pt-br/assuntos/agenda-tributaria/2025/outubro/dia-24-10-2025",
+          "publicado_em": "29/09/2025 08h42",
+          "atualizado_em": "",
           "eventos": [
             {
               "tipo": "darf",
@@ -33476,8 +32871,11 @@
             }
           ]
         },
-        "dia-27-10-2025": {
+        {
+          "data": "2025-10-27",
           "url": "https://www.gov.br/receitafederal/pt-br/assuntos/agenda-tributaria/2025/outubro/dia-27-10-2025",
+          "publicado_em": "29/09/2025 08h42",
+          "atualizado_em": "",
           "eventos": [
             {
               "tipo": "darf",
@@ -33561,8 +32959,11 @@
             }
           ]
         },
-        "dia-31-10-2025": {
+        {
+          "data": "2025-10-31",
           "url": "https://www.gov.br/receitafederal/pt-br/assuntos/agenda-tributaria/2025/outubro/dia-31-10-2025",
+          "publicado_em": "29/09/2025 08h42",
+          "atualizado_em": "",
           "eventos": [
             {
               "tipo": "darf",
@@ -34696,13 +34097,18 @@
             }
           ]
         }
-      }
+      ]
     },
-    "novembro": {
+    {
+      "mes": 11,
+      "nome": "novembro",
       "url": "https://www.gov.br/receitafederal/pt-br/assuntos/agenda-tributaria/2025/novembro",
-      "dias": {
-        "Dia-05-11-2025": {
+      "dias": [
+        {
+          "data": "2025-11-05",
           "url": "https://www.gov.br/receitafederal/pt-br/assuntos/agenda-tributaria/2025/novembro/Dia-05-11-2025",
+          "publicado_em": "28/10/2025 15h40",
+          "atualizado_em": "",
           "eventos": [
             {
               "tipo": "darf",
@@ -35056,8 +34462,11 @@
             }
           ]
         },
-        "10-11-2025": {
+        {
+          "data": "2025-11-10",
           "url": "https://www.gov.br/receitafederal/pt-br/assuntos/agenda-tributaria/2025/novembro/10-11-2025",
+          "publicado_em": "28/10/2025 15h40",
+          "atualizado_em": "",
           "eventos": [
             {
               "tipo": "darf",
@@ -35091,8 +34500,11 @@
             }
           ]
         },
-        "13-11-2025": {
+        {
+          "data": "2025-11-13",
           "url": "https://www.gov.br/receitafederal/pt-br/assuntos/agenda-tributaria/2025/novembro/13-11-2025",
+          "publicado_em": "28/10/2025 15h40",
+          "atualizado_em": "",
           "eventos": [
             {
               "tipo": "darf",
@@ -35386,8 +34798,11 @@
             }
           ]
         },
-        "14-11-2025": {
+        {
+          "data": "2025-11-14",
           "url": "https://www.gov.br/receitafederal/pt-br/assuntos/agenda-tributaria/2025/novembro/14-11-2025",
+          "publicado_em": "28/10/2025 15h40",
+          "atualizado_em": "",
           "eventos": [
             {
               "tipo": "darf",
@@ -35431,8 +34846,11 @@
             }
           ]
         },
-        "17-11-2025": {
+        {
+          "data": "2025-11-17",
           "url": "https://www.gov.br/receitafederal/pt-br/assuntos/agenda-tributaria/2025/novembro/17-11-2025",
+          "publicado_em": "28/10/2025 15h40",
+          "atualizado_em": "",
           "eventos": [
             {
               "tipo": "darf",
@@ -35616,8 +35034,11 @@
             }
           ]
         },
-        "19-11-2025": {
+        {
+          "data": "2025-11-19",
           "url": "https://www.gov.br/receitafederal/pt-br/assuntos/agenda-tributaria/2025/novembro/19-11-2025",
+          "publicado_em": "28/10/2025 15h40",
+          "atualizado_em": "",
           "eventos": [
             {
               "tipo": "outros",
@@ -36041,8 +35462,11 @@
             }
           ]
         },
-        "21-11-2025": {
+        {
+          "data": "2025-11-21",
           "url": "https://www.gov.br/receitafederal/pt-br/assuntos/agenda-tributaria/2025/novembro/21-11-2025",
+          "publicado_em": "28/10/2025 15h40",
+          "atualizado_em": "",
           "eventos": [
             {
               "tipo": "outros",
@@ -36126,8 +35550,11 @@
             }
           ]
         },
-        "25-11-2025": {
+        {
+          "data": "2025-11-25",
           "url": "https://www.gov.br/receitafederal/pt-br/assuntos/agenda-tributaria/2025/novembro/25-11-2025",
+          "publicado_em": "28/10/2025 15h40",
+          "atualizado_em": "",
           "eventos": [
             {
               "tipo": "darf",
@@ -36731,8 +36158,11 @@
             }
           ]
         },
-        "28-11-2025": {
+        {
+          "data": "2025-11-28",
           "url": "https://www.gov.br/receitafederal/pt-br/assuntos/agenda-tributaria/2025/novembro/28-11-2025",
+          "publicado_em": "28/10/2025 15h40",
+          "atualizado_em": "",
           "eventos": [
             {
               "tipo": "darf",
@@ -37406,13 +36836,18 @@
             }
           ]
         }
-      }
+      ]
     },
-    "dezembro": {
+    {
+      "mes": 12,
+      "nome": "dezembro",
       "url": "https://www.gov.br/receitafederal/pt-br/assuntos/agenda-tributaria/2025/dezembro",
-      "dias": {
-        "dia-03-12-2025": {
+      "dias": [
+        {
+          "data": "2025-12-03",
           "url": "https://www.gov.br/receitafederal/pt-br/assuntos/agenda-tributaria/2025/dezembro/dia-03-12-2025",
+          "publicado_em": "27/11/2025 09h40",
+          "atualizado_em": "",
           "eventos": [
             {
               "tipo": "darf",
@@ -37686,8 +37121,11 @@
             }
           ]
         },
-        "dia-05-12-2025": {
+        {
+          "data": "2025-12-05",
           "url": "https://www.gov.br/receitafederal/pt-br/assuntos/agenda-tributaria/2025/dezembro/dia-05-12-2025",
+          "publicado_em": "27/11/2025 09h40",
+          "atualizado_em": "",
           "eventos": [
             {
               "tipo": "darf",
@@ -37771,8 +37209,11 @@
             }
           ]
         },
-        "dia-10-12-2025": {
+        {
+          "data": "2025-12-10",
           "url": "https://www.gov.br/receitafederal/pt-br/assuntos/agenda-tributaria/2025/dezembro/dia-10-12-2025",
+          "publicado_em": "27/11/2025 09h40",
+          "atualizado_em": "",
           "eventos": [
             {
               "tipo": "darf",
@@ -37806,8 +37247,11 @@
             }
           ]
         },
-        "dia-15-12-2025": {
+        {
+          "data": "2025-12-15",
           "url": "https://www.gov.br/receitafederal/pt-br/assuntos/agenda-tributaria/2025/dezembro/dia-15-12-2025",
+          "publicado_em": "27/11/2025 09h40",
+          "atualizado_em": "",
           "eventos": [
             {
               "tipo": "darf",
@@ -38321,8 +37765,11 @@
             }
           ]
         },
-        "dia-19-12-2025": {
+        {
+          "data": "2025-12-19",
           "url": "https://www.gov.br/receitafederal/pt-br/assuntos/agenda-tributaria/2025/dezembro/dia-19-12-2025",
+          "publicado_em": "27/11/2025 09h40",
+          "atualizado_em": "",
           "eventos": [
             {
               "tipo": "outros",
@@ -38746,8 +38193,11 @@
             }
           ]
         },
-        "dia-22-12-2025": {
+        {
+          "data": "2025-12-22",
           "url": "https://www.gov.br/receitafederal/pt-br/assuntos/agenda-tributaria/2025/dezembro/dia-22-12-2025",
+          "publicado_em": "27/11/2025 09h40",
+          "atualizado_em": "",
           "eventos": [
             {
               "tipo": "outros",
@@ -38831,8 +38281,11 @@
             }
           ]
         },
-        "dia-24-12-2025": {
+        {
+          "data": "2025-12-24",
           "url": "https://www.gov.br/receitafederal/pt-br/assuntos/agenda-tributaria/2025/dezembro/dia-24-12-2025",
+          "publicado_em": "27/11/2025 09h40",
+          "atualizado_em": "",
           "eventos": [
             {
               "tipo": "darf",
@@ -39356,8 +38809,11 @@
             }
           ]
         },
-        "dia-26-12-2025": {
+        {
+          "data": "2025-12-26",
           "url": "https://www.gov.br/receitafederal/pt-br/assuntos/agenda-tributaria/2025/dezembro/dia-26-12-2025",
+          "publicado_em": "27/11/2025 09h40",
+          "atualizado_em": "",
           "eventos": [
             {
               "tipo": "darf",
@@ -39441,8 +38897,11 @@
             }
           ]
         },
-        "dia-30-12-2025": {
+        {
+          "data": "2025-12-30",
           "url": "https://www.gov.br/receitafederal/pt-br/assuntos/agenda-tributaria/2025/dezembro/dia-30-12-2025",
+          "publicado_em": "27/11/2025 09h40",
+          "atualizado_em": "",
           "eventos": [
             {
               "tipo": "darf",
@@ -40126,8 +39585,11 @@
             }
           ]
         },
-        "dia-31-12-2025": {
+        {
+          "data": "2025-12-31",
           "url": "https://www.gov.br/receitafederal/pt-br/assuntos/agenda-tributaria/2025/dezembro/dia-31-12-2025",
+          "publicado_em": "27/11/2025 09h51",
+          "atualizado_em": "27/11/2025 10h03",
           "eventos": [
             {
               "tipo": "outros",
@@ -40171,7 +39633,7 @@
             }
           ]
         }
-      }
+      ]
     }
-  }
+  ]
 }

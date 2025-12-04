@@ -1,4 +1,5 @@
 import unicodedata
+import re
 from bs4 import BeautifulSoup
 from .logger_config import LoggerConfig
 
@@ -8,6 +9,10 @@ class AgendaTransformer:
     def __init__(self, ano, dados_agenda):
         self.ano = ano
         self.dados_agenda = dados_agenda
+        self._ordem_meses = [
+            'janeiro', 'fevereiro', 'marco', 'abril', 'maio', 'junho',
+            'julho', 'agosto', 'setembro', 'outubro', 'novembro', 'dezembro'
+        ]
 
     def transformar(self):
         logger.info("=" * 80)
@@ -22,7 +27,8 @@ class AgendaTransformer:
                 eventos_limpos = self.limpar_registros(eventos)
                 self.dados_agenda[mes]["dias"][dia]["eventos"] = eventos_limpos
                 logger.info(f"  ✅ {len(eventos_limpos)} eventos limpos para o dia {dia}")
-        
+
+        self.dados_agenda = self._reorganizar_meses()
         logger.info(f"✅ Transformação concluída para o ano {self.ano}")
         return self.dados_agenda
 
@@ -32,19 +38,13 @@ class AgendaTransformer:
         registros_limpos = []
         for item in registros:
             try:
-                item_normalizado = {
-                    self._normalizar_texto(k): self._normalizar_texto(v) for k, v in item.items()
-                }
-
-                # Detecta layout
+                item_normalizado = {self._normalizar_texto(k): v for k, v in item.items()}
                 if "codigo de receita" in item_normalizado:
                     logger.info("📐 Layout detectado: NOVO")
-                    registro = self._limpar_registro_novo(item_normalizado)
+                    registros_limpos.append(self._limpar_registro_novo(item_normalizado))
                 else:
                     logger.info("📐 Layout detectado: ANTIGO")
-                    registro = self._limpar_registro_antigo(item_normalizado)
-
-                registros_limpos.append(registro)
+                    registros_limpos.append(self._limpar_registro_antigo(item_normalizado))
             except Exception:
                 logger.exception("❌ Erro ao limpar registro")
                 continue
@@ -52,37 +52,39 @@ class AgendaTransformer:
 
     def _limpar_registro_antigo(self, item):
         tipo = self.classificar_tipo(item)
-        periodo = item.get("periodo do fato gerador") or item.get("periodo de apuracao")
-        descricao_html = ""
-        for chave in item:
-            if "descricao" in chave or "declaracoes" in chave:
-                descricao_html = item[chave]
-                break
-        descricao = BeautifulSoup(descricao_html or "", "html.parser").text.strip()
+        periodo = self._limpar_texto(item.get("periodo do fato gerador") or item.get("periodo de apuracao"))
+        descricao = self._extrair_descricao(item)
 
-        return {
-            "tipo": tipo,
-            "codigo_darf": item.get("codigo darf"),
-            "codigo_gps": item.get("codigo gps"),
-            "documento": item.get("documento"),
-            "descricao": descricao,
-            "periodo_fato_gerador": periodo
-        }
+        codigo_darf = self._limpar_texto(item.get("codigo darf"))
+        codigo_gps = self._limpar_texto(item.get("codigo gps"))
+        documento = self._limpar_texto(item.get("documento"))
+        codigo_receita = self._resolver_codigo_receita(None, codigo_darf, codigo_gps)
+
+        return self._formar_registro(
+            tipo=tipo,
+            codigo_receita=codigo_receita,
+            descricao=descricao,
+            periodo=periodo,
+            grupo_tributo=None,
+            documento_arrecadacao=documento,
+            categoria_declaracao=None,
+            fundamentacao_legal=None,
+        )
 
     def _limpar_registro_novo(self, item):
-        doc_arrec = item.get("documento arrecadacao", "")
-        tipo = "darf" if "darf" in doc_arrec.lower() else "gps" if "gps" in doc_arrec.lower() else "outros"
+        doc_arrec = self._limpar_texto(item.get("documento arrecadacao"))
+        tipo = self._classificar_por_documento(doc_arrec)
 
-        return {
-            "tipo": tipo,
-            "codigo_receita": item.get("codigo de receita"),
-            "grupo_tributo": item.get("grupo de tributo"),
-            "descricao": item.get("descricao"),
-            "periodo_fato_gerador": item.get("periodo de apuracao"),
-            "documento_arrecadacao": doc_arrec,
-            "categoria_declaracao": item.get("categoria da declaracao / origem escrituracao"),
-            "fundamentacao_legal": item.get("fundamentacao legal")
-        }
+        return self._formar_registro(
+            tipo=tipo,
+            codigo_receita=self._limpar_texto(item.get("codigo de receita")),
+            descricao=self._limpar_texto(item.get("descricao")),
+            periodo=self._limpar_texto(item.get("periodo de apuracao")),
+            grupo_tributo=self._limpar_texto(item.get("grupo de tributo")),
+            documento_arrecadacao=doc_arrec,
+            categoria_declaracao=self._limpar_texto(item.get("categoria da declaracao / origem escrituracao")),
+            fundamentacao_legal=self._limpar_texto(item.get("fundamentacao legal")),
+        )
 
 
     def classificar_tipo(self, item):
@@ -105,10 +107,94 @@ class AgendaTransformer:
 
     def _normalizar_texto(self, texto):        
         if texto is None:
-                    return ""
+            return ""
         texto = str(texto)
         texto = unicodedata.normalize('NFKD', texto).encode('ASCII', 'ignore').decode('ASCII')
         return texto.lower().strip()
+
+    def _classificar_por_documento(self, documento):
+        doc_norm = self._normalizar_texto(documento)
+        if "darf" in doc_norm:
+            return "darf"
+        if "gps" in doc_norm:
+            return "gps"
+        return "outros"
+
+    def _limpar_texto(self, valor):
+        if valor is None:
+            return None
+        return str(valor).strip()
+
+    def _resolver_codigo_receita(self, codigo_receita, codigo_darf, codigo_gps):
+        return (
+            self._limpar_texto(codigo_receita)
+            or self._limpar_texto(codigo_darf)
+            or self._limpar_texto(codigo_gps)
+        )
+
+    def _extrair_descricao(self, item):
+        descricao_html = ""
+        for chave in item:
+            if "descricao" in chave or "declaracoes" in chave:
+                descricao_html = item[chave]
+                break
+        return self._limpar_texto(BeautifulSoup(descricao_html or "", "html.parser").text)
+
+    def _formar_registro(
+        self,
+        *,
+        tipo,
+        codigo_receita,
+        descricao,
+        periodo,
+        grupo_tributo,
+        documento_arrecadacao,
+        categoria_declaracao,
+        fundamentacao_legal,
+    ):
+        codigo_receita_resolvido = self._resolver_codigo_receita(codigo_receita, None, None)
+        return {
+            "tipo": tipo,
+            "codigo_receita": codigo_receita_resolvido,
+            "descricao": descricao or "",
+            "periodo_fato_gerador": periodo,
+            "grupo_tributo": grupo_tributo,
+            "documento_arrecadacao": documento_arrecadacao,
+            "categoria_declaracao": categoria_declaracao,
+            "fundamentacao_legal": fundamentacao_legal,
+        }
+
+    def _reorganizar_meses(self):
+        meses_lista = []
+        for idx, mes_nome in enumerate(self._ordem_meses, start=1):
+            if mes_nome not in self.dados_agenda:
+                continue
+            info_mes = self.dados_agenda[mes_nome]
+            dias_lista = []
+            for dia_nome, info_dia in info_mes.get("dias", {}).items():
+                data_iso = self._converter_data(dia_nome)
+                dias_lista.append({
+                    "data": data_iso or dia_nome,
+                    "url": info_dia.get("url"),
+                    "publicado_em": info_dia.get("publicado_em", ""),
+                    "atualizado_em": info_dia.get("atualizado_em", ""),
+                    "eventos": info_dia.get("eventos", [])
+                })
+            dias_lista.sort(key=lambda d: d["data"])
+            meses_lista.append({
+                "mes": idx,
+                "nome": mes_nome,
+                "url": info_mes.get("url"),
+                "dias": dias_lista
+            })
+        return meses_lista
+
+    def _converter_data(self, nome_dia):
+        match = re.search(r"(\d{1,2})-(\d{1,2})-(\d{4})", nome_dia)
+        if match:
+            dd, mm, yyyy = match.groups()
+            return f"{yyyy}-{int(mm):02d}-{int(dd):02d}"
+        return None
 
 
 # def limpar_registros(self, registros):

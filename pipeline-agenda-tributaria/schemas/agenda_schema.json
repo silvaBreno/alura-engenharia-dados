@@ -8,29 +8,34 @@
     },
     "ano": { "type": "integer" },
     "meses": {
-      "type": "object",
-      "additionalProperties": {
+      "type": "array",
+      "items": {
         "type": "object",
         "properties": {
-          "url": { "type": "string" },
+          "mes": { "type": "integer" },
+          "nome": { "type": "string" },
+          "url": { "type": ["string", "null"] },
           "dias": {
-            "type": "object",
-            "additionalProperties": {
+            "type": "array",
+            "items": {
               "type": "object",
               "properties": {
-                "url": { "type": "string" },
+                "data": {
+                  "type": "string",
+                  "pattern": "^\\d{4}-\\d{2}-\\d{2}$"
+                },
+                "url": { "type": ["string", "null"] },
+                "publicado_em": { "type": "string" },
+                "atualizado_em": { "type": "string" },
                 "eventos": {
                   "type": "array",
                   "items": {
                     "type": "object",
                     "properties": {
                       "tipo": { "type": "string" },
-                      "codigo_darf": { "type": ["string", "null"] },
-                      "codigo_gps": { "type": ["string", "null"] },
-                      "documento": { "type": ["string", "null"] },
+                      "codigo_receita": { "type": ["string", "null"] },
                       "descricao": { "type": "string" },
                       "periodo_fato_gerador": { "type": ["string", "null"] },
-                      "codigo_receita": { "type": ["string", "null"] },
                       "grupo_tributo": { "type": ["string", "null"] },
                       "documento_arrecadacao": { "type": ["string", "null"] },
                       "categoria_declaracao": { "type": ["string", "null"] },
@@ -40,11 +45,11 @@
                   }
                 }
               },
-              "required": ["url", "eventos"]
+              "required": ["data", "url", "publicado_em", "atualizado_em", "eventos"]
             }
           }
         },
-        "required": ["url", "dias"]
+        "required": ["mes", "nome", "dias"]
       }
     }
   },

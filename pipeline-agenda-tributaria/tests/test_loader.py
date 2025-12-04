@@ -3,17 +3,22 @@ import pytest
 from scripts.loader import AgendaLoader
 
 def test_salvar_json(tmp_path):
-    dados_mock = {
-        "janeiro": {
+    dados_mock = [
+        {
+            "mes": 1,
+            "nome": "janeiro",
             "url": "https://exemplo.com/janeiro",
-            "dias": {
-                "dia-01": {
+            "dias": [
+                {
+                    "data": "2025-01-01",
                     "url": "https://exemplo.com/dia-01",
+                    "publicado_em": "01/01/2025 10h00",
+                    "atualizado_em": "",
                     "eventos": []
                 }
-            }
+            ]
         }
-    }
+    ]
     caminho = tmp_path / "agenda_test.json"
     schema_path = Path(__file__).parent.parent / "schemas" / "agenda_schema.json"
 
