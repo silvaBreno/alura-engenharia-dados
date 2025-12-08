@@ -1,0 +1,3 @@
+não utilizar declarações; 
+focar no formato de nov e dezembro
+pensar no update ou delete de compromisso
