@@ -112,6 +112,9 @@ class AgendaExtractor:
             linha1 = data_rows[i].find_all("td")
             linha2 = data_rows[i+1].find_all("td")
 
+            link_fundamentacao = linha2[2].find("a")
+            fundamentacao_url = link_fundamentacao["href"] if link_fundamentacao and link_fundamentacao.get("href") else ""
+
             evento = {
                 "codigo de receita": linha1[0].get_text(strip=True),
                 "grupo de tributo": linha1[1].get_text(strip=True),
@@ -119,7 +122,8 @@ class AgendaExtractor:
                 "periodo de apuracao": linha1[3].get_text(" ", strip=True),
                 "documento arrecadacao": linha2[0].get_text(strip=True),
                 "categoria da declaracao / origem escrituracao": linha2[1].get_text(strip=True),
-                "fundamentacao legal": linha2[2].get_text(" ", strip=True)
+                "fundamentacao legal": linha2[2].get_text(" ", strip=True),
+                "fundamentacao legal url": fundamentacao_url
             }
             eventos.append(evento)
         return eventos

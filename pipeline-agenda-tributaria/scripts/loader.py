@@ -13,9 +13,9 @@ class AgendaLoader:
         self.base_url = base_url
         self.schema_version = schema_version
 
-    def _now_iso_brasilia(self) -> str:
+    def _data_brasilia(self) -> str:
         br_tz = timezone(timedelta(hours=-3))
-        return datetime.now(br_tz).isoformat(timespec="seconds")
+        return datetime.now(br_tz).strftime("%Y-%m-%d")
 
     # def salvar_json(self, caminho_arquivo=None, caminho_schema=None):
     #     logger.info(f"💾 Salvando JSON da Agenda Tributária para o ano {self.ano}")
@@ -63,7 +63,7 @@ class AgendaLoader:
         
         estrutura_final = {
             "fonte": self.base_url,
-            "extraido_em": self._now_iso_brasilia(),
+            "extraido_em": self._data_brasilia(),
             "ano": self.ano,
             "meses": self.dados_agenda,
             "schema_version": self.schema_version,
@@ -75,7 +75,7 @@ class AgendaLoader:
             output_dir = Path(__file__).parent.parent / "data" / "transformed"
             output_dir.mkdir(parents=True, exist_ok=True)            
             br_tz = timezone(timedelta(hours=-3))
-            timestamp = datetime.now(br_tz).strftime("%Y%m%d_%H%M%S)")
+            timestamp = datetime.now(br_tz).strftime("%Y%m%d_%H%M%S")
             caminho_arquivo = output_dir / f"agenda_tributaria_{self.ano}_{timestamp}.json"
         else:
             caminho_arquivo = Path(caminho_arquivo)

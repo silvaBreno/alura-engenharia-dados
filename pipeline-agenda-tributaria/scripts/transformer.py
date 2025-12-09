@@ -48,7 +48,10 @@ class AgendaTransformer:
             except Exception:
                 logger.exception("❌ Erro ao limpar registro")
                 continue
-        return registros_limpos
+
+        # Mantém apenas DARF e GPS para curadoria inicial
+        registros_filtrados = [r for r in registros_limpos if r.get("tipo") in {"darf", "gps"}]
+        return registros_filtrados
 
     def _limpar_registro_antigo(self, item):
         tipo = self.classificar_tipo(item)
@@ -69,11 +72,15 @@ class AgendaTransformer:
             documento_arrecadacao=documento,
             categoria_declaracao=None,
             fundamentacao_legal=None,
+            origem_escrituracao=None,
+            fundamentacao_legal_url=None,
         )
 
     def _limpar_registro_novo(self, item):
         doc_arrec = self._limpar_texto(item.get("documento arrecadacao"))
         tipo = self._classificar_por_documento(doc_arrec)
+        categoria_declaracao = self._limpar_texto(item.get("categoria da declaracao / origem escrituracao"))
+        cat, origem = self._split_categoria_declaracao(categoria_declaracao)
 
         return self._formar_registro(
             tipo=tipo,
@@ -82,8 +89,10 @@ class AgendaTransformer:
             periodo=self._limpar_texto(item.get("periodo de apuracao")),
             grupo_tributo=self._limpar_texto(item.get("grupo de tributo")),
             documento_arrecadacao=doc_arrec,
-            categoria_declaracao=self._limpar_texto(item.get("categoria da declaracao / origem escrituracao")),
+            categoria_declaracao=cat,
+            origem_escrituracao=origem,
             fundamentacao_legal=self._limpar_texto(item.get("fundamentacao legal")),
+            fundamentacao_legal_url=self._limpar_texto(item.get("fundamentacao legal url")),
         )
 
 
@@ -150,7 +159,9 @@ class AgendaTransformer:
         grupo_tributo,
         documento_arrecadacao,
         categoria_declaracao,
+        origem_escrituracao,
         fundamentacao_legal,
+        fundamentacao_legal_url,
     ):
         codigo_receita_resolvido = self._resolver_codigo_receita(codigo_receita, None, None)
         return {
@@ -160,9 +171,19 @@ class AgendaTransformer:
             "periodo_fato_gerador": periodo,
             "grupo_tributo": grupo_tributo,
             "documento_arrecadacao": documento_arrecadacao,
-            "categoria_declaracao": categoria_declaracao,
+            "categoria_declaracao": categoria_declaracao or "--",
+            "origem_escrituracao": origem_escrituracao or "--",
             "fundamentacao_legal": fundamentacao_legal,
+            "fundamentacao_legal_url": fundamentacao_legal_url,
         }
+
+    def _split_categoria_declaracao(self, texto):
+        if not texto:
+            return None, None
+        partes = [p.strip() for p in texto.split("/", 1)]
+        if len(partes) == 1:
+            return partes[0] or None, None
+        return partes[0] or None, partes[1] or None
 
     def _reorganizar_meses(self):
         meses_lista = []
