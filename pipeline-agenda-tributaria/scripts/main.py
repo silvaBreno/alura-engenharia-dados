@@ -26,8 +26,8 @@ def run_pipeline(ano, meses=None):
     logger.info("-" * 80)
 
 if __name__ == "__main__":
-    # Defina aqui o ano e meses que deseja executar. Se meses=None, roda todos.
     ano_execucao = 2025
-    #meses_execucao = None  # ex.: ["novembro", "dezembro"] para restringir
+    # Defina aqui o ano e meses que deseja executar. Se meses=None, roda todos.
     meses_execucao = ["novembro", "dezembro"]  
+    # meses_execucao = None  // ex.: ["novembro", "dezembro"] para restringir
     run_pipeline(ano_execucao, meses_execucao)
