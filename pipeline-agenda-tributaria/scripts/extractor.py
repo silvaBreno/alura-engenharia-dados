@@ -9,7 +9,7 @@ import re
 logger = LoggerConfig.configurar_logger()
 
 class AgendaExtractor:
-    def __init__(self, ano, delay=1):
+    def __init__(self, ano, delay=1, meses_filtrar=None):
         self.ano = ano
         self.delay = delay
         self.base_url = f"https://www.gov.br/receitafederal/pt-br/assuntos/agenda-tributaria/{ano}"
@@ -17,6 +17,8 @@ class AgendaExtractor:
             'janeiro', 'fevereiro', 'marco', 'abril', 'maio', 'junho',
             'julho', 'agosto', 'setembro', 'outubro', 'novembro', 'dezembro'
         ]
+        # Se quiser limitar a meses específicos (ex.: ["novembro", "dezembro"])
+        self.meses_filtrar = {m.lower() for m in meses_filtrar} if meses_filtrar else None
 
     def obter_links_meses(self):
         logger.info(f"🔍 Buscando links dos meses na URL base: {self.base_url}")
@@ -28,6 +30,11 @@ class AgendaExtractor:
                 a['href'] for a in soup.find_all('a', href=True)
                 if a['href'].startswith(f"{self.base_url}/") and any(m in a['href'] for m in self.meses)
             ]
+            if self.meses_filtrar:
+                links_meses = [
+                    link for link in links_meses
+                    if link.rstrip('/').split('/')[-1].lower() in self.meses_filtrar
+                ]
             logger.info(f"✅ {len(links_meses)} meses encontrados.")
             return links_meses
         except Exception:

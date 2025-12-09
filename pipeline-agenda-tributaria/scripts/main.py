@@ -7,12 +7,12 @@ logger = LoggerConfig.configurar_logger()
 logger.info("🚀 Logger inicializado no main.py")
 
 
-def run_pipeline(ano):
+def run_pipeline(ano, meses=None):
     logger.info("=" * 80)
     logger.info(f"🚀 Iniciando pipeline de processamento para o ano {ano}")
     logger.info("=" * 80)
 
-    extractor = AgendaExtractor(ano)
+    extractor = AgendaExtractor(ano, meses_filtrar=meses)
     raw_data = extractor.executar()
 
     transformer = AgendaTransformer(ano, raw_data)
@@ -26,6 +26,8 @@ def run_pipeline(ano):
     logger.info("-" * 80)
 
 if __name__ == "__main__":
-    # Defina aqui o ano para o qual você deseja executar o pipeline
+    # Defina aqui o ano e meses que deseja executar. Se meses=None, roda todos.
     ano_execucao = 2025
-    run_pipeline(ano_execucao)
+    #meses_execucao = None  # ex.: ["novembro", "dezembro"] para restringir
+    meses_execucao = ["novembro", "dezembro"]  
+    run_pipeline(ano_execucao, meses_execucao)

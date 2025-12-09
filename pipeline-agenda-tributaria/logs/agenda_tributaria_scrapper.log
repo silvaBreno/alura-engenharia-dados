@@ -4775,3 +4775,686 @@
 2025-12-09 01:06:37,134 - INFO - --------------------------------------------------------------------------------
 2025-12-09 01:06:37,134 - INFO - ✅ Pipeline finalizado com sucesso para o ano 2025
 2025-12-09 01:06:37,134 - INFO - --------------------------------------------------------------------------------
+2025-12-09 01:25:06,911 - INFO - 🚀 Logger inicializado no main.py
+2025-12-09 01:25:06,911 - INFO - ================================================================================
+2025-12-09 01:25:06,911 - INFO - 🚀 Iniciando pipeline de processamento para o ano 2025
+2025-12-09 01:25:06,911 - INFO - ================================================================================
+2025-12-09 01:25:06,911 - INFO - ================================================================================
+2025-12-09 01:25:06,911 - INFO - 🚀 Iniciando extração da Agenda Tributária para o ano 2025
+2025-12-09 01:25:06,911 - INFO - ================================================================================
+2025-12-09 01:25:06,911 - INFO - 🔍 Buscando links dos meses na URL base: https://www.gov.br/receitafederal/pt-br/assuntos/agenda-tributaria/2025
+2025-12-09 01:25:07,168 - INFO - ✅ 2 meses encontrados.
+2025-12-09 01:25:07,169 - INFO - 📅 Processando mês: novembro
+2025-12-09 01:25:07,169 - INFO - 🔍 Buscando links de dias no mês: https://www.gov.br/receitafederal/pt-br/assuntos/agenda-tributaria/2025/novembro
+2025-12-09 01:25:07,435 - INFO - ✅ 9 dias encontrados em https://www.gov.br/receitafederal/pt-br/assuntos/agenda-tributaria/2025/novembro
+2025-12-09 01:25:08,438 - INFO -   📆 Dia: Dia-05-11-2025
+2025-12-09 01:25:08,438 - INFO - 📄 Extraindo tabelas da data: https://www.gov.br/receitafederal/pt-br/assuntos/agenda-tributaria/2025/novembro/Dia-05-11-2025
+2025-12-09 01:25:08,707 - INFO - 📐 Layout detectado: NOVO
+2025-12-09 01:25:08,709 - INFO - ✅ 35 registros extraídos de https://www.gov.br/receitafederal/pt-br/assuntos/agenda-tributaria/2025/novembro/Dia-05-11-2025
+2025-12-09 01:25:09,712 - INFO -   📆 Dia: 10-11-2025
+2025-12-09 01:25:09,713 - INFO - 📄 Extraindo tabelas da data: https://www.gov.br/receitafederal/pt-br/assuntos/agenda-tributaria/2025/novembro/10-11-2025
+2025-12-09 01:25:10,017 - INFO - 📐 Layout detectado: NOVO
+2025-12-09 01:25:10,017 - INFO - ✅ 3 registros extraídos de https://www.gov.br/receitafederal/pt-br/assuntos/agenda-tributaria/2025/novembro/10-11-2025
+2025-12-09 01:25:11,019 - INFO -   📆 Dia: 13-11-2025
+2025-12-09 01:25:11,019 - INFO - 📄 Extraindo tabelas da data: https://www.gov.br/receitafederal/pt-br/assuntos/agenda-tributaria/2025/novembro/13-11-2025
+2025-12-09 01:25:11,279 - INFO - 📐 Layout detectado: NOVO
+2025-12-09 01:25:11,281 - INFO - ✅ 29 registros extraídos de https://www.gov.br/receitafederal/pt-br/assuntos/agenda-tributaria/2025/novembro/13-11-2025
+2025-12-09 01:25:12,282 - INFO -   📆 Dia: 14-11-2025
+2025-12-09 01:25:12,282 - INFO - 📄 Extraindo tabelas da data: https://www.gov.br/receitafederal/pt-br/assuntos/agenda-tributaria/2025/novembro/14-11-2025
+2025-12-09 01:25:12,535 - INFO - 📐 Layout detectado: NOVO
+2025-12-09 01:25:12,535 - INFO - ✅ 4 registros extraídos de https://www.gov.br/receitafederal/pt-br/assuntos/agenda-tributaria/2025/novembro/14-11-2025
+2025-12-09 01:25:13,536 - INFO -   📆 Dia: 17-11-2025
+2025-12-09 01:25:13,537 - INFO - 📄 Extraindo tabelas da data: https://www.gov.br/receitafederal/pt-br/assuntos/agenda-tributaria/2025/novembro/17-11-2025
+2025-12-09 01:25:13,796 - INFO - 📐 Layout detectado: NOVO
+2025-12-09 01:25:13,798 - INFO - ✅ 18 registros extraídos de https://www.gov.br/receitafederal/pt-br/assuntos/agenda-tributaria/2025/novembro/17-11-2025
+2025-12-09 01:25:14,800 - INFO -   📆 Dia: 19-11-2025
+2025-12-09 01:25:14,800 - INFO - 📄 Extraindo tabelas da data: https://www.gov.br/receitafederal/pt-br/assuntos/agenda-tributaria/2025/novembro/19-11-2025
+2025-12-09 01:25:16,354 - INFO - 📐 Layout detectado: NOVO
+2025-12-09 01:25:16,356 - INFO - ✅ 42 registros extraídos de https://www.gov.br/receitafederal/pt-br/assuntos/agenda-tributaria/2025/novembro/19-11-2025
+2025-12-09 01:25:17,358 - INFO -   📆 Dia: 21-11-2025
+2025-12-09 01:25:17,359 - INFO - 📄 Extraindo tabelas da data: https://www.gov.br/receitafederal/pt-br/assuntos/agenda-tributaria/2025/novembro/21-11-2025
+2025-12-09 01:25:17,621 - INFO - 📐 Layout detectado: NOVO
+2025-12-09 01:25:17,622 - INFO - ✅ 8 registros extraídos de https://www.gov.br/receitafederal/pt-br/assuntos/agenda-tributaria/2025/novembro/21-11-2025
+2025-12-09 01:25:18,628 - INFO -   📆 Dia: 25-11-2025
+2025-12-09 01:25:18,628 - INFO - 📄 Extraindo tabelas da data: https://www.gov.br/receitafederal/pt-br/assuntos/agenda-tributaria/2025/novembro/25-11-2025
+2025-12-09 01:25:18,940 - INFO - 📐 Layout detectado: NOVO
+2025-12-09 01:25:18,944 - INFO - ✅ 60 registros extraídos de https://www.gov.br/receitafederal/pt-br/assuntos/agenda-tributaria/2025/novembro/25-11-2025
+2025-12-09 01:25:19,949 - INFO -   📆 Dia: 28-11-2025
+2025-12-09 01:25:19,950 - INFO - 📄 Extraindo tabelas da data: https://www.gov.br/receitafederal/pt-br/assuntos/agenda-tributaria/2025/novembro/28-11-2025
+2025-12-09 01:25:20,263 - INFO - 📐 Layout detectado: NOVO
+2025-12-09 01:25:20,267 - INFO - ✅ 67 registros extraídos de https://www.gov.br/receitafederal/pt-br/assuntos/agenda-tributaria/2025/novembro/28-11-2025
+2025-12-09 01:25:21,269 - INFO - 📅 Processando mês: dezembro
+2025-12-09 01:25:21,269 - INFO - 🔍 Buscando links de dias no mês: https://www.gov.br/receitafederal/pt-br/assuntos/agenda-tributaria/2025/dezembro
+2025-12-09 01:25:21,534 - INFO - ✅ 11 dias encontrados em https://www.gov.br/receitafederal/pt-br/assuntos/agenda-tributaria/2025/dezembro
+2025-12-09 01:25:22,536 - INFO -   📆 Dia: dia-03-12-2025
+2025-12-09 01:25:22,536 - INFO - 📄 Extraindo tabelas da data: https://www.gov.br/receitafederal/pt-br/assuntos/agenda-tributaria/2025/dezembro/dia-03-12-2025
+2025-12-09 01:25:22,798 - INFO - 📐 Layout detectado: NOVO
+2025-12-09 01:25:22,800 - INFO - ✅ 27 registros extraídos de https://www.gov.br/receitafederal/pt-br/assuntos/agenda-tributaria/2025/dezembro/dia-03-12-2025
+2025-12-09 01:25:23,801 - INFO -   📆 Dia: dia-05-12-2025
+2025-12-09 01:25:23,802 - INFO - 📄 Extraindo tabelas da data: https://www.gov.br/receitafederal/pt-br/assuntos/agenda-tributaria/2025/dezembro/dia-05-12-2025
+2025-12-09 01:25:24,064 - INFO - 📐 Layout detectado: NOVO
+2025-12-09 01:25:24,065 - INFO - ✅ 8 registros extraídos de https://www.gov.br/receitafederal/pt-br/assuntos/agenda-tributaria/2025/dezembro/dia-05-12-2025
+2025-12-09 01:25:25,068 - INFO -   📆 Dia: dia-10-12-2025
+2025-12-09 01:25:25,069 - INFO - 📄 Extraindo tabelas da data: https://www.gov.br/receitafederal/pt-br/assuntos/agenda-tributaria/2025/dezembro/dia-10-12-2025
+2025-12-09 01:25:25,349 - INFO - 📐 Layout detectado: NOVO
+2025-12-09 01:25:25,349 - INFO - ✅ 3 registros extraídos de https://www.gov.br/receitafederal/pt-br/assuntos/agenda-tributaria/2025/dezembro/dia-10-12-2025
+2025-12-09 01:25:26,351 - INFO -   📆 Dia: dia-15-12-2025
+2025-12-09 01:25:26,352 - INFO - 📄 Extraindo tabelas da data: https://www.gov.br/receitafederal/pt-br/assuntos/agenda-tributaria/2025/dezembro/dia-15-12-2025
+2025-12-09 01:25:27,738 - INFO - 📐 Layout detectado: NOVO
+2025-12-09 01:25:27,741 - INFO - ✅ 51 registros extraídos de https://www.gov.br/receitafederal/pt-br/assuntos/agenda-tributaria/2025/dezembro/dia-15-12-2025
+2025-12-09 01:25:28,745 - INFO -   📆 Dia: dia-19-12-2025
+2025-12-09 01:25:28,746 - INFO - 📄 Extraindo tabelas da data: https://www.gov.br/receitafederal/pt-br/assuntos/agenda-tributaria/2025/dezembro/dia-19-12-2025
+2025-12-09 01:25:29,122 - INFO - 📐 Layout detectado: NOVO
+2025-12-09 01:25:29,125 - INFO - ✅ 42 registros extraídos de https://www.gov.br/receitafederal/pt-br/assuntos/agenda-tributaria/2025/dezembro/dia-19-12-2025
+2025-12-09 01:25:30,126 - INFO -   📆 Dia: dia-22-12-2025
+2025-12-09 01:25:30,126 - INFO - 📄 Extraindo tabelas da data: https://www.gov.br/receitafederal/pt-br/assuntos/agenda-tributaria/2025/dezembro/dia-22-12-2025
+2025-12-09 01:25:30,569 - INFO - 📐 Layout detectado: NOVO
+2025-12-09 01:25:30,570 - INFO - ✅ 8 registros extraídos de https://www.gov.br/receitafederal/pt-br/assuntos/agenda-tributaria/2025/dezembro/dia-22-12-2025
+2025-12-09 01:25:31,572 - INFO -   📆 Dia: dia-24-12-2025
+2025-12-09 01:25:31,572 - INFO - 📄 Extraindo tabelas da data: https://www.gov.br/receitafederal/pt-br/assuntos/agenda-tributaria/2025/dezembro/dia-24-12-2025
+2025-12-09 01:25:32,931 - INFO - 📐 Layout detectado: NOVO
+2025-12-09 01:25:32,935 - INFO - ✅ 52 registros extraídos de https://www.gov.br/receitafederal/pt-br/assuntos/agenda-tributaria/2025/dezembro/dia-24-12-2025
+2025-12-09 01:25:33,937 - INFO -   📆 Dia: dia-26-12-2025
+2025-12-09 01:25:33,938 - INFO - 📄 Extraindo tabelas da data: https://www.gov.br/receitafederal/pt-br/assuntos/agenda-tributaria/2025/dezembro/dia-26-12-2025
+2025-12-09 01:25:34,194 - INFO - 📐 Layout detectado: NOVO
+2025-12-09 01:25:34,194 - INFO - ✅ 8 registros extraídos de https://www.gov.br/receitafederal/pt-br/assuntos/agenda-tributaria/2025/dezembro/dia-26-12-2025
+2025-12-09 01:25:35,196 - INFO -   📆 Dia: dia-30-12-2025
+2025-12-09 01:25:35,196 - INFO - 📄 Extraindo tabelas da data: https://www.gov.br/receitafederal/pt-br/assuntos/agenda-tributaria/2025/dezembro/dia-30-12-2025
+2025-12-09 01:25:35,491 - INFO - 📐 Layout detectado: NOVO
+2025-12-09 01:25:35,495 - INFO - ✅ 68 registros extraídos de https://www.gov.br/receitafederal/pt-br/assuntos/agenda-tributaria/2025/dezembro/dia-30-12-2025
+2025-12-09 01:25:36,496 - INFO -   📆 Dia: dia-31-12-2025
+2025-12-09 01:25:36,497 - INFO - 📄 Extraindo tabelas da data: https://www.gov.br/receitafederal/pt-br/assuntos/agenda-tributaria/2025/dezembro/dia-31-12-2025
+2025-12-09 01:25:36,785 - INFO - 📐 Layout detectado: ANTIGO
+2025-12-09 01:25:36,793 - INFO - ✅ 4 registros extraídos de https://www.gov.br/receitafederal/pt-br/assuntos/agenda-tributaria/2025/dezembro/dia-31-12-2025
+2025-12-09 01:25:37,793 - INFO -   📆 Dia: dia-31-12-2025
+2025-12-09 01:25:37,794 - INFO - 📄 Extraindo tabelas da data: https://www.gov.br/receitafederal/pt-br/assuntos/agenda-tributaria/2025/dezembro/dia-31-12-2025
+2025-12-09 01:25:38,043 - INFO - 📐 Layout detectado: ANTIGO
+2025-12-09 01:25:38,046 - INFO - ✅ 4 registros extraídos de https://www.gov.br/receitafederal/pt-br/assuntos/agenda-tributaria/2025/dezembro/dia-31-12-2025
+2025-12-09 01:25:39,047 - INFO - ✅ Extração concluída para o ano 2025
+2025-12-09 01:25:39,048 - INFO - ================================================================================
+2025-12-09 01:25:39,049 - INFO - 🔄 Iniciando transformação dos dados da Agenda Tributária para o ano 2025
+2025-12-09 01:25:39,049 - INFO - ================================================================================
+2025-12-09 01:25:39,049 - INFO - 📅 Transformando dados do mês: novembro
+2025-12-09 01:25:39,049 - INFO -   📆 Dia: Dia-05-11-2025 - 35 eventos encontrados
+2025-12-09 01:25:39,049 - INFO - 📐 Layout detectado: NOVO
+2025-12-09 01:25:39,049 - INFO - 📐 Layout detectado: NOVO
+2025-12-09 01:25:39,049 - INFO - 📐 Layout detectado: NOVO
+2025-12-09 01:25:39,049 - INFO - 📐 Layout detectado: NOVO
+2025-12-09 01:25:39,049 - INFO - 📐 Layout detectado: NOVO
+2025-12-09 01:25:39,049 - INFO - 📐 Layout detectado: NOVO
+2025-12-09 01:25:39,049 - INFO - 📐 Layout detectado: NOVO
+2025-12-09 01:25:39,049 - INFO - 📐 Layout detectado: NOVO
+2025-12-09 01:25:39,049 - INFO - 📐 Layout detectado: NOVO
+2025-12-09 01:25:39,049 - INFO - 📐 Layout detectado: NOVO
+2025-12-09 01:25:39,049 - INFO - 📐 Layout detectado: NOVO
+2025-12-09 01:25:39,049 - INFO - 📐 Layout detectado: NOVO
+2025-12-09 01:25:39,049 - INFO - 📐 Layout detectado: NOVO
+2025-12-09 01:25:39,049 - INFO - 📐 Layout detectado: NOVO
+2025-12-09 01:25:39,050 - INFO - 📐 Layout detectado: NOVO
+2025-12-09 01:25:39,050 - INFO - 📐 Layout detectado: NOVO
+2025-12-09 01:25:39,050 - INFO - 📐 Layout detectado: NOVO
+2025-12-09 01:25:39,050 - INFO - 📐 Layout detectado: NOVO
+2025-12-09 01:25:39,050 - INFO - 📐 Layout detectado: NOVO
+2025-12-09 01:25:39,050 - INFO - 📐 Layout detectado: NOVO
+2025-12-09 01:25:39,050 - INFO - 📐 Layout detectado: NOVO
+2025-12-09 01:25:39,050 - INFO - 📐 Layout detectado: NOVO
+2025-12-09 01:25:39,050 - INFO - 📐 Layout detectado: NOVO
+2025-12-09 01:25:39,050 - INFO - 📐 Layout detectado: NOVO
+2025-12-09 01:25:39,050 - INFO - 📐 Layout detectado: NOVO
+2025-12-09 01:25:39,050 - INFO - 📐 Layout detectado: NOVO
+2025-12-09 01:25:39,050 - INFO - 📐 Layout detectado: NOVO
+2025-12-09 01:25:39,050 - INFO - 📐 Layout detectado: NOVO
+2025-12-09 01:25:39,050 - INFO - 📐 Layout detectado: NOVO
+2025-12-09 01:25:39,050 - INFO - 📐 Layout detectado: NOVO
+2025-12-09 01:25:39,050 - INFO - 📐 Layout detectado: NOVO
+2025-12-09 01:25:39,050 - INFO - 📐 Layout detectado: NOVO
+2025-12-09 01:25:39,051 - INFO - 📐 Layout detectado: NOVO
+2025-12-09 01:25:39,051 - INFO - 📐 Layout detectado: NOVO
+2025-12-09 01:25:39,051 - INFO - 📐 Layout detectado: NOVO
+2025-12-09 01:25:39,051 - INFO -   ✅ 35 eventos limpos para o dia Dia-05-11-2025
+2025-12-09 01:25:39,051 - INFO -   📆 Dia: 10-11-2025 - 3 eventos encontrados
+2025-12-09 01:25:39,051 - INFO - 📐 Layout detectado: NOVO
+2025-12-09 01:25:39,051 - INFO - 📐 Layout detectado: NOVO
+2025-12-09 01:25:39,051 - INFO - 📐 Layout detectado: NOVO
+2025-12-09 01:25:39,051 - INFO -   ✅ 3 eventos limpos para o dia 10-11-2025
+2025-12-09 01:25:39,051 - INFO -   📆 Dia: 13-11-2025 - 29 eventos encontrados
+2025-12-09 01:25:39,051 - INFO - 📐 Layout detectado: NOVO
+2025-12-09 01:25:39,051 - INFO - 📐 Layout detectado: NOVO
+2025-12-09 01:25:39,051 - INFO - 📐 Layout detectado: NOVO
+2025-12-09 01:25:39,051 - INFO - 📐 Layout detectado: NOVO
+2025-12-09 01:25:39,051 - INFO - 📐 Layout detectado: NOVO
+2025-12-09 01:25:39,051 - INFO - 📐 Layout detectado: NOVO
+2025-12-09 01:25:39,051 - INFO - 📐 Layout detectado: NOVO
+2025-12-09 01:25:39,051 - INFO - 📐 Layout detectado: NOVO
+2025-12-09 01:25:39,051 - INFO - 📐 Layout detectado: NOVO
+2025-12-09 01:25:39,051 - INFO - 📐 Layout detectado: NOVO
+2025-12-09 01:25:39,051 - INFO - 📐 Layout detectado: NOVO
+2025-12-09 01:25:39,052 - INFO - 📐 Layout detectado: NOVO
+2025-12-09 01:25:39,052 - INFO - 📐 Layout detectado: NOVO
+2025-12-09 01:25:39,052 - INFO - 📐 Layout detectado: NOVO
+2025-12-09 01:25:39,052 - INFO - 📐 Layout detectado: NOVO
+2025-12-09 01:25:39,052 - INFO - 📐 Layout detectado: NOVO
+2025-12-09 01:25:39,052 - INFO - 📐 Layout detectado: NOVO
+2025-12-09 01:25:39,052 - INFO - 📐 Layout detectado: NOVO
+2025-12-09 01:25:39,052 - INFO - 📐 Layout detectado: NOVO
+2025-12-09 01:25:39,052 - INFO - 📐 Layout detectado: NOVO
+2025-12-09 01:25:39,052 - INFO - 📐 Layout detectado: NOVO
+2025-12-09 01:25:39,052 - INFO - 📐 Layout detectado: NOVO
+2025-12-09 01:25:39,052 - INFO - 📐 Layout detectado: NOVO
+2025-12-09 01:25:39,052 - INFO - 📐 Layout detectado: NOVO
+2025-12-09 01:25:39,052 - INFO - 📐 Layout detectado: NOVO
+2025-12-09 01:25:39,052 - INFO - 📐 Layout detectado: NOVO
+2025-12-09 01:25:39,052 - INFO - 📐 Layout detectado: NOVO
+2025-12-09 01:25:39,052 - INFO - 📐 Layout detectado: NOVO
+2025-12-09 01:25:39,052 - INFO - 📐 Layout detectado: NOVO
+2025-12-09 01:25:39,052 - INFO -   ✅ 29 eventos limpos para o dia 13-11-2025
+2025-12-09 01:25:39,052 - INFO -   📆 Dia: 14-11-2025 - 4 eventos encontrados
+2025-12-09 01:25:39,052 - INFO - 📐 Layout detectado: NOVO
+2025-12-09 01:25:39,052 - INFO - 📐 Layout detectado: NOVO
+2025-12-09 01:25:39,052 - INFO - 📐 Layout detectado: NOVO
+2025-12-09 01:25:39,052 - INFO - 📐 Layout detectado: NOVO
+2025-12-09 01:25:39,052 - INFO -   ✅ 4 eventos limpos para o dia 14-11-2025
+2025-12-09 01:25:39,052 - INFO -   📆 Dia: 17-11-2025 - 18 eventos encontrados
+2025-12-09 01:25:39,052 - INFO - 📐 Layout detectado: NOVO
+2025-12-09 01:25:39,052 - INFO - 📐 Layout detectado: NOVO
+2025-12-09 01:25:39,053 - INFO - 📐 Layout detectado: NOVO
+2025-12-09 01:25:39,053 - INFO - 📐 Layout detectado: NOVO
+2025-12-09 01:25:39,053 - INFO - 📐 Layout detectado: NOVO
+2025-12-09 01:25:39,053 - INFO - 📐 Layout detectado: NOVO
+2025-12-09 01:25:39,053 - INFO - 📐 Layout detectado: NOVO
+2025-12-09 01:25:39,053 - INFO - 📐 Layout detectado: NOVO
+2025-12-09 01:25:39,053 - INFO - 📐 Layout detectado: NOVO
+2025-12-09 01:25:39,053 - INFO - 📐 Layout detectado: NOVO
+2025-12-09 01:25:39,053 - INFO - 📐 Layout detectado: NOVO
+2025-12-09 01:25:39,053 - INFO - 📐 Layout detectado: NOVO
+2025-12-09 01:25:39,053 - INFO - 📐 Layout detectado: NOVO
+2025-12-09 01:25:39,053 - INFO - 📐 Layout detectado: NOVO
+2025-12-09 01:25:39,053 - INFO - 📐 Layout detectado: NOVO
+2025-12-09 01:25:39,053 - INFO - 📐 Layout detectado: NOVO
+2025-12-09 01:25:39,053 - INFO - 📐 Layout detectado: NOVO
+2025-12-09 01:25:39,053 - INFO - 📐 Layout detectado: NOVO
+2025-12-09 01:25:39,054 - INFO -   ✅ 18 eventos limpos para o dia 17-11-2025
+2025-12-09 01:25:39,054 - INFO -   📆 Dia: 19-11-2025 - 42 eventos encontrados
+2025-12-09 01:25:39,054 - INFO - 📐 Layout detectado: NOVO
+2025-12-09 01:25:39,054 - INFO - 📐 Layout detectado: NOVO
+2025-12-09 01:25:39,054 - INFO - 📐 Layout detectado: NOVO
+2025-12-09 01:25:39,054 - INFO - 📐 Layout detectado: NOVO
+2025-12-09 01:25:39,054 - INFO - 📐 Layout detectado: NOVO
+2025-12-09 01:25:39,054 - INFO - 📐 Layout detectado: NOVO
+2025-12-09 01:25:39,054 - INFO - 📐 Layout detectado: NOVO
+2025-12-09 01:25:39,054 - INFO - 📐 Layout detectado: NOVO
+2025-12-09 01:25:39,054 - INFO - 📐 Layout detectado: NOVO
+2025-12-09 01:25:39,054 - INFO - 📐 Layout detectado: NOVO
+2025-12-09 01:25:39,054 - INFO - 📐 Layout detectado: NOVO
+2025-12-09 01:25:39,054 - INFO - 📐 Layout detectado: NOVO
+2025-12-09 01:25:39,054 - INFO - 📐 Layout detectado: NOVO
+2025-12-09 01:25:39,054 - INFO - 📐 Layout detectado: NOVO
+2025-12-09 01:25:39,054 - INFO - 📐 Layout detectado: NOVO
+2025-12-09 01:25:39,054 - INFO - 📐 Layout detectado: NOVO
+2025-12-09 01:25:39,054 - INFO - 📐 Layout detectado: NOVO
+2025-12-09 01:25:39,054 - INFO - 📐 Layout detectado: NOVO
+2025-12-09 01:25:39,054 - INFO - 📐 Layout detectado: NOVO
+2025-12-09 01:25:39,054 - INFO - 📐 Layout detectado: NOVO
+2025-12-09 01:25:39,054 - INFO - 📐 Layout detectado: NOVO
+2025-12-09 01:25:39,054 - INFO - 📐 Layout detectado: NOVO
+2025-12-09 01:25:39,054 - INFO - 📐 Layout detectado: NOVO
+2025-12-09 01:25:39,054 - INFO - 📐 Layout detectado: NOVO
+2025-12-09 01:25:39,054 - INFO - 📐 Layout detectado: NOVO
+2025-12-09 01:25:39,054 - INFO - 📐 Layout detectado: NOVO
+2025-12-09 01:25:39,054 - INFO - 📐 Layout detectado: NOVO
+2025-12-09 01:25:39,054 - INFO - 📐 Layout detectado: NOVO
+2025-12-09 01:25:39,054 - INFO - 📐 Layout detectado: NOVO
+2025-12-09 01:25:39,054 - INFO - 📐 Layout detectado: NOVO
+2025-12-09 01:25:39,054 - INFO - 📐 Layout detectado: NOVO
+2025-12-09 01:25:39,054 - INFO - 📐 Layout detectado: NOVO
+2025-12-09 01:25:39,054 - INFO - 📐 Layout detectado: NOVO
+2025-12-09 01:25:39,054 - INFO - 📐 Layout detectado: NOVO
+2025-12-09 01:25:39,055 - INFO - 📐 Layout detectado: NOVO
+2025-12-09 01:25:39,055 - INFO - 📐 Layout detectado: NOVO
+2025-12-09 01:25:39,055 - INFO - 📐 Layout detectado: NOVO
+2025-12-09 01:25:39,055 - INFO - 📐 Layout detectado: NOVO
+2025-12-09 01:25:39,055 - INFO - 📐 Layout detectado: NOVO
+2025-12-09 01:25:39,055 - INFO - 📐 Layout detectado: NOVO
+2025-12-09 01:25:39,055 - INFO - 📐 Layout detectado: NOVO
+2025-12-09 01:25:39,055 - INFO - 📐 Layout detectado: NOVO
+2025-12-09 01:25:39,055 - INFO -   ✅ 41 eventos limpos para o dia 19-11-2025
+2025-12-09 01:25:39,055 - INFO -   📆 Dia: 21-11-2025 - 8 eventos encontrados
+2025-12-09 01:25:39,055 - INFO - 📐 Layout detectado: NOVO
+2025-12-09 01:25:39,055 - INFO - 📐 Layout detectado: NOVO
+2025-12-09 01:25:39,055 - INFO - 📐 Layout detectado: NOVO
+2025-12-09 01:25:39,055 - INFO - 📐 Layout detectado: NOVO
+2025-12-09 01:25:39,055 - INFO - 📐 Layout detectado: NOVO
+2025-12-09 01:25:39,055 - INFO - 📐 Layout detectado: NOVO
+2025-12-09 01:25:39,055 - INFO - 📐 Layout detectado: NOVO
+2025-12-09 01:25:39,055 - INFO - 📐 Layout detectado: NOVO
+2025-12-09 01:25:39,055 - INFO -   ✅ 7 eventos limpos para o dia 21-11-2025
+2025-12-09 01:25:39,055 - INFO -   📆 Dia: 25-11-2025 - 60 eventos encontrados
+2025-12-09 01:25:39,055 - INFO - 📐 Layout detectado: NOVO
+2025-12-09 01:25:39,055 - INFO - 📐 Layout detectado: NOVO
+2025-12-09 01:25:39,055 - INFO - 📐 Layout detectado: NOVO
+2025-12-09 01:25:39,055 - INFO - 📐 Layout detectado: NOVO
+2025-12-09 01:25:39,055 - INFO - 📐 Layout detectado: NOVO
+2025-12-09 01:25:39,055 - INFO - 📐 Layout detectado: NOVO
+2025-12-09 01:25:39,055 - INFO - 📐 Layout detectado: NOVO
+2025-12-09 01:25:39,055 - INFO - 📐 Layout detectado: NOVO
+2025-12-09 01:25:39,055 - INFO - 📐 Layout detectado: NOVO
+2025-12-09 01:25:39,055 - INFO - 📐 Layout detectado: NOVO
+2025-12-09 01:25:39,055 - INFO - 📐 Layout detectado: NOVO
+2025-12-09 01:25:39,055 - INFO - 📐 Layout detectado: NOVO
+2025-12-09 01:25:39,055 - INFO - 📐 Layout detectado: NOVO
+2025-12-09 01:25:39,055 - INFO - 📐 Layout detectado: NOVO
+2025-12-09 01:25:39,055 - INFO - 📐 Layout detectado: NOVO
+2025-12-09 01:25:39,055 - INFO - 📐 Layout detectado: NOVO
+2025-12-09 01:25:39,056 - INFO - 📐 Layout detectado: NOVO
+2025-12-09 01:25:39,056 - INFO - 📐 Layout detectado: NOVO
+2025-12-09 01:25:39,056 - INFO - 📐 Layout detectado: NOVO
+2025-12-09 01:25:39,056 - INFO - 📐 Layout detectado: NOVO
+2025-12-09 01:25:39,056 - INFO - 📐 Layout detectado: NOVO
+2025-12-09 01:25:39,056 - INFO - 📐 Layout detectado: NOVO
+2025-12-09 01:25:39,056 - INFO - 📐 Layout detectado: NOVO
+2025-12-09 01:25:39,056 - INFO - 📐 Layout detectado: NOVO
+2025-12-09 01:25:39,056 - INFO - 📐 Layout detectado: NOVO
+2025-12-09 01:25:39,056 - INFO - 📐 Layout detectado: NOVO
+2025-12-09 01:25:39,056 - INFO - 📐 Layout detectado: NOVO
+2025-12-09 01:25:39,056 - INFO - 📐 Layout detectado: NOVO
+2025-12-09 01:25:39,056 - INFO - 📐 Layout detectado: NOVO
+2025-12-09 01:25:39,056 - INFO - 📐 Layout detectado: NOVO
+2025-12-09 01:25:39,056 - INFO - 📐 Layout detectado: NOVO
+2025-12-09 01:25:39,056 - INFO - 📐 Layout detectado: NOVO
+2025-12-09 01:25:39,056 - INFO - 📐 Layout detectado: NOVO
+2025-12-09 01:25:39,056 - INFO - 📐 Layout detectado: NOVO
+2025-12-09 01:25:39,056 - INFO - 📐 Layout detectado: NOVO
+2025-12-09 01:25:39,056 - INFO - 📐 Layout detectado: NOVO
+2025-12-09 01:25:39,056 - INFO - 📐 Layout detectado: NOVO
+2025-12-09 01:25:39,056 - INFO - 📐 Layout detectado: NOVO
+2025-12-09 01:25:39,056 - INFO - 📐 Layout detectado: NOVO
+2025-12-09 01:25:39,056 - INFO - 📐 Layout detectado: NOVO
+2025-12-09 01:25:39,056 - INFO - 📐 Layout detectado: NOVO
+2025-12-09 01:25:39,056 - INFO - 📐 Layout detectado: NOVO
+2025-12-09 01:25:39,056 - INFO - 📐 Layout detectado: NOVO
+2025-12-09 01:25:39,056 - INFO - 📐 Layout detectado: NOVO
+2025-12-09 01:25:39,057 - INFO - 📐 Layout detectado: NOVO
+2025-12-09 01:25:39,057 - INFO - 📐 Layout detectado: NOVO
+2025-12-09 01:25:39,057 - INFO - 📐 Layout detectado: NOVO
+2025-12-09 01:25:39,057 - INFO - 📐 Layout detectado: NOVO
+2025-12-09 01:25:39,057 - INFO - 📐 Layout detectado: NOVO
+2025-12-09 01:25:39,057 - INFO - 📐 Layout detectado: NOVO
+2025-12-09 01:25:39,057 - INFO - 📐 Layout detectado: NOVO
+2025-12-09 01:25:39,057 - INFO - 📐 Layout detectado: NOVO
+2025-12-09 01:25:39,057 - INFO - 📐 Layout detectado: NOVO
+2025-12-09 01:25:39,057 - INFO - 📐 Layout detectado: NOVO
+2025-12-09 01:25:39,057 - INFO - 📐 Layout detectado: NOVO
+2025-12-09 01:25:39,057 - INFO - 📐 Layout detectado: NOVO
+2025-12-09 01:25:39,057 - INFO - 📐 Layout detectado: NOVO
+2025-12-09 01:25:39,057 - INFO - 📐 Layout detectado: NOVO
+2025-12-09 01:25:39,057 - INFO - 📐 Layout detectado: NOVO
+2025-12-09 01:25:39,057 - INFO - 📐 Layout detectado: NOVO
+2025-12-09 01:25:39,057 - INFO -   ✅ 60 eventos limpos para o dia 25-11-2025
+2025-12-09 01:25:39,057 - INFO -   📆 Dia: 28-11-2025 - 67 eventos encontrados
+2025-12-09 01:25:39,057 - INFO - 📐 Layout detectado: NOVO
+2025-12-09 01:25:39,057 - INFO - 📐 Layout detectado: NOVO
+2025-12-09 01:25:39,057 - INFO - 📐 Layout detectado: NOVO
+2025-12-09 01:25:39,057 - INFO - 📐 Layout detectado: NOVO
+2025-12-09 01:25:39,057 - INFO - 📐 Layout detectado: NOVO
+2025-12-09 01:25:39,057 - INFO - 📐 Layout detectado: NOVO
+2025-12-09 01:25:39,057 - INFO - 📐 Layout detectado: NOVO
+2025-12-09 01:25:39,057 - INFO - 📐 Layout detectado: NOVO
+2025-12-09 01:25:39,057 - INFO - 📐 Layout detectado: NOVO
+2025-12-09 01:25:39,057 - INFO - 📐 Layout detectado: NOVO
+2025-12-09 01:25:39,057 - INFO - 📐 Layout detectado: NOVO
+2025-12-09 01:25:39,058 - INFO - 📐 Layout detectado: NOVO
+2025-12-09 01:25:39,058 - INFO - 📐 Layout detectado: NOVO
+2025-12-09 01:25:39,058 - INFO - 📐 Layout detectado: NOVO
+2025-12-09 01:25:39,058 - INFO - 📐 Layout detectado: NOVO
+2025-12-09 01:25:39,058 - INFO - 📐 Layout detectado: NOVO
+2025-12-09 01:25:39,058 - INFO - 📐 Layout detectado: NOVO
+2025-12-09 01:25:39,058 - INFO - 📐 Layout detectado: NOVO
+2025-12-09 01:25:39,058 - INFO - 📐 Layout detectado: NOVO
+2025-12-09 01:25:39,058 - INFO - 📐 Layout detectado: NOVO
+2025-12-09 01:25:39,058 - INFO - 📐 Layout detectado: NOVO
+2025-12-09 01:25:39,058 - INFO - 📐 Layout detectado: NOVO
+2025-12-09 01:25:39,058 - INFO - 📐 Layout detectado: NOVO
+2025-12-09 01:25:39,058 - INFO - 📐 Layout detectado: NOVO
+2025-12-09 01:25:39,058 - INFO - 📐 Layout detectado: NOVO
+2025-12-09 01:25:39,058 - INFO - 📐 Layout detectado: NOVO
+2025-12-09 01:25:39,058 - INFO - 📐 Layout detectado: NOVO
+2025-12-09 01:25:39,058 - INFO - 📐 Layout detectado: NOVO
+2025-12-09 01:25:39,058 - INFO - 📐 Layout detectado: NOVO
+2025-12-09 01:25:39,058 - INFO - 📐 Layout detectado: NOVO
+2025-12-09 01:25:39,058 - INFO - 📐 Layout detectado: NOVO
+2025-12-09 01:25:39,058 - INFO - 📐 Layout detectado: NOVO
+2025-12-09 01:25:39,058 - INFO - 📐 Layout detectado: NOVO
+2025-12-09 01:25:39,058 - INFO - 📐 Layout detectado: NOVO
+2025-12-09 01:25:39,058 - INFO - 📐 Layout detectado: NOVO
+2025-12-09 01:25:39,058 - INFO - 📐 Layout detectado: NOVO
+2025-12-09 01:25:39,059 - INFO - 📐 Layout detectado: NOVO
+2025-12-09 01:25:39,059 - INFO - 📐 Layout detectado: NOVO
+2025-12-09 01:25:39,059 - INFO - 📐 Layout detectado: NOVO
+2025-12-09 01:25:39,059 - INFO - 📐 Layout detectado: NOVO
+2025-12-09 01:25:39,059 - INFO - 📐 Layout detectado: NOVO
+2025-12-09 01:25:39,059 - INFO - 📐 Layout detectado: NOVO
+2025-12-09 01:25:39,059 - INFO - 📐 Layout detectado: NOVO
+2025-12-09 01:25:39,059 - INFO - 📐 Layout detectado: NOVO
+2025-12-09 01:25:39,059 - INFO - 📐 Layout detectado: NOVO
+2025-12-09 01:25:39,059 - INFO - 📐 Layout detectado: NOVO
+2025-12-09 01:25:39,059 - INFO - 📐 Layout detectado: NOVO
+2025-12-09 01:25:39,059 - INFO - 📐 Layout detectado: NOVO
+2025-12-09 01:25:39,059 - INFO - 📐 Layout detectado: NOVO
+2025-12-09 01:25:39,059 - INFO - 📐 Layout detectado: NOVO
+2025-12-09 01:25:39,059 - INFO - 📐 Layout detectado: NOVO
+2025-12-09 01:25:39,059 - INFO - 📐 Layout detectado: NOVO
+2025-12-09 01:25:39,059 - INFO - 📐 Layout detectado: NOVO
+2025-12-09 01:25:39,059 - INFO - 📐 Layout detectado: NOVO
+2025-12-09 01:25:39,059 - INFO - 📐 Layout detectado: NOVO
+2025-12-09 01:25:39,059 - INFO - 📐 Layout detectado: NOVO
+2025-12-09 01:25:39,059 - INFO - 📐 Layout detectado: NOVO
+2025-12-09 01:25:39,059 - INFO - 📐 Layout detectado: NOVO
+2025-12-09 01:25:39,059 - INFO - 📐 Layout detectado: NOVO
+2025-12-09 01:25:39,059 - INFO - 📐 Layout detectado: NOVO
+2025-12-09 01:25:39,059 - INFO - 📐 Layout detectado: NOVO
+2025-12-09 01:25:39,059 - INFO - 📐 Layout detectado: NOVO
+2025-12-09 01:25:39,059 - INFO - 📐 Layout detectado: NOVO
+2025-12-09 01:25:39,059 - INFO - 📐 Layout detectado: NOVO
+2025-12-09 01:25:39,059 - INFO - 📐 Layout detectado: NOVO
+2025-12-09 01:25:39,059 - INFO - 📐 Layout detectado: NOVO
+2025-12-09 01:25:39,059 - INFO - 📐 Layout detectado: NOVO
+2025-12-09 01:25:39,059 - INFO -   ✅ 61 eventos limpos para o dia 28-11-2025
+2025-12-09 01:25:39,059 - INFO - 📅 Transformando dados do mês: dezembro
+2025-12-09 01:25:39,059 - INFO -   📆 Dia: dia-03-12-2025 - 27 eventos encontrados
+2025-12-09 01:25:39,060 - INFO - 📐 Layout detectado: NOVO
+2025-12-09 01:25:39,060 - INFO - 📐 Layout detectado: NOVO
+2025-12-09 01:25:39,060 - INFO - 📐 Layout detectado: NOVO
+2025-12-09 01:25:39,060 - INFO - 📐 Layout detectado: NOVO
+2025-12-09 01:25:39,060 - INFO - 📐 Layout detectado: NOVO
+2025-12-09 01:25:39,060 - INFO - 📐 Layout detectado: NOVO
+2025-12-09 01:25:39,060 - INFO - 📐 Layout detectado: NOVO
+2025-12-09 01:25:39,060 - INFO - 📐 Layout detectado: NOVO
+2025-12-09 01:25:39,060 - INFO - 📐 Layout detectado: NOVO
+2025-12-09 01:25:39,060 - INFO - 📐 Layout detectado: NOVO
+2025-12-09 01:25:39,060 - INFO - 📐 Layout detectado: NOVO
+2025-12-09 01:25:39,060 - INFO - 📐 Layout detectado: NOVO
+2025-12-09 01:25:39,060 - INFO - 📐 Layout detectado: NOVO
+2025-12-09 01:25:39,060 - INFO - 📐 Layout detectado: NOVO
+2025-12-09 01:25:39,060 - INFO - 📐 Layout detectado: NOVO
+2025-12-09 01:25:39,060 - INFO - 📐 Layout detectado: NOVO
+2025-12-09 01:25:39,060 - INFO - 📐 Layout detectado: NOVO
+2025-12-09 01:25:39,060 - INFO - 📐 Layout detectado: NOVO
+2025-12-09 01:25:39,060 - INFO - 📐 Layout detectado: NOVO
+2025-12-09 01:25:39,060 - INFO - 📐 Layout detectado: NOVO
+2025-12-09 01:25:39,060 - INFO - 📐 Layout detectado: NOVO
+2025-12-09 01:25:39,060 - INFO - 📐 Layout detectado: NOVO
+2025-12-09 01:25:39,060 - INFO - 📐 Layout detectado: NOVO
+2025-12-09 01:25:39,060 - INFO - 📐 Layout detectado: NOVO
+2025-12-09 01:25:39,060 - INFO - 📐 Layout detectado: NOVO
+2025-12-09 01:25:39,060 - INFO - 📐 Layout detectado: NOVO
+2025-12-09 01:25:39,060 - INFO - 📐 Layout detectado: NOVO
+2025-12-09 01:25:39,060 - INFO -   ✅ 27 eventos limpos para o dia dia-03-12-2025
+2025-12-09 01:25:39,060 - INFO -   📆 Dia: dia-05-12-2025 - 8 eventos encontrados
+2025-12-09 01:25:39,060 - INFO - 📐 Layout detectado: NOVO
+2025-12-09 01:25:39,060 - INFO - 📐 Layout detectado: NOVO
+2025-12-09 01:25:39,060 - INFO - 📐 Layout detectado: NOVO
+2025-12-09 01:25:39,060 - INFO - 📐 Layout detectado: NOVO
+2025-12-09 01:25:39,061 - INFO - 📐 Layout detectado: NOVO
+2025-12-09 01:25:39,061 - INFO - 📐 Layout detectado: NOVO
+2025-12-09 01:25:39,061 - INFO - 📐 Layout detectado: NOVO
+2025-12-09 01:25:39,061 - INFO - 📐 Layout detectado: NOVO
+2025-12-09 01:25:39,061 - INFO -   ✅ 8 eventos limpos para o dia dia-05-12-2025
+2025-12-09 01:25:39,061 - INFO -   📆 Dia: dia-10-12-2025 - 3 eventos encontrados
+2025-12-09 01:25:39,061 - INFO - 📐 Layout detectado: NOVO
+2025-12-09 01:25:39,061 - INFO - 📐 Layout detectado: NOVO
+2025-12-09 01:25:39,061 - INFO - 📐 Layout detectado: NOVO
+2025-12-09 01:25:39,061 - INFO -   ✅ 3 eventos limpos para o dia dia-10-12-2025
+2025-12-09 01:25:39,061 - INFO -   📆 Dia: dia-15-12-2025 - 51 eventos encontrados
+2025-12-09 01:25:39,061 - INFO - 📐 Layout detectado: NOVO
+2025-12-09 01:25:39,061 - INFO - 📐 Layout detectado: NOVO
+2025-12-09 01:25:39,061 - INFO - 📐 Layout detectado: NOVO
+2025-12-09 01:25:39,061 - INFO - 📐 Layout detectado: NOVO
+2025-12-09 01:25:39,061 - INFO - 📐 Layout detectado: NOVO
+2025-12-09 01:25:39,061 - INFO - 📐 Layout detectado: NOVO
+2025-12-09 01:25:39,061 - INFO - 📐 Layout detectado: NOVO
+2025-12-09 01:25:39,061 - INFO - 📐 Layout detectado: NOVO
+2025-12-09 01:25:39,061 - INFO - 📐 Layout detectado: NOVO
+2025-12-09 01:25:39,061 - INFO - 📐 Layout detectado: NOVO
+2025-12-09 01:25:39,061 - INFO - 📐 Layout detectado: NOVO
+2025-12-09 01:25:39,061 - INFO - 📐 Layout detectado: NOVO
+2025-12-09 01:25:39,061 - INFO - 📐 Layout detectado: NOVO
+2025-12-09 01:25:39,061 - INFO - 📐 Layout detectado: NOVO
+2025-12-09 01:25:39,061 - INFO - 📐 Layout detectado: NOVO
+2025-12-09 01:25:39,061 - INFO - 📐 Layout detectado: NOVO
+2025-12-09 01:25:39,061 - INFO - 📐 Layout detectado: NOVO
+2025-12-09 01:25:39,061 - INFO - 📐 Layout detectado: NOVO
+2025-12-09 01:25:39,061 - INFO - 📐 Layout detectado: NOVO
+2025-12-09 01:25:39,061 - INFO - 📐 Layout detectado: NOVO
+2025-12-09 01:25:39,061 - INFO - 📐 Layout detectado: NOVO
+2025-12-09 01:25:39,061 - INFO - 📐 Layout detectado: NOVO
+2025-12-09 01:25:39,061 - INFO - 📐 Layout detectado: NOVO
+2025-12-09 01:25:39,061 - INFO - 📐 Layout detectado: NOVO
+2025-12-09 01:25:39,061 - INFO - 📐 Layout detectado: NOVO
+2025-12-09 01:25:39,061 - INFO - 📐 Layout detectado: NOVO
+2025-12-09 01:25:39,062 - INFO - 📐 Layout detectado: NOVO
+2025-12-09 01:25:39,062 - INFO - 📐 Layout detectado: NOVO
+2025-12-09 01:25:39,062 - INFO - 📐 Layout detectado: NOVO
+2025-12-09 01:25:39,062 - INFO - 📐 Layout detectado: NOVO
+2025-12-09 01:25:39,062 - INFO - 📐 Layout detectado: NOVO
+2025-12-09 01:25:39,062 - INFO - 📐 Layout detectado: NOVO
+2025-12-09 01:25:39,062 - INFO - 📐 Layout detectado: NOVO
+2025-12-09 01:25:39,062 - INFO - 📐 Layout detectado: NOVO
+2025-12-09 01:25:39,062 - INFO - 📐 Layout detectado: NOVO
+2025-12-09 01:25:39,062 - INFO - 📐 Layout detectado: NOVO
+2025-12-09 01:25:39,062 - INFO - 📐 Layout detectado: NOVO
+2025-12-09 01:25:39,062 - INFO - 📐 Layout detectado: NOVO
+2025-12-09 01:25:39,062 - INFO - 📐 Layout detectado: NOVO
+2025-12-09 01:25:39,062 - INFO - 📐 Layout detectado: NOVO
+2025-12-09 01:25:39,062 - INFO - 📐 Layout detectado: NOVO
+2025-12-09 01:25:39,062 - INFO - 📐 Layout detectado: NOVO
+2025-12-09 01:25:39,062 - INFO - 📐 Layout detectado: NOVO
+2025-12-09 01:25:39,062 - INFO - 📐 Layout detectado: NOVO
+2025-12-09 01:25:39,062 - INFO - 📐 Layout detectado: NOVO
+2025-12-09 01:25:39,062 - INFO - 📐 Layout detectado: NOVO
+2025-12-09 01:25:39,062 - INFO - 📐 Layout detectado: NOVO
+2025-12-09 01:25:39,062 - INFO - 📐 Layout detectado: NOVO
+2025-12-09 01:25:39,062 - INFO - 📐 Layout detectado: NOVO
+2025-12-09 01:25:39,062 - INFO - 📐 Layout detectado: NOVO
+2025-12-09 01:25:39,062 - INFO - 📐 Layout detectado: NOVO
+2025-12-09 01:25:39,063 - INFO -   ✅ 51 eventos limpos para o dia dia-15-12-2025
+2025-12-09 01:25:39,063 - INFO -   📆 Dia: dia-19-12-2025 - 42 eventos encontrados
+2025-12-09 01:25:39,063 - INFO - 📐 Layout detectado: NOVO
+2025-12-09 01:25:39,063 - INFO - 📐 Layout detectado: NOVO
+2025-12-09 01:25:39,063 - INFO - 📐 Layout detectado: NOVO
+2025-12-09 01:25:39,063 - INFO - 📐 Layout detectado: NOVO
+2025-12-09 01:25:39,063 - INFO - 📐 Layout detectado: NOVO
+2025-12-09 01:25:39,063 - INFO - 📐 Layout detectado: NOVO
+2025-12-09 01:25:39,063 - INFO - 📐 Layout detectado: NOVO
+2025-12-09 01:25:39,063 - INFO - 📐 Layout detectado: NOVO
+2025-12-09 01:25:39,063 - INFO - 📐 Layout detectado: NOVO
+2025-12-09 01:25:39,063 - INFO - 📐 Layout detectado: NOVO
+2025-12-09 01:25:39,063 - INFO - 📐 Layout detectado: NOVO
+2025-12-09 01:25:39,063 - INFO - 📐 Layout detectado: NOVO
+2025-12-09 01:25:39,063 - INFO - 📐 Layout detectado: NOVO
+2025-12-09 01:25:39,063 - INFO - 📐 Layout detectado: NOVO
+2025-12-09 01:25:39,064 - INFO - 📐 Layout detectado: NOVO
+2025-12-09 01:25:39,064 - INFO - 📐 Layout detectado: NOVO
+2025-12-09 01:25:39,064 - INFO - 📐 Layout detectado: NOVO
+2025-12-09 01:25:39,064 - INFO - 📐 Layout detectado: NOVO
+2025-12-09 01:25:39,064 - INFO - 📐 Layout detectado: NOVO
+2025-12-09 01:25:39,064 - INFO - 📐 Layout detectado: NOVO
+2025-12-09 01:25:39,064 - INFO - 📐 Layout detectado: NOVO
+2025-12-09 01:25:39,064 - INFO - 📐 Layout detectado: NOVO
+2025-12-09 01:25:39,064 - INFO - 📐 Layout detectado: NOVO
+2025-12-09 01:25:39,064 - INFO - 📐 Layout detectado: NOVO
+2025-12-09 01:25:39,064 - INFO - 📐 Layout detectado: NOVO
+2025-12-09 01:25:39,064 - INFO - 📐 Layout detectado: NOVO
+2025-12-09 01:25:39,064 - INFO - 📐 Layout detectado: NOVO
+2025-12-09 01:25:39,064 - INFO - 📐 Layout detectado: NOVO
+2025-12-09 01:25:39,064 - INFO - 📐 Layout detectado: NOVO
+2025-12-09 01:25:39,064 - INFO - 📐 Layout detectado: NOVO
+2025-12-09 01:25:39,064 - INFO - 📐 Layout detectado: NOVO
+2025-12-09 01:25:39,064 - INFO - 📐 Layout detectado: NOVO
+2025-12-09 01:25:39,064 - INFO - 📐 Layout detectado: NOVO
+2025-12-09 01:25:39,064 - INFO - 📐 Layout detectado: NOVO
+2025-12-09 01:25:39,064 - INFO - 📐 Layout detectado: NOVO
+2025-12-09 01:25:39,065 - INFO - 📐 Layout detectado: NOVO
+2025-12-09 01:25:39,065 - INFO - 📐 Layout detectado: NOVO
+2025-12-09 01:25:39,065 - INFO - 📐 Layout detectado: NOVO
+2025-12-09 01:25:39,065 - INFO - 📐 Layout detectado: NOVO
+2025-12-09 01:25:39,065 - INFO - 📐 Layout detectado: NOVO
+2025-12-09 01:25:39,065 - INFO - 📐 Layout detectado: NOVO
+2025-12-09 01:25:39,065 - INFO - 📐 Layout detectado: NOVO
+2025-12-09 01:25:39,065 - INFO -   ✅ 41 eventos limpos para o dia dia-19-12-2025
+2025-12-09 01:25:39,065 - INFO -   📆 Dia: dia-22-12-2025 - 8 eventos encontrados
+2025-12-09 01:25:39,065 - INFO - 📐 Layout detectado: NOVO
+2025-12-09 01:25:39,065 - INFO - 📐 Layout detectado: NOVO
+2025-12-09 01:25:39,065 - INFO - 📐 Layout detectado: NOVO
+2025-12-09 01:25:39,065 - INFO - 📐 Layout detectado: NOVO
+2025-12-09 01:25:39,065 - INFO - 📐 Layout detectado: NOVO
+2025-12-09 01:25:39,065 - INFO - 📐 Layout detectado: NOVO
+2025-12-09 01:25:39,065 - INFO - 📐 Layout detectado: NOVO
+2025-12-09 01:25:39,065 - INFO - 📐 Layout detectado: NOVO
+2025-12-09 01:25:39,065 - INFO -   ✅ 7 eventos limpos para o dia dia-22-12-2025
+2025-12-09 01:25:39,065 - INFO -   📆 Dia: dia-24-12-2025 - 52 eventos encontrados
+2025-12-09 01:25:39,065 - INFO - 📐 Layout detectado: NOVO
+2025-12-09 01:25:39,066 - INFO - 📐 Layout detectado: NOVO
+2025-12-09 01:25:39,066 - INFO - 📐 Layout detectado: NOVO
+2025-12-09 01:25:39,066 - INFO - 📐 Layout detectado: NOVO
+2025-12-09 01:25:39,066 - INFO - 📐 Layout detectado: NOVO
+2025-12-09 01:25:39,066 - INFO - 📐 Layout detectado: NOVO
+2025-12-09 01:25:39,066 - INFO - 📐 Layout detectado: NOVO
+2025-12-09 01:25:39,066 - INFO - 📐 Layout detectado: NOVO
+2025-12-09 01:25:39,066 - INFO - 📐 Layout detectado: NOVO
+2025-12-09 01:25:39,066 - INFO - 📐 Layout detectado: NOVO
+2025-12-09 01:25:39,066 - INFO - 📐 Layout detectado: NOVO
+2025-12-09 01:25:39,066 - INFO - 📐 Layout detectado: NOVO
+2025-12-09 01:25:39,066 - INFO - 📐 Layout detectado: NOVO
+2025-12-09 01:25:39,066 - INFO - 📐 Layout detectado: NOVO
+2025-12-09 01:25:39,066 - INFO - 📐 Layout detectado: NOVO
+2025-12-09 01:25:39,066 - INFO - 📐 Layout detectado: NOVO
+2025-12-09 01:25:39,066 - INFO - 📐 Layout detectado: NOVO
+2025-12-09 01:25:39,066 - INFO - 📐 Layout detectado: NOVO
+2025-12-09 01:25:39,066 - INFO - 📐 Layout detectado: NOVO
+2025-12-09 01:25:39,066 - INFO - 📐 Layout detectado: NOVO
+2025-12-09 01:25:39,067 - INFO - 📐 Layout detectado: NOVO
+2025-12-09 01:25:39,067 - INFO - 📐 Layout detectado: NOVO
+2025-12-09 01:25:39,067 - INFO - 📐 Layout detectado: NOVO
+2025-12-09 01:25:39,067 - INFO - 📐 Layout detectado: NOVO
+2025-12-09 01:25:39,067 - INFO - 📐 Layout detectado: NOVO
+2025-12-09 01:25:39,067 - INFO - 📐 Layout detectado: NOVO
+2025-12-09 01:25:39,067 - INFO - 📐 Layout detectado: NOVO
+2025-12-09 01:25:39,067 - INFO - 📐 Layout detectado: NOVO
+2025-12-09 01:25:39,067 - INFO - 📐 Layout detectado: NOVO
+2025-12-09 01:25:39,067 - INFO - 📐 Layout detectado: NOVO
+2025-12-09 01:25:39,067 - INFO - 📐 Layout detectado: NOVO
+2025-12-09 01:25:39,067 - INFO - 📐 Layout detectado: NOVO
+2025-12-09 01:25:39,067 - INFO - 📐 Layout detectado: NOVO
+2025-12-09 01:25:39,067 - INFO - 📐 Layout detectado: NOVO
+2025-12-09 01:25:39,067 - INFO - 📐 Layout detectado: NOVO
+2025-12-09 01:25:39,067 - INFO - 📐 Layout detectado: NOVO
+2025-12-09 01:25:39,067 - INFO - 📐 Layout detectado: NOVO
+2025-12-09 01:25:39,067 - INFO - 📐 Layout detectado: NOVO
+2025-12-09 01:25:39,067 - INFO - 📐 Layout detectado: NOVO
+2025-12-09 01:25:39,067 - INFO - 📐 Layout detectado: NOVO
+2025-12-09 01:25:39,068 - INFO - 📐 Layout detectado: NOVO
+2025-12-09 01:25:39,068 - INFO - 📐 Layout detectado: NOVO
+2025-12-09 01:25:39,068 - INFO - 📐 Layout detectado: NOVO
+2025-12-09 01:25:39,068 - INFO - 📐 Layout detectado: NOVO
+2025-12-09 01:25:39,068 - INFO - 📐 Layout detectado: NOVO
+2025-12-09 01:25:39,068 - INFO - 📐 Layout detectado: NOVO
+2025-12-09 01:25:39,068 - INFO - 📐 Layout detectado: NOVO
+2025-12-09 01:25:39,068 - INFO - 📐 Layout detectado: NOVO
+2025-12-09 01:25:39,068 - INFO - 📐 Layout detectado: NOVO
+2025-12-09 01:25:39,068 - INFO - 📐 Layout detectado: NOVO
+2025-12-09 01:25:39,068 - INFO - 📐 Layout detectado: NOVO
+2025-12-09 01:25:39,068 - INFO - 📐 Layout detectado: NOVO
+2025-12-09 01:25:39,068 - INFO -   ✅ 52 eventos limpos para o dia dia-24-12-2025
+2025-12-09 01:25:39,068 - INFO -   📆 Dia: dia-26-12-2025 - 8 eventos encontrados
+2025-12-09 01:25:39,068 - INFO - 📐 Layout detectado: NOVO
+2025-12-09 01:25:39,068 - INFO - 📐 Layout detectado: NOVO
+2025-12-09 01:25:39,068 - INFO - 📐 Layout detectado: NOVO
+2025-12-09 01:25:39,068 - INFO - 📐 Layout detectado: NOVO
+2025-12-09 01:25:39,068 - INFO - 📐 Layout detectado: NOVO
+2025-12-09 01:25:39,068 - INFO - 📐 Layout detectado: NOVO
+2025-12-09 01:25:39,069 - INFO - 📐 Layout detectado: NOVO
+2025-12-09 01:25:39,069 - INFO - 📐 Layout detectado: NOVO
+2025-12-09 01:25:39,069 - INFO -   ✅ 8 eventos limpos para o dia dia-26-12-2025
+2025-12-09 01:25:39,069 - INFO -   📆 Dia: dia-30-12-2025 - 68 eventos encontrados
+2025-12-09 01:25:39,069 - INFO - 📐 Layout detectado: NOVO
+2025-12-09 01:25:39,069 - INFO - 📐 Layout detectado: NOVO
+2025-12-09 01:25:39,069 - INFO - 📐 Layout detectado: NOVO
+2025-12-09 01:25:39,069 - INFO - 📐 Layout detectado: NOVO
+2025-12-09 01:25:39,069 - INFO - 📐 Layout detectado: NOVO
+2025-12-09 01:25:39,069 - INFO - 📐 Layout detectado: NOVO
+2025-12-09 01:25:39,069 - INFO - 📐 Layout detectado: NOVO
+2025-12-09 01:25:39,069 - INFO - 📐 Layout detectado: NOVO
+2025-12-09 01:25:39,069 - INFO - 📐 Layout detectado: NOVO
+2025-12-09 01:25:39,069 - INFO - 📐 Layout detectado: NOVO
+2025-12-09 01:25:39,069 - INFO - 📐 Layout detectado: NOVO
+2025-12-09 01:25:39,069 - INFO - 📐 Layout detectado: NOVO
+2025-12-09 01:25:39,069 - INFO - 📐 Layout detectado: NOVO
+2025-12-09 01:25:39,069 - INFO - 📐 Layout detectado: NOVO
+2025-12-09 01:25:39,069 - INFO - 📐 Layout detectado: NOVO
+2025-12-09 01:25:39,069 - INFO - 📐 Layout detectado: NOVO
+2025-12-09 01:25:39,069 - INFO - 📐 Layout detectado: NOVO
+2025-12-09 01:25:39,070 - INFO - 📐 Layout detectado: NOVO
+2025-12-09 01:25:39,070 - INFO - 📐 Layout detectado: NOVO
+2025-12-09 01:25:39,070 - INFO - 📐 Layout detectado: NOVO
+2025-12-09 01:25:39,070 - INFO - 📐 Layout detectado: NOVO
+2025-12-09 01:25:39,070 - INFO - 📐 Layout detectado: NOVO
+2025-12-09 01:25:39,070 - INFO - 📐 Layout detectado: NOVO
+2025-12-09 01:25:39,070 - INFO - 📐 Layout detectado: NOVO
+2025-12-09 01:25:39,070 - INFO - 📐 Layout detectado: NOVO
+2025-12-09 01:25:39,070 - INFO - 📐 Layout detectado: NOVO
+2025-12-09 01:25:39,070 - INFO - 📐 Layout detectado: NOVO
+2025-12-09 01:25:39,070 - INFO - 📐 Layout detectado: NOVO
+2025-12-09 01:25:39,070 - INFO - 📐 Layout detectado: NOVO
+2025-12-09 01:25:39,070 - INFO - 📐 Layout detectado: NOVO
+2025-12-09 01:25:39,070 - INFO - 📐 Layout detectado: NOVO
+2025-12-09 01:25:39,070 - INFO - 📐 Layout detectado: NOVO
+2025-12-09 01:25:39,070 - INFO - 📐 Layout detectado: NOVO
+2025-12-09 01:25:39,070 - INFO - 📐 Layout detectado: NOVO
+2025-12-09 01:25:39,071 - INFO - 📐 Layout detectado: NOVO
+2025-12-09 01:25:39,071 - INFO - 📐 Layout detectado: NOVO
+2025-12-09 01:25:39,071 - INFO - 📐 Layout detectado: NOVO
+2025-12-09 01:25:39,071 - INFO - 📐 Layout detectado: NOVO
+2025-12-09 01:25:39,071 - INFO - 📐 Layout detectado: NOVO
+2025-12-09 01:25:39,071 - INFO - 📐 Layout detectado: NOVO
+2025-12-09 01:25:39,071 - INFO - 📐 Layout detectado: NOVO
+2025-12-09 01:25:39,071 - INFO - 📐 Layout detectado: NOVO
+2025-12-09 01:25:39,071 - INFO - 📐 Layout detectado: NOVO
+2025-12-09 01:25:39,071 - INFO - 📐 Layout detectado: NOVO
+2025-12-09 01:25:39,071 - INFO - 📐 Layout detectado: NOVO
+2025-12-09 01:25:39,071 - INFO - 📐 Layout detectado: NOVO
+2025-12-09 01:25:39,071 - INFO - 📐 Layout detectado: NOVO
+2025-12-09 01:25:39,071 - INFO - 📐 Layout detectado: NOVO
+2025-12-09 01:25:39,071 - INFO - 📐 Layout detectado: NOVO
+2025-12-09 01:25:39,071 - INFO - 📐 Layout detectado: NOVO
+2025-12-09 01:25:39,071 - INFO - 📐 Layout detectado: NOVO
+2025-12-09 01:25:39,071 - INFO - 📐 Layout detectado: NOVO
+2025-12-09 01:25:39,071 - INFO - 📐 Layout detectado: NOVO
+2025-12-09 01:25:39,072 - INFO - 📐 Layout detectado: NOVO
+2025-12-09 01:25:39,072 - INFO - 📐 Layout detectado: NOVO
+2025-12-09 01:25:39,072 - INFO - 📐 Layout detectado: NOVO
+2025-12-09 01:25:39,072 - INFO - 📐 Layout detectado: NOVO
+2025-12-09 01:25:39,072 - INFO - 📐 Layout detectado: NOVO
+2025-12-09 01:25:39,072 - INFO - 📐 Layout detectado: NOVO
+2025-12-09 01:25:39,072 - INFO - 📐 Layout detectado: NOVO
+2025-12-09 01:25:39,072 - INFO - 📐 Layout detectado: NOVO
+2025-12-09 01:25:39,072 - INFO - 📐 Layout detectado: NOVO
+2025-12-09 01:25:39,072 - INFO - 📐 Layout detectado: NOVO
+2025-12-09 01:25:39,072 - INFO - 📐 Layout detectado: NOVO
+2025-12-09 01:25:39,072 - INFO - 📐 Layout detectado: NOVO
+2025-12-09 01:25:39,072 - INFO - 📐 Layout detectado: NOVO
+2025-12-09 01:25:39,072 - INFO - 📐 Layout detectado: NOVO
+2025-12-09 01:25:39,072 - INFO - 📐 Layout detectado: NOVO
+2025-12-09 01:25:39,072 - INFO -   ✅ 62 eventos limpos para o dia dia-30-12-2025
+2025-12-09 01:25:39,072 - INFO -   📆 Dia: dia-31-12-2025 - 4 eventos encontrados
+2025-12-09 01:25:39,072 - INFO - 📐 Layout detectado: ANTIGO
+2025-12-09 01:25:39,072 - INFO - 📐 Layout detectado: ANTIGO
+2025-12-09 01:25:39,072 - INFO - 📐 Layout detectado: ANTIGO
+2025-12-09 01:25:39,072 - INFO - 📐 Layout detectado: ANTIGO
+2025-12-09 01:25:39,073 - INFO -   ✅ 0 eventos limpos para o dia dia-31-12-2025
+2025-12-09 01:25:39,073 - INFO - ✅ Transformação concluída para o ano 2025
+2025-12-09 01:25:39,073 - INFO - 💾 Salvando JSON da Agenda Tributária para o ano 2025
+2025-12-09 01:25:39,116 - INFO - 📊 Estrutura validada. Meses=2 Dias=19 Eventos=517 (schema_version=1.0)
+2025-12-09 01:25:39,127 - INFO - ✅ JSON validado e salvo com sucesso em '/home/breno/Documentos/alura-engenharia-dados/pipeline-agenda-tributaria/data/transformed/agenda_tributaria_2025_20251209_012539.json'.
+2025-12-09 01:25:39,127 - INFO - --------------------------------------------------------------------------------
+2025-12-09 01:25:39,127 - INFO - ✅ Pipeline finalizado com sucesso para o ano 2025
+2025-12-09 01:25:39,127 - INFO - --------------------------------------------------------------------------------
