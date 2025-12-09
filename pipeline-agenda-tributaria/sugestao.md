@@ -1,23 +1,28 @@
-## Proposta para ID, historico e upsert diario
+## Proposta de modelagem e carga diaria
 
-- `NR_IDFR_CMPO` como `NUMBER GENERATED ALWAYS AS IDENTITY PRIMARY KEY`. O Oracle gera o ID; o loader nao envia.
-- Chave de negocio para identificar compromissos sem depender de descricao: `AA_REF_CMPO, MM_REF_CMPO, DD_REF_CMPO, TX_URL_DOC_ARC (ou dia_url), CD_RC_CMPO, TX_DOC_ARC_CMPO, TX_CTGR_DCL_CMPO, TX_OGM_LCTO_CMPO, TX_PER_APRC_CMPO`. Se algum vier como “--”, mantemos na combinacao.
-- Hash de conteudo (ex.: SHA-256) sobre campos variaveis como descricao, base legal e URLs, gravado em `HASH_CONTEUDO`.
-- Controle de vigencia: `FLAG_ATIVO` (1/0) e timestamps `TS_ATIVACAO` / `TS_INATIVACAO`. A visao para cliente filtra `FLAG_ATIVO=1`.
+**Objetivo**  
+Manter os compromissos atualizados em execucoes diarias, sem duplicar registros e preservando historico quando a Receita alterar alguma informacao.
 
-Fluxo diario com MERGE:
-1) Carregar o JSON do dia em staging, com chave de negocio, hash, `FL_ATIVO=1`, `TS_ATIVACAO=SYSTIMESTAMP`.
-2) MERGE na tabela final pela chave de negocio:
-   - Se encontrar e o hash for igual, nao faz nada.
-   - Se encontrar e o hash for diferente, marca o registro atual como inativo (`FLAG_ATIVO=0`, `TS_INATIVACAO=SYSTIMESTAMP`) e insere uma nova linha com o novo hash (`FLAG_ATIVO=1`, `TS_ATIVACAO=SYSTIMESTAMP`, PK identity novo).
-   - Se nao encontrar, insere com `FLAG_ATIVO=1`, hash calculado e `TS_ATIVACAO=SYSTIMESTAMP`.
-3) Resultado: uma linha ativa por chave de negocio e historico preservado para auditoria.
+**Modelagem**  
+- `NR_IDFR_CMPO`: `NUMBER GENERATED ALWAYS AS IDENTITY PRIMARY KEY` (Oracle gera; o loader nao envia).  
+- Chave de negocio para identificar o compromisso sem depender de descricao: `AA_REF_CMPO, MM_REF_CMPO, DD_REF_CMPO, TX_URL_DOC_ARC (ou dia_url), CD_RC_CMPO, TX_DOC_ARC_CMPO, TX_CTGR_DCL_CMPO, TX_OGM_LCTO_CMPO, TX_PER_APRC_CMPO`. Se algum vier “--”, mantemos na combinacao.  
+- `HASH_CONTEUDO`: hash (ex. SHA-256) dos campos sujeitos a mudar (descricao, base legal, URLs etc.).  
+- Controle de vigencia: `FLAG_ATIVO` (1/0), `TS_ATIVACAO`, `TS_INATIVACAO`. O backend expõe aos clientes apenas registros com `FLAG_ATIVO=1` (ou a linha mais recente por chave), mantendo os inativos apenas para historico/auditoria.
 
-Beneficios: evita duplicidade nas execucoes diarias, captura alteracoes feitas pela Receita mantendo historico, e mantem o ID simples (identity) sem amarrar a chave de negocio.
+**Tabelas**  
+Final (COMPROMISSO): PK identity, colunas de negocio, `HASH_CONTEUDO`, `FLAG_ATIVO`, `TS_ATIVACAO`, `TS_INATIVACAO`.  
+Staging (TMP_COMPROMISSO): mesma estrutura, sem PK identity nem constraints.
 
-### Tabelas sugeridas
+**Processo diario**  
+1) Carregar o JSON do dia na staging, populando chave de negocio, hash, `FLAG_ATIVO=1`, `TS_ATIVACAO=SYSTIMESTAMP`.  
+2) MERGE na tabela final pela chave de negocio:  
+   - Encontrou e hash igual: nao faz nada.  
+   - Encontrou e hash diferente: marca o registro atual como inativo (`FLAG_ATIVO=0`, `TS_INATIVACAO=SYSTIMESTAMP`) e insere nova linha com hash novo (`FLAG_ATIVO=1`, `TS_ATIVACAO=SYSTIMESTAMP`, PK identity novo).  
+   - Nao encontrou: insere com `FLAG_ATIVO=1` e hash calculado.  
+3) Resultado: sempre uma linha ativa por compromisso; historico preservado para auditoria.
 
-**Tabela final (COMPROMISSO)**  
+**DDL sugerida (ajustar tamanhos conforme necessidade)**  
+Final:  
 ```
 CREATE TABLE COMPROMISSO (
   NR_IDFR_CMPO       NUMBER GENERATED ALWAYS AS IDENTITY PRIMARY KEY,
@@ -37,22 +42,18 @@ CREATE TABLE COMPROMISSO (
   TX_BASE_LGAL_CMPO  VARCHAR2(80),
   TX_URL_BASE_LGAL   VARCHAR2(150),
   TS_PBC_CMPO        TIMESTAMP,
-  -- campos de controle
   HASH_CONTEUDO      VARCHAR2(64),
   FLAG_ATIVO         NUMBER(1,0) DEFAULT 1 NOT NULL,
   TS_ATIVACAO        TIMESTAMP DEFAULT SYSTIMESTAMP,
   TS_INATIVACAO      TIMESTAMP
 );
-```
-Sugerir `UNIQUE` para a chave de negocio (ajustar conforme regra):
-```
 ALTER TABLE COMPROMISSO ADD CONSTRAINT UQ_COMPROMISSO_CHAVE
 UNIQUE (AA_REF_CMPO, MM_REF_CMPO, DD_REF_CMPO, TX_URL_DOC_ARC,
         CD_RC_CMPO, TX_DOC_ARC_CMPO, TX_CTGR_DCL_CMPO, TX_OGM_LCTO_CMPO, TX_PER_APRC_CMPO);
 ```
+Staging: mesma estrutura, sem PK identity/constraints.
 
-**Tabela staging (TMP_COMPROMISSO)**  
-Mesma estrutura da final, exceto sem PK identity e sem constraints adicionais:
+DDL staging (ajustar tamanhos se precisar):
 ```
 CREATE TABLE TMP_COMPROMISSO (
   AA_REF_CMPO        NUMBER(4,0),
@@ -78,7 +79,7 @@ CREATE TABLE TMP_COMPROMISSO (
 );
 ```
 
-### MERGE sugerido (diario)
+**MERGE sugerido (diario)**  
 ```
 MERGE INTO COMPROMISSO tgt
 USING TMP_COMPROMISSO src
@@ -125,4 +126,4 @@ USING TMP_COMPROMISSO src
            src.TX_BASE_LGAL_CMPO, src.TX_URL_BASE_LGAL, src.TS_PBC_CMPO,
            src.HASH_CONTEUDO, 1, SYSTIMESTAMP);
 ```
-Observacao: no bloco `MATCHED` acima, a primeira clausula opcionaliza a inativacao; dependendo da regra do time de DB, pode separar em dois MERGEs ou usar logica equivalente (ex.: inativar e inserir novo em passos distintos).
+Obs.: se preferir, a inativacao e a insercao em caso de hash diferente podem ser feitas em dois passos separados para deixar o MERGE mais simples.
