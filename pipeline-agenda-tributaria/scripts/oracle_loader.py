@@ -51,6 +51,7 @@ class OracleLoader:
                 aa_ref = data_evento.year if data_evento else None
 
                 for ev in dia.get("eventos", []):
+                    doc_url = ev.get("documento_arrecadacao_url") or ""
                     linhas.append(
                         {
                             # chaves alinhadas à tabela compromisso
@@ -62,7 +63,7 @@ class OracleLoader:
                             "TX_URL_FON_CMPO": mes_url,
                             "TX_GR_TRBT_CMPO": ev.get("grupo_tributo"),
                             "TX_DOC_ARC_CMPO": ev.get("documento_arrecadacao"),
-                            "TX_URL_DOC_ARC": dia_url,
+                            "TX_URL_DOC_ARC": doc_url,
                             "TX_DCR_CMPO": ev.get("descricao"),
                             "TX_CTGR_DCL_CMPO": ev.get("categoria_declaracao"),
                             "TX_OGM_LCTO_CMPO": ev.get("origem_escrituracao"),

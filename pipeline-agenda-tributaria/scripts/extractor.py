@@ -122,12 +122,17 @@ class AgendaExtractor:
             link_fundamentacao = linha2[2].find("a")
             fundamentacao_url = link_fundamentacao["href"] if link_fundamentacao and link_fundamentacao.get("href") else ""
 
+            doc_arrec_td = linha2[0]
+            doc_arrec_link = doc_arrec_td.find("a")
+            doc_arrec_url = doc_arrec_link["href"] if doc_arrec_link and doc_arrec_link.get("href") else ""
+
             evento = {
-                "codigo de receita": linha1[0].get_text(strip=True),
+                "codigo de receita": linha1[0].get_text(strip=True) or "--",
                 "grupo de tributo": linha1[1].get_text(strip=True),
                 "descricao": linha1[2].get_text(strip=True),
                 "periodo de apuracao": linha1[3].get_text(" ", strip=True),
-                "documento arrecadacao": linha2[0].get_text(strip=True),
+                "documento arrecadacao": doc_arrec_td.get_text(strip=True),
+                "documento arrecadacao url": doc_arrec_url,
                 "categoria da declaracao / origem escrituracao": linha2[1].get_text(strip=True),
                 "fundamentacao legal": linha2[2].get_text(" ", strip=True),
                 "fundamentacao legal url": fundamentacao_url

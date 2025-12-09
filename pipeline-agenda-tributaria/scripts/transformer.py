@@ -49,9 +49,8 @@ class AgendaTransformer:
                 logger.exception("❌ Erro ao limpar registro")
                 continue
 
-        # Mantém apenas DARF e GPS para curadoria inicial
-        registros_filtrados = [r for r in registros_limpos if r.get("tipo") in {"darf", "gps"}]
-        return registros_filtrados
+        # Retorna todos os registros (inclusive sem código de receita, que vêm como "--")
+        return registros_limpos
 
     def _limpar_registro_antigo(self, item):
         tipo = self.classificar_tipo(item)
@@ -70,6 +69,7 @@ class AgendaTransformer:
             periodo=periodo,
             grupo_tributo=None,
             documento_arrecadacao=documento,
+            documento_arrecadacao_url=None,
             categoria_declaracao=None,
             fundamentacao_legal=None,
             origem_escrituracao=None,
@@ -78,6 +78,7 @@ class AgendaTransformer:
 
     def _limpar_registro_novo(self, item):
         doc_arrec = self._limpar_texto(item.get("documento arrecadacao"))
+        doc_arrec_url = self._limpar_texto(item.get("documento arrecadacao url"))
         tipo = self._classificar_por_documento(doc_arrec)
         categoria_declaracao = self._limpar_texto(item.get("categoria da declaracao / origem escrituracao"))
         cat, origem = self._split_categoria_declaracao(categoria_declaracao)
@@ -89,6 +90,7 @@ class AgendaTransformer:
             periodo=self._limpar_texto(item.get("periodo de apuracao")),
             grupo_tributo=self._limpar_texto(item.get("grupo de tributo")),
             documento_arrecadacao=doc_arrec,
+            documento_arrecadacao_url=doc_arrec_url,
             categoria_declaracao=cat,
             origem_escrituracao=origem,
             fundamentacao_legal=self._limpar_texto(item.get("fundamentacao legal")),
@@ -158,6 +160,7 @@ class AgendaTransformer:
         periodo,
         grupo_tributo,
         documento_arrecadacao,
+        documento_arrecadacao_url,
         categoria_declaracao,
         origem_escrituracao,
         fundamentacao_legal,
@@ -171,6 +174,7 @@ class AgendaTransformer:
             "periodo_fato_gerador": periodo,
             "grupo_tributo": grupo_tributo,
             "documento_arrecadacao": documento_arrecadacao,
+            "documento_arrecadacao_url": documento_arrecadacao_url or "",
             "categoria_declaracao": categoria_declaracao or "--",
             "origem_escrituracao": origem_escrituracao or "--",
             "fundamentacao_legal": fundamentacao_legal,
