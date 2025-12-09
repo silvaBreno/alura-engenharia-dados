@@ -59,9 +59,13 @@ class AgendaExtractor:
                 match = pattern.search(href)
                 if not match:
                     continue
-                _, _, year = match.groups()
+                day, month, year = match.groups()
                 if year != str(self.ano):
                     logger.info(f"⚠️ Ignorando link de outro ano: {href}")
+                    continue
+                # Ignora 31/12 (tabela diferente que não usamos)
+                if day == "31" and month == "12":
+                    logger.info(f"⚠️ Ignorando link especial de 31/12: {href}")
                     continue
                 links_datas.append(href)
 

@@ -49,8 +49,30 @@ class AgendaTransformer:
                 logger.exception("❌ Erro ao limpar registro")
                 continue
 
-        # Retorna todos os registros (inclusive sem código de receita, que vêm como "--")
-        return registros_limpos
+        # Remove registros vazios (ex.: tabelas não aderentes que geram só placeholders como por exemplo: 31/12/2025 que nao usamos)
+        registros_filtrados = [r for r in registros_limpos if not self._registro_sem_info(r)]
+        return registros_filtrados
+
+    def _registro_sem_info(self, registro):
+        """Descarta registros que não trazem informação útil (ex.: tabelas fora do padrão)."""
+        def vazio(valor):
+            return valor is None or str(valor).strip() in ("", "--")
+
+        campos = [
+            "codigo_receita",
+            "descricao",
+            "documento_arrecadacao",
+            "documento_arrecadacao_url",
+            "grupo_tributo",
+            "periodo_fato_gerador",
+            "fundamentacao_legal",
+            "fundamentacao_legal_url",
+        ]
+
+        if registro.get("tipo") != "outros":
+            return False
+
+        return all(vazio(registro.get(c)) for c in campos)
 
     def _limpar_registro_antigo(self, item):
         tipo = self.classificar_tipo(item)
