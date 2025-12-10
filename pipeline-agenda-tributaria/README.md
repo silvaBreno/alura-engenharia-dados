@@ -22,11 +22,11 @@ logs/                  -> gerados pelo logger
 ```
 
 ### Componentes em poucas linhas
-- `AgendaExtractor`: encontra links de meses/dias (filtra ano e ignora 31/12), lê tabelas em dois layouts e coleta publicado/atualizado.
+- `AgendaExtractor`: encontra links de meses/dias (datas a ignorar são configuráveis), lê tabelas em dois layouts e coleta publicado/atualizado.
 - `AgendaTransformer`: limpa texto/HTML, classifica tipo (darf/gps/declaracao/documento/outros), descarta registros vazios e reorganiza meses/dias em ordem com datas ISO.
 - `AgendaLoader`: valida com `schemas/agenda_schema.json`, acrescenta `schema_version`, registra métricas de contagem e grava em `data/transformed/agenda_tributaria_<ano>_<timestamp>.json`.
-- `OracleLoader` (pandas, opcional): em `oracle_loader.py`, achata o JSON, valida colunas/obrigatórios e insere em Oracle via `pandas.to_sql` (usa chunks).
-- `SparkOracleLoader` (opcional): em `spark_oracle_loader.py`, faz o mesmo flatten/validação e insere via Spark JDBC com paralelismo.
+- `OracleLoader` (pandas, opcional): em `oracle_loader.py`, achata o JSON, valida colunas/obrigatórios e insere em Oracle via `pandas.to_sql` (usa chunks). Para carga inicial, preenche `NR_IDFR_CMPO` ausente com sequência simples.
+- `SparkOracleLoader` (opcional): em `spark_oracle_loader.py`, faz o mesmo flatten/validação e insere via Spark JDBC com paralelismo. Para carga inicial, preenche `NR_IDFR_CMPO` ausente com `row_number` determinístico.
 - Logging: `logger_config.py` cria `logs/agenda_tributaria_scrapper.log` com rotação diária e retenção de 30 arquivos.
 
 ### Formato esperado do JSON
@@ -44,17 +44,17 @@ logs/                  -> gerados pelo logger
       "dias": [
         {
           "data": "2025-01-10",
-      "url": ".../dia-10-01-2025",
-      "publicado_em": "10/01/2025",
-      "atualizado_em": "10/01/2025",
-      "eventos": [
-        {
-          "nr_idfr_cmpo": null,
-          "tipo": "darf",
-          "codigo_receita": "1234",
-          "descricao": "Pagamento de tributo",
-          "periodo_fato_gerador": "12/2024",
-          "grupo_tributo": "IRRF",
+          "url": ".../dia-10-01-2025",
+          "publicado_em": "10/01/2025",
+          "atualizado_em": "10/01/2025",
+          "eventos": [
+            {
+              "nr_idfr_cmpo": null,
+              "tipo": "darf",
+              "codigo_receita": "1234",
+              "descricao": "Pagamento de tributo",
+              "periodo_fato_gerador": "12/2024",
+              "grupo_tributo": "IRRF",
               "documento_arrecadacao": "DARF",
               "documento_arrecadacao_url": "...",
               "categoria_declaracao": "Cat",
