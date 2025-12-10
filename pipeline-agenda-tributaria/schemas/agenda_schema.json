@@ -32,6 +32,7 @@
                   "items": {
                     "type": "object",
                     "properties": {
+                      "nr_idfr_cmpo": { "type": ["string", "null"] },
                       "tipo": { "type": "string" },
                       "codigo_receita": { "type": ["string", "null"] },
                       "descricao": { "type": "string" },

@@ -1,27 +1,39 @@
 import logging
-import os
 import time
 from logging.handlers import TimedRotatingFileHandler
 
-os.makedirs("test_rotacao_logs", exist_ok=True)
 
-logger = logging.getLogger("TesteRotacaoLogger")
-logger.setLevel(logging.INFO)
+# Testa se o handler faz rotação e gera arquivos no diretório temporário
+def test_rotacao_logs(tmp_path):
+    log_dir = tmp_path / "logs"
+    log_dir.mkdir()
 
-if not logger.hasHandlers():
+    logger = logging.getLogger("TesteRotacaoLogger")
+    logger.setLevel(logging.INFO)
+
+    # Remove handlers antigos para não acumular entre execuções
+    for handler in list(logger.handlers):
+        logger.removeHandler(handler)
+
     handler = TimedRotatingFileHandler(
-        filename="test_logs/teste_rotacao.log",
-        when="s",  # rotação por segundo
-        interval=5,
-        backupCount=5,
-        encoding="utf-8"
+        filename=log_dir / "teste_rotacao.log",
+        when="s",
+        interval=1,
+        backupCount=2,
+        encoding="utf-8",
     )
-    formatter = logging.Formatter('%(asctime)s - %(levelname)s - %(message)s')
+    formatter = logging.Formatter("%(asctime)s - %(levelname)s - %(message)s")
     handler.setFormatter(formatter)
     logger.addHandler(handler)
 
-for i in range(30):
-    logger.info(f"Mensagem de teste número {i+1}")
-    time.sleep(1)
+    logger.info("primeiro")
+    time.sleep(1.2)  # força a janela de rotação
+    logger.info("segundo")
+    logger.info("terceiro")
 
-print("✅ Teste de rotação de logs concluído. Verifique a pasta 'test_logs'.")
+    for h in logger.handlers:
+        h.flush()
+        h.close()
+
+    arquivos = list(log_dir.glob("teste_rotacao.log*"))
+    assert arquivos, "Nenhum arquivo de log gerado"

@@ -9,7 +9,7 @@ import re
 logger = LoggerConfig.configurar_logger()
 
 class AgendaExtractor:
-    def __init__(self, ano, delay=1, meses_filtrar=None):
+    def __init__(self, ano, delay=1, meses_filtrar=None, datas_ignorar=None):
         self.ano = ano
         self.delay = delay
         self.base_url = f"https://www.gov.br/receitafederal/pt-br/assuntos/agenda-tributaria/{ano}"
@@ -19,6 +19,31 @@ class AgendaExtractor:
         ]
         # Se quiser limitar a meses específicos (ex.: ["novembro", "dezembro"])
         self.meses_filtrar = {m.lower() for m in meses_filtrar} if meses_filtrar else None
+        # Datas a ignorar no parsing (passar explicitamente se quiser pular algo como 31/12)
+        self.datas_ignorar = self._normalizar_datas_ignorar(datas_ignorar)
+
+    def _normalizar_datas_ignorar(self, datas_ignorar):
+        """
+        Recebe uma lista/iterável de strings "dd-mm" ou tuplas (dd, mm) e devolve um set de (dd, mm) zero-padded.
+        Default: set() (nenhuma data ignorada).
+        Exemplos:
+            AgendaExtractor(ano=2025, datas_ignorar=["31-12", "15-01", "02/02"])
+            AgendaExtractor(ano=2025, datas_ignorar=[("31", "12"), (15, 1)])
+        """
+        if datas_ignorar is None:
+            return set()
+        normalizado = set()
+        for item in datas_ignorar:
+            if isinstance(item, tuple) or isinstance(item, list):
+                dd, mm = item
+            else:
+                partes = str(item).replace("/", "-").split("-")
+                if len(partes) >= 2:
+                    dd, mm = partes[0], partes[1]
+                else:
+                    continue
+            normalizado.add((f"{int(dd):02d}", f"{int(mm):02d}"))
+        return normalizado
 
     def obter_links_meses(self):
         logger.info(f"🔍 Buscando links dos meses na URL base: {self.base_url}")
@@ -63,9 +88,9 @@ class AgendaExtractor:
                 if year != str(self.ano):
                     logger.info(f"⚠️ Ignorando link de outro ano: {href}")
                     continue
-                # Ignora 31/12 (tabela diferente que não usamos)
-                if day == "31" and month == "12":
-                    logger.info(f"⚠️ Ignorando link especial de 31/12: {href}")
+                # Ignora datas configuradas (default inclui 31/12 por layout fora do padrão)
+                if (f"{int(day):02d}", f"{int(month):02d}") in self.datas_ignorar:
+                    logger.info(f"⚠️ Ignorando link de data configurada para pular: {href}")
                     continue
                 links_datas.append(href)
 

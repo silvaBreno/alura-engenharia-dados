@@ -190,6 +190,7 @@ class AgendaTransformer:
     ):
         codigo_receita_resolvido = self._resolver_codigo_receita(codigo_receita, None, None)
         return {
+            "nr_idfr_cmpo": None,  # preenchimento manual para carga inicial
             "tipo": tipo,
             "codigo_receita": codigo_receita_resolvido,
             "descricao": descricao or "",
