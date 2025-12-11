@@ -1,3 +1,4 @@
+import os
 from pathlib import Path
 from pyspark.sql import SparkSession
 from pyspark.sql import functions as F
@@ -17,38 +18,121 @@ class SparkOracleLoader:
 
     def __init__(
         self,
-        user: str,
-        password: str,
-        host: str,
-        port: str,
-        service_name: str,
         table_name: str,
         *,
-        spark: SparkSession | None = None,
-        jar_path: str | None = None,
+        user: str | None = None,
+        password: str | None = None,
+        oracle_url: str | None = None,
         batchsize: int = 5000,
         num_partitions: int = 4,
     ):
-        self.user = user
-        self.password = password
-        self.host = host
-        self.port = port
-        self.service_name = service_name
+        self.user = user or os.environ["ORACLE_USER"]
+        self.password = password or os.environ["ORACLE_PASSWORD"]
+        self.oracle_url = oracle_url or os.environ.get("ORACLE_URL")
         self.table_name = table_name
         self.batchsize = batchsize
         self.num_partitions = num_partitions
-        self.jar_path = jar_path
-        self.spark = spark or self._build_session(jar_path)
+        self.spark = self._build_session()
 
-    def _build_session(self, jar_path: str | None) -> SparkSession:
-        """Cria ou reutiliza uma SparkSession, carregando o driver JDBC se informado."""
-        builder = SparkSession.builder.appName("CargaAgendaOracle")
-        if jar_path:
-            builder = builder.config("spark.driver.extraClassPath", jar_path)
-        return builder.getOrCreate()
+    def _build_session(self) -> SparkSession:
+        """
+        Cria a SparkSession exatamente como no configuracao_inicial.ipynb
+        (padrão corporativo via bbmagic). Falha se bbmagic ou variáveis
+        obrigatórias não estiverem disponíveis.
+        """
+        logger.info("🔧 Solicitando criação de sessão Spark via bbmagic.")
+        spark = self._build_bbmagic_session()
+        if spark:
+            logger.info("✅ Sessão Spark inicializada com sucesso via bbmagic.")
+            return spark
+        raise RuntimeError(
+            "Não foi possível iniciar sessão Spark via bbmagic. "
+            "Certifique-se de que o pacote bbmagic está instalado e que AMBIENTE e "
+            "as variáveis Oracle/KEYTAB estão definidas."
+        )
+
+    def _build_bbmagic_session(self) -> SparkSession | None:
+        """
+        Reproduz a configuração usada no notebook configuracao_inicial.ipynb.
+        Só é usada se bbmagic estiver instalado e AMBIENTE estiver definido.
+        """
+        try:
+            from bbmagic import Spark as BbmagicSpark
+        except ImportError:
+            logger.error("bbmagic não encontrado no ambiente Python.")
+            return None
+
+        ambiente = os.environ.get("AMBIENTE")
+        if not ambiente:
+            logger.error("Variável AMBIENTE não definida; impossível iniciar sessão corporativa.")
+            return None
+
+        env_var: dict[str, str]
+        if ambiente == "MODELAGEM":
+            keytab = os.environ.get("KEYTAB") or input("Matrícula SISBB: ")
+            env_var = {
+                "AMBTE": "DESENV",
+                "KEYTAB": keytab,
+                "ORACLE_URL": os.environ["ORACLE_URL"],
+                "ORACLE_DRIVER_PATH": os.environ["ORACLE_DRIVER_PATH"],
+                "ORACLE_USER": os.environ["ORACLE_USER"],
+                "ORACLE_PASSWORD": os.environ["ORACLE_PASSWORD"],
+            }
+            logger.info("AMBIENTE=MODELAGEM; carregando sessão com configs de desenvolvimento.")
+        else:
+            env_var = {
+                "AMBTE": "PROD",
+                "KEYTAB": os.environ["KEYTAB"],
+                "ORACLE_URL": os.environ["ORACLE_URL"],
+                "ORACLE_DRIVER_PATH": os.environ["ORACLE_DRIVER_PATH"],
+                "ORACLE_USER": os.environ["ORACLE_USER"],
+                "ORACLE_PASSWORD": os.environ["ORACLE_PASSWORD"],
+            }
+            logger.info("AMBIENTE!=MODELAGEM; carregando sessão com configs de produção.")
+
+        spark_conf = {
+            "spark.driver.memoryOverhead": "4G",
+            "spark.executor.memoryOverhead": "4G",
+            "spark.sql.broadcastTimeout": "36000",
+            "spark.dynamicAllocation.enabled": "false",
+            "spark.debug.maxToStringFields": 1000,
+            "spark.sql.sources.partitionOverwriteMode": "dynamic",
+            "spark.sql.hive.caseSensitiveInferenceMode": "NEVER_INFER",
+            "spark.shuffle.service.name": "spark3_shuffle",
+            "spark.sql.adaptive.enabled": "true",
+            "spark.sql.adaptive.coalescePartitions.enabled": "true",
+            "spark.sql.adaptive.skewJoin.enabled": "true",
+            "spark.serializer": "org.apache.spark.serializer.KryoSerializer",
+            "spark.sql.execution.arrow.pyspark.enabled": "true",
+            "spark.network.timeout": "800s",
+            "spark.kryoserializer.buffer.max": "512m",
+        }
+
+        jars = ["hdfs:///dados/shared/bin/ojdbc8.jar"]
+
+        logger.info("Inicializando sessão Spark via bbmagic (cluster cdp).")
+        spark_obj = BbmagicSpark(
+            session_name="agenda-compromisso-session",
+            username=env_var["KEYTAB"],
+            language="python",
+            db2=False,
+            driver_memory="32g",
+            driver_cores=8,
+            executor_memory="32g",
+            executor_cores=5,
+            spark_conf=spark_conf,
+            env=env_var,
+            cluster="cdp",
+            virtualenv="../requirements-spark.txt",
+            jars=jars,
+        )
+
+        return getattr(spark_obj, "session", spark_obj)
 
     def _jdbc_url(self) -> str:
-        return f"jdbc:oracle:thin:@//{self.host}:{self.port}/{self.service_name}"
+        if not self.oracle_url:
+            raise ValueError("ORACLE_URL não definido. Configure oracle_url ou a variável de ambiente ORACLE_URL.")
+        return self.oracle_url
 
     def _ler_json(self, json_path: str | Path):
         path = Path(json_path)
@@ -61,6 +145,7 @@ class SparkOracleLoader:
         """
         Achata a estrutura meses/dias/eventos em linhas tabulares para inserção JDBC.
         """
+        logger.info("🔄 Iniciando flatten do DataFrame bruto.")
         df = (
             df_raw
             .withColumn("mes", explode("meses"))
@@ -87,6 +172,7 @@ class SparkOracleLoader:
             .withColumn("MM_REF_CMPO", col("DATA_EVENTO").substr(6, 2).cast("int"))
             .withColumn("DD_REF_CMPO", col("DATA_EVENTO").substr(9, 2).cast("int"))
         )
+        logger.info(f"🔄 Flatten concluído: {df.count()} linhas após expansão.")
         return df
 
     def _validar(self, df):
@@ -95,6 +181,7 @@ class SparkOracleLoader:
         - Colunas numéricas: ID e datas de referência são convertidas para int/long.
         - Obriga não nulos conforme dicionário da tabela (TS_ATL_CMPO é o único opcional).
         """
+        logger.info("🧪 Iniciando validação do DataFrame.")
         required_presence = [
             "NR_IDFR_CMPO",
             "AA_REF_CMPO",
@@ -166,6 +253,7 @@ class SparkOracleLoader:
         after_types = {c: t for c, t in df.dtypes if c in required_presence}
         logger.info(f"📐 Tipos antes do cast: {before_types}")
         logger.info(f"📐 Tipos após o cast: {after_types}")
+        logger.info("🧪 Validação concluída com sucesso.")
 
         return df
 
