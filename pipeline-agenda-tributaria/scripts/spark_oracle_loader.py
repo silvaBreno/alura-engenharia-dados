@@ -25,6 +25,7 @@ class SparkOracleLoader:
         oracle_url: str | None = None,
         batchsize: int = 5000,
         num_partitions: int = 4,
+        spark: SparkSession | None = None,
     ):
         self.user = user or os.environ["ORACLE_USER"]
         self.password = password or os.environ["ORACLE_PASSWORD"]
@@ -32,7 +33,8 @@ class SparkOracleLoader:
         self.table_name = table_name
         self.batchsize = batchsize
         self.num_partitions = num_partitions
-        self.spark = self._build_session()
+        # Reusa sessão ativa se já foi criada no notebook; caso contrário, cria via bbmagic
+        self.spark = spark or self._build_session()
 
     def _build_session(self) -> SparkSession:
         """
@@ -40,6 +42,11 @@ class SparkOracleLoader:
         (padrão corporativo via bbmagic). Falha se bbmagic ou variáveis
         obrigatórias não estiverem disponíveis.
         """
+        active = SparkSession.getActiveSession()
+        if active:
+            logger.info("♻️ Reutilizando SparkSession já ativa.")
+            return active
+
         logger.info("🔧 Solicitando criação de sessão Spark via bbmagic.")
         spark = self._build_bbmagic_session()
         if spark:
@@ -278,7 +285,7 @@ class SparkOracleLoader:
             "batchsize": str(self.batchsize),
         }
 
-        logger.info(f"🔌 Abrindo sessão JDBC com Oracle em {self.host}:{self.port}/{self.service_name}")
+        logger.info(f"🔌 Gravando via Spark JDBC em {self._jdbc_url()}")
         try:
             (
                 df.repartition(self.num_partitions)

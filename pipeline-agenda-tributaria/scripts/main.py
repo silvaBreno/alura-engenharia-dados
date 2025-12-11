@@ -64,6 +64,7 @@ def run_pipeline(
                 table_name=cfg.get("table_name"),
                 batchsize=cfg.get("batchsize", 5000),
                 num_partitions=cfg.get("num_partitions", 4),
+                spark=cfg.get("spark_session"),
             )
         else:
             loader_db = OracleLoader(
